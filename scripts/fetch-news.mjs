@@ -17,55 +17,60 @@ const gnewsUS = (q) =>
 const TOPIC_RE =
   /\b(AI|A\.I\.|artificial intelligence|machine learning|algorithm|digital|tech|robot|data|automation|virtual|remote monitoring|telehealth|telecare|EPR|interoperab)|\bapps?\b/i;
 
-// UK-first sources, plus a World category for global coverage.
+// UK-first sources, plus global coverage. Every feed is tagged with the
+// region its content actually belongs to, independent of its category —
+// e.g. Research & Innovation mixes a UK query with a global (US) publication.
 const FEEDS = [
   // NHS & Digital Health
-  { url: "https://www.digitalhealth.net/feed/", category: "nhs-digital-health", source: "Digital Health" },
-  { url: "https://htn.co.uk/feed/", category: "nhs-digital-health", source: "HTN" },
-  { url: gnewsUK('NHS "artificial intelligence"'), category: "nhs-digital-health" },
+  { url: "https://www.digitalhealth.net/feed/", category: "nhs-digital-health", source: "Digital Health", region: "uk" },
+  { url: "https://htn.co.uk/feed/", category: "nhs-digital-health", source: "HTN", region: "uk" },
+  { url: gnewsUK('NHS "artificial intelligence"'), category: "nhs-digital-health", region: "uk" },
 
   // Social Care Tech (direct publisher feeds 403-block bots, so route via Google News)
-  { url: gnewsUK('"social care" AI OR digital OR technology OR robotics'), category: "social-care-tech" },
-  { url: gnewsUK('"care home" OR "home care" OR "care sector" technology OR AI'), category: "social-care-tech" },
-  { url: gnewsUK("site:carehomeprofessional.com OR site:homecareinsight.co.uk"), category: "social-care-tech" },
+  { url: gnewsUK('"social care" AI OR digital OR technology OR robotics'), category: "social-care-tech", region: "uk" },
+  { url: gnewsUK('"care home" OR "home care" OR "care sector" technology OR AI'), category: "social-care-tech", region: "uk" },
+  { url: gnewsUK("site:carehomeprofessional.com OR site:homecareinsight.co.uk"), category: "social-care-tech", region: "uk" },
   {
     // Skills for Care (workforce development body) — query is broad, so
     // require an explicit AI/digital/tech mention to cut generic workforce noise
     url: gnewsUK('"Skills for Care" AI OR digital OR technology OR workforce'),
     category: "social-care-tech",
+    region: "uk",
     mustMatch: TOPIC_RE,
     matchOn: "title",
   },
 
   // Policy & Regulation — DHSC, CQC (regulator) and MHRA
-  { url: gnewsUK("AI health regulation CQC OR DHSC OR MHRA"), category: "policy-regulation" },
-  { url: gnewsUK('CQC "artificial intelligence" OR AI OR "digital technology"'), category: "policy-regulation" },
+  { url: gnewsUK("AI health regulation CQC OR DHSC OR MHRA"), category: "policy-regulation", region: "uk" },
+  { url: gnewsUK('CQC "artificial intelligence" OR AI OR "digital technology"'), category: "policy-regulation", region: "uk" },
   {
     url: "https://www.gov.uk/government/organisations/department-of-health-and-social-care.atom",
     category: "policy-regulation",
     source: "GOV.UK DHSC",
+    region: "uk",
     // DHSC publishes all policy news — keep only clearly tech/AI items (by title)
     mustMatch: /\b(AI|artificial intelligence|digital|technology|tech|robot|innovation|data)\b/i,
     matchOn: "title",
   },
 
   // Research & Innovation
-  { url: gnewsUK("AI medical research UK university OR NIHR"), category: "research-innovation" },
+  { url: gnewsUK("AI medical research UK university OR NIHR"), category: "research-innovation", region: "uk" },
   {
     url: "https://www.technologyreview.com/feed/",
     category: "research-innovation",
     source: "MIT Tech Review",
+    region: "global",
     // general tech feed — keep only health/medicine stories
     mustMatch: /\b(health|medic|drug|cancer|clinical|patient|hospital|biotech|disease|vaccine|surg|NHS|care)\b/i,
   },
 
   // Startups & Funding
-  { url: gnewsUK('healthtech OR "digital health" OR "health tech" startup funding'), category: "startups-funding" },
-  { url: gnewsUK('"health tech" OR healthtech OR "care tech" UK raises OR funding OR investment OR startup'), category: "startups-funding" },
+  { url: gnewsUK('healthtech OR "digital health" OR "health tech" startup funding'), category: "startups-funding", region: "global" },
+  { url: gnewsUK('"health tech" OR healthtech OR "care tech" UK raises OR funding OR investment OR startup'), category: "startups-funding", region: "uk" },
 
   // World
-  { url: gnewsUS("AI healthcare"), category: "world" },
-  { url: "https://www.healthcareitnews.com/home/feed", category: "world", source: "Healthcare IT News" },
+  { url: gnewsUS("AI healthcare"), category: "world", region: "global" },
+  { url: "https://www.healthcareitnews.com/home/feed", category: "world", source: "Healthcare IT News", region: "global" },
 ];
 
 const parser = new Parser({
@@ -139,6 +144,7 @@ function normalizeItem(item, feed) {
     link: item.link,
     source: source || "News",
     category: feed.category,
+    region: feed.region || "uk",
     date,
     description,
     image: extractImage(item),

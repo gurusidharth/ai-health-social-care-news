@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CATEGORIES } from "@/lib/news";
+import RegionToggle from "./RegionToggle";
 
 export default function Header() {
   const pathname = usePathname();
@@ -26,11 +27,12 @@ export default function Header() {
               Care<span className="text-accent">Pulse</span>
             </span>
           </Link>
-          <span className="hidden md:block text-muted text-xs border-l border-line pl-3 leading-tight">
+          <span className="hidden lg:block text-muted text-xs border-l border-line pl-3 leading-tight">
             AI in Health &amp; Social Care
-            <br />
-            UK-first news
           </span>
+          <div className="ml-auto">
+            <RegionToggle />
+          </div>
         </div>
 
         <nav className="flex gap-1 overflow-x-auto no-scrollbar -mx-4 px-4">

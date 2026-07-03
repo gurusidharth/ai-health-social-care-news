@@ -1,11 +1,15 @@
 import newsData from "../../data/news.json";
 
+export type Region = "uk" | "global";
+export type RegionFilter = "all" | Region;
+
 export type Article = {
   id: string;
   title: string;
   link: string;
   source: string;
   category: string;
+  region: Region;
   date: string;
   description: string;
   image: string | null;
@@ -39,12 +43,15 @@ export function getArticlesByCategory(slug: string): Article[] {
   return getAllArticles().filter((a) => a.category === slug);
 }
 
+export function filterByRegion(articles: Article[], region: RegionFilter): Article[] {
+  return region === "all" ? articles : articles.filter((a) => a.region === region);
+}
+
 /**
- * Top stories: hero prefers a fresh UK story with an image, then the newest
+ * Top stories: hero prefers a fresh story with an image, then the newest
  * article per category (variety), then the rest capped at 3 per category.
  */
-export function getTopStories(limit: number): Article[] {
-  const all = getAllArticles();
+export function getTopStories(all: Article[], limit: number): Article[] {
   const hero =
     all.find((a) => a.category !== "world" && a.image) ?? all.find((a) => a.image) ?? all[0];
   if (!hero) return [];
@@ -73,10 +80,10 @@ export function getTopStories(limit: number): Article[] {
 }
 
 /** Trending: newest stories from distinct sources, preferring ones with images. */
-export function getTrending(limit: number): Article[] {
+export function getTrending(all: Article[], limit: number): Article[] {
   const seen = new Set<string>();
   const out: Article[] = [];
-  for (const a of getAllArticles()) {
+  for (const a of all) {
     if (seen.has(a.source)) continue;
     seen.add(a.source);
     out.push(a);

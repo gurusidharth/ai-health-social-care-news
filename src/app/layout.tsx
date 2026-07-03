@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { RegionProvider } from "@/lib/region-context";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -13,9 +14,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB">
       <body>
-        <Header />
-        <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
-        <Footer />
+        <RegionProvider>
+          <Header />
+          <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
+          <Footer />
+        </RegionProvider>
       </body>
     </html>
   );
