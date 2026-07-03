@@ -43,8 +43,8 @@ export default function Header() {
                 href={tab.href}
                 className={`whitespace-nowrap px-3 py-2.5 text-sm font-semibold border-b-2 transition-colors ${
                   active
-                    ? "border-accent text-white"
-                    : "border-transparent text-muted hover:text-white"
+                    ? "border-accent text-ink"
+                    : "border-transparent text-muted hover:text-ink"
                 }`}
               >
                 {tab.label}

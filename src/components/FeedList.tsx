@@ -4,7 +4,7 @@ import TimeAgo from "./TimeAgo";
 
 export default function FeedList({ articles, title = "Latest news" }: { articles: Article[]; title?: string }) {
   return (
-    <section className="bg-card rounded-xl p-4">
+    <section className="bg-card rounded-xl p-4 border border-line shadow-sm">
       <h2 className="font-extrabold text-lg mb-2">{title}</h2>
       <ul className="divide-y divide-line">
         {articles.map((a) => {

@@ -3,7 +3,7 @@ import TimeAgo from "./TimeAgo";
 
 export default function TrendingSidebar({ articles }: { articles: Article[] }) {
   return (
-    <section className="bg-card rounded-xl p-4">
+    <section className="bg-card rounded-xl p-4 border border-line shadow-sm">
       <h2 className="font-extrabold text-lg mb-2 flex items-center gap-2">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-accent">
           <path d="M23 6l-9.5 9.5-5-5L1 18" />
@@ -20,7 +20,7 @@ export default function TrendingSidebar({ articles }: { articles: Article[] }) {
               rel="noopener noreferrer"
               className="group flex gap-3 py-3"
             >
-              <span className="text-2xl font-extrabold text-line group-hover:text-accent transition-colors leading-none w-7 shrink-0">
+              <span className="text-2xl font-extrabold text-gray-300 group-hover:text-accent transition-colors leading-none w-7 shrink-0">
                 {i + 1}
               </span>
               <div>

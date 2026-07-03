@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="border-t border-line mt-12">
       <div className="max-w-6xl mx-auto px-4 py-8 text-sm text-muted flex flex-col md:flex-row md:items-center md:justify-between gap-3">
         <p>
-          <span className="font-extrabold text-white">
+          <span className="font-extrabold text-ink">
             Care<span className="text-accent">Pulse</span>
           </span>{" "}
           — AI in Health &amp; Social Care news, UK-first.

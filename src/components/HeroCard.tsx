@@ -10,7 +10,7 @@ export default function HeroCard({ article }: { article: Article }) {
       href={article.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative block rounded-2xl overflow-hidden bg-card min-h-[320px] md:min-h-[420px]"
+      className="group relative block rounded-2xl overflow-hidden bg-card border border-line shadow-sm min-h-[320px] md:min-h-[420px]"
     >
       <ArticleImage
         src={article.image}
@@ -28,7 +28,7 @@ export default function HeroCard({ article }: { article: Article }) {
             · <TimeAgo date={article.date} />
           </span>
         </div>
-        <h1 className="text-2xl md:text-4xl font-extrabold leading-tight group-hover:text-accent transition-colors">
+        <h1 className="text-2xl md:text-4xl font-extrabold leading-tight text-white group-hover:text-accent transition-colors">
           {article.title}
         </h1>
         {article.description && (

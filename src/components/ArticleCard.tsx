@@ -10,7 +10,7 @@ export default function ArticleCard({ article }: { article: Article }) {
       href={article.link}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col rounded-xl overflow-hidden bg-card hover:bg-card-hover transition-colors"
+      className="group flex flex-col rounded-xl overflow-hidden bg-card border border-line hover:border-accent/40 shadow-sm hover:shadow-md transition-all"
     >
       <div className="relative aspect-[16/9] overflow-hidden">
         <ArticleImage

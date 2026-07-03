@@ -11,6 +11,12 @@ const gnewsUK = (q) =>
 const gnewsUS = (q) =>
   `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
 
+// Only keep items that are actually about AI/tech — the site's core focus.
+// Applied to publisher feeds (broad general feeds) and any Google News feed
+// that lists mustMatch explicitly (queries wide enough to admit noise).
+const TOPIC_RE =
+  /\b(AI|A\.I\.|artificial intelligence|machine learning|algorithm|digital|tech|robot|data|automation|virtual|remote monitoring|telehealth|telecare|EPR|interoperab)|\bapps?\b/i;
+
 // UK-first sources, plus a World category for global coverage.
 const FEEDS = [
   // NHS & Digital Health
@@ -22,9 +28,18 @@ const FEEDS = [
   { url: gnewsUK('"social care" AI OR digital OR technology OR robotics'), category: "social-care-tech" },
   { url: gnewsUK('"care home" OR "home care" OR "care sector" technology OR AI'), category: "social-care-tech" },
   { url: gnewsUK("site:carehomeprofessional.com OR site:homecareinsight.co.uk"), category: "social-care-tech" },
+  {
+    // Skills for Care (workforce development body) — query is broad, so
+    // require an explicit AI/digital/tech mention to cut generic workforce noise
+    url: gnewsUK('"Skills for Care" AI OR digital OR technology OR workforce'),
+    category: "social-care-tech",
+    mustMatch: TOPIC_RE,
+    matchOn: "title",
+  },
 
-  // Policy & Regulation
+  // Policy & Regulation — DHSC, CQC (regulator) and MHRA
   { url: gnewsUK("AI health regulation CQC OR DHSC OR MHRA"), category: "policy-regulation" },
+  { url: gnewsUK('CQC "artificial intelligence" OR AI OR "digital technology"'), category: "policy-regulation" },
   {
     url: "https://www.gov.uk/government/organisations/department-of-health-and-social-care.atom",
     category: "policy-regulation",
@@ -52,11 +67,6 @@ const FEEDS = [
   { url: gnewsUS("AI healthcare"), category: "world" },
   { url: "https://www.healthcareitnews.com/home/feed", category: "world", source: "Healthcare IT News" },
 ];
-
-// Only keep publisher-feed items that are actually about AI/tech in care.
-// Google News queries are already scoped, so they skip this filter.
-const TOPIC_RE =
-  /\b(AI|A\.I\.|artificial intelligence|machine learning|algorithm|digital|tech|robot|data|automation|app|virtual|remote monitoring|telehealth|telecare|EPR|interoperab)/i;
 
 const parser = new Parser({
   timeout: 15000,
