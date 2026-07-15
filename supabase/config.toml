@@ -1,4 +1,4 @@
-project_id = "carezeno-news"
+project_id = "oneaicare-news"
 
 # All three functions are public HTTP endpoints with their own auth model
 # (subscribe: no auth, called from the browser with just the anon apikey

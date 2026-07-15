@@ -9,7 +9,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const cat = getCategory(slug);
-  return { title: `${cat?.label ?? "News"} — CareZeno` };
+  return { title: `${cat?.label ?? "News"} — OneAICare` };
 }
 
 export default async function CategoryPage({ params }: { params: Promise<{ slug: string }> }) {

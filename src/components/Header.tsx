@@ -24,7 +24,7 @@ export default function Header() {
               </svg>
             </span>
             <span className="font-extrabold text-lg tracking-tight">
-              Care<span className="text-accent">Zeno</span>
+              OneAI<span className="text-accent">Care</span>
             </span>
           </Link>
           <span className="hidden lg:block text-muted text-xs border-l border-line pl-3 leading-tight">

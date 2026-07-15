@@ -1,4 +1,6 @@
 import { supabaseAdmin } from "../_shared/supabaseAdmin.ts";
+import { sendEmail } from "../_shared/mailer.ts";
+import { unsubscribeConfirmationEmail } from "../_shared/templates.ts";
 
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
@@ -25,16 +27,30 @@ Deno.serve(async (req) => {
 
   try {
     const supabase = supabaseAdmin();
-    const { error, count } = await supabase
+    const { data, error } = await supabase
       .from("subscribers")
-      .delete({ count: "exact" })
-      .eq("unsubscribe_token", token);
+      .delete()
+      .eq("unsubscribe_token", token)
+      .select("email");
 
     if (error) throw error;
 
+    const unsubscribed = data && data.length > 0;
+
+    if (unsubscribed) {
+      // Best-effort — a failed confirmation email shouldn't stop the
+      // unsubscribe itself from having already gone through.
+      try {
+        const { subject, html, text } = unsubscribeConfirmationEmail();
+        await sendEmail({ to: data[0].email, subject, html, text });
+      } catch (err) {
+        console.error("Unsubscribe confirmation email failed to send:", err);
+      }
+    }
+
     return textResponse(
-      count && count > 0
-        ? "You've been unsubscribed from CareZeno. You won't receive any more emails. You can close this tab."
+      unsubscribed
+        ? "You've been unsubscribed from OneAICare. You won't receive any more emails. You can close this tab."
         : "You're already unsubscribed — there's nothing more to do. You can close this tab."
     );
   } catch (err) {

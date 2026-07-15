@@ -14,9 +14,10 @@ server you have to manage.
   fetch (every 6h). Emails anyone in `subscribers` about articles from the
   last 24h it hasn't already sent (tracked in `sent_articles`, so re-runs
   don't double-send).
-- All outbound mail goes over plain SMTP (Gmail by default) via the shared
-  helper in `supabase/functions/_shared/mailer.ts` — no email API/domain
-  needed.
+- All outbound mail goes through Resend's HTTP API via the shared helper in
+  `supabase/functions/_shared/mailer.ts`. Requires `oneaicare.com` to be a
+  verified sending domain in Resend (Resend rejects mail to anyone but the
+  account owner from an unverified domain).
 
 ## One-time setup
 
@@ -41,17 +42,16 @@ server you have to manage.
    are injected automatically — don't set those yourself):
    ```bash
    supabase secrets set \
-     SMTP_HOST=smtp.gmail.com \
-     SMTP_PORT=465 \
-     SMTP_USER=you@gmail.com \
-     SMTP_PASS=your-16-char-app-password \
-     EMAIL_FROM="CareZeno <you@gmail.com>" \
+     RESEND_API_KEY=re_your_api_key \
+     EMAIL_FROM="OneAICare <no-reply@oneaicare.com>" \
      SITE_URL=https://gs2911.github.io/ai-health-social-care-news \
      NOTIFY_SECRET=<generate-a-long-random-string> \
      --project-ref <your-project-ref>
    ```
-   Gmail app password: turn on 2-Step Verification, then create one at
-   https://myaccount.google.com/apppasswords.
+   Get the API key from https://resend.com/api-keys. Before this can email
+   anyone but the Resend account owner, verify `oneaicare.com` as a sending
+   domain at https://resend.com/domains (add the DNS records Resend gives
+   you) — otherwise every send 403s.
 
 5. **Deploy the functions.** `supabase/config.toml` sets `verify_jwt = false`
    for all three, but pass `--no-verify-jwt` explicitly too — it's required
@@ -90,10 +90,15 @@ server you have to manage.
 almost always means the function crashed at boot rather than during your
 request — usually an import that no longer resolves. Check
 `supabase functions logs <name> --project-ref <ref>` for a module-resolution
-error. `_shared/mailer.ts` and `_shared/supabaseAdmin.ts` use `npm:` specifiers
-rather than `deno.land/x` or bare `esm.sh` URLs for exactly this reason —
-`deno.land/x` has been deprecated in favor of JSR, and old pinned URLs there
-can stop resolving without warning.
+error. `_shared/supabaseAdmin.ts` uses an `npm:` specifier rather than
+`deno.land/x` or a bare `esm.sh` URL for exactly this reason — `deno.land/x`
+has been deprecated in favor of JSR, and old pinned URLs there can stop
+resolving without warning. `_shared/mailer.ts` has no imports at all (plain
+`fetch` to Resend's API), so it can't fail this way.
+
+**403 from Resend ("you can only send testing emails to your own email
+address"):** the sending domain isn't verified yet — finish the domain
+verification step at https://resend.com/domains for `oneaicare.com`.
 
 **New publishable/secret key projects specifically:** Supabase's Edge
 Functions only verify JWT-based `anon`/`service_role` keys. If your project

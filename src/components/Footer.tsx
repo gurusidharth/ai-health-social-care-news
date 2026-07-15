@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="text-sm text-muted flex flex-col gap-3">
           <p>
             <span className="font-extrabold text-ink">
-              Care<span className="text-accent">Zeno</span>
+              OneAI<span className="text-accent">Care</span>
             </span>{" "}
             — AI in Health &amp; Social Care news, UK-first.
           </p>

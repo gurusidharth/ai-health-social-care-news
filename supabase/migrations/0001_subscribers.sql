@@ -1,4 +1,4 @@
--- Email subscribers for the CareZeno news-digest notifications.
+-- Email subscribers for the OneAICare news-digest notifications.
 -- Accessed only by Edge Functions using the service-role key, so RLS is
 -- enabled with no policies (all client access goes through subscribe /
 -- unsubscribe functions, never straight to the table).

@@ -35,11 +35,11 @@ function unsubscribeFooter(unsubscribeUrl: string): { html: string; text: string
 
 export function welcomeEmail(unsubscribeUrl: string) {
   const footer = unsubscribeFooter(unsubscribeUrl);
-  const subject = "You're subscribed to CareZeno";
+  const subject = "You're subscribed to OneAICare";
   const html = `
     <div style="font-family:ui-sans-serif,system-ui,sans-serif;max-width:560px;margin:0 auto;color:#12161c">
       <h1 style="font-size:20px;margin-bottom:8px">
-        Care<span style="color:#00a876">Zeno</span>
+        OneAI<span style="color:#00a876">Care</span>
       </h1>
       <p>Thanks for registering. You'll get an email digest whenever there's fresh AI-in-health-and-social-care news — new NHS digital health, social care tech, policy, research, startup and world coverage.</p>
       ${footer.html}
@@ -48,12 +48,26 @@ export function welcomeEmail(unsubscribeUrl: string) {
   return { subject, html, text };
 }
 
+export function unsubscribeConfirmationEmail() {
+  const subject = "You've been unsubscribed from OneAICare";
+  const html = `
+    <div style="font-family:ui-sans-serif,system-ui,sans-serif;max-width:560px;margin:0 auto;color:#12161c">
+      <h1 style="font-size:20px;margin-bottom:8px">
+        OneAI<span style="color:#00a876">Care</span>
+      </h1>
+      <p>You've been unsubscribed and won't receive any more email digests. If this was a mistake, you can register again anytime from the site.</p>
+    </div>`;
+  const text =
+    "You've been unsubscribed and won't receive any more email digests. If this was a mistake, you can register again anytime from the site.";
+  return { subject, html, text };
+}
+
 export function digestEmail(siteUrl: string, unsubscribeUrl: string, articles: DigestArticle[]) {
   const footer = unsubscribeFooter(unsubscribeUrl);
   const subject =
     articles.length === 1
-      ? `CareZeno: ${articles[0].title}`
-      : `CareZeno: ${articles.length} new stories in AI health & social care`;
+      ? `OneAICare: ${articles[0].title}`
+      : `OneAICare: ${articles.length} new stories in AI health & social care`;
 
   const byCategory = new Map<string, DigestArticle[]>();
   for (const a of articles) {
@@ -91,7 +105,7 @@ export function digestEmail(siteUrl: string, unsubscribeUrl: string, articles: D
   const html = `
     <div style="font-family:ui-sans-serif,system-ui,sans-serif;max-width:560px;margin:0 auto;color:#12161c">
       <h1 style="font-size:20px;margin-bottom:4px">
-        Care<span style="color:#00a876">Zeno</span>
+        OneAI<span style="color:#00a876">Care</span>
       </h1>
       <p style="color:#6b7280;font-size:13px;margin-top:0">Your AI in health &amp; social care digest</p>
       ${sectionsHtml}

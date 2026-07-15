@@ -5,7 +5,7 @@ import { RegionProvider } from "@/lib/region-context";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "CareZeno — AI in Health & Social Care News",
+  title: "OneAICare — AI in Health & Social Care News",
   description:
     "UK-first news on AI and technology in health and social care: NHS digital health, social care tech, policy, research, startups and world coverage.",
 };
