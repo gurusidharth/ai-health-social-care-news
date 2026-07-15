@@ -44,7 +44,7 @@ server you have to manage.
    supabase secrets set \
      RESEND_API_KEY=re_your_api_key \
      EMAIL_FROM="OneAICare <no-reply@oneaicare.com>" \
-     SITE_URL=https://gs2911.github.io/ai-health-social-care-news \
+     SITE_URL=https://oneaicare.com \
      NOTIFY_SECRET=<generate-a-long-random-string> \
      --project-ref <your-project-ref>
    ```

@@ -80,7 +80,7 @@ Deno.serve(async (req) => {
       return jsonResponse({ sent: 0, subscribers: 0, newArticles: newArticles.length });
     }
 
-    const siteUrl = Deno.env.get("SITE_URL") || "https://gs2911.github.io/ai-health-social-care-news";
+    const siteUrl = Deno.env.get("SITE_URL") || "https://oneaicare.com";
     const supabaseUrl = Deno.env.get("SUPABASE_URL")!;
 
     let sent = 0;
