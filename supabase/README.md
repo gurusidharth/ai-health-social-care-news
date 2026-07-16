@@ -10,10 +10,11 @@ server you have to manage.
 - `subscribe` — called from the browser (footer form). Adds the email to
   `subscribers` and sends a welcome email.
 - `unsubscribe` — the link inside every email. Deletes the subscriber row.
-- `notify` — called from `.github/workflows/deploy.yml` after every news
-  fetch (every 6h). Emails anyone in `subscribers` about articles from the
-  last 24h it hasn't already sent (tracked in `sent_articles`, so re-runs
-  don't double-send).
+- `notify` — called from `.github/workflows/digest.yml` every 6h. Always
+  emails everyone in `subscribers` something: new articles from the last 24h
+  it hasn't sent yet (tracked in `sent_articles`), or, if nothing's new since
+  the last run, the latest available articles again — a digest goes out every
+  cycle either way.
 - All outbound mail goes through Resend's HTTP API via the shared helper in
   `supabase/functions/_shared/mailer.ts`. Requires `oneaicare.com` to be a
   verified sending domain in Resend (Resend rejects mail to anyone but the

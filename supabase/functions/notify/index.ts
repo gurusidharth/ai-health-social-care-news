@@ -51,10 +51,8 @@ Deno.serve(async (req) => {
     if (sentError) throw sentError;
 
     const sentLinks = new Set((alreadySent ?? []).map((r) => r.link));
-    const newArticles = candidates
-      .filter((a) => !sentLinks.has(a.link))
-      .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
-      .slice(0, MAX_ARTICLES_PER_DIGEST);
+    const sortedCandidates = [...candidates].sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+    const newArticles = sortedCandidates.filter((a) => !sentLinks.has(a.link));
 
     // Record every candidate as sent regardless of whether anyone was
     // emailed, so late-joining subscribers get a fresh welcome email instead
@@ -67,8 +65,17 @@ Deno.serve(async (req) => {
       );
     if (insertError) throw insertError;
 
-    if (newArticles.length === 0) {
-      return jsonResponse({ sent: 0, subscribers: 0, newArticles: 0 });
+    // Always send a digest every run (every 6h) — if nothing new has come in
+    // since the last run, fall back to the latest articles anyway (even ones
+    // already sent before) instead of skipping, per product decision to
+    // guarantee an email every cycle rather than only on genuinely new news.
+    const articlesToSend = (newArticles.length > 0 ? newArticles : sortedCandidates).slice(
+      0,
+      MAX_ARTICLES_PER_DIGEST
+    );
+
+    if (articlesToSend.length === 0) {
+      return jsonResponse({ sent: 0, subscribers: 0, newArticles: newArticles.length });
     }
 
     const { data: subscribers, error: subsError } = await supabase
@@ -88,7 +95,7 @@ Deno.serve(async (req) => {
       // Link straight at the Edge Function so clicking it unsubscribes and
       // shows a confirmation — works even if the static site isn't deployed.
       const unsubscribeUrl = `${supabaseUrl}/functions/v1/unsubscribe?token=${subscriber.unsubscribe_token}`;
-      const { subject, html, text } = digestEmail(siteUrl, unsubscribeUrl, newArticles);
+      const { subject, html, text } = digestEmail(siteUrl, unsubscribeUrl, articlesToSend);
       try {
         await sendEmail({ to: subscriber.email, subject, html, text });
         sent++;

@@ -1,11 +1,9 @@
 name: Email news digest to subscribers
 
-# Sends subscribers a digest of new AI-in-health-and-social-care news every
-# 6 hours. Independent of the site deploy so email keeps working regardless of
-# where the site is hosted. The notify function dedupes against articles it has
-# already emailed (sent_articles table), so a subscriber only ever gets each
-# story once — the frequent schedule just means new stories go out sooner, never
-# a repeat of what was already sent.
+# Sends subscribers a digest of AI-in-health-and-social-care news every 6
+# hours, guaranteed — new stories if any came in since the last run,
+# otherwise the latest available stories again. Independent of the site
+# deploy so email keeps working regardless of where the site is hosted.
 on:
   schedule:
     - cron: "0 */6 * * *" # every 6 hours
