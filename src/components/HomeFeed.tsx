@@ -1,6 +1,8 @@
 "use client";
 
 import ArticleCard from "@/components/ArticleCard";
+import FeedList from "@/components/FeedList";
+import HeroCard from "@/components/HeroCard";
 import TrendingSidebar from "@/components/TrendingSidebar";
 import { useRegion } from "@/lib/region-context";
 import { filterByRegion, getTopStories, getTrending, type Article } from "@/lib/news";
@@ -13,25 +15,30 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
     return <p className="text-muted">No stories match this filter right now.</p>;
   }
 
-  const top = getTopStories(filtered, 20);
+  const top = getTopStories(filtered, 13);
+  const [hero, ...cards] = top;
+  const latest = filtered.slice(0, 12);
   const trending = getTrending(filtered, 6);
 
   return (
-    <div className="max-w-2xl mx-auto space-y-6">
-      <div>
-        <h1 className="font-extrabold text-2xl">Top stories</h1>
-        <p className="text-muted text-sm mt-1">
-          The hottest news and views on AI in health &amp; social care
-        </p>
+    <div className="grid lg:grid-cols-[1fr_340px] gap-6 items-start">
+      <div className="space-y-6 min-w-0">
+        {hero && <HeroCard article={hero} />}
+
+        <section>
+          <h2 className="font-extrabold text-xl mb-3">Top stories</h2>
+          <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
+            {cards.map((a) => (
+              <ArticleCard key={a.id} article={a} />
+            ))}
+          </div>
+        </section>
       </div>
 
-      <TrendingSidebar articles={trending} />
-
-      <div className="flex flex-col gap-4">
-        {top.map((a) => (
-          <ArticleCard key={a.id} article={a} />
-        ))}
-      </div>
+      <aside className="space-y-6 lg:sticky lg:top-28">
+        <TrendingSidebar articles={trending} />
+        <FeedList articles={latest} />
+      </aside>
     </div>
   );
 }

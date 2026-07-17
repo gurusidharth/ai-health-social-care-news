@@ -1,5 +1,4 @@
 import type { Article } from "@/lib/news";
-import SourceIcon from "./SourceIcon";
 import TimeAgo from "./TimeAgo";
 
 export default function TrendingSidebar({ articles }: { articles: Article[] }) {
@@ -28,8 +27,7 @@ export default function TrendingSidebar({ articles }: { articles: Article[] }) {
                 <p className="text-sm font-semibold leading-snug group-hover:text-accent transition-colors line-clamp-2">
                   {a.title}
                 </p>
-                <p className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-muted mt-1">
-                  <SourceIcon source={a.source} />
+                <p className="text-[11px] font-bold uppercase tracking-wider text-muted mt-1">
                   {a.source} · <TimeAgo date={a.date} />
                 </p>
               </div>
