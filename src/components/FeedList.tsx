@@ -1,5 +1,6 @@
 import type { Article } from "@/lib/news";
 import { getCategory } from "@/lib/news";
+import SourceIcon from "./SourceIcon";
 import TimeAgo from "./TimeAgo";
 
 export default function FeedList({ articles, title = "Latest news" }: { articles: Article[]; title?: string }) {
@@ -17,8 +18,9 @@ export default function FeedList({ articles, title = "Latest news" }: { articles
                 rel="noopener noreferrer"
                 className="group block py-3"
               >
-                <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider mb-1">
+                <div className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider mb-1">
                   <span className="text-accent">{cat?.short ?? "News"}</span>
+                  <SourceIcon source={a.source} />
                   <span className="text-muted">
                     {a.source} · <TimeAgo date={a.date} />
                   </span>
