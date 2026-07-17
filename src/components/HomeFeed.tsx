@@ -27,7 +27,7 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
 
       <TrendingSidebar articles={trending} />
 
-      <div className="flex flex-col gap-2.5">
+      <div className="flex flex-col gap-4">
         {top.map((a) => (
           <ArticleCard key={a.id} article={a} />
         ))}
