@@ -10,8 +10,22 @@
   --color-ink: #12161c;
 }
 
+:root[data-theme="dark"] {
+  --color-bg: #101317;
+  --color-card: #181c22;
+  --color-card-hover: #20252c;
+  --color-line: #2a2f38;
+  --color-accent: #00c98d;
+  --color-muted: #9aa3af;
+  --color-ink: #f2f4f7;
+}
+
 html {
   scrollbar-color: #c7cdd6 #f5f6f8;
+}
+
+html[data-theme="dark"] {
+  scrollbar-color: #3a4048 #101317;
 }
 
 body {

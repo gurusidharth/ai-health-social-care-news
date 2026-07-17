@@ -1,14 +1,16 @@
 "use client";
 
-import ArticleCard from "@/components/ArticleCard";
-import FeedList from "@/components/FeedList";
+import ArticleCardRows from "@/components/ArticleCardRows";
 import HeroCard from "@/components/HeroCard";
+import MoreArticlesCarousel from "@/components/MoreArticlesCarousel";
 import { useRegion } from "@/lib/region-context";
-import { filterByRegion, type Article, type Category } from "@/lib/news";
+import { useSearch } from "@/lib/search-context";
+import { filterByRegion, filterBySearch, type Article, type Category } from "@/lib/news";
 
 export default function CategoryFeed({ category, articles }: { category: Category; articles: Article[] }) {
   const { region } = useRegion();
-  const filtered = filterByRegion(articles, region);
+  const { query } = useSearch();
+  const filtered = filterBySearch(filterByRegion(articles, region), query);
   const [hero, ...rest] = filtered;
   const cards = rest.slice(0, 12);
   const more = rest.slice(12);
@@ -24,15 +26,9 @@ export default function CategoryFeed({ category, articles }: { category: Categor
 
       {hero && <HeroCard article={hero} />}
 
-      {cards.length > 0 && (
-        <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
-          {cards.map((a) => (
-            <ArticleCard key={a.id} article={a} />
-          ))}
-        </div>
-      )}
+      {cards.length > 0 && <ArticleCardRows articles={cards} />}
 
-      {more.length > 0 && <FeedList articles={more} title={`More ${category.label}`} />}
+      {more.length > 0 && <MoreArticlesCarousel articles={more} title={`More ${category.label}`} />}
     </>
   );
 }

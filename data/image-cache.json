@@ -1,59 +1,509 @@
 {
- "https://www.digitalhealth.net/2026/07/digital-health-coffee-time-briefing-%e2%98%95-180/": {
-  "failedAt": 1783115577278
+ "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQkJuT3RRQW9vS0xGei1BSDB1d0JJZ1dyOEN4X3dKYzU4UjYydW52T3pfM2tjQlZvYzhnOGNjeU1JcXVPcktlcGp3bzdEOWxiWmUxakNrUWpnWWxYTlFYTDBqZTZaZl9fMTlBZm9RSnE5THBWZ0NIQ0xrSlBqalI2ejJOVDdQaHFucUdwSDFPRnI4REx0eGJyWUFlcTduRUg3WG9hdm5lYlMzeXpQa3k3MzBEM0o2cnhXTE8wZA?oc=5": {
+  "url": "https://imageio.forbes.com/specials-images/imageserve/6a594f02fbb37f681885233a/0x0.jpg?format=jpg&amp;crop=3982,2241,x0,y193,safe&amp;height=900&amp;width=1600&amp;fit=bounds"
  },
- "https://www.digitalhealth.net/2026/07/de-skilling-mis-skilling-never-skilling-an-ai-ready-workforce-needs-a-skill-decay-strategy/": {
-  "failedAt": 1783115577281
+ "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRU9UZXBzdmh6ZkxURjl4Z1RFTUhTMmI5QVZuS3pQSThBX3ZWenNkd3NtQng1QXpXa2wyQWQyXzhTUmZJbF9JSWQ5MkZwalY2Q0ota2dIQVdsVERza2RfOW16MzF6aTNSOFpzSzNHZFpmc2QtUU81YWQyajlpMW9vX29hbmVLcXpLN1RFSFJmaHNkSVlJdGwxMDVYa1JLbVhiY2pXRFdOYXBjZFUycHRZcnhOYWpBYVE?oc=5": {
+  "url": "https://www.healthcareittoday.com/wp-content/uploads/2020/04/COVID19-Funding.jpg"
  },
- "https://www.gov.uk/government/publications/safeguarding-uk-human-genomic-data": {
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUZUMzNBUnBQbGJHZ2kyUXhuV1EyX1ZfMDdNeGdDRWdPdDNLWWpDRlVYUjNvd05WNHNIOGxLNzZpRTJtdnhjX1RTSDVTS1ZkcnA1WFdrSUpIQQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/22ab/live/373dd270-81dd-11f1-8b86-31ce3d5ecce7.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVWUtZGh3VGswb0RYNENnLXNDdk1hQVJScTIwTE5CQUtadWd6TzUtU1A4UEdMNDVKR3Uxb3MtenRMX1FMenIxOUhyUm5XcHp1SXJaN29OWmhlZ0NlTlFUcVgyNVJwOHU3bm9vTkMzbzIwVUhWRnhfZkVaYXlHZ01meHdDak94a2hTVmRUb0RfdHhMWllORldnZWN0c05LbTg?oc=5": {
+  "url": "https://www.orfonline.org/public/uploads/seo/20260717182213.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1Z4SWtVa3NNMFpnaHdncGNTZGZCUWhhUXEzRWdGa043QzJMLWNWdFRhOUk4V20yVGR4amlFNzJwS1JlTkFUc2k2X3FyY0tQTFp5Vld2dEVjdTFNUVhqbllncExFMFdLaUh3RXNRNjQwTkh3MFpfNmNnR3I2OGZWMDFUSklrcFVfU1J6VVdWSkJCQ05lREhVZXRLQkJLM1NDUHJ4cVBR?oc=5": {
+  "url": "https://thehealthcaretechnologyreport.com/wp-content/uploads/2026/07/Medicare-Launches-AI-Chronic-Care-Pilot.png"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcE14VlgtMWdZRkxadG5FWlZORU1OSklZSnpYbmc0X3hFaHZXb3l6TU5nYXRkR2gwZ1BPRXY5RUUxRk1KRGpZWGZERm1NX3Z3TklVQ0x5aWNPMkhYNXZpcjdXeWFpdllkTWFyOUR6ZjN3d1lmMUJKdU5McWJMQXpONU9oUXVBSW1kek5Od0VySG9RZkE?oc=5": {
+  "url": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/ai-in-healthcare-demands-stonger-data-oversight-image_large-9-a-32237.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeUlxTXFpUmw0M0tIYkZuVVZ6M202ZkQ4VnpsQmZzSl8tWk5nNXBHcWNIT0NaRHZTSWFZRVd2NE9meXNUbXRkc0lEX1VVQ3dBbFVQMmRMRklvNVpWLWZMWFAyOEU0bWFxU2tOYU1BN0Q3SDAzSHFMekFHYmw5U1ZZaXhZN3hJUUJXbjFYTVpsanozZ1VCcDJ6Q0FOZ3ZvYnJqaGdsNEpwQ0N6OVU2TjhrYXR0MTJOeU1HZzlLZHBQd2tjNkNDbmpCTDJ5M3BwSDB1VmhCZnBVVnNkUQ?oc=5": {
+  "url": "https://cdn.prod.website-files.com/632dd48ac83d1b5e6df7401b/6a59fbb412a82357843c712f_cover%20image%201200%20x%20700%20(5).png"
+ },
+ "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TUkE0TkFJVDAtLUJxOWkwRHVDS2tDdzlkZEJndmNoWFhiclFScEFSY01nMG8wX3pOT0tEQ0RxWVdEbUFUNFNDMl9nTXBKeEZBdW03d2Q1Z2w1SXlhVXpV?oc=5": {
+  "url": "https://diplo-media.s3.eu-central-1.amazonaws.com/2026/07/who-ai-health-governance-lisbon.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWFsd1lwNTJaR1p1dDY0ZUZIazFpT2xZVXZJNGl1TXJyaVFSSWFTbXhhU0cwMjU4UnpNNFJ3T1U2Y0JJblY3WTFOOVhXVGFJVk9YQ3Rka1YzMjZQQXpQbWRibndwUThCTXhpT3htSDRYbXdiQnFzUGZaZGhtWVJFbkNoQmZsZEMyVUJJd0JTNjRuQ3c?oc=5": {
+  "url": "https://www.modernhealthcare.com/resizer/v2/N5N3Z7SRRRAN7ABBEWRBAY644A.jpeg?auth=201a46af86938b9e7f6109eb4bf19e6e24bffa28965051e56b8207af5b10a1a8&amp;width=1200#.jpeg"
+ },
+ "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcnR5TUx0VWdUVDU5bUdvcVBreXJOQnVfRkxhM05LN3NRakdnQ2FDTU1hRVNRbDZ3WVpJYmlLdWVVcFlUOHBkUklVaTRJazVPWGxaZ3hILTFRUU5oOGdSQ2h1MnNYQzNhNWJlRTROMGFkYUlVMUZwNUhoSnlfeFp2dkE3Zw?oc=5": {
+  "url": "https://healthcare-in-europe.com/media/story/32376/rect-01-speech-to-text-recorder.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkc1T3MwSkdjMkVSYTI5bTl4WWhKUTAtSDRNLURESktlVm5lcXNQNnFkYUZiQlZmeDRFdEU4bmw2STJMaFdiVGFId1ZfWHMtcjNBTm1ibkFzYXBmMGJUMG51dGw0bHFOSWY4NWY5UnFkWERYWjdFOXFXakhleU1kMUo2a2F0M0lnazl4d3hrdzI2bEYxOGdkT21qVW5idjE1U2NSMVZEOThrejltcGt1Rw?oc=5": {
+  "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9815025/1000w_q95.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTBUV3VuSHRPM1IzN29RUklDUDNGTEFmdUd4dXdVQ1k0dF8tWFJUbVdOcnpPN0dqbFJlNmZ4cGY5NFNjbGdlM01CeWttbjB3TlhRZHdhNS01cUkwNHU5b3l6VGtvQWdkcV9FZmFzT1FnWUt0MnFkRXc0dWFtRzdnd2h1OUxERE1jNGlzV1pFcmx6QjhxX2xZVDZXRjZfem11TTl3WW1pNzhYN3U0d0Y5RllwMUE1aURISHg1TWh2aWVmY3lX?oc=5": {
+  "url": "https://d.techtimes.com/en/full/469053/health-worker-looks-computer-screen-next-plush.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tOUxOVnc3UTgxRDhGREhTUnYtbzZFbjJzUlg3aW9PTFlRSEJpTjFtYUFxUlhfNTN1TjRBTXd1cmkyVUYtNzFpenpBRThaYjF2QkMtOUk2SlVhc2M?oc=5": {
+  "url": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/854081161001/0edb7a44-3e9e-4146-8f72-df9e41e6cb28/f5fea755-2227-42d0-bf98-425b9226a558/1280x720/match/1024/512/image.jpg?ve=1&amp;tl=1"
+ },
+ "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ2lwaHM5cVhZbV9HVGgwYXJqUTY1azNZUUtJVHQyZ2hNMVlwMEpfd2oxNW1pT3QwYXN0UEh4eGtEY1ZUZUJLMVVXMHBGSW5YM0hWaWU4Y1FTSVJsWUZqeE9ucFNSeXJHOUZka2paUFNmX0tSRGJlakZsdlFkX0JkbzFOMkJFSVd5NXl2bXBKZUxFeFNoSWE4aEl0Z2QyU2dpRjA1b2VucUFhUTFkazk0?oc=5": {
+  "url": "https://healthcareasiamagazine.com/s3/files/styles/opengraph/public/2026-07/milad-fakurian-sin5wzzf1u0-unsplash.jpg?h=920929c4&amp;itok=-_CptBDp"
+ },
+ "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPa2diQUs2ZVFYMXZMeWVOLWhET2EtdWNmaElUSUtwY0JWWGFhZ1Rnem1LWGFqdThWdXp4WW0tR1dqT1FySHFjRV9tV2dMOGgyOXAzdWtDdzNJQ1c1djlHWWw2VkVRNy1iQUo4RXdlSzY2Mm0xS0N0VXo2VzFZOGUzODR6a3ZNYzJBNGxzZ3BXMVQ5YWlKc3VaZGdpRUFjM0pJbEE5WFpUSXRVTW4xMk1TYmhhVEVMY2ZHbDEwekN1eExVMUl5OGNHM0Jra1pveUNkUGFGLWU2UVJtUXdoLUVWRkpDdnhRRDFacDB2TA?oc=5": {
+  "url": "https://bloximages.chicago2.vip.townnews.com/sfexaminer.com/content/tncms/assets/v3/editorial/7/b7/7b7f1ff8-d930-4381-9976-a81eb529f270/68a5177343ec6.image.jpg?crop=1765%2C927%2C0%2C123&amp;resize=1200%2C630&amp;order=crop%2Cresize"
+ },
+ "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SdHlTRllxUUtyU3A4dFNyZG9IZnBuelJreXBIT1QyQkYxR1puYkxZQ1BFQzJ3VXQtcnlBOXVZYUFZRS1IS2lCUmIwVGFxNzBEUk5pRVlZZXN2SVRsTnNOWndybmQ5SjRRaHVOOFd30gFuQVVfeXFMT1J0eVNGWXFRS3JTcDh0U3Jkb0hmcG56Umt5cEhPVDJCRjFHWm5iTFlDUEVDMndVdC1yeUE5dVlhQVlFLUhLaUJSYjBUYXE3MERSTmlFWVllc3ZJVGxOc05ad3JuZDlKNFFodU44V3c?oc=5": {
+  "url": "https://cdn.trendhunterstatic.com/thumbs/AI-guided-at-home-care.jpeg?auto=webp"
+ },
+ "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd2NpLXAzbkpzWFMzSGhkY3IzaFVfUzlJX1RGVmpBVFpJY2E5QzV6aEoybUtBVEFmLTJyRlhrajNWMWhtRUhPTUg5ejJjdzdpdnNRMUI3NUNSeml6V1JlcmE0Q0VWMnN5YW13eHZiZkVDd3k1NXMtZFRLTkJJdTlucS14STJwYjdtMFRkRDUzLWJ1THVIUlhR?oc=5": {
+  "url": "https://www.statnews.com/wp-content/uploads/2026/07/GettyImages-2246192218-1024x576.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOFlpOUVLaW9PWFYxVEdIR3FTWi1iamJLUWUtbkw1UzhWT0h2U29iMnJCY1lzZW5zazNJbzR5UWpnVWxoajdhTV9NS3R4bmdkTThDaXltcmhrZFRnYXBmNTJNbWZleFZzZ05WSzZKWWgxX19oZWJSOXJKVEJSSWVRNjdqdFhHYXJCX1oyaW92cm5wMmxTZEEtRzNlMFExLU1zYy0zYQ?oc=5": {
+  "url": "https://staticx-tuner.zacks.com/images/articles/main/56/159061.webp"
+ },
+ "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd0JMYjFOZFFFT2ZRVU9uY2kzT19DXzJ1Zjc1S0Z1S0xST2s5ZndNVUE3aWZqQmkyVEVqV3M2YVhoWEdCOENRdVFsNlNMRnNQd1ltSGx4U3N4ZGlMMGstbnRLaWdGeU1TdjR3ZTZsN3JaRDBxWTFYcXluX3oya0JfajZSdHlDajNxYUZTb0dTa3VkMlBXYnlpWHdmRHVEc0xRQ3VqNWliOTVkeFl0VjVLZzZ5clR6dGFya2tTTWIwakZTdmRZ?oc=5": {
+  "url": "https://www.healthcareittoday.com/wp-content/uploads/2019/01/731587582-mergers-acquisitions-MA-consolidation-takeover.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDJQTDZXaGxCUUpGYzRET0hXUTRuZU5UdFY1eERwcWZ0SmlvUmZTcnBhMzRDV2VEQkJBVE1BbUMzbzktUm9SMi1rTThTbmNiQTB6RDVCYm5YWnBfRDhYR2RDU3QydGJtdGVQOU42cGtHazZwRjg0d3JYd0hGX2hOMXpiaGh6UWkxZlc4NVFDc3pQM3ozN2ZrVW42NXhHUzdIWnY3TkN2UDE?oc=5": {
+  "url": "https://sequoiacap.com/wp-content/uploads/sites/6/2026/07/Open-Graph_Bunkerhill_2.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb0JlUDNUaE5pR3N6eDJHV2VXTVkzaVFxaG1TN29uMmFwMVVjdUJRR1FlRzdtWjc0S0hSc3dIWEhPWERRbjlnMmpnYktVbW0yOWxTd3dlTVZWVHd1dFNjcEhFWDN0dmNwb2tQSnkxV00tekhEV1VfQi1JMEptUTNaT3pJXzZQUkNJdkI1dENRNEdOR3R2Yk9pZWJsSUZONGtycFZ5YVR2RXJjdTNFU2NPZEt1QmsxN2k5WUJjVm8zR2hzSEU2SF9yemU0c1FGeUFT?oc=5": {
+  "url": "https://www.news-medical.net/image-handler/picture/2019/5/futuristic_techno_design_on_background_of_supercomputer_data_center_-_Image_-_Timofeev_Vladimir_M1_402c068791b640469e416c4f55d84afe-620x480.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjhMVjJ6eFhmTWVfWVpaUWRCYWpYdXVqQVE3VzFvOEFXNUNlR3pwSDROUTh4X3RMNTN3N3JIaXh4U2FnbU85bEtjZ1ZMT3QxZzUweGVySmQxbHFRMnR6QnZ4Qk9STGVhR1JyeGRmbFkwcUdpUHJIMDU3N1UzNnBqcjg1S1RKeVhqY1dWb1FZRzZUdDQ?oc=5": {
+  "url": "https://www.crainsnewyork.com/resizer/v2/VB56T74F25GHBGWRZUKNYRLN3Q.jpg?auth=777ff933442d709b586b0339ac25fe40e01329093f714030151795239b50d7f2&amp;width=1200#.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHA1ZnZMbXkzWjZGZUlmYkR6OHhQSmc2TXljNzlLYS1RTlRUNEVsdDRraHRyaUV4bFVlR213RE13REhQb1FpczJSRUptS0F1OWJPc1Uxa3pGMEdmLW9hbzhUSkdiYkQ2cWlnTTR4M2RlOVRROU9mWkZlTDNJS1VSUFpwWC04aVplRGtzaURFNA?oc=5": {
+  "url": "https://assets.bizclikmedia.net/1200/e93ed1b5118da341100c54e54ed59b94:5b0f13a7931907001c8e96aa6afbeaa3/nhs-tech-and-ai.webp.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNlVUc1dST2FfYnpSY1hUS3BFTEl1WktEYU1VUW9JNy1rbTNKODk4QTBXbGtPc0pWQlFGSU9vWXlENFhGS01PODNYWDR5N0huSUl4OHFmajI1S0ZmOFpzWncyVW15N1d0MkJfSTFDNDFCSGRBRHQ5YjVmQTZ2ckpKSFBlbm90c253NUtrV1J5ejgtUE9YSHpCVGxBNW80ZEFROFFvVllsSWF0WTl0Ny1NS3R3TDRPbzBGZTVxUVdvOU1PUTFVdDF5bjk0R2ptTGNOa2dFUUJQOA?oc=5": {
+  "url": "https://thecareruk.com/wp-content/uploads/2026/07/July-16-Anisa-Byrne-Headshot-002.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUUtWNFU4R0c3b19sTFlDUjdmTXlUcUtsc0tsSEJBTHpXQ0ZZazA0Zm84REhEWDlXRWU3azhSeFlMazRtU2JQdXRtRXByeDdrSkJtRTY1dkFnSHJWNUM5ellEOUhvSFNhbzlGemFsSHpyR3dJa1V1TV9KWnZHQXU4ckNTNVNrVUhmWDFmRUprZ1E5UW50LV9HbC13?oc=5": {
+  "url": "https://imgproxy.divecdn.com/nlDyee9KzK2yLyDlBzCYcjhw3cPubCGcepSH2vc_5uk/g:nowe:0:0/c:5760:3254/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDYwMjU3ODQ0LmpwZw==.webp"
+ },
+ "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVV0TEFYRDZUUEhmNHREWm5WWXNOWmZzVWZnb2h5N3pVLXdnVl81S0xHRTJhbVU1Ym4yZ2s4LXk0ajZ3TDlaak9PSjBJVzdJRkFSdzR2N1VJamlELURvS3hORDkya18yZk9SZ3BESEJRVmlCcHRGQmFJV19rY2QwQXNNbzY2NnM1UFQtMG9ZQkZoamsyTk4xOUJuaw?oc=5": {
+  "url": "https://www.localgov.co.uk/images/teaser/shutterstock_274767922111.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBON1RFQmdqREI0bFR0NnFBVldXdDZPWTc5VVc4Zi1lTjVLazJaWWdINVpSMTdnVmhkSThfYTZnZGg1S2xFdDhkTGhpM1lFX2hpemZmY1RJWHoxQQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/d398/live/cf4a88f0-8030-11f1-a2a1-e90920ef9667.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR3JCLTh1NVhfYVd0Ni1hc3A1TVFjUlg0UXluMUwzX3JmOEpPaWJPd2F2Y2R5bnJ6U01raGtqZmVJa1podEM0bVRVaEZPN1R6c2h1S0htUDdZVjVnUV8tWldpeXZuZ0ZNYWhLeVNyMFlkUXpMNGlTNnZfQ2hhS1g3VQ?oc=5": {
+  "url": "https://techfundingnews.com/wp-content/uploads/2025/01/Neko-Health.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWmJlVWJQajVVTlRpeTNseWswOU9Va3oybXZVWDBJb3k0VzJPVFlCRzNYR0hDNzBDWjByclA4NXAyNUdYZDM3OUhGbGNZODdCSEZKV29QQzdZN1VaLTZOTlp1c0NpOXMzNUoyM1c1bk1RQnZvbkloVjhJNXVjaTJ3bjVKY0FuRHhmVXhsNTV1UTNCR1JGeTN0dnN2WQ?oc=5": {
+  "url": "https://image-cdn.pluang.com/web/compressed/market_news.webp"
+ },
+ "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRlR2djk3TEl0N0xzYXZNRkl0TmFYTVNZYnJCVi02dzFLZzBqQ1FzbFdCazFFb0VVWWxacXd1YzhabGg0cEhrMDNtVjM5TnFRcnc3ckx4emtYSFg4VVlFd1c5VGVzd0dUWGh3WUpkOU9SYWZSUWNpX3l6a2lUZ1gwRkZzRlhWLWdzQW93NjdOcXBRSWRvV0tBU1RoSkQwRXRxMGpaS3p4SkY?oc=5": {
+  "url": "https://www.kidderminstershuttle.co.uk/resources/images/21148970.jpg?type=og-image"
+ },
+ "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2F1VkNON3ZFeUpCQ21jNTRGaW1xeTlQX1RMOVRmM1lwWnVuZGVXeEhJY2puM3lKY2NCaU1GcDJHRzZyTVpsQWRUT3oycFZxc1NRb0c5Y2dQdVd3cnMtY2R3bWtNTkhaWjRuYVo3R0ZQWFMzVS1kd3pVVUE5TmxOUUpmMmVUa1pnbmJ1SkwyZmYzdjNtSXRnWVN0M29PdDFhQ1dEVjB1M0VoWC1iM2I1QnkwQUpVdFJ2Ti1oYnd0Zw?oc=5": {
+  "url": "https://thecareruk.com/wp-content/uploads/2025/05/nurse-holding-ipad.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVd3YXpGM2l4SmxqNkJ4U0xSeHlFektuZVlBS2Rub293UFFNZWdscFRTQzhoOXdHd294RkpkQjRGQzlvcEJicjJUUUxUdnlaZnh0aExkWm9VdnFUQUdDUzE3cG9LN05hQ1ZyV1J5LXY2dGlLTERUWUlBVFZWRmR0YnFsY2hPcEh5bmVPb0lNSTVadlNPUFBzRU5xNHVCNUZ1ZEwzcHBoUXdKZw?oc=5": {
+  "url": "https://www.bioworld.com/ext/resources/Stock-images/Money/Economic-growth-concept.jpg?height=635&amp;t=1783708489&amp;width=1200"
+ },
+ "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMmNYb0VrSzExOGZ2Y2FmZkxBYnlpc3d6MkdrUFpxVWY2NzBBS1d1QUZuMm5EX0VWWXZ3eE8yR2xuYlViTXVXeWpYOU5laTZLdXBRRThRSS1rZENNRXdQRzA0OEtwcUdKSDdXd2RLV0Nka0pqdzJHX0w2MkU1bTlXMVVfV2F1b25ySXp1UXltcw?oc=5": {
+  "url": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/07/NHS-AI-blood-test-could-reduce-invasive-womb-cancer-checks-scaled-e1783560044317.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRLWt5TkdrVGgtQ0ZGTHJzTHhyVlNLTjY3T2tQV0VhTWViaDMtSWdPVWhVdGZtdkwzSXlOdk1kazNnVnp3dGZwZWZ2YU1peWhReG5oR3JmbzRYdW9lM0NHZGExbmJ4bHJiZVZPMldfR055aGxsOURmYUk3ZFBWQQ?oc=5": {
+  "url": "https://buildingbetterhealthcare.com/article-image-alias/nhs-to-roll-out-ai-triage-2.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWHVHQmtLejNsbVo5ZXlyaUhqdHdhcmRLVlQwSDQxZG5kcTNWZFRTV2pMUlZtd0szSTR3Y0xSQUliLVVCakNFcXB1MXFkN0hPX2pyMWZYVGZVX2NZMUpsSlpWbGZYQjgxTlNoaXZPLWRDcHFmekpYSTVCYUUzQzVnNlQ3a29xbmpYc0xHbEZFT3lEb2RPRC1lT3BZV1BSMUo0WU9OUGpYLWxmQktKSzJMVHZsSVJHY0hrMU1hNmpLMnZfRWh6dVR4bDV3VjlGTFkzdEpxSmtySkxGTkRkanJsMzZkTUtyMUVBTHZoVHBQcC1kdzEzbXlVbjV4NVo?oc=5": {
+  "url": "https://mma.prnewswire.com/media/1558487/Havencrest_Capital_Management_Logo.jpg?p=facebook"
+ },
+ "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdG85NWtDTENxTTNueE9GQ2J6ck5sV0lxZ1RIVllMT3RxNDhPQzdHY3E2NVg0UXFqTjQ1dkdFTDBOMTBPT0NyVmxsRGRMZVBscWJvLWVwS0tkc3JYQXlQbWkzRTNaU2ptR1J6YUstLTBqSTlXdS05a2hha1Q3MFcxaGxOZlJnT1hoWlJGVF9Zbm1LdTU2Q2F0Tk1RYjN1TlN3WVE?oc=5": {
+  "url": "https://www.femalefirst.co.uk/image-library/partners/bang/land/500/t/the-nhs-has-launched-a-national-drive-urging-millions-with-a.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTV9pTVVQZFU5MkttUk1oX1FXWV9Xbm5rQmsycU1YTGNLOFM5UkozVlZ3amRyVWpSU0d5bVh5Qkk2aFRoaUhYazVveWRlVUI2RUdvakFHaFFGWGJDTGxaQk0tMGxOZFFKNGZmb1hVOW5xRGtwMEZNdXRWUVlvQVR5VWxzMGxydDBpV1hMQnNvalhBVzNmTTdWUGxjZDJwN2VfaTFvR3dBUTZnTHM?oc=5": {
+  "url": "https://www.csp.org.uk/sites/default/files/media-image/2020-05/artificial-intelligence-3382507_1280.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUVLMWthNGZaS1J1dlE0enE4SnVfVHNsU2xXeW9ReFVncDJQeFB1bkNiNnk5dXRQTVJiT1E4RGtqWHh4b2lNQlcwTnlJdXN5ckk4Y0h0czh2VENmUDEwLXlrTVVuVms0YkxWb25LQTU3MWxUU3haQWJEcFdOMUhldXh6LWVkS2VpVktKYXRDb2UxNWNwWkJKcmJSaDYtdkZzTGpkWDhxclRmN25pWXc?oc=5": {
+  "url": "https://www.communitycare.co.uk/media/fcppckoe/the-word-inequality-spelt-out-across-a-black-and-white-backgroundprostock-studio-adobe-stock-249522651.jpg?width=1002&amp;height=564&amp;v=1dd07b34eff2f70"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sLUphdXR0TTZfZ2xVLVVzQl9WSW52RG44UkU2VzFuSXc2Y3NDTThMYlpLU0NkS2huNEJ1TmlWMGZ2dEM5YWJxZ0VEeXNLbnUzdFo2WmZmVlQ1QQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/a2cb/live/1b65dfa0-79ec-11f1-af3a-6f11866b2c27.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmk5VHBHM19LamtlY3dtQzBCLWY1RjNkNE1VZG02Q2FJekFiTVVlcGNjWWpSa0ZzRnRUZEdzOGh1TkFhbGFhcnJFYnVNMWNnTlNKVEdsSzh1OVg3TWNHWVJkWjE5MXpnN3dpOEpIZWhFR0dESkk5d1FxZzdoUWtRb3NpcHZ1TVBtUHl0YWZPVU5sSlBwdW9DU3lFdFVFZw?oc=5": {
+  "url": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-07/Health%20AI.jpg?itok=sQRYtAlc"
+ },
+ "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMTR1ZHNGczFjNGF3eWVqSmIyQVhRa0tpcmlRU05UWmZzNjh1eEctNGxpQ0lxY2ItRlJrUVpIZEllZFIxZ2JYRXlkLWZFZ2pjZG9FYUlNR2Vod21UdnBDcnpsNzVqcW9pWFFqMDE5N0hpUGFxYk1fMnE4RThwVXd1YkhWdnh1OUFTTkQ1R2xsLXYxYlRLdGplajByR2NnUGtESTBYa3VaazlYVVVwMl9R?oc=5": {
+  "url": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-07/AI%20Guide%20on%20Motif%201.png.jpg?itok=5mog9Wrk"
+ },
+ "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVGSk5MRU9JZnZHZlhrVWhtQU0tbV9xZ2dBYWxjcUt0Y0dRVG53bkhFejA2ZTBHTXhwaTd4R2hpY0w2UWlteWdxNnhReG9GQnpaSEctb0RfT09wVUdYWGMtNjFfaXhjWkFTN0RTbGE2aU1SRGg3QmhzNHBSOUx3MDdtWDQzTkNROWh0Q19wTUR4Z0FjYzMtSHNvblphb3JXNmpPdjBlWGRRQzRwVi13VlA4eUlFTkNqOTFGTjBB?oc=5": {
+  "url": "https://www.glasgowtimes.co.uk/resources/images/21147971.jpg?type=og-image"
+ },
+ "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVzR1NmJWTndBQzhncUs4RzQwc3NIX2ZkX1pHdE1jNlNuWVFHRXNtX01rTjI4b2l0eGJYYWJSVGV4TnIwU3FiZVZJV0N2UElPc3pfeU1fcnJoVEp6a3AwQjhIVXJXOTlDVFo4MUw4a2NWOWE4UnFYbHd4SGktdHZONGo1VnoxLW5oOUNoaFJOcW9QamttbUFLenkzOVBsdUZtNUx2SlZfX0c3T1BpQV9sV0ZVaG45S3RQTTRZUNIBwgFBVV95cUxPa2o0QnJGcVdwdHlzNUxSczg0QVBFMWpBelg4R2NSZF9ULXBtWUZBbzEtQ2ZiM1licnFpXzR0bzM3dVpreE5XSUtYelVLcE10dXMySVhGc3ZxcHFYM2VfTV90aFBSQ0hZcnJ1MWNKU3RUTU9Xd3VYamVKWmFDWUg5N05RU0Iyb3pJa2xPUjhKTmR4YVZTZ1MzLVJqS2N5dF85UFZXU3VwVDFSaHhCdzQ2c0k2ZUt3RkUxMlVZeERvVU9udw?oc=5": {
+  "url": "https://futurescot.com/wp-content/uploads/2025/12/Abilia-image-Dec-25.png"
+ },
+ "https://news.google.com/rss/articles/CBMimwFBVV95cUxObnM1V0dVZzRsU3RfUTBwV18waEZSdXR2THdVaFQyQmtBb3ZhZXFaMVh6SFhJa3pUTThnYzZrRVlBVjlTUzBDN09KVmxEcUo1ZURDaGF1YmJmZzdlR25kYm1ESjQ0R25od19QcFg2cE5CVHBsaTN5OF83VE5xRGhkRjdGMnBDaDUxR2hNTFB6aktoRFhrNEN0ai1Icw?oc=5": {
+  "url": "https://www.healthandcare.scot/news_thumbnails/004451.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0ZjaDV6UHlmZjc3dlQ4b2p5Y0M4bFBhblBVTlZRRjc2dGt4MHN0bk81dUhEWVM3bk9OdnhwSU9UUGVlWnVzbndGaDlNaFhtd1ladmxyQ0YxdTlTQmJ4RXdRdEphSE5fTDh3WmJSYjN2UndwV2hENjdOaVBhU2MwRjFIZw?oc=5": {
+  "url": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/learning-center/twitter/health-care-sector-deep-dive-1126641994-twitter.png"
+ },
+ "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeEpyTVNfUlFScjZfbXBHdHVMOGUzczU0Sy0zTl9jZXBhSzRoQW1kZ3NucllTdWR3d3ZjZ0tpMDVyWkwtNDNRcjVCVDhBaEZqY1BaZlhFbGxiT1RjeE1tb1liRkdtTjVwZkVIcm9QQzlBSl9DdlQzdHRqTDRNZG5MTGpXZHFFWkk1LXhDOTFaNzVPeFlrYVlHSWhIVEN5ZzJ0TkNLT2JnTjJ1bWZQLTV6dEJrbTZ2YWJRMkpsS2hpRjJOVmVGOVNLNXM1Vjk5QVNZMnFvTE81cw?oc=5": {
+  "url": "https://mmx.prnewswire.com/media/MS492927/Arlo-Logo.jpg?id=OA2744667&p=facebook"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMlJXbkY0Z3VrTTlMWko4V2hoQVZGejAyYmVtS3BGT1lBUy1oYVpRMHBWMFJyeXZ2bTI3bEk0MWtGcnNscWRoT3czUEhicWJYWHh5S19KVHRlUQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/33ff/live/44b554b0-3ca9-11f1-8e26-931170ebc0de.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0Npd0dNMldva2hMSE9TbUxvQUJyUDlMUGlLQ3J6dzdSUmhYa21BbTZnZW9RWC14Vm1mQjRmMkg5elpjaFZCOVhHSW1FclhZbk83YXhMeWdDQ25NdmJ6X1RiMnpWMzNta0dNNl9GUTI2bkE0Q09oajdWRExIejJlTFZoR3dFMTRGYV9hZjV4R0lYS3M2N0J5WTNYU2VYY2hfY1dERDZuU1dXVktUSjRuYzNJdnY?oc=5": {
+  "url": "https://d3e6tmgg461bic.cloudfront.net/Pictures/1024x536/7/1/9/4035719_istock2155793304_660349_crop.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWUxWVTY5N3drVXdmdUhOV0czX0M3MkVpZmlCNmFHaXhkVE9qWVQ4QXAwS3QzZEtweW5wZ3VoOFlQTGhMVEo3YTBPVU11X1NDOElieFJOU1ltbVczRHN4OWtQU25iTVdmVlY3MWs5Z0hTX1RJR1cwampvaGJiQks4TDlRMEdCZl90aXhsekV1SEhwc2NFZm1vVWRpeHNPT1BSYl9PaVA4SjA5YnBFODhNVmlXNEtyQUl0WGJGcGQ5UXFuTVVuZm5oWUx0dWRTRGpDNTEzZTBEVHgyeGJ5LWtYY3NMR0hGSURZVEE?oc=5": {
+  "url": "https://femtechinsider.com/wp-content/uploads/2025/02/imen-maaroufi-clark.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmRHR1dUT2daaVFlUndwaVAxVTNndi1hVWtJM3RubmVVNURaTHFlQTh1Z3hmNlVpZUdjVjd1YTlaMFFuczdjblp4aDVFekp3eC1vNnZXcjlKSEtZNmVWMWozMXBRVlNtVmwxeUltbWpBU011ZGdwam9qVmx0TWFVbHhnZzZ1T2lfTEJLR2g2X1Y5Sk50NGZnMG13NnXSAaIBQVVfeXFMTUt5VEVBV1ZEZnhucTgtYmEzMXlYS1o3eTdxQTlrSVN0b3pibWtDVmI0LUlqekczZ0o2RjFVbzBCcERQQy1sOGstUnJZVnJ6cVYweEVJdDdnVXFsX01KVUFmN0xuRGlaQWFLZ2hEcmFYd0doblBpRTlzbWxlX0xfRW42X0pkcm9kQk1TXzdzNG5RbVZoQUh4RHRRMzRqOGZVVXBB?oc=5": {
+  "url": "https://static-cdn.toi-media.com/www/uploads/2018/03/digital-health-1.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR25XcnhWZWFHdXpXRFFSczNkUFcwTlhieXlUT1JlLWtQai1Sc0ZVZkZHeTFHeDNnM01KX2J6c094MU11TXJlamFqbm91YUVDdHo3TVRUdHRyb3hHbUgzX0Y1aTRaNWJMX3RPTE9MQ1VtWk4zYm5SbUU4MU9kMXlreTJlSUJRQVBHckVNT2dvd0xySzBpaXduWUhlX1czc2NJenhMM0JWTDE?oc=5": {
+  "url": "https://businesscloud.co.uk/wp-content/uploads/2026/06/Elderly-person-with-nurse-credit-Age-Cymru-on-Unsplash.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQWVLUkh1OEJHMEowa3FXdXhYSlM0T0psbVhWbS11bm0zbzZpd1RhU1F2bnR2NTJScXZpVUZ3Z3NocDB4OE1wX21YcDE2a3BLdm5jeHdNY0I2ZjRVVjVuWVJTYjhQNWVTeWtHaTJnN05kdXdCUXNvbDVnc3pwMWd2TmU3YjBNVU50MmdudFdlQmxvZVNkZDU1aUhQVkowUC02b0x0QmU2a056UQ?oc=5": {
+  "url": "https://thecareruk.com/wp-content/uploads/2025/04/DementiaTechnology3.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMigAFBVV95cUxQME4xQkhhWlB1LXR1YVVGaVdlX2lONmtqWEJ3T1FsbVNJcmZvNTJadFZ3VnBIT3lHeXFSakJYU2J5WC1MaHVhYnNkY2dzNkNOUEZCZmV5dzA3OEMzZVNLWVlocjcySjFBeE1KQndiNjF3R3R6aG9WYXdlOElxVU9sRw?oc=5": {
+  "url": "https://images.sifted.eu/wp-content/uploads/2026/06/25110857/prosus-leads-euros-480-million-funding-round-in-alan-img-01.jpg?w=1500&amp;h=1000&amp;q=75&amp;fit=crop&amp;auto=compress,format"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2JMdzB0bmZoUkdxaDVrN0VhYi15bGlsbE9KSWVGYS1oMXZnVnoyamFpb0dBdjd3Ty1ERGR6aWpaSUVrRUVDNXkwa2h6MV81N2I0cFJhRkhnb1JvM1U2RXJCVF9WNnNWWlBqY3Q2b04yd0hlRnpfbDRjbkg2NnhTc1BjSXlXWHl1V1FTeHk5dVBZV28?oc=5": {
+  "url": "https://s.hdnux.com/photos/01/66/47/00/31092745/6/rawImage.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTE9BaF9JeGVLTzJjQ0VvbEs2SXM0NHNyaHA0WkxBWGloWEd5VTFsVFQ1VUxVa2tZUnlSNXM3cmJvWEV1ZkhjZy04bXBVcWg1aTI0eFJTZWFoRGZ6bHJ3eTZVVVhJREhESF81Yll0MVN4NE5IdTJyaE8waklCdXc1bXRTSmxVMWt1UVFaWXBpUkZ1WWJ5bl9JZ1hoM3FyNWZPbkc0OVhiSlZaMGZReXFQb3g3eE0?oc=5": {
   "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
  },
- "https://www.gov.uk/government/publications/nhs-injury-costs-recovery-scheme-april-2026-to-march-2027": {
+ "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYVp4TVlYNFVSc3RlZmNjU1JRQ1ZnM1JtVnBVVTVES21HeXhnZ3pFWWJmQVJlelA4ZF9NcmZ2NElMMndWTUhJS3Y5SDNRdnZySVozakNhTEQ2M1hHMHN0dk53dzhyekRndVJCTVpsVUVBcllWaUJKM3ZoY3duSVFxUEtmQTFUVGxNUEhhdG9rdHFfdWNUdmdnTENBZVZrWHppYzlPMXVYZUkxZmtBVUVBMGNMcmwtS3NHR1VGYmxhRk5icU9SNHlHcnRkTkxpT001MDRUNVJON1pLaUE?oc=5": {
+  "url": "https://www.thinkdigitalpartners.com/wp-content/uploads/2020/11/health-care-tech.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObVpYTm9IWk91UHRvX1FYWFliQUk2SXFlcWI5NTBHTVg0bWFjME56MEpoVmF2a1R0aElKV1NRb2NTeWdwMVl3aGE0SXV3TEdraUt1Vi00T25SZGVVeTVhUU1QX1kxV0dubFQtZ1J2ZGlSbzFPZmRra25uTXdacGdfcy03ZzNmWG4xWGpkOTNpUjR2Um1lVjc5SzBna3AtcGhXdHUzT1FpTzdvNWcwcHR5TXJRTTd4RUllNlNuZ3ZEU0x5SHVyQUpIMHhfX1EtbkhJSnhCNktFU09zdw?oc=5": {
+  "url": "https://www.wired-gov.net/wg/news.nsf/channel-social/DNWA-9U5EA2/$file/TUK_social.gif"
+ },
+ "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlNRdXZYMFFZcFd0cGpuNGtmRVdVc1pDNTU1SnYzRk42OWVnazdyeFNoVUkxZnRhWS1rdXBGTUh5alI5VGEzRDA0TTc5czQ4ZVNxMUpvNkNCdjFlWExUeVFjNlhyc21fa0tUQl9hUXlvWlhCdnQwZVdaZFNfT1VqUjh5RDFhRk02MGNSODU5MlVqaUN0WVJuY3RUcGh6azNTSndLQU9PdkctV3MzaVlMdGFDZmIzRkgzTWVXMGJwMFF1eWhf?oc=5": {
+  "url": "https://med-techinsights.com/wp-content/uploads/2026/06/shutterstock_2054393915-1024x683.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcHFxcU9naWlvYll6OGZscUIwZEtTRXNEYnh3S2w0U0VFMWJFTEtibF9PNERzdmZmWEljN0VBRWxZTHRDZ3RydGJsRng3a3hZWldCU1RjVzRpMDJtejNGM2d6U0gzZ0dudkpHSWxoZjBOcTNoZ3MyaXVKQjF6UzV2YlpZQ3hMOHNTTXdLWEFzTkcxM21ScEhIYVJDMlVNYXV1ZVVQNHF0aUJ6NnVyaklaT2VVZ05sa0VINDZoRmwwNmJDWERDVno0Qklhcml4MWk1cFVWYXMtdUdBdkk3dHZZQmVhMzhCb2RWNWszOWxFbmhQZ9IB9wFBVV95cUxOazRjQ1RHU1JjTkNVTGxydTh2a25zOFJzanZxNm5MVFkzM0ZVOE1JbUpFV29NUmVtY0pGVzlWbTdTdlZFVHBFNUJDTWhpVTBLNmdHdzYzQkxZb1pYRnRqS0IxMm8wd3VIUUczTTJXXzBOZllUZGNjUFJnU3hfUVFUd3VwZGgwRFhLb3VwTlBxaHU1ZGRWSVEyMU5QTGVBcUp3SldETk1LOXNiNlQxT2dQd3RfQk92U2ZVR3FZZDFISXp4bDJiTWZlalNlQ2NHdzdsUmZYblZQb01MQ0hQang3ZDhWMTNrYmdHOUhDQVpMenFKdUdXM05Z?oc=5": {
+  "url": "https://www.theaustralian.com.au/wp-content/themes/newscorpau-news-dna/dist/images/fallback/fallback-theaustralian-169.svg"
+ },
+ "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZVhMdHIyMGphUGliblhTN0pyNVZ4WjJVVUFVWlUtQ0FUS29LYWRVQ0Juc2V6bXFwYl81VHpCdFk1cmk4RFA2UnhVS2RUZE1zMld2STR5WGt3UndhZjc1VDN6dkNWQThaODA3cTdBeU1jdjBDSVdLVkFHc1JKMzNnN0tEbGUzOGdRNF9GZTNzbG5PTk9ZN3VRV2R0cDJWamsxdVJoRGI0Nk1keHhW?oc=5": {
+  "url": "https://images.passle.net/fit-in/860x860/filters:crop(595,0,1990,1120)/Passle/5d9604688cb6230bac62c2d0/SearchServiceImages/2026-06-19-08-45-48-657-6a3501bc7f1457707e1db6e4.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYlF3eGJIQThpWE96MC1EUnE1UFphMktwS2F1LVotWEpxd3AzaTVVU1ozajdGMXBNNjg0cXVHZHhRbmdIT3ZwYjdsNWZEYVlTeTlKZmhHZjhzOXFZeVFFbFYzRlRZT2dPUFdhMllDak9vd3FfMlZKRHlTbUJBTElPRjNudnNGRlVTaGpEaFlsamgwUQ?oc=5": {
+  "url": "https://www.uktech.news/wp-content/uploads/2026/06/Frontier-Health-Team-Photo-1.webp"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUT3hlVFhJazZqRDg4LVN4RmtXcGR0dnlSekw4Q0NZdnNzMGRsZ3dBd3plVjhkdUpFS3ZsbWhqXy1lcGY2bFBWVk9XWVdJOThEa0JIWkhyMERlUQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/4bf8/live/88d30be0-6a4b-11f1-9742-4f68b41a569d.png"
+ },
+ "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWc5NlVlX1VXZzBxMnJfc1MyWWZ1eHpDWDFXc2NfWlpFUXJmeVNQb2RTNzlPajdhVEtoSHl0SkNoTlFfakFySDh4SmxyRTV2WGxnWnU1R0lyNGhaczBUTWQ1dEd3RHJJZi1hakZybGVyTW9WbnB1dWdscW5PZ1RwSnYwaDhSQQ?oc=5": {
+  "url": "https://hitconsultant.net/wp-content/uploads/2026/06/image-6.png"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIYnN6ZFhsQklIWUZ0bmhBbXJNQlpvVEw2aUg3T2NQQmt1dGlBWlB5U0lUdWRwZ3JPM01VVG5mMVpISG9lSjlUTnBCbTBUVG5JaUtkeGpTb3dpUQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/7c95/live/ea77da10-9490-11f0-84c8-99de564f0440.png"
+ },
+ "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYTR3UktPSzlyc05QcmdWYVJRYUZUX2dDbjZ4OEsxV2hwckEtdnBVRGlhd3Y5UWJONGI5UGlHNG5VSk1uMWswODBwRkY4Qm1aX2tvdVNDbndfbGVWZlJ6WUlraXg1NTBVMEtTanhxcWg0LXdwdHkzSXphalI1MmNyQWc5VXV6YXR6REV4VVpUMWlMSVpIZnlTWldzNVJHSEYzdUI0X0pzWUJQOE5zMWh3?oc=5": {
+  "url": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-06/Nurse%20using%20a%20computer.jpg?itok=czEA5I05"
+ },
+ "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZXFWQlNIZFlvS2R0eWNKY1Vxd2IxQS1UVVFSNldxblBfcWNfb3dVdFdJNXpwZFVqVVRZOUFhU001YVJ4SEg1elE4NXVtb3JfclZkeURMUFp2SmRSd0FqWkNfZFlDWkxGQ1Nrc2tYTkhMQ0pIQm9MRnVYUXMtM2lhWkc1OW5xMWhNY1A4WTJwbjI?oc=5": {
+  "url": "https://cdn.wamda.com/feature-images/c69fd0bd1e8b939.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3BMRDV0VjBaX29PQld2WVJIMzNlRVJrN2xjTGExcEpKMHpEajdUek4weDN3MlB2Q3hNMFZLTXlCem43T2pKZzZ3amk1VGVDY1pLdDNOT3dINFBfTlhSRVRxeVJGZ2luMGJLaFJrbi1tNEUtbVc0V0k1bnRfdkl0MWEwMk5lbFd3dGcxOEMtR2VfMG9qQ1puZy1KY3hBdGdSazhVMjVDZ0NvMW5yNENCTzZDLXRac0MtRjhHNmJHbFY?oc=5": {
+  "url": "https://mmx.prnewswire.com/media/MS523781/NCOA_Logo.jpg?id=OA2720674&p=facebook"
+ },
+ "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUnAxeEVocWRfOFRBVlNENEJNeFNtVi1HbnRhVXJLMWtUV2NPMlFJOThqSUhGUEk1UzJNSGtVZVdqNks2OElzZjRnb3N6MkFwN0FQQ2NkRl9rN2gwa196Um9heVltS2xGdVptRW1YLVVadDYzLWhNZ0ZpUEJnRHF6eFJnN3gySmhVOERXdXVfRWl6c1BwOEpmcXhQMDctLTlZemFLTA?oc=5": {
+  "url": "https://content.presspage.com/uploads/1369/f7635136-63aa-4886-b7bd-f5bdd634f4f2/1920_topcon_fundus_photo_julian.jpg?10000"
+ },
+ "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmxyUVZyNU45a083RWlsaFZMck04Mmx3bEk4RTJldnpNbzBxM2JUa1loaWp4ZzAxS1VzejEzME1CMjdWMkJVX1RyQXEyNmNRbzdKNF9MVEpIRGxfOVNLeHUxTmZseGtiWXI3dWxIakhvTEYzaThOVEtuMGhxWHNLenRSaEZXZTRNemhYbm02dTBheFl4bnZfYXlmM19ReVVhc2VJN0lUM1F2NkxNc2hYMzRRc2l4andy?oc=5": {
   "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
  },
- "https://www.gov.uk/government/statistics/adult-social-care-client-level-data-england-quarterly-update-to-march-2026": {
+ "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOejNHSDhRMGEyYk1vYjZHR0FuMTIwZmNyUkdtLW9nV2lfcFp6S0tUZXpGQXFnWDZ0eVFpZTI0cndOSGlBR2o5RDZHMnk1WXBDc0RONFJTZ29DeUFhbEp1QW40Y1NIendGYm1kazBKQWx6VUJCeG93QjZJbi1oQ0t0ZGp5WUNfRE5ZTmJoa2E3bkpsTm1wcHM0enZ6UE92OGpaTDEzV0FVVjExU1dMNlROMFFNcXdmcTRmNnlSLUpZU0xSQkM4alREeWZNTnBjaTgycDFJ?oc=5": {
+  "url": "https://mft.nhs.uk/app/uploads/2026/06/2606113016-scaled.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHM1Qm9wQTN4MU03c3lCMm5KREFQRWZPT3RuMEVzN3c1c296QmprMExBSkIwWVBSTXcwOEJzSEtYendCaW9QN3RKVVVuYU9FeUltU0l2eWpPWDVUOXQtV2IwRUMyZ0Q4TmtwMWlENjN0cllHVXk2dVd5OE5IbnN3LWdVZU14LXJpUFRERkJxRzBTd1U1TTlwOTVVSFFfVVJEcXU4?oc=5": {
+  "url": "https://www.communitycare.co.uk/media/o0nhhc2q/julia-ross-and-tricia-pereira.jpg?width=1002&amp;height=564&amp;v=1dcfcb55fa262b0"
+ },
+ "https://news.google.com/rss/articles/CBMifEFVX3lxTFBubDRGQks1bExuSmZVUzlfVTFwNnJYdk01SGJMNWRfRmNhWmE1dHZESE9KRGlUU3QyeXdEa0RlRjBjY240aGpEZnYxMTJMbHl1WmF2MktfS21kMHh5UklzODg3SURWLTYteTN2bDRRTFExOERFbmVFbG80bV8?oc=5": {
+  "url": "https://www.nhsemployers.org/sites/default/files/styles/og_image/public/2026-03/Dean-Royles-landscape.jpg?itok=h23IS3cR"
+ },
+ "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVndZcHFsTHpwQjc1VnJuNE1pSm1RVjdzNmVNWmN5S1pCQlMyTHoyWTJieUNwWTNjLWN6aVlHWmc2b09LQ05QczVhX2lvSG03QmUyOEhoaWlrdzBvQ3o3UGttYmU3TEJxTGhwM2xZSkRyVHh2N2RJZkRxM0hydDIwaUtHa3VNcXJwVXZ3QkRLVm9yS0VwZTFWdjBvbWJpbUdaVHE2MHNKSElLMlE?oc=5": {
+  "url": "https://www.runcornandwidnesworld.co.uk/resources/images/21039103.jpg?type=og-image"
+ },
+ "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0pRbXJXOGhDTFp3MFdYYS1fWTdqekhmVXZWYUhmNFpYQXB2aGhicE9EbkE3eDZZSURoUHlpWUY5b3B3RnR4elM1ZWY2NHVlcWtqejRDM05CbDVRNHNCRWtQVGE5MDhsSTRxaktzVDhGSzFRM0lZQXVyOGFORkJhUHBkYVE4T1VtcUwzT193dkRXSGV2?oc=5": {
+  "url": "https://static.independent.co.uk/2026/04/16/01/01KP8KRTWEXWQ46VT43SSHRCG4.jpg?width=1200&height=800&crop=1200:800"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3aGVTWnEyYmprYllYd1NrdVdLLUhtUWZkVWYyaE5tQ0hSYXVkdGpuVDdjZEl5dmZWaXlPSHJGaHVYNkxXNXg3MmRhUFpoNkVVeE9xLVFuQUlfdw?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/1ccf/live/fd30e140-6589-11f1-be7e-9d9e15bac6ec.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejgtSkl4WEF3bWNabGxER3dIT1hvSzVEeGFOd1BnNjRFYVN5UlMyZUhUaGRHRklKY05pOVBqbl9iaG1VLU9JN1IwUHdxLUw5OFdSZVpTb2hxVFpuSm1SN2Vad1h1YndvT0F4SHVCenhXWWVMWlA0b1NzOFZoYUQ4RFN6X3Eyb0VWa2hDS1pZY090a3NSeWh6WGFmTHJleVQzYzA0?oc=5": {
   "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
  },
- "https://htn.co.uk/2026/07/03/national-review-opens-to-inform-revision-of-digital-clinical-safety-standards/": {
-  "failedAt": 1783115578388
+ "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOUpkWTFzbDJLRE5ZNFozcURDNW9HeTdRX3p6aC1QWjJjV3ZLQXh5VWhpVzBsdXVEcENGVlBZT3lOQUJCcUt2MFNiMTM2VDZsTXplZ1hMN3ZfNmwwSjFsMlRZM3QtUkpkMS1YYng1TW9FaUNGcFl6cWN4SU9mcENza1JCNFlXdjlPRWptM1R2VldMNDVhMWp6X2NuZHQyR2dYTzlVWFZqZmpGWkh2d2h3cFE4NE05YVFMT2lfZFM0WVEwREFGM3JGRC05cGtrNkM0UnM2ME9rVk45RERBMzJxQlBJUm1PWkF5ZXRkN1hoZw?oc=5": {
+  "url": "https://mmx.prnewswire.com/media/MS1861804/Sensi-AI_Romi-Gubes.jpg?id=OA2697120&p=facebook"
  },
- "https://www.digitalhealth.net/2026/07/freed-we-throw-away-money-on-digital-bets/": {
-  "failedAt": 1783115578452
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLWhKQl9BclBULW10TVByOWlrcm81Rzh6Y2x0RmRxLURTR1A3N3ZnWWExWXJQcjRCbWtIYWxHdllOVGxPYTh1WGE4U0FNWFFQX3NZUG1PV18xcFQwT21wcW90d1JmYTU0NkxGMk9lcTZWNFpDYXZZTjljZmd2aV9YNTlCU0VwSnBXV3AxTWk1WENjNUdsbUxrcExBLVk?oc=5": {
+  "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
  },
- "https://www.digitalhealth.net/2026/07/nhs-greater-glasgow-and-clyde-rolls-out-digital-triage-system/": {
-  "failedAt": 1783115578454
+ "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVhJNHR2WVZSVkVjenIwTHpNcnA3a2M2YmJUTVAtbkFtdnZaNzdMZDFQQ2tNUV8zSmhkcFAxRWxvVjZkc3dpcVF3aGtfa1NqZTFqX1NOSmlxLWdDVVN0SjNCa3dYZkoybHliZ3VrUEduUnBpTVV4V3Z2Q0tqSTA4YVpXN2J6aEFGXzY3TFZHOVRCWDhLeGNrdlA4dzl0Mkx5NEMtdHV0bU83Ulo5M0E?oc=5": {
+  "url": "https://d3t5t78xsxj5vn.cloudfront.net/Pictures/1024x536/3/2/3/21323_shutterstock_27896091151_790526.jpg"
  },
- "https://htn.co.uk/2026/07/02/dhsc-opens-engagement-for-gps-and-practice-managers-on-how-patient-data-is-used-across-the-nhs/": {
-  "failedAt": 1783115579297
+ "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0o2V1ZYWWdCXzBYNDZCRW8zSFpMRUtwMUR5X0tISE5ZajU5Q2VHQldaTFZhaHBtTmdSVHhOZUd1S3JMRzViWFlmQVZqcVRpTldSeVdGOXpVX3ItM2kzZjA5dzFYQmh5dkE2bXhfcmg4NW1vU0dudnRVdmluclA5OXZmVnJ3UkVZNmtiWEZxUnJac2pCa29WcE9pcnFYM2pleU9YRnM5NkxNMURZcGpnWHUtcDAzelYxa3BZbnA2ZHdza29GQTZv?oc=5": {
+  "url": "https://www.raps.org/static/7caaaf4a-914a-4d34-be74a7b97b6d23ff/1e6c05ee-e1bd-43b0-8e1b8a67d9a9488a/opengraphimage_a162f340e24dc4d08dd7995529c01e82_4a7c7e45a350/euro-roundup-300x250-2022.jpg"
  },
- "https://htn.co.uk/2026/07/02/immersive-simulation-and-related-technologies-purchasing-framework-extended-by-two-years/": {
-  "failedAt": 1783115580077
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HZkpzbS1OVEttc01wSTZPZ3I3V1A0ZDdxeHhEejBLMjdsWldfMDljanVNTkJmdjlqUFZSZmJrazdCaVpSOWJZT0p6ejFqVmhJSjFfcE02T2JSZw?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/3953/live/7b0ceff0-e646-11f0-8786-db2fc8f3a075.jpg"
  },
- "https://htn.co.uk/2026/07/02/sheffield-city-council-awards-contract-worth-8-9-million-for-tech-enabled-care/": {
-  "failedAt": 1783115580082
+ "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbVlwU0hXOXVMa2czX2xZMmpLQkh4dTlBZ2JFbWVkb2JHZkpoM0hjemo2NmtJWThSMUw0UnlZanZJQlpkaVBTdXJlUklRbUQ0Tm9IWWx1UUw3dzNCQnJVdzBMMzMzaUh5bHdmR1NyY1dmcTFTQ2tudWVNYzNNMlhGNmpHSUlyOXI4dFZnRjAtOVNrZTNuSkJlVWFiM3V2NGFzNkpGZ3FRbWRzVl9KQkxYRktlLXM0NlZKX2ZuQkRnN3pFNG1CRmhYVGlRaV81bXlSalE?oc=5": {
+  "url": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-06/Healthcare%20AI.jpg?itok=OLL_kKYt"
  },
- "https://htn.co.uk/2026/07/01/birmingham-community-shares-transformation-plan-aiming-for-productivity-improvement-of-two-percent-per-annum/": {
-  "failedAt": 1783115580092
+ "https://news.google.com/rss/articles/CBMickFVX3lxTFAtOFo2aXVWdE5FNmdsY3RiVTVfMWZvY29xeDQ0WGNlZFczUEY4bmFvNlExZmQ5bl9XaFJ4Q0lUMjV5TEVnUFlYaU1nTW9GYTRxbWVjTkZWQ3VlUGtvNnRzRmpGY2U4ZUdWN21PTGMzZmVOdw?oc=5": {
+  "url": "https://images.globalplayer.com/images/820007?crop=16_9&width=1200&signature=1n4wF5vFuIeplYHrpcUubFdWtKU="
  },
- "https://www.healthcareitnews.com/news/anz/telehealth-ivf-services-tracked-visitors-online-without-consent": {
-  "failedAt": 1783339908966
+ "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMUFocDJGRG1rYzkyOU1YRnlBVzIzN2V3OUJJbElZZEswRFM4YVlUZGNFRGN6VDVtRjB6U3F5ZjZ6LWVNTEs3OEhKSklqaEV3OHRHRGNuLUJmcEFXak5RYnVKa0lidnBPQV92dkRSN2VIRGxGOTZlZjZieHRxM1RQVWwxaFUxQQ?oc=5": {
+  "url": "https://image.chitra.live/api/v1/wps/8e8f2df/365d113f-1db7-4644-93ed-3cb11865752e/1/UCL-600x315.jpg"
  },
- "https://www.healthcareitnews.com/news/anz/te-whatu-ora-plans-robotic-surgery-adoption-and-more-briefs": {
-  "failedAt": 1783339908970
+ "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOXpKZTFTT190NFpvSjluM2pjOE1vckFCYmZfcUtjODlmTnA2OHktTjZkMmwwcjZjVjdqZHk0Y0Ria0pzSUp3ZGU0bTVQeWRSLTM4Z3hnM2F0bmQwZDh6ZGxGYm45RjJBemJGTXI1NkpEb09ZcnF1ODI0NHd3aVdHQk5VV2FKeXBCLWd2Zk1kRlhqREhoZ05rc3BRMjBudUo0Z01FNWVLVFZlQQ?oc=5": {
+  "url": "https://static.independent.co.uk/2026/06/02/17/8fadbb6e39d1443f49801652a61c689cY29udGVudHNlYXJjaGFwaSwxNzgwNTAyNjM1-2.84761195.jpg?width=1200&height=800&crop=1200:800"
  },
- "https://www.healthcareitnews.com/news/all-us-research-program-hits-major-milestone-precision-medicine": {
-  "failedAt": 1783339908971
+ "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNExWYWxxM2FnRWkxeTcxdVJNSjZQUlNkNWtiMUlJeklqM0dSRmJRN2xsZ1ZNQ2hIWC1aZlhxMGpzc0tPYVBGMk16UzBCSlFNdFo3MEVocGV6OUtRV1NmVDVVbnZoQ2w5NnAzLUtqQ01uYUx4Z0ZwTU9SQ3k0VnJ5QUFzaFJ3d0VxZ05GenJPRXNsdi1lNWphX2V5Yw?oc=5": {
+  "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
  },
- "https://www.digitalhealth.net/2026/07/nhs-backs-rollout-of-integrated-avt-as-part-of-10bn-tech-funding/": {
-  "failedAt": 1783339908989
+ "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVml2TGduZER2dXZBSHVtV1RlZXBqSHYtWHZKS190NUZaVzFvcTk5ZjhaRVhUUEVVa3dfaG02UDUyaEduQTJqZVhCWVRkNlVzVi1LVFBUS3lZUDBwdEF1QlpXSGprellwUnRzempZOW9PYm1fenB5d2pPMXRVRFlid1k5eFRDNE9PQkc3emJ5M0VLbnhnd05kbjhnWGtWeHAtN1dlT3Z6eTlXeHZFX3g3a2dIUi1ZQVlPV3c?oc=5": {
+  "url": "https://www.communitycare.co.uk/media/eubh41od/readers-take.jpg?width=1002&amp;height=564&amp;v=1dcf281176e2670"
  },
- "https://htn.co.uk/2026/07/06/10bn-in-funding-announced-and-nhs-app-ai-triage-tool-to-roll-out/": {
-  "failedAt": 1783339910151
+ "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HRHlBb3p5WXpEX0VGUVBVUDFSQmRaU0M0Vko4TlpjMDJuRldCSm1oZW0xUlRiRG80MVZNUEY5MVlXd05zNkNFLU9ISnQzd201WnRfY1BteXhkcnJFVGhTeHhOVWQwX0Ria3dpcTZ2aktrdURZSkZfSzREZHA5Zw?oc=5": {
+  "url": "https://www.digit.fyi/wp-content/uploads/2026/06/Untitled-design-2026-06-10T161026.731.jpg"
  },
- "https://htn.co.uk/2026/07/06/lancashire-and-south-cumbria-icb-looks-to-epr-digital-front-door-and-virtual-command-centre/": {
-  "failedAt": 1783339910224
+ "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUlhHUnEzaVBKYmI4RWV1UVhwTzNXbkxTT0VxZ3BnTG1laTdTY2IzUFMxQUp1ZUxLNzljYTl5YUJnSTFER1QwOFpNZDhNeGwycUVjYkUzOHhSZm5nSzJSX3V4Wkp2RnJsN2tjSXJjZE53VXJiS2M0MF9JclZia3hwS3RtQkI1dTNNVDduaG9HNWZNekM0MklzOUNRQUVHVkFrNEhFZ3BIdGZEYVF6aHhhRDBNS05mSDRnRTk1MFFhNW5fMzA?oc=5": {
+  "url": "https://i.guim.co.uk/img/media/3966d5c4e13ada2a070dfce14f4467899e5794c3/0_0_6630_5304/master/6630.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718fee8933902d80aab44b97c6035c8"
  },
- "https://www.healthcareitnews.com/blog/why-enterprise-architecture-has-never-mattered-more-integrated-health-systems": {
-  "failedAt": 1783339910307
+ "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR203bkhneHB3UEZOVERjY3BmUXYwUDRldG9WN2dsSDQxX19UUmZ0NmJkMDllcm5FMWZVOG94NjJWQ21hWFVOMG9UMXFueTJDSml0MzRmeTY1dUZuNmFNYThoVTFZZUFBZFVlVzNld3RocGpQMU8yeWZKUjFlVGVHMHVhZS1xMlR3VnRNZmR3R040ZmsteHFxQUR5SjdhU01mWHlfY2RCbWZtd1BRbFpEbkZOZTJDalB4VDVLVG9tbW1QcGlCNWFuRzNCNVNCTEtFSmxzbE96VQ?oc=5": {
+  "url": "https://www.eu-startups.com/wp-content/uploads/2026/06/01-health.png"
+ },
+ "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeGRaOWNKWjdXMGRVbm9fYmFROHd3ZjRQZWNpcjU4RHREZl9hSWE4Z3hOZGF3ZDdZN0k4NlpxRkEyN1FPdXYtZEkwRm41dlFjUE1nR3ZqUTc4bFBSZVB5b0NLQWRreGwwOHR5S3BSNTVfRGZGRWxnUE9DNVdYUlN5TWJkeVVHR2M1bDI0Q1IyMWtMcGdpalFUSTRIQlFRNW1HRjY4cFZadlVYTFJsUC1iZUZlTF8?oc=5": {
+  "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
+ },
+ "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZTVGQUpQbHlVZDRIblZqZHIxUmFEaFRNQ3I4SU9JV19HUmRsb3VzbHE4d1UyT0RkUm9wdkdTYUFQU293ZHhUR0tGNzJHam5kQ2ltTk05V1laU1Z0dnhlNlZGejIyaXpsLXZPSE10b2hlMzlJajJlNW9aN0ozNnUwMW5JU203NHczOVVSNlc3OHNMS3ZCd2dWbjZzbnN2U1dqMFJLMUlQczQya0JUZzR5NU9sTjdlZkU?oc=5": {
+  "url": "https://www.eu-startups.com/wp-content/uploads/2026/06/Rem3dy-Health.png"
+ },
+ "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS3QyRzNNN3R5QnQ5eE1jczAxeXJZd2VtWUs0dXViMHB1MkR5Y2lLR0ZYZzVzeTZrVTJndU9FOHE2LTlwU044ck5GcUMtUGpjSElTb3RFNzRVVUNIR3B5dDh5RnV0U0lBdlcyZU5jUHNlQmFSZUYtRldCZ1BnMUVnQUNUSVliRzk3bzFubTRlNnMzd3NPaTJyM0NrYzJRZnNkQlZEU1I0MlZkY3NoRy1USnF3?oc=5": {
+  "url": "https://www.openaccessgovernment.org/wp-content/uploads/2026/06/iStock-2162213762-scaled.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiygFBVV95cUxNalZNTnpKdFFsREs4YUVFdVpZcnFEaHhsN1FWRGJyS0JJaG1qYXhIVkpicEpKLVZZaGtFZExja2dfV284cWQ0ZGNHTFFqX2E3ZWxiWXU0eTkxdEJoM1RjTE5GOEFOc2E4aEhtWDFmNFdEcVdIZ3l0X0FYWWd6TTBBQng5Q3FFMzBjM3V3VVBzR0ZybHNOYTY5TWhIdmZxTzRUbXFrNk51R01Pb3NneGJpQ1I5ZmdPSFpuaHkzbDBUUlR3aGVMS1pfQmF3?oc=5": {
+  "url": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png"
+ },
+ "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORGExR1I2WjhBQU1wa2dsckFlVnI4RXFOYmp5ZUs3RlFKazZnRjA2eE1zemw2VlgtbDhWOG92LVVPdXY2UUtROHVQX0Q3RWJoak1uS2U5VG1oQmFYNlRTMGp1el9kSTlGbFdudGo5NG9sSng0eDFQd3RKUHNjNmlUTFlRMWJSZUdtVGlueFp3TEp4bVpFbGVWOHZsc1hnY0ZwNWNLekFjRmREaW5SX3p2LUFQVE9Xa0t2WjF5SHVsT2xmajRtZ3diWWJNczdvS1dFNWRDYlltSUNOenVJQi1KVWZlRnJKaHpFNjJPWQ?oc=5": {
+  "url": "https://www.nhshighland.scot.nhs.uk/media/aichfqs0/defaultlogo.svg?rmode=pad&amp;v=1dd07ba31a632f0"
+ },
+ "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ic1pqaHNzUkFQcDFQT00zc2dNdl9zcmt5bFl3X204VHJlMDVfdS1hVDRwdV9PQW9WaWpxdDdnVkhTa0l3bTloRjlGdTBSRU1jNENxOVd5VXp2QQ?oc=5": {
+  "url": "https://ichef.bbci.co.uk/news/1024/branded_news/5399/live/5dceca40-6066-11f1-89f7-47e36b8faab0.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1JiY0FubnA0Vkt2VlpxUGtMV3RyVVRFMHBTN3VYNkUwNUEwOG9LYWVfMXRwZ3kyUmRtYktGR0dLOW15LVFHbUx6ekFLNTh2UENkRDg4RUNDUzdEdDdidU13eVhBcnhPWVNhbVZvWlVLLW96aHdkc05aeldxVjM2RHVSTGF0RUR0eGlUR2JvbF8wbVNWMmdEQVdmUURvRU5zamF1Z2dmZG9oRnlicmR2M2JZQzlVUmpLYVctbXlzYjg?oc=5": {
+  "url": "https://www.eu-startups.com/wp-content/uploads/2026/06/Joyvie-Health.png"
+ },
+ "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWHFVN1A5Mk9SaW9sV01OMVdOaW5Gd0Z3NDdtMEZQT2toTjA5Yzh1V05NOUJJWkMtbzFNMzdLcUZuTHd3aWl0bkFCVWpBTjhBY0dyenRCNEFsbUN3RHA5SWtxZnNQLWstN19kdzk5bVlJUkZReFV4OWRMRExEQzJjbnFiWDJSME5iTm1aeTdiSlhaX1llei1XUjFTMXNUd0lrMnQtNVVsbGZWRWN2Wk9FSkF5cF84NlhHTEYzazQwUXkyOVVmQUozTzVJR2ZUM3c?oc=5": {
+  "url": "https://img.hcinnovationgroup.com/files/base/ebm/hci/image/2026/07/6a565d2019948d6891cc5a20-shutterstock_2747285723.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
+ },
+ "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM2dsY2RkTlpISF9KNFBjS08tWTg2VEFZR2xCSFlZbFlDNDM5SUhpQWtFeEtjUS1Ic2FRa1BBT0pBR01mWC1QRFBsTzVhTi11RW01S2tZaE1HcHZ1UTBEaEFvX296TnRpQVV1aEdUb3VCVDVDTzRRU1F4dFJhVklVQg?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/17/coolc-1024x683.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LRUU3M25sZkUyYS1ka3BBeUpISHdDbktrNFZFNm5xNzcxeEt4S2V6Q1V3QXEzN05zbGxWYjV6ZjlRdWdxa3BqZXNYNm5pNS1qNjRmaGt4aTFjdFBWSk5CSXZEWW42Z1FEZGxxbDhYbDl3UXlu?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/16/Harry_Styles_Together_Together_Amsterdam-1024x683.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IR05LV2tWbGdZX2oybVNPOXg1SUtVa2p6VUFPYXdyRzUtV0M3dnh5OXBDMXMwZ2tIcGJEbHI0SnNxYk55MV9aWGV4dWRzVmtSaFFiaTJkc0k4TWxNZVFXVE9rcnVBeGdRSm9aM1k3MTNqWE5UOFE?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/05/13/Jayne-Connery_10-1-1-1024x682.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NYmgzaFpXdVZoQ1NLZmt1M0NTa3JmYlpmX080ZjJYMGtvdnBpWDc3dF9wZTduSEZMaGFHWjVwWkprYkE5WDJHbXJ2NWtxOVBldmNncS1fZXdBWjM1bHlVOU5JQTZBN01tOVdsdEM0WQ?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/09/pexels-cottonbro-4542839.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CMG5MdWR4UTVEdmVSZ2NzcWZNSTR3SjUtRUg1MndnRWVZZ0ZJWjVOY2RNUG1RZ1IzRjFTbE9pbVdxZ1dRTmYxbGJBdnZNLVJrRnFDNnV6Ym1wQWJJbl9OLUs1SlRQWUpTTnlfOUZ2dlUwUFcyN1E?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/14/shutterstock_2656070457.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR2tVbDZ3TUZCakVUVXh2bkxCY0ZFN1FWeTNyWWhJajdzVlo3Q1h1ajdFU3J3UWhkZGsza2NzaHZSdTBfWjBGdmpzMzZSLVA1NGlwTDIzTWpabUE4Z0w1X094SFR1UXFFTjNKMk1yT2RwVFFCUnFIUmRsaV9OQ0I4eWVWOUt2dXhnTkE?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/02/CHP-July-2026-768x1024.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMigAFBVV95cUxON2UzR2kxRFJHaVBIdW1ONEw2TTRnV2xsc05lc01OMFJ6UU45Nks2bFFkYWFCemJNZzM3d0g3Sl85b3RDZVRCME0yQzNwcnkxc2t6NWliZTJFcXN6WFJUY0lrNTYtNnlfbDZpUkVYZUR2dDJXNDh1dlhaeUpDRWdScw?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/07/03/75z6Ghzx-DSC06257-1-2-1-1536x1024-1.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ETEJraFViNENlN2lTN3A2dE1xQ1NFV0RRNEV4aFVCUWhiUER6QXJyd05La0M2dEp2UnZwQVNzaTRrTm52MDRuUVRMamtIRGV1Z1B3eXZlUjZUVTdITkxRNWdQaEttV3RoTWJwaFo0RFRuaUM2dTdNRWpLUVBEV1U?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/06/22/Prime_Minister_Keir_Starmer_Portrait_cropped-1-1024x683.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyUjlaSlMxZkFCTFJ1TDZJVDJ0WWc4Mnh3UWlvdGF2UXpNT3pleC1vYjFlV2RZT2k0bG1YYlpCQXNXdVd0SVI4SjM2TUVTUEQzM2c?oc=5": {
+  "url": "https://scontent.cdninstagram.com/v/t39.30808-6/727268380_1641534277606131_2324512865415608429_n.jpg?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&amp;_nc_cat=105&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=qLgB3TMIlHoQ7kNvwG4wBuH&amp;_nc_oc=AdqsZ_69PJM3nMlZEMeuw8nR_HESAGwrgbxMl0q5WMQq78VF_INPfiS8KYobVi_1ldmypUAbzldlFNfq2GF-MPkR&amp;_nc_zt=23&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_gid=QcyflrkR5gM7XUGyJ8eBFQ&amp;_nc_ss=70689&amp;oh=00_AQABfnC5o-7krNsBW2ueVGAlOaPQf3Ui6PPfvxVXevqicw&amp;oe=6A5FF74E"
+ },
+ "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sX2NKRGY1VG1FNlRyQzFxSmtkbFRvR3pYbzYzYmhTQnhKNE9zOGFTTXNEQ051eGFELWZiUWVIQUtOdFE4YzVZdDZaZ084WHVILWI5c21CbFhJNS1pNVNwWkJxN0g3bndIdC0yMTZNbXpfdEFGbHhaTA?oc=5": {
+  "url": "https://www.carehomeprofessional.com/cloud/2026/05/12/Jayne-Connery_1-1-1024x683.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdGVTNXJhdVp1NW04czJ5NFVhMlZLSU1sdVBnTjlCWlo2MVdTYmRvVU8zQ0d2Y3REV2dSSGlRTmhSWklIZUtMcWdmWV9TdUNCOE94UXRnSm5SMmxGblA3REk1alFQQnlwMnJlTVhfRWZTRTVHMEc1bUxydHdXWlpxNEhtMGZkeGJvMy1ONWNZTFplU2pQZW9OYWJTeUk?oc=5": {
+  "failedAt": 1784298812493
+ },
+ "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM0NhRDRTRTVIVnNyQVJudmNSbHZiZ0FlbThUblZORllWbTdGVDA5Wkt4S2hLNURId0dzNUQ0ZWJ0WTRMaFpHRVNzcFM4U1h5Vk9XMU5fbk5VXy1YTDBRWDFfdkFETjRGWm1RUDk5NzRPUVQwc3lIYkVGUkVqV2FXb2l4S0tVY2N2TUhESUNtX2JGdE9EeHNIRmhB?oc=5": {
+  "url": "https://cdn.sanity.io/images/0vv8moc6/medec/02bdbcc8018fe34bef19c41806bb7e702fa8e44e-1200x628.png"
+ },
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2F0WENRNWtyMmtvYkwtSHl6Y0RNUFlONmtfZEU5LUFBZFVsaU9wd24zZS1uZjBibzFWTkFYUUdkUUg2NlBZSXVHZXRqdldIN3U3WmZMeWZNanRweHJucUttX3dXRVRhZVhZaHFIcHk3amhyc0pwRGJ6Uk14b0l1RnJ6WmdGZkxlWU5aOVVWV2d1NnA1YzF1b2paenQ?oc=5": {
+  "failedAt": 1784298814086
+ },
+ "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2wtalpKa0ZxLVo4aDdsbU1xV2xQa2hBQ3NzcS1QR0d0N3lHa0pITHJjb0xLeXlOajBOX2Q0SlEySlBuUHZlaDZfcmlDVDdoVEFDMmdBcGx6N2tFXzRONm1temtLT1NhbnhfbEtzUWladmpfWkRiMlRubUZoVDVkby12RUlqQ1dKU2pqZUk5Sk1QQ0tQLU9fY3dFTjN2MVFRQnM3NXJB?oc=5": {
+  "failedAt": 1784298814917
+ },
+ "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONk9ZS2ZyUTlFaVVMdWkxUWtXNFVwQmtLQnZqeFVPZExubDlYM1hOVW5YQUoyblFfREdnV2gyd3pzQmUxa1BLU2JuRUQ1Ml9PRUdOaFBFWEgxdTV3NVRJT3hTa0xOeHprOUU0elZFMXgtQkdNZjdiRzdPcjR1emc5MFV5YjVFcXZUS0E5azlvNklJd2ZUZGdZbmFYOGJWbm5Kb2xHejV0UGh2c2E3WTdQSXpKTHNSN2NVQ0RIdVlCZ2JxNHpyYXhBSldrRzRlbFR5OVF6eHZENy1PcjNtSnpWVlpKd3BPYnliblE?oc=5": {
+  "url": "https://img.einnews.com/facebook/1153972/j-david-johnson-mba-ceo-mid.png"
+ },
+ "https://www.digitalhealth.net/2026/07/londoners-can-now-create-universal-care-plan-through-nhs-app/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-2.png"
+ },
+ "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMWNLQndUdUV5NzB2eUVQZkUzMTNfUnZYVGk3WjJBT3NmU0JyNTRYcmFrR3l1OU9vcVVtRWNMTUZaQ01FaVpqaUE2OFlObFdYbjhNZWh2TzJWRHNIT3lmWXlsTUVlWjVncFF4UWVFUEFmUVJfWkl4UDEyZ25aNjFvci0zcXktZw?oc=5": {
+  "url": "https://cdn.sanity.io/images/0vv8moc6/che/5cbd9e7b810c1bb93370b1d8ec9dff50d8accf21-320x480.jpg"
+ },
+ "https://htn.co.uk/2026/07/17/wales-critical-care-collaboration-to-explore-video-and-immersive-tech/": {
+  "failedAt": 1784298823656
+ },
+ "https://htn.co.uk/2026/07/17/macmillan-cancer-support-launches-digital-health-app-library-for-people-living-with-cancer/": {
+  "failedAt": 1784298823787
+ },
+ "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVThtT0lib3ZQNWFfWGRxcWdIcmlEQ0lyR1JycTktb2RjTGFveUxKNE5MT3ZuVXNmbml2ZFBOcmpPZHJoRU1TWERNQjExS1puUmdieFIyTHZQUjZlYTNKYjE3cnV5T0RqaVdjbHlTUllCQ251MWQ0RmVKSlI0MTd6RkVXZ2ZSU3VJUU5PN3FOSFBSZUo1VlBZMGsyRm9tUHZyWUtqNWFIMk5TX2FnREg4d25JMA?oc=5": {
+  "url": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9815007/1000w_q95.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc01Cc3hQejdqUkNTM1RUd2cxQm5tNHFndU9CNEQwVHo0WmlpQzdXaFd3Zk9NM1BiNThDcnlkTmkyMEkxS3pQVXdOVm1OdXhqNWpyYWRsQkdEeE1hSTVoTFg4Tnhjd0JPdXhHOEVZMGpZaFlsV0hjLUF0U0R3X1Bob191akFkNkxqNG1BNmJhWDNPVDZEYzR1Z3Ffc2NEQ1gwYWRPWWZGRllGLVp5UkJpYmtGQ01XaVB3VjdIQjA3emMya3BYRFpycjdwZ2VNcHA0UGpFTGh4UUo1blhlT0EycXZjLXlrMlN2TG9RSW9JY2NzYnM?oc=5": {
+  "failedAt": 1784298824913
+ },
+ "https://www.digitalhealth.net/2026/07/digital-health-awards-2026-winners-announced/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Digital-Health-Awards-winners-2026.png"
+ },
+ "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTWdHZXkwZzFGdzl3RWltX1pHRmlQMC1Xc2twTDZ0VTk5TGYtQ1JwMUJWd2ZMQjU1Vlh0TXc0amhtUVpLRkdwalM1ZzA1VlJIU1ZqMnI2T2t6WEdkUnFvVXIwRndnaGh1Y1d5TUtFVk1NUEoyWTNVVlFFWl9OWTM0dzlYTFTSAYoBQVVfeXFMTnM3eEhzQkd2YVJaa2NSd1MzdmhLcnhIZW0xemhxX0hicE1EaE5LQlVlX2FjYVJMTFpHWjV2UmliX0pYUWlCTU8xY3pVNEdfaDYtbzJ0cUpfWVNMcTNTR3JOLUdjUFhQYzNNR3hKU2pheXRkZDc4VGtNLXJhY09COEZFS2pJdVY5ZGFR?oc=5": {
+  "failedAt": 1784298827704
+ },
+ "https://news.google.com/rss/articles/CBMic0FVX3lxTE56dkVrbm9CVDVwYzZIY0lvTzdRd3hrd2xMS1BhNW9LWUdmREVNOUFraXh4cTlLTW1odFdzekNjZ3lPWjNsT29HQThhbTdvd1dQZGFwM2pNX2NBWjNkUGdVOS1OWnJDOTdtRDJoVWdrRlJKR00?oc=5": {
+  "url": "https://images.axios.com/Zzup4cHaw3aNpr57dlm_LjMiqRo=/0x0:1920x1080/1366x768/2026/07/15/1784133545623.jpeg"
+ },
+ "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVS1yZ25fSlA4bHYzcTgxamFuR3Zic2ZxeUJrNHZPNkJRWGZLMUZSR2NONTdQNlgtaFRJem9USUdiV09QajhNOEN4emlTZmU0RnI4SFcwQ3p4Z1kyRU5pVWFSbjhmZ3hjUW9JTnNJeER4cU8xLXdBV1RfbkhHZ3NIZGx2Qk1KUW1KV2ZrWHhsS3RJcUk3enZ3enhpZWc0V1pfaFM0VDNUc3JJYUVzQUNVbENLMGkxbWNOSFktWTczRU9mVUw4LVlRemJ5Zw?oc=5": {
+  "url": "https://cardiovascularbusiness.com/sites/default/files/styles/facebook/public/2025-04/istock-2180282602.jpg?h=125a58ae&amp;itok=H7ZUSc09"
+ },
+ "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNUhuYlAxQU5nZGtmck54Q0NXaG1EM29pclJxY1ZicGxTUVJobHR3S0ZpUjhVYXVnY2NxT3hzNGVYYW5pQkh3ZFRpV0FEQ2taVV9QVElPM3Rva3B2UmQ0U0VIcDRobzMzbjBkUks4NHFFVTJPWWF5RFhkUXZLdk9uQnhlNnRSemZWVTVPNWdXeUx0VDNHV0NhNU9ZTUN4T0FhQWZQODJvM3lqS2E3S0pSY0tCRFlydV8tSGx4TFdIbjRoR1k?oc=5": {
+  "failedAt": 1784298832393
+ },
+ "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVTFic2tqY1U5dnVsYk0zQW5UMEtzSGdwLTFtOTVOelljOVV5X20wZzltR05nMEE1ZzNiSnZQcWwtT1dDVHJUVEVWTXlVSERiWXZPXzVTc2pQLVNEeXpJTjNNbWJlTkJFRE1Ra2JoSWl4b3hsd0ZBaU56Rm9ROWRySU4yWkxkWEU4T01j?oc=5": {
+  "failedAt": 1784298833601
+ },
+ "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYmJmRkJuOFBBS0lITzJnTzMwOU82eVBVTVlKcloyWE5sdFNEUWZrOG9RNktLVzNfU1NFbXNyb2RVd1A0LVlwQmpPOUFZODNSdkFZNG95b3IxRDBnRURRLVZ0UUN4QlZXQ3c1VnhNendmbDBWRGtoRW9sbjFWQnNLdzYweUpLYkRqYm43SkNtQl9kc1NSeTVNcVRfZWFTUnY1V2RNZmkyYjc5aGszY2JGdlBERGFQOTR4T1N0MGZ0ZGY4UEJoR2lUSHo3V3ByYlM2bS1hQ05qVnJiTUdiZkdUMlFiazdwZDQ2ZlRGWWx3RUw?oc=5": {
+  "url": "https://www.murray.senate.gov/wp-content/uploads/2025/10/Photo_9-1-scaled.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRFdMZkVvYUpyX3ZfbE9tSnEwVHlGd19iTUswellsY0dpSE41N3RqT3hVcTVHZnpZSzJDNENZXzFqNVdlVTd5QmdFYTFsWm1KYmtTVm1GSklNVEdMS0xhV2ZKMHg1eFNGNG9FcVN3c2hZQnhnaEQ3a0hlaGUweXpQU3hZY1JlU2Z0UUNlcjFpMG4?oc=5": {
+  "failedAt": 1784298834709
+ },
+ "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnJuZHl6ang3ZEZMbVBCSXJ0bFJ1Tk9RZ2pNTmFBQm9PZGE0NU9yNWtvd3gyWW9MVVh4WUJIS2VaMlVHNVRIem9KeFZCVHZTY2wzV3o4Qmp0Y1RsUTktMnhHb3oyZW45U2hva1N2aE5uQll2WElfYTZsVlFKNkJrVWhlUnZmV3hINXptM0REQ2pTTXk1OE5zRWotVHIwQ3VvSkt0c3VvSG1NOTZ6MGd3dk1GTTROcHJOc2ZIN0JGLVJjSGo2TFQycg?oc=5": {
+  "failedAt": 1784298834907
+ },
+ "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTBUU2Z1ajBBdXBtYkxPZ0lPSml5aUx4dXdiYTRNMlpVT0VpZVNSZjFiNmFTX2hNd3V1SkVLc0hCZVBBYWI1SHJZTmZNRVcwSm8yVjAwVllDeFBMa29JZklYMURnZEpGVDllbVI2dVdhZVlKcGFIdzRkakc1SFZFOFZEWmZqX1B6SklxQm1VQkdyTF9ZS1NTM1F2YWVHLW53V0F2Y0U4akVka0E5anpMS21pZ0hHNjN6TXdIcE85Ui1tMEU?oc=5": {
+  "url": "https://qtxasset.com/quartz/qcloud5/media/image/gettyimages-2252942172.jpg?VersionId=PIkDSHpkZMht7aoWCjEDCYzNHszlNXYe"
+ },
+ "https://www.digitalhealth.net/2026/07/nhs-ai-use-cases-spotlighted-by-the-wef-for-work-with-flock-io/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Flock-IO.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1NSaC1FTEZNRXR4TzNMakowUHMxbDhxcjBtTGxXU25NcGFvWUstYkw3RkNONUR4WGk5azBqMG5RNlRneFVpdkdaSG5zVnhIM1R3YVJ0VFExRnlZZDdkTHdWeTRkenVodkZoQWRfb3pheEVSR0JweG5xdlFCUGVsZTMyMA?oc=5": {
+  "url": "https://assets.bizclikmedia.net/1200/500290e9b3e67e84a759b8272fa44fae:2b065a9993a22f0a90ae29823423dd44/img94joktmu752378.jpg.jpg"
+ },
+ "https://www.digitalhealth.net/2026/07/digital-health-coffee-time-briefing-%e2%98%95-184/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2024/07/Coffee-Time-Briefing.png"
+ },
+ "https://www.digitalhealth.net/2026/07/leeds-to-test-digital-tools-for-young-diabetes-patients/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-6.jpg"
+ },
+ "https://www.digitalhealth.net/2026/07/accelerator-programme-to-help-innovators-enter-nhs-primary-care/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-7.jpg"
+ },
+ "https://htn.co.uk/2026/07/16/mid-and-south-essex-icb-highlights-shared-care-record-unified-epr-digital-for-integrated-neighbourhood-teams/": {
+  "failedAt": 1784298846190
+ },
+ "https://htn.co.uk/2026/07/15/nhse-quality-strategy-signals-making-quality-the-organising-principle-for-all-nhs-activity-in-england/": {
+  "failedAt": 1784298852990
+ },
+ "https://htn.co.uk/2026/07/15/digital-roadmap-for-sepsis-sets-out-recommendations-and-timelines-for-digital-infrastructure/": {
+  "failedAt": 1784298853071
+ },
+ "https://htn.co.uk/2026/07/15/nhs-midlands-completes-at-scale-procurement-of-ambient-voice-tech-for-1239-gp-practices-and-15-trusts/": {
+  "failedAt": 1784298853252
+ },
+ "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5": {
+  "url": "https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-2239247472.jpg?VersionId=O2vt5_MjQs.ngtgPypG.cvaAVhhqV9O2"
+ },
+ "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSUJnVW9md3V5emtBSHg0bzdxODhxMWFjNG9kTTFFTC1QSUEwTWVOQklWV0FhdXEzd2pWWm1lYXU1YUVGWE5HeUZrV2pBOUl3bGtoX05EWDR1UlhDa0JscTNGTlVlVEFiTlV6NFRpRDlTUFdoNHlROGpXMWdWWnlINjNQcTBSUjlaVTNTbzlqMkRyRnIzOEQtMnd3YnlwdzAxREp3eE5XcWtvY1lPeHd5WFpOMWdPRUh0?oc=5": {
+  "failedAt": 1784298855990
+ },
+ "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemY3dGJHc25CTlVxRkthMTc5WWlaM25hcFNySFpwWGdxcXQ5VENWMEJla1I2T0pDQ0RySFNrNS1VOFdicWRocmN6RzcyLU1xLTFfSXhoaFpzbGV4X1dRQWpRUzhXS2xRYlZtMEZadGVJYk1ZamRvb2VfZEgxcFJOVUM3ZVJMcU5PS2VkUUpMS3U0cm1LaE1INVJmVmtFbWdkZGppcHg5amg0VXpPRXJsWDlB?oc=5": {
+  "failedAt": 1784298859189
+ },
+ "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVU5WXF3aXpoSkZ4WU1MYUR4VmxRTWxzaTd6QUJJc0ZnLUlnVnIxRWlYUEZESE1fcWVhbThDVHVSRjZxcWdZQ3VQTzlTU1dibW5tTmJ2TmE4VnRNRkVjbGx3RkR4WUh3VjVzNWhySkUwZzR6Tk1OellIM1VIZ1NpaFExcWJLUDl0SEljX096Q2xIRnVOZGNuNW1INUV3Ujh4ZmcxTWd2ZUdlMm8?oc=5": {
+  "failedAt": 1784298861556
+ },
+ "https://www.digitalhealth.net/2026/07/northamptonshire-links-digital-care-plans-to-nhs-record-locator/": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Matthew-Hutton-Integrated-Care-Northamptonshire.png"
+ },
+ "https://htn.co.uk/2026/07/14/government-of-alberta-uses-claude-ai-to-locate-and-fix-cyber-security-vulnerabilities/": {
+  "failedAt": 1784298866091
+ },
+ "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNk5WWmM0a0FsRXVEQk9BWjhnSjlzaXhRX2pWaXFSTWM4Y2IzSVlsbmJ0ZFNBZlhQOFJ0bTBlcXZ3bUZrRlctYmxQaHBFZHN5ankxZTRaSUJrY2hJSTNnM2J3eE5SNDVLZHZoQ2lEV3NoczY0b3ZPN1JLRWdoUGV1SDN2MkRoVi1ZRGZTVEZLa2xZN2hrSFBfUk4xUjhGWWNHRVhIWW5welk1TDhNWWhtVEdTSEhhWEZPZ0xveUVn?oc=5": {
+  "failedAt": 1784298868464
+ },
+ "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT1ZuWDg5VkdyanJ0eVF2TXl0UzBpVS1YRkEzaTZ5S2F2LUdEREJsOHlTNzFIcFVBQW1oZTdRWG81YkZoRzNBckZuVlBRQTZXWFhlWTNCMWlUeWdmaTBhaGZ3NWV3aGJ3Y1Nad0pvb2dKYlZkckV6WnZaeGtfcU40UA?oc=5": {
+  "url": "https://s.yimg.com/lo/mysterio/api/281D0F10E37435AC51C8689E4FF470F5BA9177EF979D2888277206E7F2D6CA0F/subgraphmysterio/resizefill_w1200_h659;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fadvfn_uk_848%2Fa3fb91e6dcd500464beb3509a84d8aa4"
+ },
+ "https://news.google.com/rss/articles/CBMinwFBVV95cUxOODNHMWR3NTBkNDBHYjdnTnpydGtQSlJDbnF6Y3ludm5UQlJNWl9tOWYwaDVidVRZajRTbVNfUWFKQUFvajdTbTJFbjZLWE9ya0xmQlNOOXM0cktsVzZxdzB5cTlERE1pYlNPYmhrbWl0MF9hcG96a2ZXQUpscFlnYlE3aFU4MGdCTE5GZDZUblFOR0NjaGZBblRfN3N5VUE?oc=5": {
+  "url": "https://www.mcknightshomecare.com/wp-content/uploads/sites/10/2026/02/Selection_Computer_Hiring_GettyImages-1408596915_1440X810.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZXBUdWh0dlEyLTRqLWdPUkJtcnIyOWhxXzZaQzRURl80RGZSUGE5NkhpQjk5eXZVOWVQbmJpX05xWnRyemprcmJMX05HQzFVUFc1ZkhBWnNoMWcxd3Ewc3U3aEw3M0pCZFU1ODNCdmphb3R2RzNVLU9Rb0IwZDNjbFVITVg?oc=5": {
+  "failedAt": 1784298879557
+ },
+ "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeUVVdW1YaVlXUnBwd1BsMlN6S2k2NUx6U01IRHpxUU9FYS1NNXNpd3lXdVFPTFJWSGNWQXk1OGR0bkx6eTA5bWk2U2tWcWw5WDJjU2JqVlFycXo2RGZjMGhGU3pyeW40SjRXNklVbF9hU0FNWml4alU4b0tEakYtSi1uNmhuck1iSkFMMmlvVDRrcFZZVDhrbnZCQlVQajlQaTMxa3prNUhjVVdfSFhualZsX1pWbjhQY2ZHOHFPQ1hqekE?oc=5": {
+  "failedAt": 1784298880809
+ },
+ "https://news.google.com/rss/articles/CBMizAFBVV95cUxOREx2eWZCQkFpNzl2WnBsMUh3clllRFpVdkhhZ2l4Qzg1WXM4Y2tZaGhET2hNd3VQRDNIX1RHb01VbHlzX1BRV1JaMkpPMkhOdjUwb0FZa0RSS3hleGkwcndBWXZRSlI4Ul9uMm10YVQxQzFqZFFwbklkSmxtZ1IyMUhQSDJrSU05M2tvSmNlT25YeGFCUmFYWkZtRDdiRVJHZ3NjQkRzbF9IZWVobGRYVkVUeEVvQ0RGWVBMTGhSTVF4dDBLZ2hDcTdXTHA?oc=5": {
+  "url": "https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-2207160096%20%281%29.jpg?VersionId=ClXjsEgney3C9tyHyHG6uzOXqr_Ae3g0"
+ },
+ "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY1J0ejd3OW5JampOUlY2amhZekpSWW9rZkJ3cGd4S1pKWFFIUjFfR0g1Y1Jqd0JMMklMT2RBSS14SzFuOGl2RWlvMWtaMFN1UnNZTUswblBhMnctS1BRLWhfa2o2enBWbm5ZVkJWYmlvUVJ2S3N0eUd0UWpaUUNtbkVtV1RFM0J6ZjFLcnYxWDJRRXhqRDZHblBmZV8?oc=5": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2026/06/New-Project-4.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMmJtZlc4ZUF0UF9nTjNlOWg3OXNaSFFmMWpqdGp2eXE3RW9MSWl6RDFPTjFtZk5yZ1laVlI2N0RzeGMyMGlBNFZ1ZXlCTjhiSjVJR2lrSGhYQkpLUFNvX21ibFB3VlpnQ1luVE5hMDRYRTdralBPdjJxNUxwZDdsQ1BvUmstVDJoOUJCWENlLVFJOXM?oc=5": {
+  "url": "https://www.ukauthority.com/media/izmdy5w5/istock-panya-mingthaisong-2199586292.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEtWZEViZ2Q3aUJmTUlzc0ZiRGZNUUxnUFNWZDFZQWZwQTRTenhJU2pNbEZYRG9BR2k0UHBmOHNRejZrZEtLR2w5UVRobVE4bndzSjV3TzlobWVkMmFyS2pDOVVSQVk0MWJCajNGdFZobEZvV3ZMbG9ObThVS3VRZ0xIUDRnUlc0NzkxM1VQMGJNcGtSbVQ0bm13eUl6RXBm?oc=5": {
+  "failedAt": 1784298892103
+ },
+ "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85TERJVjItdE9JTHA2amxBV1pScHY2TVFQU1dtQmRVM0NHQmNINElMZW55UFdaMzlsUVJPeVVaTDNYX1ptbzNON04zZ0p3X1QxMF9mWXFMT3hWOWJxZ2lNcg?oc=5": {
+  "failedAt": 1784298892864
+ },
+ "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSVJKclFoT3AtcWswWnJZMTVTMThsc0d0TEg1V2VLWEE2MVltR1RvcUh2S1YwTE1WQVhwYlJLQ1FPaGFrUTRoQlVIS0F1a29zZmhBdVA3cnpjU3VHZlIzNW1IMDR2S2dvYXhCNm1TM2tEemlHcnFsVkEtM1RaX21lZHB5WUtkSWtuR0dYLXVKdTlLUGhSRWV3X1Zn?oc=5": {
+  "failedAt": 1784298894036
+ },
+ "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSFh6Vms4bWRhbi05OTdVVDBGZzdKVkR4X2VGTWFRYnpibFlKN0xhajF5ZGtiYnhxcDNQWS1lTWFvQUl6N1dkWVpvbEY2R0NhNFZKVWpuYjh2YjdCbVA1RDUxMXRDbnItd3NiWS1fbXhMY2NDZ2Qxd3dHSFBCU2F6RTgyOW5VVjcyOHprQXlJV2NzRnUt?oc=5": {
+  "failedAt": 1784298894292
+ },
+ "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Qemw4REFablpKaEpMN3VYV0p6cFFMRF9OTl81bzVtYTBNcy01ZWt5d1dURS1OdEs5bDNaRXlTSVJLeDZweFBWazRDMHYyN3M5VVctR1E2ZUUzcWtIS2psQUNfa1hmaXhtNTNERQ?oc=5": {
+  "failedAt": 1784298895787
+ },
+ "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNVBJNWthWUgxRlJiY0cwLWREekEwSjBHZHNJaGpLV2x4RDFmWWE1NU5RWUNFbWJrcHpleHV0ZzF6LUJDWnJtZVNzSWVJZTRMV0xrdTZ3QXlLSEs0X0wtdmtEZXd0STltWmJhOUZUT1c1eUJMamhMal9VR1JncHRZNDZkVGRRbXk1b0k5N3lIa0dVRUdLcWc?oc=5": {
+  "url": "https://www.digitalhealth.net/wp-content/uploads/2025/08/Lawrence-Tallon-1.png"
+ },
+ "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmlKZDVOem8yM3BMdTFzUERqelQ0eTNjNk1oX2ZWaDdGT2ZsMW00UEo3b29hTHVuWTdQOVRncmdyc0ZPSkhXUldNY2JMZU5DeW9MYWY1N0ZaZXBxOGE1WDR1RTF4UXVET2xabmdfM25kX0VlcEVrU25fRGthajVEeFNrM3Jna3hKWTc0ZTZRbmlFVGM?oc=5": {
+  "url": "https://images.axios.com/DmTGCdtNyzC_0e4qFsMZbz9Mfts=/1366x768/smart/2025/05/21/175928-1747850368874.jpg"
+ },
+ "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNVNXaU1Qclg4TjdyLUJLTzg4V2M1T1R3UUZrdWN3ci1jUXFJenRPRXdGS3czZDRpYUljTG5WZVZUNUpZUmlQU0VmTUxLMTJBSXN3d0Q5YXV5RV9sVTI5UnFaX2F3S0pyRTVkZVI4QmpzWGQ5ZFRMRTBvTy1uNklqdl9BZWFJb3hqZ2gyUjFDZVl3LW9abjkyWHJqd2hMT3laSDY4SDFMRVh3QQ?oc=5": {
+  "failedAt": 1784298898617
+ },
+ "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbXU5ajhhVXIzbHlNS25XMUNxUHRqMUdfUVpsM3lqYWg5RUx4dEc0Z1RfeWxmX0NSc0VvTHBHaFM5dzRBaWpyOW15dWdGLUJ2ZUREVWlaeFhjLWJmRTRWajI0a1I5V1kxQVFManA1WWpNd0xncXV5eTJSTVFaSUpMd2lEMEtVNFVmUUc4bGFNbTdUTmJCY1BySTJfWEtSbTJYUTdMNkJGRnpPRzBTNmc?oc=5": {
+  "failedAt": 1784298899517
+ },
+ "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTUFOZkpvZ3A4Y05BZnhTcWJrZ3JnZTB1c0dlRC1ONHMxREVnU250VE4zcTN1MkxibHVSSW5wbTVkMk92bWZ1b0tRWWp0SWdvSHpSNmZkMmQxaW5nQ3EwV3BSYU5zem5FbUhsM05ZTmVJZXNtZ1Zxd0JoaWJ0ZExFa2F6bFlUcU1aOXRYYl9yQ21fZ0swZGRXaG9kYkhVYTlTTEl1WEFaM0x5MWpqWUoybXQ0VXFBeWc?oc=5": {
+  "failedAt": 1784298899719
+ },
+ "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN280cnFPcklRSGRTdlluSjAzZGg4TmVJakZYclg4TWI0a19Yd29qX3FXQ1NKY2pIM2FHYW85UFM3YThFZEltVTVUTVotTmNxeXBSTVJDY0dYV2JVTmx1N2RNVzlNbHBPSHJlaDRUSjNVRnJmTk9zVl9teGRYcVV6c1pGUmw1WXJJZmlDd2FlUzBwNUtqemtrVzdXSVB0Wm42V0x4aVpPWTY0eG9lLXp3VWFtLWY3QQ?oc=5": {
+  "failedAt": 1784298901517
+ },
+ "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDZ5WFlHa3BJV1ZKYWtsUWE1dVB3aDkxdDYxU2ttOG9xMGJLeUJDdWxqZ3lCWFlYdFhIbG5BN0tRTDQ3RkpoVGNuS2FHbjBNOHdGRkxqVGg0anN2Z1djVzFEYmNscEV4eDg2eThxUkVmUnE0MGpUa1pMTkVwb2xjeEJuUzRrNnpjSG9yZGM2Y05Zcm9uTV9Z?oc=5": {
+  "failedAt": 1784298901937
+ },
+ "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9hTUFld1REWC1ZT1pDVjZhZmRPQkdUTVNTM1I4SF9BZUN4dXJRcnBFU2luY2dQY05yZXE3TFJaUXlrWVNtU19NYnFyU1ZCNVdJTFBoS2RQTVIwVFBhemJHRkZOZHN2UHRWM0FRZ1NLaDA4SWN1UGlidFdGUzlJekRTQVROSFlpRC03cDJObw?oc=5": {
+  "failedAt": 1784298903120
+ },
+ "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNX1ZjbVIzLWZsRnlvWnBCa0wtSEdCaXczTnlTTmtKcGVtdzV3MjlJcVZMQzNDVXZXTnZaNUZaaS1HSWZqWnZXYjRab0NrRGJFVlVjOVJEUFAzaXV0MFpGTGg5MzQ3SmVGa1JsMXgtWHc1NWxLYmN0OFNwdWNYY2J5T3gtUUpqdTJIZUtEODdOb0dxS3YzWGRON0VpUjB2MzJQS0ZTSmtmUXNJUzJmbWg5YVlITDhEREE5ZkRFM05EUVNZM2JPSHpfRGl2QjY0T09CTVJpeVlEZHRrc3hTNDVMUDJKV2xMa2RGeWtudTk0dmhiRjBqZGNv?oc=5": {
+  "failedAt": 1784298903589
+ },
+ "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRUpJMkg4MEJEeS1HTHAyWk81ZzczSFFwa1BpcmhON09PV2VpcEFmM1Z4NzRiUXpEMDBDU1JRbDdoT0Q1NFVnTzJCc3JFWngwRHV3NVU5UXR4NWV4ajhCZ2lCUVQzcW1iYnRGcjZnVjlxemU3ZkE3TXNmSVZLOUJtVnVsYkJMaUZHVkFWRHpHUVlCa0NOZ29XeENGQjR1MjhRcGUtcnctTzdOVEdmckgyQTE2UjFCVW50VkF3bG1GR3p1Zw?oc=5": {
+  "failedAt": 1784298904948
+ },
+ "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOajlpaGpnM1pVWXI0YkJGNloxb0xCR3FHMUtCaVRsaHlnbW9RT0hKaU1GbS1qUmx6LTc0NE9nVDM3cTBYN1pUNkc4MVFyaS1LM3RnQV9ndHh3cXpzRlBaSlIxYllDai13dVRucC1RYmxxNDVuMEcwblE3X2IwUFc0RmIzMlF2aWtsNVllREJ4Vll6RWRIUGFRSEEwMnJSYXQ5aFJUYjJaRXVYb0FhbmFfbV9HOTR2TG5l?oc=5": {
+  "failedAt": 1784298906395
+ },
+ "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUNTSEpJX0k2LVc5cGlEN2psbFFKMUZIRkNtYzVfNjJERDVkRE1PbzRTOVJlSHJYdm4tWjRRaTNsSVp5QmpoS3RKOWdxd1NHbGU3dDljb1VITkRNaWR0WUFocTQ0Wjl1Rlo5U1VMcXVpbUNRT29NbHMtR0QwUjA3ckl5aFpsNXJ6dHgyVnlrUWxoRmZldHFrSzRDVm9jSVlwVHhIa2xzWXRoU2RKRjZyRFRhVQ?oc=5": {
+  "failedAt": 1784298908960
  }
 }

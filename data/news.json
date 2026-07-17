@@ -1,492 +1,954 @@
 {
- "updatedAt": "2026-07-06T12:11:50.308Z",
+ "updatedAt": "2026-07-17T14:35:09.036Z",
  "articles": [
   {
    "id": "a0",
-   "title": "Is AI ready to take over your prescriptions? Doctors are wary of Utah's automated refill program",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWmhYR2ZtbVB0SEZMdTJtYkcwc2FhR0JFNTMzVDZQRmV4TVY4UUVkd3kxbUZpVTdSaE4zQ2RxZnY2aVpkb25ZYTVpNHZKTXBocFJHejFuT2EyVGRSQnVmN2V1SzFxODJtWUQ1dDJjekp4OEwzYng2OWpkanhYamNyMW81SzVGeGszYkt3T1BzbnplTDNPZXRQNWRRVlVld3JxdmxZOEtMdC0xaThPeEZia2pwdV9aY3EzRVlzb09pWU83QTlCcmM3a2JlS0JzN3BzcjdnZTJRWTNkc2lxRGQwR1VpaVFHUC1pYlNycjZFbw?oc=5",
-   "source": "Winnipeg Free Press",
+   "title": "Navigating Responsible Adoption of Agentic AI in Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWHFVN1A5Mk9SaW9sV01OMVdOaW5Gd0Z3NDdtMEZQT2toTjA5Yzh1V05NOUJJWkMtbzFNMzdLcUZuTHd3aWl0bkFCVWpBTjhBY0dyenRCNEFsbUN3RHA5SWtxZnNQLWstN19kdzk5bVlJUkZReFV4OWRMRExEQzJjbnFiWDJSME5iTm1aeTdiSlhaX1llei1XUjFTMXNUd0lrMnQtNVVsbGZWRWN2Wk9FSkF5cF84NlhHTEYzazQwUXkyOVVmQUozTzVJR2ZUM3c?oc=5",
+   "source": "HCI Innovation Group",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T12:02:46.000Z",
+   "date": "2026-07-17T14:09:42.000Z",
    "description": "",
-   "image": null
+   "image": "https://img.hcinnovationgroup.com/files/base/ebm/hci/image/2026/07/6a565d2019948d6891cc5a20-shutterstock_2747285723.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630"
   },
   {
    "id": "a1",
-   "title": "TELUS expands in PH, targets healthcare, AI",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN2tsQ1d2WGZKdXNGVEQ0Rk1hbWszbnpqZmozSnlKZmpzTUV2clNHWXBSYm5wNTEtZUdOOHB0YlVWYUY5Rm9tZUk2R2VSMkt3S2RjMDQ5VC01OUxmWEpGdDBGX0Y0UGdKLUJPNmpCY2hjT0otTUY0Q3NpMUVLMVAtSHllZkVrNXhRYXRiV1VKQzJtMy1Ha2VN?oc=5",
-   "source": "Manila Standard",
+   "title": "AI eases clinician burdens in imaging and documentation",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdGVTNXJhdVp1NW04czJ5NFVhMlZLSU1sdVBnTjlCWlo2MVdTYmRvVU8zQ0d2Y3REV2dSSGlRTmhSWklIZUtMcWdmWV9TdUNCOE94UXRnSm5SMmxGblA3REk1alFQQnlwMnJlTVhfRWZTRTVHMEc1bUxydHdXWlpxNEhtMGZkeGJvMy1ONWNZTFplU2pQZW9OYWJTeUk?oc=5",
+   "source": "Healthcare Finance News",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T11:28:34.000Z",
+   "date": "2026-07-17T14:09:04.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a2",
-   "title": "Across The Atlantic, AI Has Started Running Healthcare's Books Without Anyone Watching Too Closely, And The NHS Should Take Note",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSEl6ejg2UDdUMWtfOG9GUFgtRUE4enNpUWxHQmhUdXR1R0hBcjExUmZ1d05BVTNPQkFubGU3SGhIUmM2aHhDRm1NUktnaFpHMWpWT0YwUFhZRmJuQVdGWXJRcEtsMTNlR3NVa1E0Zm5tUG96T193RU1XVGtZbmxYWDJuTk1qLUV2TnR6cjlySndBZmtuVjZPeVd5QThnb005aTh0c0J5bGZ1ZTBHbFp6aFhUY1NucURJLUhBSFdOS0JJQ0F0NHh5N1AwX0lTQnhJYkJXNGJERjJJNGZSd2t0UHRoQzJjQnh2NF91SEpzLWFFdw?oc=5",
-   "source": "distilledpost.com",
+   "title": "WisEye Morning Minute: Wisconsin Health News Panel on AI and Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNY2F0WENRNWtyMmtvYkwtSHl6Y0RNUFlONmtfZEU5LUFBZFVsaU9wd24zZS1uZjBibzFWTkFYUUdkUUg2NlBZSXVHZXRqdldIN3U3WmZMeWZNanRweHJucUttX3dXRVRhZVhZaHFIcHk3amhyc0pwRGJ6Uk14b0l1RnJ6WmdGZkxlWU5aOVVWV2d1NnA1YzF1b2paenQ?oc=5",
+   "source": "Wisconsin State Journal",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T11:26:40.000Z",
+   "date": "2026-07-17T13:57:46.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a3",
-   "title": "Nutanix Healthcare ECI report finds AI urgency outpacing infrastructure readiness as shadow AI risks mount",
-   "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcWhVTmNXdDFKWnl5V3J6azFENWpuRUxBblBUS2liaVRYLXpXNHZSYTBPTi1zZ0pOazhRWHhjMHpIRzRCRjJMY21EeEJabmd5NVRlc0lGUWdYLU5CTVZlenFISnNpLXkzYTBBS2o3eF9DNUloT2dTNmxOZGdmOHNudWxXYmp6eGVEZGRHOTM4RWxuYnZiRkZwOWVubGdMOW50cGx1VW5zZWNOZkY1OGFYc1JyaWJIcTFSbko5aE1XUW1oQU9mZTZRTk5HajZ0cXlSaS0wX2wwbGN4S0Y2NVNodTZkdUVIVG8?oc=5",
-   "source": "Intelligent CIO",
+   "title": "Doctors survived the stethoscope. They’ll survive AI, too.",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM0NhRDRTRTVIVnNyQVJudmNSbHZiZ0FlbThUblZORllWbTdGVDA5Wkt4S2hLNURId0dzNUQ0ZWJ0WTRMaFpHRVNzcFM4U1h5Vk9XMU5fbk5VXy1YTDBRWDFfdkFETjRGWm1RUDk5NzRPUVQwc3lIYkVGUkVqV2FXb2l4S0tVY2N2TUhESUNtX2JGdE9EeHNIRmhB?oc=5",
+   "source": "Medical Economics",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T11:22:21.000Z",
+   "date": "2026-07-17T13:32:23.000Z",
    "description": "",
-   "image": null
+   "image": "https://cdn.sanity.io/images/0vv8moc6/medec/02bdbcc8018fe34bef19c41806bb7e702fa8e44e-1200x628.png"
   },
   {
    "id": "a4",
-   "title": "This AI Can Detect Disease Before Symptoms",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMXN3cEE0V1ZEZnBjcUlEQXZMOXNaeTF1OGZCQ0lVcC15MTFtRU51SGlFcVJ2RHBiOHJWTTF0R1N4eEdXLXEzNks5X1hxNm5qa0dUNmpHeWN0WUE1d3d1cU0wcUs2SjVCdEtuOGtReWt3QnRjaTNRSDF1NTF2ZllQb0VQLVQ0ZjVmRXNLZnRpZWs4bWpEZGU2Rjk3MnBmU1BQc2Z0TFZFTFJNTVhs?oc=5",
-   "source": "Longevity.Technology",
+   "title": "What Lindsey Graham’s Death Reminds Us About Healthcare AI",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOQkJuT3RRQW9vS0xGei1BSDB1d0JJZ1dyOEN4X3dKYzU4UjYydW52T3pfM2tjQlZvYzhnOGNjeU1JcXVPcktlcGp3bzdEOWxiWmUxakNrUWpnWWxYTlFYTDBqZTZaZl9fMTlBZm9RSnE5THBWZ0NIQ0xrSlBqalI2ejJOVDdQaHFucUdwSDFPRnI4REx0eGJyWUFlcTduRUg3WG9hdm5lYlMzeXpQa3k3MzBEM0o2cnhXTE8wZA?oc=5",
+   "source": "Forbes",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T10:37:16.000Z",
+   "date": "2026-07-17T13:29:41.000Z",
    "description": "",
-   "image": null
+   "image": "https://imageio.forbes.com/specials-images/imageserve/6a594f02fbb37f681885233a/0x0.jpg?format=jpg&amp;crop=3982,2241,x0,y193,safe&amp;height=900&amp;width=1600&amp;fit=bounds"
   },
   {
    "id": "a5",
-   "title": "Clarivate Announces Sale of Life Sciences & Healthcare Segment for $600 Million",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc0c4NlNIcnJuejE3LWpIS2ZLZXJOeFNfSXdJd1ZIcDJRd2NkQ09pa1JaT0JQQ2lDeGJVblVnamp1WUc1aWJjUVhtUUhPeDl5cWYwaDFSY2tacjRHUV93dzYydVdYSEkwX1puZFozTHVsOWNpc3VaaE5HcGZoTDduSVhkX1ZTVUVnLXY3c0VxRW1iNFNXbXFIZmJ2dE5Edw?oc=5",
-   "source": "The AI Journal",
+   "title": "UCSF Health, Kleiner Perkins, Doerr Capital look to team with startups to apply AI to healthcare",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2wtalpKa0ZxLVo4aDdsbU1xV2xQa2hBQ3NzcS1QR0d0N3lHa0pITHJjb0xLeXlOajBOX2Q0SlEySlBuUHZlaDZfcmlDVDdoVEFDMmdBcGx6N2tFXzRONm1temtLT1NhbnhfbEtzUWladmpfWkRiMlRubUZoVDVkby12RUlqQ1dKU2pqZUk5Sk1QQ0tQLU9fY3dFTjN2MVFRQnM3NXJB?oc=5",
+   "source": "The Business Journals",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T10:30:16.000Z",
+   "date": "2026-07-17T13:25:00.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a6",
-   "title": "This rural Colorado hospital is using AI to go after health insurers that ghosted payments. Here's how.",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb3pLREZUeEowak93bzBLTkJOZXJsZzBLSnZEeDhuampYWmdEa1BSaDM0UFY4RXpjYXhzbUpwOUFtclV3VXVpdFV1a1M2dUFMSTJYQ3VVRjAtM0txVkdnYnZqUzdiVEtFeEd6MzVCWnI1c201YW1PcF9wamRVMmhxMkJreUNGN1MzbTVMaC02eVQ1el9ZVUtIeWFRdmlyY1pzY2tnY3dXbWNBZG5TOG13UQ?oc=5",
-   "source": "The Colorado Sun",
+   "title": "Prosper AI Raises $30M from Andreessen Horowitz | Ladder Health Raises $7M",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRU9UZXBzdmh6ZkxURjl4Z1RFTUhTMmI5QVZuS3pQSThBX3ZWenNkd3NtQng1QXpXa2wyQWQyXzhTUmZJbF9JSWQ5MkZwalY2Q0ota2dIQVdsVERza2RfOW16MzF6aTNSOFpzSzNHZFpmc2QtUU81YWQyajlpMW9vX29hbmVLcXpLN1RFSFJmaHNkSVlJdGwxMDVYa1JLbVhiY2pXRFdOYXBjZFUycHRZcnhOYWpBYVE?oc=5",
+   "source": "Healthcare IT Today",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T10:00:00.000Z",
+   "date": "2026-07-17T13:01:34.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.healthcareittoday.com/wp-content/uploads/2020/04/COVID19-Funding.jpg"
   },
   {
    "id": "a7",
-   "title": "ALZAI Health Corp. Announces Validation of Its AI-Driven Alzheimers Disease Risk Screening Solution on Large-Scale U.S. Patient Data",
-   "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQYkR3cG9EU3h3WEVOVGROaTBaWTVRSFE3bWZmTi1qMWpSeWJ0MVUzemNJTDNlZXFaSTYwVm0xMVNSdDR6ck1HQXhWVW9ES3JsekVETGd2Yk93a0xOekdTMk12QnkzYUQ5U0xHdUc1Z0dzNE9KYUM1WkpFX3Q0ajIzOFkzcWFlMjBxTlVTYjdqZVY2LW9vdjJjV3Nfa0s3YlExdjVvdVNJcmhhMy1JMV9NR2x2UUJva3ZiNFZ2dk4xamhraDZ0aXh1eGk0U1dUdjJjcjF6aC1mWllCZEZCUGFxUExoa1pNYlVrS3h0ZEVYbmZCSVNNaXpNUUJSZS1VTExrWll2OQ?oc=5",
-   "source": "TMX Newsfile",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T10:00:00.000Z",
+   "title": "West Cornwall Hospital's surgery services improves - CQC",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LLUZUMzNBUnBQbGJHZ2kyUXhuV1EyX1ZfMDdNeGdDRWdPdDNLWWpDRlVYUjNvd05WNHNIOGxLNzZpRTJtdnhjX1RTSDVTS1ZkcnA1WFdrSUpIQQ?oc=5",
+   "source": "BBC",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-07-17T13:01:19.000Z",
    "description": "",
-   "image": null
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/22ab/live/373dd270-81dd-11f1-8b86-31ce3d5ecce7.jpg"
   },
   {
    "id": "a8",
-   "title": "In the healthcare sector.. StartAD launches index to accelerate AI adoption",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOTBsTUl3cmp2emlmYXVCRVFkdmJiMXdyZlNxeUxNV2Z6a1ZrQ1d6Mm9jamMyVnNjcjFiMmlvZU1FLVNScndjYkZBX1NLMEZJTkt2b1B1MVdkTV83Y3poYmlLdjM1eS1ORV9sSGpzOS1uLTR5LTRVak90bjV3bmtKa0lZRHFFR2J4TE9VRUl4ZkNJSmxmNEprN0ozWTlSc0VWV0RBLXBwcExlWWVRbm52VEJydUxKVlpMQ2FJb0FnUUstRVVFS1A2YQ?oc=5",
-   "source": "صوت الإمارات",
+   "title": "Protocol in Every Pocket: AI at India’s Healthcare Frontline",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVWUtZGh3VGswb0RYNENnLXNDdk1hQVJScTIwTE5CQUtadWd6TzUtU1A4UEdMNDVKR3Uxb3MtenRMX1FMenIxOUhyUm5XcHp1SXJaN29OWmhlZ0NlTlFUcVgyNVJwOHU3bm9vTkMzbzIwVUhWRnhfZkVaYXlHZ01meHdDak94a2hTVmRUb0RfdHhMWllORldnZWN0c05LbTg?oc=5",
+   "source": "orfonline.org",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T09:46:00.000Z",
+   "date": "2026-07-17T12:55:40.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.orfonline.org/public/uploads/seo/20260717182213.jpg"
   },
   {
    "id": "a9",
-   "title": "startAD Launches AI Adoption Tools for UAE Healthcare Sector",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN1o5TUlEWXU5NjdyNmZuVlRDaGNxOTM3MjZKX1pSR1dYR09VdW5UWG9zbDJ0dllqS083M0dVcWxvdy1saWhHdzlreHNhLWVFLXVha1YtOUVhQ1I0ZjUwZkdZRmtvZ2lIaGRCd2Y2VjNoclliM0NMOEdOYjJ0RW1kbl9PX1lTM2Y2ekw0RjFSRm53ZVQwbU9R?oc=5",
-   "source": "CairoScene",
+   "title": "MAGBH to Host Complimentary Webinar on Health AI 101: Building Trustworthy AI for Better Healthcare Outcomes",
+   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxONk9ZS2ZyUTlFaVVMdWkxUWtXNFVwQmtLQnZqeFVPZExubDlYM1hOVW5YQUoyblFfREdnV2gyd3pzQmUxa1BLU2JuRUQ1Ml9PRUdOaFBFWEgxdTV3NVRJT3hTa0xOeHprOUU0elZFMXgtQkdNZjdiRzdPcjR1emc5MFV5YjVFcXZUS0E5azlvNklJd2ZUZGdZbmFYOGJWbm5Kb2xHejV0UGh2c2E3WTdQSXpKTHNSN2NVQ0RIdVlCZ2JxNHpyYXhBSldrRzRlbFR5OVF6eHZENy1PcjNtSnpWVlpKd3BPYnliblE?oc=5",
+   "source": "EIN Presswire",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T09:45:51.000Z",
+   "date": "2026-07-17T12:45:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://img.einnews.com/facebook/1153972/j-david-johnson-mba-ceo-mid.png"
   },
   {
    "id": "a10",
-   "title": "Montego Bay doctor leads Jamaica into AI medicine era",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc094U2M4bWd3dEJpdFJjYXVyT3JxcjliZkUtbHhMdUozZ0Q5STI5anV2UmJ2ZFIwcXIyMS1SdlNHLWlGVFNUbFNzWm05cjY3TmZ6XzdzalRvbGpJblgwNTBaSU9heU4zaVBqZmNCRmNrN2IwT3Q3RmJxczZUREZrYWQxaC1jeEpLdW1jVUVBTDhobmFxdXZ0cEFKVVBZUQ?oc=5",
-   "source": "Jamaica Gleaner",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T09:23:40.000Z",
-   "description": "",
-   "image": null
+   "title": "Londoners can now create Universal Care Plan through NHS App",
+   "link": "https://www.digitalhealth.net/2026/07/londoners-can-now-create-universal-care-plan-through-nhs-app/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-17T12:30:55.000Z",
+   "description": "All patients registered with a London GP practice can now create their Universal Care Plan (UCP) through the NHS App.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-2.png"
   },
   {
    "id": "a11",
-   "title": "Emotion AI Market Projected to Reach $311.99 Billion by 2035 as AI-Powered Emotion Recognition Transforms Healthcare and Customer Experience | Research by SNS Insider",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUVVQX1dfTkNXc1lIOVNKTzF6aHBJTEdJVWRfcHhsblZJUzNVWkhSb3JidkFVODNPUnZiX0RocGlaemZzRVFSYWdPd3BkZkh6MUlucUJ4Qk0ycnA5cU9PRnRuM3lXVTJ0YmR1c3BqQXpDVDdvRmRMUGkzSUZiUDByaGFsaEJFNDkzVVVKWUpaa2ZDWno2cnVDWEZIMElkUQ?oc=5",
-   "source": "Yahoo Finance",
+   "title": "Using AI to serve more veterans",
+   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMWNLQndUdUV5NzB2eUVQZkUzMTNfUnZYVGk3WjJBT3NmU0JyNTRYcmFrR3l1OU9vcVVtRWNMTUZaQ01FaVpqaUE2OFlObFdYbjhNZWh2TzJWRHNIT3lmWXlsTUVlWjVncFF4UWVFUEFmUVJfWkl4UDEyZ25aNjFvci0zcXktZw?oc=5",
+   "source": "Chief Healthcare Executive",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T09:10:00.000Z",
+   "date": "2026-07-17T12:20:41.000Z",
    "description": "",
-   "image": null
+   "image": "https://cdn.sanity.io/images/0vv8moc6/che/5cbd9e7b810c1bb93370b1d8ec9dff50d8accf21-320x480.jpg"
   },
   {
    "id": "a12",
-   "title": "Avalue Launches HID-2146 Medical Panel PC Integrating AI, Medical Imaging, and Powerful Computing",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQkF1a3RTVFFMeVVNYUFWVzBqYjVQcmtoWFJJR3ZINnBoMGlIRVduN3daQkN2RjVYSG9CU3Y2eUhjUk9WQnNJVmNsN21jZ3FPc0xYZTVTb1ljQks1MS1sNXNxLS1ESmtWUUdnNXU0ZzVDZUtxN0NRckpnMXF6Y1c2VXVsQ0JVdzNVZHdmbTBYU04yT2NSc040UUJaUExaenF3eWNCWkRxU2oxeVhHVGRiTXE1V0pvcU0?oc=5",
-   "source": "The National Law Review",
+   "title": "Cadence Secures $100 Million to Scale AI-Powered Chronic Care",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU1Z4SWtVa3NNMFpnaHdncGNTZGZCUWhhUXEzRWdGa043QzJMLWNWdFRhOUk4V20yVGR4amlFNzJwS1JlTkFUc2k2X3FyY0tQTFp5Vld2dEVjdTFNUVhqbllncExFMFdLaUh3RXNRNjQwTkh3MFpfNmNnR3I2OGZWMDFUSklrcFVfU1J6VVdWSkJCQ05lREhVZXRLQkJLM1NDUHJ4cVBR?oc=5",
+   "source": "The Healthcare Technology Report.",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T09:08:54.000Z",
+   "date": "2026-07-17T12:05:12.000Z",
    "description": "",
-   "image": null
+   "image": "https://thehealthcaretechnologyreport.com/wp-content/uploads/2026/07/Medicare-Launches-AI-Chronic-Care-Pilot.png"
   },
   {
    "id": "a13",
-   "title": "Nebius expands AI Discovery Awards as healthcare AI innovation accelerates",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSnpZb3RKRGE4YlVLeHVXNjhhNFpWYVdTRy1DVy1mVjdXLVkyRTRyZVRLcHMwTjQ3WldPUDgwX2k3Mlo1QlU1dTg4bW4tMi1yeGcxTUtWNlI1bllrTVU5ejVBdnBfZjBONXFSWXdZUzFHdnlXQ01kaXhnLTZfYndHZkFvVVRUSFhkNkxsdklubEJjeS1uZy1WMFphNGdlZWlHUzZPcUtFQUpoa0o1X2l6dW1PaENwOVE?oc=5",
-   "source": "Scientific Computing World",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T08:49:33.000Z",
+   "title": "Care technology provider launches Advanced Reporting",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM2dsY2RkTlpISF9KNFBjS08tWTg2VEFZR2xCSFlZbFlDNDM5SUhpQWtFeEtjUS1Ic2FRa1BBT0pBR01mWC1QRFBsTzVhTi11RW01S2tZaE1HcHZ1UTBEaEFvX296TnRpQVV1aEdUb3VCVDVDTzRRU1F4dFJhVklVQg?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-17T11:45:32.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/17/coolc-1024x683.jpg"
   },
   {
    "id": "a14",
-   "title": "NHS speeds up rollout of AI tool to cut waiting times",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MRlNUSGx1c0o3dGVUOVJIUDdKb091MkoxYVhWR1BnamxDaDVWa0RJZV9NNTc2M0FPZDk3dVQxblhfcXRRSU9lSDBNd2VBOG5CeFpSY0hqSjE?oc=5",
-   "source": "Cybernews",
+   "title": "Why AI in Healthcare Demands Stronger Data Oversight",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcE14VlgtMWdZRkxadG5FWlZORU1OSklZSnpYbmc0X3hFaHZXb3l6TU5nYXRkR2gwZ1BPRXY5RUUxRk1KRGpZWGZERm1NX3Z3TklVQ0x5aWNPMkhYNXZpcjdXeWFpdllkTWFyOUR6ZjN3d1lmMUJKdU5McWJMQXpONU9oUXVBSW1kek5Od0VySG9RZkE?oc=5",
+   "source": "BankInfoSecurity",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T08:48:45.000Z",
+   "date": "2026-07-17T11:32:25.000Z",
    "description": "",
-   "image": null
+   "image": "https://ismg-cdn.nyc3.cdn.digitaloceanspaces.com/articles/ai-in-healthcare-demands-stonger-data-oversight-image_large-9-a-32237.jpg"
   },
   {
    "id": "a15",
-   "title": "£10bn in funding announced and NHS App AI triage tool to roll out",
-   "link": "https://htn.co.uk/2026/07/06/10bn-in-funding-announced-and-nhs-app-ai-triage-tool-to-roll-out/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-06T08:36:04.000Z",
-   "description": "NHS England has set out plans to commit £10 billion in funding over the next three years for tech and digital systems, including an AI triage tool for the NHS App, with hopes of turning the investment into £41 billion in total benefits....",
-   "image": null
+   "title": "Hospitals’ RCM staffing crunch opens door for AI vendors",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVWFsd1lwNTJaR1p1dDY0ZUZIazFpT2xZVXZJNGl1TXJyaVFSSWFTbXhhU0cwMjU4UnpNNFJ3T1U2Y0JJblY3WTFOOVhXVGFJVk9YQ3Rka1YzMjZQQXpQbWRibndwUThCTXhpT3htSDRYbXdiQnFzUGZaZGhtWVJFbkNoQmZsZEMyVUJJd0JTNjRuQ3c?oc=5",
+   "source": "Modern Healthcare",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-17T10:00:00.000Z",
+   "description": "",
+   "image": "https://www.modernhealthcare.com/resizer/v2/N5N3Z7SRRRAN7ABBEWRBAY644A.jpeg?auth=201a46af86938b9e7f6109eb4bf19e6e24bffa28965051e56b8207af5b10a1a8&amp;width=1200#.jpeg"
   },
   {
    "id": "a16",
-   "title": "Royal National Orthopaedic Hospital highlights EHR progress and move to optimisation",
-   "link": "https://htn.co.uk/2026/07/06/royal-national-orthopaedic-hospital-highlights-ehr-progress-and-move-to-optimisation/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-06T08:22:29.000Z",
-   "description": "A quality account for 2025/26 has recognised a series of digital achievements at the Royal National Orthopaedic Hospital NHS Trust, noting a successful EHR and patient portal launch, and tech in diagnostics and surgery. The trust shares...",
-   "image": "https://i0.wp.com/htn.co.uk/wp-content/uploads/2026/05/Untitled-design-2-copy-8-e1778227674191.png?resize=1%2C1&amp;ssl=1"
+   "title": "Global Healthcare Leaders Name AI Their Top Investment Priority, With Lessons For The NHS's Digital Ambitions",
+   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeUlxTXFpUmw0M0tIYkZuVVZ6M202ZkQ4VnpsQmZzSl8tWk5nNXBHcWNIT0NaRHZTSWFZRVd2NE9meXNUbXRkc0lEX1VVQ3dBbFVQMmRMRklvNVpWLWZMWFAyOEU0bWFxU2tOYU1BN0Q3SDAzSHFMekFHYmw5U1ZZaXhZN3hJUUJXbjFYTVpsanozZ1VCcDJ6Q0FOZ3ZvYnJqaGdsNEpwQ0N6OVU2TjhrYXR0MTJOeU1HZzlLZHBQd2tjNkNDbmpCTDJ5M3BwSDB1VmhCZnBVVnNkUQ?oc=5",
+   "source": "distilledpost.com",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-17T09:57:42.000Z",
+   "description": "",
+   "image": "https://cdn.prod.website-files.com/632dd48ac83d1b5e6df7401b/6a59fbb412a82357843c712f_cover%20image%201200%20x%20700%20(5).png"
   },
   {
    "id": "a17",
-   "title": "startAD Launches UAE’s First AI Adoption Barometer for Healthcare and Social Impact",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUEN4X20xOFZtdGVxMjNrbmVXMEV3alp5YzMwcGE4MURFMVN1MVNjWmtWV1l2UTFzVF9VVlZXM0g1RktaXzJDQUpxTGZpeFZrUnFsNHJsRTJaT3pPcXVDVnJJckVEbi1xc2N6VGFJOTRvWmk0YzlGVGdITUVHOUdibHZyR2xGVHAzVTZzRnBKR0kxbDN6d29ZbVR3R3JqR0xOR0l5Y3BaUHQ5blVCaHNIQ05jcGltSGE5bFVzdEln?oc=5",
-   "source": "TechAfrica News",
+   "title": "WHO convenes global summit on AI governance in healthcare",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1TUkE0TkFJVDAtLUJxOWkwRHVDS2tDdzlkZEJndmNoWFhiclFScEFSY01nMG8wX3pOT0tEQ0RxWVdEbUFUNFNDMl9nTXBKeEZBdW03d2Q1Z2w1SXlhVXpV?oc=5",
+   "source": "Digital Watch Observatory",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T08:15:44.000Z",
+   "date": "2026-07-17T08:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://diplo-media.s3.eu-central-1.amazonaws.com/2026/07/who-ai-health-governance-lisbon.jpg"
   },
   {
    "id": "a18",
-   "title": "HTN Trust Region Series: Midlands",
-   "link": "https://htn.co.uk/2026/07/06/htn-trust-region-series-midlands/",
+   "title": "Wales critical care collaboration to explore video and immersive tech",
+   "link": "https://htn.co.uk/2026/07/17/wales-critical-care-collaboration-to-explore-video-and-immersive-tech/",
    "source": "HTN",
    "category": "nhs-digital-health",
    "region": "uk",
-   "date": "2026-07-06T08:12:08.000Z",
-   "description": "NHS Trust Region Series: Midlands In this edition of our trust region series for 2026, we take a deep dive into what’s happening with digital and data across the Midlands region. We’ll explore pilots and innovations, strategies, case stu...",
-   "image": "https://i0.wp.com/htn.co.uk/wp-content/uploads/2026/07/Copy-of-Copy-of-ICS-Index-Web-Advert3-copy-2.png?fit=800%2C600&amp;ssl=1"
+   "date": "2026-07-17T07:20:08.000Z",
+   "description": "A collaboration between Welsh critical care services and the University of Warwick is exploring how immersive technologies can bring specialist support closer to those on the frontline, with an aim to support decision making during remot...",
+   "image": null
   },
   {
    "id": "a19",
-   "title": "Rising Digital Health Investments Propel AI-driven Disease Outbreak Prediction Solutions",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeU0wYjVkM21yLXF2WTI5NXhjRU5FdHJoNXNXUy1SV3lSYTdzTGFudDdiNVVsNGNQWmxZNUZMd0dFTmpBMDhSVi1TelF3TWZ2NzZyUDNmZUJMTU9MS012NWYtOVBYUXBwcjhFNlR4NXNZOTFPQWJ2Qkp2a28xNDNxOGJUU1JxaThFSWRQU1FyNTdwVjA?oc=5",
-   "source": "Yahoo Finance Singapore",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T08:12:00.000Z",
-   "description": "",
+   "title": "Macmillan Cancer Support launches digital health app library for people living with cancer",
+   "link": "https://htn.co.uk/2026/07/17/macmillan-cancer-support-launches-digital-health-app-library-for-people-living-with-cancer/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-17T06:49:28.000Z",
+   "description": "Macmillan Cancer Support has launched a library of digital health tools designed for people living with cancer, each independently assessed by the Organisation for the Review of Care and Health Apps (ORCHA) for clinical safety, usability...",
    "image": null
   },
   {
    "id": "a20",
-   "title": "Exponential Growth Predicted: AI in Operating Room Market to Hit $3.29 Billion by 2030",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxORFdIRXgyODVCSU9qVm5rRzlrdTk1aVN2SERFSkdLTDBzV2ptdzduNnVKSEFrUDloTVN3bDhvTDN6OWFBS1RIUW1WNTNHbUhYNlBGQ0MwUURJdlJNVWFnU3FKYzZtcEtxN3hFN1lZWW95UUNtWFNMeW5DeHBHZWdEUTFLa1lIcTFmQ1Zxd0NIWE1LOGlqa25uY2FZUXpLX3ltU3dXVm5EYlFwSE5GN0pqX1g0M3E2RGR3UTlHaXFOS1phVWZKNVk0YlFDRE5faFpaaU9kdFBPSklSMWluM1N3NV9ISGN0WEJhNWVJQm1nbnNxQQ?oc=5",
-   "source": "GlobeNewswire",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T08:11:42.000Z",
-   "description": "",
-   "image": null
+   "title": "Digital Health Awards 2026 winners announced",
+   "link": "https://www.digitalhealth.net/2026/07/digital-health-awards-2026-winners-announced/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-17T06:30:27.000Z",
+   "description": "The winners of the 2026 Digital Health Awards have been revealed following a ceremony at Summer Schools 2026.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Digital-Health-Awards-winners-2026.png"
   },
   {
    "id": "a21",
-   "title": "NHS App will use AI to direct patients to services",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdjVLd0p1c2JFR29zOXZaSkdNQl9tSWRYQUU2XzhIaFh4QWRWUFJQR0VTUkR0OGdKeDRLLTkydnIxRGVhdUw4SG93azAxN1h2ejJzdk56ZWJ6MWc4WWtUMEljNU9ZaTVhQi1kaEozRGpEYjA1aXBwaG9MMFBTU1RrbC1kRDg0VVNiWmFLc2d4RE1VZw?oc=5",
-   "source": "Health Tech World",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T08:02:18.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a22",
-   "title": "Entrepreneurs Beware: Inexpensive AI Is The Future Of Medicine",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWVVjaUlMeWNlWDM5a2xvemNzSTJxN2pKc20tWUxqbEI2ZWh3Ykw0SGhVTmJaT0lsVnNMd0hDZ0RWZUhKNmduZXI4bFBCSUdyTW94SUtKSFMyZ1V0T0xfX0t5emZtUEJrbTNWZ0l1NGNtTlYxTS1rbGYtbWJ2aTlES3E2UEJBYjZ5TTA3bHFTN1N5Y2hUY0JMaWlpZ0xFNTBMc3Rwcks1aTR5eHZDT0dmalN1bEg?oc=5",
-   "source": "Forbes",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-06T07:30:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a23",
-   "title": "Lancashire and South Cumbria ICB looks to EPR, digital front door and virtual command centre",
-   "link": "https://htn.co.uk/2026/07/06/lancashire-and-south-cumbria-icb-looks-to-epr-digital-front-door-and-virtual-command-centre/",
+   "title": "HTN Trust Region Series: South West",
+   "link": "https://htn.co.uk/2026/07/17/htn-trust-region-series-south-west/",
    "source": "HTN",
    "category": "nhs-digital-health",
    "region": "uk",
-   "date": "2026-07-06T06:58:06.000Z",
-   "description": "Lancashire and South Cumbria ICB has set out its ambitions for a unified EPR, digital front door, and virtual command centre, with an aim to halve the time lost to clinical systems administration by 2032 and improve flow across the syste...",
-   "image": null
+   "date": "2026-07-17T05:56:33.000Z",
+   "description": "NHS Trust Region Series: South West Welcome to the final instalment of our trust region series for 2026, where we take a deep dive into what’s happening with digital and data across the South West region. We’ll explore pilots and innovat...",
+   "image": "https://i0.wp.com/htn.co.uk/wp-content/uploads/2026/07/Copy-of-Copy-of-ICS-Index-Web-Advert3-copy-3.png?fit=800%2C600&amp;ssl=1"
+  },
+  {
+   "id": "a22",
+   "title": "AI scribes in clinical settings: How reliable are they?",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcnR5TUx0VWdUVDU5bUdvcVBreXJOQnVfRkxhM05LN3NRakdnQ2FDTU1hRVNRbDZ3WVpJYmlLdWVVcFlUOHBkUklVaTRJazVPWGxaZ3hILTFRUU5oOGdSQ2h1MnNYQzNhNWJlRTROMGFkYUlVMUZwNUhoSnlfeFp2dkE3Zw?oc=5",
+   "source": "healthcare-in-europe.com",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-17T05:31:15.000Z",
+   "description": "",
+   "image": "https://healthcare-in-europe.com/media/story/32376/rect-01-speech-to-text-recorder.jpg"
+  },
+  {
+   "id": "a23",
+   "title": "Healthcare could become an early AI 'winner,' strategist says",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0tOUxOVnc3UTgxRDhGREhTUnYtbzZFbjJzUlg3aW9PTFlRSEJpTjFtYUFxUlhfNTN1TjRBTXd1cmkyVUYtNzFpenpBRThaYjF2QkMtOUk2SlVhc2M?oc=5",
+   "source": "Fox Business",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-17T00:38:06.000Z",
+   "description": "",
+   "image": "https://a57.foxnews.com/cf-images.us-east-1.prod.boltdns.net/v1/static/854081161001/0edb7a44-3e9e-4146-8f72-df9e41e6cb28/f5fea755-2227-42d0-bf98-425b9226a558/1280x720/match/1024/512/image.jpg?ve=1&amp;tl=1"
   },
   {
    "id": "a24",
-   "title": "ECHOIQ (ASX:EIQ) Trades Slightly Lower: Why This AI Healthcare Stock on Watch?",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNalFhNUlWaGJoeUZxQlRtVjRFSnpRVTZHbVEzcGdiMnpyQkVrLUE2b0NDa3Z1VDlWTnhtUUl4R0xlR3J0dlJJQ2R3V2hWQ2hDaHRaWUh5bml5Y2hTUmdTU2VQbnZDRnAxX19GSWhMdFdFRGozcjltVTUwN09OYS1uSUh1b1JnWEtlb2xjN1VFNUpUUmVkQk1QTkxad3dpa3oxQ0hrQ0xIUzRzQmRBTGJ1UnpR?oc=5",
-   "source": "Kalkine",
+   "title": "UnitedHealth Shatters Estimates as AI Trims Medical Costs by 270 Basis Points",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOTBUV3VuSHRPM1IzN29RUklDUDNGTEFmdUd4dXdVQ1k0dF8tWFJUbVdOcnpPN0dqbFJlNmZ4cGY5NFNjbGdlM01CeWttbjB3TlhRZHdhNS01cUkwNHU5b3l6VGtvQWdkcV9FZmFzT1FnWUt0MnFkRXc0dWFtRzdnd2h1OUxERE1jNGlzV1pFcmx6QjhxX2xZVDZXRjZfem11TTl3WW1pNzhYN3U0d0Y5RllwMUE1aURISHg1TWh2aWVmY3lX?oc=5",
+   "source": "Tech Times",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T06:43:00.000Z",
+   "date": "2026-07-16T23:51:44.000Z",
    "description": "",
-   "image": null
+   "image": "https://d.techtimes.com/en/full/469053/health-worker-looks-computer-screen-next-plush.jpg"
   },
   {
    "id": "a25",
-   "title": "Predicting Diseases, OpenEvidence Hits Back, and AI Makes Human Mistakes",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOanlyZEhvX1JsLW03eFhPOXBqWkF0SjRmX2Ewb2xLbERlQmpKZnkyRmwydVBzT3UyeW9sQUlEZFlIR2laeDFoakRFZjY3alRBeVkzSmVyaXg4VVdnRUhsLWN6dlBLVTA4X3BLQ2tUZm1ZU0wzVVpxcHA2U3hxZzV5QS1ydUxXVExSajRVM3NLTV83TEdGcW9lSDF5REI5aGRoODcwdUhxT3hJcjUyQkNhemh3?oc=5",
-   "source": "Digital Health Wire",
+   "title": "News - Navy chaplain uses AI-assisted music to support warfighter mental health care",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkc1T3MwSkdjMkVSYTI5bTl4WWhKUTAtSDRNLURESktlVm5lcXNQNnFkYUZiQlZmeDRFdEU4bmw2STJMaFdiVGFId1ZfWHMtcjNBTm1ibkFzYXBmMGJUMG51dGw0bHFOSWY4NWY5UnFkWERYWjdFOXFXakhleU1kMUo2a2F0M0lnazl4d3hrdzI2bEYxOGdkT21qVW5idjE1U2NSMVZEOThrejltcGt1Rw?oc=5",
+   "source": "DVIDS",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T06:41:12.000Z",
+   "date": "2026-07-16T22:25:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9815025/1000w_q95.jpg"
   },
   {
    "id": "a26",
-   "title": "'Medicine is the biggest AI market': Microsoft AI CEO says AI could bring top-tier medical expertise to everyone",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYkZ3SWZnTEZUNGZRWndDYUJMNEhrWUVNWjkwTHZYYUVhZm9sNnVUem5sSnVaaWRBY0FmTFpZRzd6c2xHSTNYMWVBOFpidTRfSlc0TlZrVGY3VVdXLUtHVlhScS1uUlk2OHR4LU1XTjVKWFIxT0c1c3U3WUd0aXpaWkg2SWdxQ1BMaC1ITndrUUFBWm41WElYUUlwOU5aMXZQNVRoVzFwQjA1cndqdVFvMzQybl9SWGJ2aXd4bnpPZEhMX3VlNzJHRV9SRWF2NXJaWWtmaFlNSi1SeEtsTkVwVDFfZEtkTzltREHSAe8BQVVfeXFMTW9ZN2VZUG5hQzg5MHRpM25IbThRWmE4UDNQcjdlc0c3VGdtZGs3Xzd1RjlXMmNCdmF1YlBrbWoxcHhJakMzcExKV0t6d1lIMHhLOUlOaE0xMjZfQ3c1X1A3TmtxYlVPX256WmFVdE11SzhTMTRaSjVZY0R6cG1QSmRHM0VZdUt4Z2tJaHY4cWR2R2Vrbko1YWpMWEs3OFVHMzNBZmRyS0V6UFd6TV9ULUZiLTJ1MkUxNnVleWJtLWFIVVJFaVgtNEdYbkIzX0ZvbExVYlM3dkE1bHNmczJWYXJRVjNVeG5lMzluY2d0Vjg?oc=5",
-   "source": "Firstpost",
+   "title": "Navy chaplain uses AI-assisted music to support warfighter mental health care [Image 1 of 2]",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVThtT0lib3ZQNWFfWGRxcWdIcmlEQ0lyR1JycTktb2RjTGFveUxKNE5MT3ZuVXNmbml2ZFBOcmpPZHJoRU1TWERNQjExS1puUmdieFIyTHZQUjZlYTNKYjE3cnV5T0RqaVdjbHlTUllCQ251MWQ0RmVKSlI0MTd6RkVXZ2ZSU3VJUU5PN3FOSFBSZUo1VlBZMGsyRm9tUHZyWUtqNWFIMk5TX2FnREg4d25JMA?oc=5",
+   "source": "DVIDS",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T04:30:48.000Z",
+   "date": "2026-07-16T22:25:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2607/9815007/1000w_q95.jpg"
   },
   {
    "id": "a27",
-   "title": "Korean researchers developing paediatric emergency AI app",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVXpXUlZ1Ukt5RjFGSXdkVEdUdjRRNGVEY0FPX3hLQXdxSzQ3TG15bURnTjJiMVpVV3Y4Y1BfMVNyc2d5a3A2d19PTzk5WGdWYUN5UEFpQ29LQmk1cndxZjFhMHI4akl0QV9OMEh5U0ZrbElYeUF0NFY2OUJ0UHZEUnB3X1hqYnVuVjZYcmJSQk5QbTNYeHg2R05YNEY4Z2M?oc=5",
-   "source": "MobiHealthNews",
+   "title": "Utah tests AI-powered prescription refill program as healthcare technology expands",
+   "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOc01Cc3hQejdqUkNTM1RUd2cxQm5tNHFndU9CNEQwVHo0WmlpQzdXaFd3Zk9NM1BiNThDcnlkTmkyMEkxS3pQVXdOVm1OdXhqNWpyYWRsQkdEeE1hSTVoTFg4Tnhjd0JPdXhHOEVZMGpZaFlsV0hjLUF0U0R3X1Bob191akFkNkxqNG1BNmJhWDNPVDZEYzR1Z3Ffc2NEQ1gwYWRPWWZGRllGLVp5UkJpYmtGQ01XaVB3VjdIQjA3emMya3BYRFpycjdwZ2VNcHA0UGpFTGh4UUo1blhlT0EycXZjLXlrMlN2TG9RSW9JY2NzYnM?oc=5",
+   "source": "cbs19.tv",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T03:35:46.000Z",
+   "date": "2026-07-16T22:23:00.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a28",
-   "title": "How can healthcare providers make AI pay off?",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc21kR29Za1F5RmZ5UmVOS3BWYmxNZkIyTzRyRXJRekF2S2tvWVRvUkQwZW1ScWZ2d3N4Q25ONDhWRFd1SWpaa3V6QklPTDY4dUxvZWI3ZTNvbF9mdGE5LTcyYnZDb2VNdlcyd3dJVXJiYXJVX1RhZk92MkNKZWMxRWExSFBjMG41M2RMRXNwZS0zQ294Q0xPbHB3?oc=5",
+   "title": "China's internet healthcare pivots to AI disease management",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ2lwaHM5cVhZbV9HVGgwYXJqUTY1azNZUUtJVHQyZ2hNMVlwMEpfd2oxNW1pT3QwYXN0UEh4eGtEY1ZUZUJLMVVXMHBGSW5YM0hWaWU4Y1FTSVJsWUZqeE9ucFNSeXJHOUZka2paUFNmX0tSRGJlakZsdlFkX0JkbzFOMkJFSVd5NXl2bXBKZUxFeFNoSWE4aEl0Z2QyU2dpRjA1b2VucUFhUTFkazk0?oc=5",
    "source": "Healthcare Asia Magazine",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T02:10:22.000Z",
+   "date": "2026-07-16T22:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://healthcareasiamagazine.com/s3/files/styles/opengraph/public/2026-07/milad-fakurian-sin5wzzf1u0-unsplash.jpg?h=920929c4&amp;itok=-_CptBDp"
   },
   {
    "id": "a29",
-   "title": "AI Model Maps Snore Source in Upper Airway",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOalpOY2RqcTNxaTJBNnNsMWE0OE9pdVpxcUdMTTdFUkpRbTFQMGtKWFh3dlFmNVlSdDhvWFBJcWV2UDZPUHpQNDZpRE9nMnVRLVI4VjA2YTZWcWh0ZHdJSUFPaE1rdjFtTWJER2N0VFlRNnU4cGdLTXNqSTRxU0VyekJZdjFyVmV5R3psVQ?oc=5",
-   "source": "Let's Data Science",
+   "title": "Senate Republicans block Dem attempt to end AI prior authorization in Medicare",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTWdHZXkwZzFGdzl3RWltX1pHRmlQMC1Xc2twTDZ0VTk5TGYtQ1JwMUJWd2ZMQjU1Vlh0TXc0amhtUVpLRkdwalM1ZzA1VlJIU1ZqMnI2T2t6WEdkUnFvVXIwRndnaGh1Y1d5TUtFVk1NUEoyWTNVVlFFWl9OWTM0dzlYTFTSAYoBQVVfeXFMTnM3eEhzQkd2YVJaa2NSd1MzdmhLcnhIZW0xemhxX0hicE1EaE5LQlVlX2FjYVJMTFpHWjV2UmliX0pYUWlCTU8xY3pVNEdfaDYtbzJ0cUpfWVNMcTNTR3JOLUdjUFhQYzNNR3hKU2pheXRkZDc4VGtNLXJhY09COEZFS2pJdVY5ZGFR?oc=5",
+   "source": "The Hill",
    "category": "world",
    "region": "global",
-   "date": "2026-07-06T01:39:00.000Z",
+   "date": "2026-07-16T20:51:00.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a30",
-   "title": "AstraZeneca Stock And 2 AI Healthcare Shares With Strong Growth Potential",
-   "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcnh2blBUcjZ2clRXM1U2YVRsMkNtX1hic0V3Q3BEazFoOXFPX3c0TEVhR1JXVVRDbUFsM0RsQUFDdUZsLS1TQmdPU2kxUzBnQWlELXZxSUNEQy1lQldQdjE1UmhJOG42b29LN0pSYkRfU0gxdWI3Yl8weU54aENuMzFuZlRneXNkLXlBNXZyS3ZHLXlnbUNHMmZSZ3RIYTJ1ZWRxR2Jka1YtTkpGdnRLZnJ4T1VSVGU0dmozT2UyRk1BS04tbXNLc1NVOEdCQ3lQajRHVzdBOElfd9IB3wFBVV95cUxPenZ1YW9zdFpMRk5UN0ZzNTgtajJ3TUozN3R3bzdJU3dFVGdMaHdfTEQ1RzVWaUZFbVNlWDJobjJnX0FFcWNqajM0WnFaandTS3lTaENpcEtYYTlHelM2TWJYeEJUb0R2VHBrWTVRc21jbEMxMjYtSVBDRlU2NkU3QlI0ZG9DVDduQmlfalJkQ0dacWpZa0kzdFpmTHktMXZscU5Ba3UzWmlTSlVUaGtfa3pOT1l2cmwyOGVpZWVBbFd5ejlPajNlVFB4akJRNDhoNXQ3aHREd0g3bDJVSVh3?oc=5",
-   "source": "simplywall.st",
+   "title": "CVS wants to become the AI front door to health care",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE56dkVrbm9CVDVwYzZIY0lvTzdRd3hrd2xMS1BhNW9LWUdmREVNOUFraXh4cTlLTW1odFdzekNjZ3lPWjNsT29HQThhbTdvd1dQZGFwM2pNX2NBWjNkUGdVOS1OWnJDOTdtRDJoVWdrRlJKR00?oc=5",
+   "source": "Axios",
    "category": "world",
    "region": "global",
-   "date": "2026-07-05T23:42:34.000Z",
+   "date": "2026-07-16T20:47:10.000Z",
    "description": "",
-   "image": null
+   "image": "https://images.axios.com/Zzup4cHaw3aNpr57dlm_LjMiqRo=/0x0:1920x1080/1366x768/2026/07/15/1784133545623.jpeg"
   },
   {
    "id": "a31",
-   "title": "AI Medicine Delivery",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fUUY0bWpHRjMzaEVSWV8xSnRLVnh1alZuaHAzNHRDcnhKMmdjVC1fQkxpOUdNb25vVGlBaW5aSjJVMmNQZFlmRlhuS3hXZ0VRZHBlZDhR0gFbQVVfeXFMTjhQMDBGMUFTT2UwSUNHZ2ZkczJLc1NFSGt5U0FXVTNGbWNkVGRoNkpwUHJPTzEtOVFHTEMwcjhIY0tva1JpUGt3T3J0T1RycDhUTXVpSzI0aC1Ocw?oc=5",
-   "source": "Trend Hunter",
+   "title": "How AI can help heart teams identify TAVR patients",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNVS1yZ25fSlA4bHYzcTgxamFuR3Zic2ZxeUJrNHZPNkJRWGZLMUZSR2NONTdQNlgtaFRJem9USUdiV09QajhNOEN4emlTZmU0RnI4SFcwQ3p4Z1kyRU5pVWFSbjhmZ3hjUW9JTnNJeER4cU8xLXdBV1RfbkhHZ3NIZGx2Qk1KUW1KV2ZrWHhsS3RJcUk3enZ3enhpZWc0V1pfaFM0VDNUc3JJYUVzQUNVbENLMGkxbWNOSFktWTczRU9mVUw4LVlRemJ5Zw?oc=5",
+   "source": "Cardiovascular Business",
    "category": "world",
    "region": "global",
-   "date": "2026-07-05T23:01:21.000Z",
+   "date": "2026-07-16T20:15:13.000Z",
    "description": "",
-   "image": null
+   "image": "https://cardiovascularbusiness.com/sites/default/files/styles/facebook/public/2025-04/istock-2180282602.jpg?h=125a58ae&amp;itok=H7ZUSc09"
   },
   {
    "id": "a32",
-   "title": "‘A tool of care’: How Catholic healthcare workers can use AI for good",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWFB5VDVjRHdwN0xaT2hFbVlSZTFEWG5fZzMwd1pBd3BWcmNfUzVDY2FkMlZRSTUyRW5tRmlaZGI5eEpqVHNtNlYwUG5qV2U0NzdPQ04wR0ZFX082anJaVVlERTlsOUlGV3dkc3JQLXBqblBWWjZURGFDaWdMUVZFYlRiX3hrTk1YQWZFNWotYzRNaC02YkVscEdpRQ?oc=5",
-   "source": "Catholic Outlook",
+   "title": "UCSF Health launches AI incubator to develop health-care tools",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPa2diQUs2ZVFYMXZMeWVOLWhET2EtdWNmaElUSUtwY0JWWGFhZ1Rnem1LWGFqdThWdXp4WW0tR1dqT1FySHFjRV9tV2dMOGgyOXAzdWtDdzNJQ1c1djlHWWw2VkVRNy1iQUo4RXdlSzY2Mm0xS0N0VXo2VzFZOGUzODR6a3ZNYzJBNGxzZ3BXMVQ5YWlKc3VaZGdpRUFjM0pJbEE5WFpUSXRVTW4xMk1TYmhhVEVMY2ZHbDEwekN1eExVMUl5OGNHM0Jra1pveUNkUGFGLWU2UVJtUXdoLUVWRkpDdnhRRDFacDB2TA?oc=5",
+   "source": "San Francisco Examiner",
    "category": "world",
    "region": "global",
-   "date": "2026-07-05T22:19:33.000Z",
+   "date": "2026-07-16T20:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://bloximages.chicago2.vip.townnews.com/sfexaminer.com/content/tncms/assets/v3/editorial/7/b7/7b7f1ff8-d930-4381-9976-a81eb529f270/68a5177343ec6.image.jpg?crop=1765%2C927%2C0%2C123&amp;resize=1200%2C630&amp;order=crop%2Cresize"
   },
   {
    "id": "a33",
-   "title": "Technology gaps threaten home care reform, survey finds",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbUFsRzJ4SUI2YVZ3NDkydUdtQ0J6Z1VNT1JFWnpWR0ZLbjlqNEs5dm0zQUxJd0FJdU5zaGlueHFpZDRQNmVpcEU0TU81SWF1dFJCbDFfeGdEY2xiR05aWXlibElkbjd6WW1uR3RJRUcyVGtPTHRkcV83S1FyNGZUS2lneUM3UjVvV1VTR3VVVGJxRGRnSkpTZjRIMWR4bTJqVTV3ZWVnc3ZGYzBON2c?oc=5",
-   "source": "Pulse+IT News",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-07-05T19:06:42.000Z",
+   "title": "AI in Healthcare, Password Fatigue, and the New Rules of Consumer Loyalty: QuickBytes (July 10-16, 2026)",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNUhuYlAxQU5nZGtmck54Q0NXaG1EM29pclJxY1ZicGxTUVJobHR3S0ZpUjhVYXVnY2NxT3hzNGVYYW5pQkh3ZFRpV0FEQ2taVV9QVElPM3Rva3B2UmQ0U0VIcDRobzMzbjBkUks4NHFFVTJPWWF5RFhkUXZLdk9uQnhlNnRSemZWVTVPNWdXeUx0VDNHV0NhNU9ZTUN4T0FhQWZQODJvM3lqS2E3S0pSY0tCRFlydV8tSGx4TFdIbjRoR1k?oc=5",
+   "source": "Innovation & Tech Today",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T19:37:49.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a34",
-   "title": "Bonus Features – July 5, 2026 – 58% of dermatology practices see patients daily with AI-generated diagnoses, 94% of CIOs say AI delays would put their orgs at a competitive disadvantage, plus 27 more stories",
-   "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOem9VOVhaQW84U3huUEkwYlpyRWRQa0ExRV9NVzlId29RdzA2a21jeUx2R21kREl4UzV6aXpNRnJ0NWtqUmVNOFdLUEtfQ2M4VGNjY3NLaHYzQXJVWGJ6OHVmRElYX1QtVVE3YlZwLUN6RHNtakRnejM0NmwwdnlINHByclkwSllEX0taNnZDblVQak5yZHpTR2VQWVEtWENHaXdkUWszdmxLdlBzYWZVY00xWHZSM0FrQkh2elNObXFieFJXT2EtU1A2NTQ0YmVzZVpQU2EyOUtYUl9NRWUwQnZLRkxRN1M5VHUxWnBvOGZLVFI1eUJKT0JHZDVTYUNrOVcwS2VRbU5aV0xudGdJWXdJOXJzWDF6WVljVmF3QUc5cVQtZnViRTduU3U3YXZlaTNwaWZfYnVZbDg0MjM3Y2lEZWxVUQ?oc=5",
-   "source": "Healthcare IT Today",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-05T14:05:28.000Z",
+   "title": "AI-Guided At-Home Care",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SdHlTRllxUUtyU3A4dFNyZG9IZnBuelJreXBIT1QyQkYxR1puYkxZQ1BFQzJ3VXQtcnlBOXVZYUFZRS1IS2lCUmIwVGFxNzBEUk5pRVlZZXN2SVRsTnNOWndybmQ5SjRRaHVOOFd30gFuQVVfeXFMT1J0eVNGWXFRS3JTcDh0U3Jkb0hmcG56Umt5cEhPVDJCRjFHWm5iTFlDUEVDMndVdC1yeUE5dVlhQVlFLUhLaUJSYjBUYXE3MERSTmlFWVllc3ZJVGxOc05ad3JuZDlKNFFodU44V3c?oc=5",
+   "source": "Trend Hunter",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-16T19:02:48.000Z",
    "description": "",
-   "image": null
+   "image": "https://cdn.trendhunterstatic.com/thumbs/AI-guided-at-home-care.jpeg?auto=webp"
   },
   {
    "id": "a35",
-   "title": "Digital health's July 2026 signal: AI wearables, a new CMS office, and the telehealth billing fight",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORXlxa1VQUEhYdGRPdVF2SjJqcDZjWUQ4MGJiMUo5bEZpRHlpQW5uVVE4anNTMVhsa0xxRGRBYkQyRE9UbC1pVTdPTXBPcmxBMmNUMHNaTG8ybU1xRnJwX3ZpeXA1ci04ZHAwVkxOYUltS0NZSGRhRDV0QXM3X0tPc0hzeDJ3MUZya2JWODN6SlZ4a3VsZ0FRWkx5TFNmMmxMMzdGQm96bE9pMXpSZ0ZkTHJKRWUxdXJST0UzTkV6cUc2dG02Y2s3REt1WUZuWTYwQUhJZlJlXzBGMzFrekE?oc=5",
-   "source": "MarketScale",
+   "title": "Public health leadership needs to build trustworthy AI in health, expert argues",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVTFic2tqY1U5dnVsYk0zQW5UMEtzSGdwLTFtOTVOelljOVV5X20wZzltR05nMEE1ZzNiSnZQcWwtT1dDVHJUVEVWTXlVSERiWXZPXzVTc2pQLVNEeXpJTjNNbWJlTkJFRE1Ra2JoSWl4b3hsd0ZBaU56Rm9ROWRySU4yWkxkWEU4T01j?oc=5",
+   "source": "Medical Xpress",
    "category": "world",
    "region": "global",
-   "date": "2026-07-05T12:49:40.000Z",
+   "date": "2026-07-16T19:00:04.000Z",
    "description": "",
    "image": null
   },
   {
    "id": "a36",
-   "title": "\"The AI Doctor Will See You Now\"",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNW9OaXNsWGVVMDNmTnFDaXhPRXdHb1NWMExJbTYyTm41MGVweHZOU3hzOTRxRF8wQmtQbHBFdEYtam5Sd1hhb0F2TElLVmJ6dUZMckxoWV9YT2lGZG9aMlRpRTN0ZjIteVcwa2xhYkQ1bnhwUnZQaVd4VXlBNG0zb3ZxM0t1WVE4?oc=5",
-   "source": "Radio News Hub",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-05T08:22:35.000Z",
+   "title": "GOP blocks effort to end Medicare test of AI prior authorization",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQd2NpLXAzbkpzWFMzSGhkY3IzaFVfUzlJX1RGVmpBVFpJY2E5QzV6aEoybUtBVEFmLTJyRlhrajNWMWhtRUhPTUg5ejJjdzdpdnNRMUI3NUNSeml6V1JlcmE0Q0VWMnN5YW13eHZiZkVDd3k1NXMtZFRLTkJJdTlucS14STJwYjdtMFRkRDUzLWJ1THVIUlhR?oc=5",
+   "source": "STAT",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T18:59:45.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.statnews.com/wp-content/uploads/2026/07/GettyImages-2246192218-1024x576.jpg"
   },
   {
    "id": "a37",
-   "title": "NHS accelerates artificial intelligence rollout to cut waiting times and improve care for millions",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNS2tPWlh3ckQyNVQ1dTlobUJCNjB6SGFkWnZKR3JlRGttdzRmT0JVbTlkTWRiUk5adEJGWnRtT1RDQXB5MWxRcW9ZeGVJbWtSbzhWOHNVY2lSM1ZybnBUS3A5ZTIxZlM5dGI0OUNSWXZnbHRWWVE3TWhKR3dQOHQ2VDg1Q2NHNHVHeVNvVW9tRHJOWFVmUjk5Q2VsZkRRVU1Xc0dCVkdRaXdhT2xmWjhKTnNBcGRFMjdUZGRjUlZNbVBLclFhaE55Qw?oc=5",
-   "source": "About Manchester",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-05T07:33:59.000Z",
+   "title": "Verkada Accelerates Physical AI with NVIDIA | XRHealth Acquires Swing Therapeutics",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd0JMYjFOZFFFT2ZRVU9uY2kzT19DXzJ1Zjc1S0Z1S0xST2s5ZndNVUE3aWZqQmkyVEVqV3M2YVhoWEdCOENRdVFsNlNMRnNQd1ltSGx4U3N4ZGlMMGstbnRLaWdGeU1TdjR3ZTZsN3JaRDBxWTFYcXluX3oya0JfajZSdHlDajNxYUZTb0dTa3VkMlBXYnlpWHdmRHVEc0xRQ3VqNWliOTVkeFl0VjVLZzZ5clR6dGFya2tTTWIwakZTdmRZ?oc=5",
+   "source": "Healthcare IT Today",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T18:42:59.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.healthcareittoday.com/wp-content/uploads/2019/01/731587582-mergers-acquisitions-MA-consolidation-takeover.jpg"
   },
   {
    "id": "a38",
-   "title": "Can AI Be Used To Build Resilient Healthcare Supply Chains?",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRlJpLVFsRl9PQmV2UlhRR01pV3VXRm80R3FlSWtxdmp5Zk5FSml5djlROUFoOVB5TjlfeEp5N3hsRlR4TG1QRHNxdFd4OWlrcmlBR2Nrelc0ZjduWV9HZTgtVWRDSUN4SlBMdXV2SFU2MEVEOGVBc3d5bnJVV3pyZVNqU3p3ZHVTdVdabDVkczc3VEYzMl8xOFFhVjY2a0U?oc=5",
-   "source": "Healthcare Digital",
+   "title": "On Senate Floor, Murray Urges Colleagues to End Trump Administration’s AI Program that is Delaying and Denying Seniors’ Health Care",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYmJmRkJuOFBBS0lITzJnTzMwOU82eVBVTVlKcloyWE5sdFNEUWZrOG9RNktLVzNfU1NFbXNyb2RVd1A0LVlwQmpPOUFZODNSdkFZNG95b3IxRDBnRURRLVZ0UUN4QlZXQ3c1VnhNendmbDBWRGtoRW9sbjFWQnNLdzYweUpLYkRqYm43SkNtQl9kc1NSeTVNcVRfZWFTUnY1V2RNZmkyYjc5aGszY2JGdlBERGFQOTR4T1N0MGZ0ZGY4UEJoR2lUSHo3V3ByYlM2bS1hQ05qVnJiTUdiZkdUMlFiazdwZDQ2ZlRGWWx3RUw?oc=5",
+   "source": "Senator Patty Murray (.gov)",
    "category": "world",
    "region": "global",
-   "date": "2026-07-05T07:31:12.000Z",
+   "date": "2026-07-16T18:13:53.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.murray.senate.gov/wp-content/uploads/2025/10/Photo_9-1-scaled.jpg"
   },
   {
    "id": "a39",
-   "title": "NHS app to use AI to determine which service best for patients",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAteFJ4eUtLYnJ5NnJIdm1sNTNNeHhwTElIWWlJVkk0VTlDZTJfVGpLWGZKRzVNenVfc3gwSnFzYWlSUU53d0lRRUlRbU04Wklrd1NRRWhUWEZvaVZi?oc=5",
-   "source": "BBC",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-04T21:32:08.000Z",
+   "title": "Healthcare IT is the Next AI Growth Story: 3 Stocks to Buy Now",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOFlpOUVLaW9PWFYxVEdIR3FTWi1iamJLUWUtbkw1UzhWT0h2U29iMnJCY1lzZW5zazNJbzR5UWpnVWxoajdhTV9NS3R4bmdkTThDaXltcmhrZFRnYXBmNTJNbWZleFZzZ05WSzZKWWgxX19oZWJSOXJKVEJSSWVRNjdqdFhHYXJCX1oyaW92cm5wMmxTZEEtRzNlMFExLU1zYy0zYQ?oc=5",
+   "source": "Zacks Investment Research",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T18:12:01.000Z",
    "description": "",
-   "image": null
+   "image": "https://staticx-tuner.zacks.com/images/articles/main/56/159061.webp"
   },
   {
    "id": "a40",
-   "title": "NHS backs rollout of integrated AVT as part of £10bn tech funding",
-   "link": "https://www.digitalhealth.net/2026/07/nhs-backs-rollout-of-integrated-avt-as-part-of-10bn-tech-funding/",
-   "source": "Digital Health",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-04T21:30:16.000Z",
-   "description": "NHS England is rolling out AI tools across the health service, including integrated ambient voice technology, as part of £10bn tech funding.",
+   "title": "Nutanix Says Healthcare, Finance and Public Sector Face Greater AI Readiness Challenges",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnJuZHl6ang3ZEZMbVBCSXJ0bFJ1Tk9RZ2pNTmFBQm9PZGE0NU9yNWtvd3gyWW9MVVh4WUJIS2VaMlVHNVRIem9KeFZCVHZTY2wzV3o4Qmp0Y1RsUTktMnhHb3oyZW45U2hva1N2aE5uQll2WElfYTZsVlFKNkJrVWhlUnZmV3hINXptM0REQ2pTTXk1OE5zRWotVHIwQ3VvSkt0c3VvSG1NOTZ6MGd3dk1GTTROcHJOc2ZIN0JGLVJjSGo2TFQycg?oc=5",
+   "source": "HPCwire",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T17:41:33.000Z",
+   "description": "",
    "image": null
   },
   {
    "id": "a41",
-   "title": "Yukon clinics are embracing AI — too quickly, some say",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRnkwWDVsVlNTNThxS1VmTzRJeE9kOUtRT2NmTU1qWWZyTUIyVWVKR3U1clBXTFBTM2IzUnJDcVdQVjB3XzUwU1pLWG9OWUs3WENCY215MXVvLUllMzRVQ2lOeVhkaVlwZVZvQTNJSUpwY0RpRXZNcUJybE1EeGhNaUhXZW5CM0F0MGc5VmMyZzQxQl9CYVJtU0xwY0pxcXc?oc=5",
-   "source": "CBC",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-03T21:29:05.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a42",
-   "title": "Insilico Medicine highlights AI drug discovery progress at executive summit",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeG9wVXRkaXRMSTJyZzJYeGE1UEluWTU4UlVoMmRqcjdzbmY4aG1oMXpsb3hPS3FFZkMyT1VyX2VTRmVLRU5tOEQ4dmRpLTRCcEs5RHMzdEM5cWI1Tm9iZHZncE9wQ0Q1UmZjdDBOX3YtamZpbFRRbmlvUDNseWJmWTRBVjhNQklDS2R2VExodmxKbFZqZmRSRGlnYTlxSWV1VmxZNklyQTlrTUZtS1pLdm5GRi1FVWtFVmotSUd6cmU?oc=5",
+   "title": "AI-based nursing interventions can improve care of people living with chronic illnesses",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOb0JlUDNUaE5pR3N6eDJHV2VXTVkzaVFxaG1TN29uMmFwMVVjdUJRR1FlRzdtWjc0S0hSc3dIWEhPWERRbjlnMmpnYktVbW0yOWxTd3dlTVZWVHd1dFNjcEhFWDN0dmNwb2tQSnkxV00tekhEV1VfQi1JMEptUTNaT3pJXzZQUkNJdkI1dENRNEdOR3R2Yk9pZWJsSUZONGtycFZ5YVR2RXJjdTNFU2NPZEt1QmsxN2k5WUJjVm8zR2hzSEU2SF9yemU0c1FGeUFT?oc=5",
    "source": "News-Medical",
    "category": "world",
    "region": "global",
-   "date": "2026-07-03T17:42:00.000Z",
+   "date": "2026-07-16T17:23:00.000Z",
+   "description": "",
+   "image": "https://www.news-medical.net/image-handler/picture/2019/5/futuristic_techno_design_on_background_of_supercomputer_data_center_-_Image_-_Timofeev_Vladimir_M1_402c068791b640469e416c4f55d84afe-620x480.jpg"
+  },
+  {
+   "id": "a42",
+   "title": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDJQTDZXaGxCUUpGYzRET0hXUTRuZU5UdFY1eERwcWZ0SmlvUmZTcnBhMzRDV2VEQkJBVE1BbUMzbzktUm9SMi1rTThTbmNiQTB6RDVCYm5YWnBfRDhYR2RDU3QydGJtdGVQOU42cGtHazZwRjg0d3JYd0hGX2hOMXpiaGh6UWkxZlc4NVFDc3pQM3ozN2ZrVW42NXhHUzdIWnY3TkN2UDE?oc=5",
+   "source": "Sequoia Capital",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T17:00:13.000Z",
+   "description": "",
+   "image": "https://sequoiacap.com/wp-content/uploads/sites/6/2026/07/Open-Graph_Bunkerhill_2.jpg"
+  },
+  {
+   "id": "a43",
+   "title": "Coalition for Health AI launches implementation initiative for public health agencies",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTBUU2Z1ajBBdXBtYkxPZ0lPSml5aUx4dXdiYTRNMlpVT0VpZVNSZjFiNmFTX2hNd3V1SkVLc0hCZVBBYWI1SHJZTmZNRVcwSm8yVjAwVllDeFBMa29JZklYMURnZEpGVDllbVI2dVdhZVlKcGFIdzRkakc1SFZFOFZEWmZqX1B6SklxQm1VQkdyTF9ZS1NTM1F2YWVHLW53V0F2Y0U4akVka0E5anpMS21pZ0hHNjN6TXdIcE85Ui1tMEU?oc=5",
+   "source": "Fierce Healthcare",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T17:00:00.000Z",
+   "description": "",
+   "image": "https://qtxasset.com/quartz/qcloud5/media/image/gettyimages-2252942172.jpg?VersionId=PIkDSHpkZMht7aoWCjEDCYzNHszlNXYe"
+  },
+  {
+   "id": "a44",
+   "title": "'Headless AI' aims to eliminate healthcare bottlenecks",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRFdMZkVvYUpyX3ZfbE9tSnEwVHlGd19iTUswellsY0dpSE41N3RqT3hVcTVHZnpZSzJDNENZXzFqNVdlVTd5QmdFYTFsWm1KYmtTVm1GSklNVEdMS0xhV2ZKMHg1eFNGNG9FcVN3c2hZQnhnaEQ3a0hlaGUweXpQU3hZY1JlU2Z0UUNlcjFpMG4?oc=5",
+   "source": "Healthcare IT News",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T16:57:18.000Z",
    "description": "",
    "image": null
   },
   {
-   "id": "a43",
-   "title": "National review opens to inform revision of digital clinical safety standards",
-   "link": "https://htn.co.uk/2026/07/03/national-review-opens-to-inform-revision-of-digital-clinical-safety-standards/",
+   "id": "a45",
+   "title": "UK: AI-Powered Voice Technology for Healthcare",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1NSaC1FTEZNRXR4TzNMakowUHMxbDhxcjBtTGxXU25NcGFvWUstYkw3RkNONUR4WGk5azBqMG5RNlRneFVpdkdaSG5zVnhIM1R3YVJ0VFExRnlZZDdkTHdWeTRkenVodkZoQWRfb3pheEVSR0JweG5xdlFCUGVsZTMyMA?oc=5",
+   "source": "AI Magazine",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T16:30:05.000Z",
+   "description": "",
+   "image": "https://assets.bizclikmedia.net/1200/500290e9b3e67e84a759b8272fa44fae:2b065a9993a22f0a90ae29823423dd44/img94joktmu752378.jpg.jpg"
+  },
+  {
+   "id": "a46",
+   "title": "Pairly partners with The Access Group giving UK home care providers free access to real-time care enquiry technology",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNlVUc1dST2FfYnpSY1hUS3BFTEl1WktEYU1VUW9JNy1rbTNKODk4QTBXbGtPc0pWQlFGSU9vWXlENFhGS01PODNYWDR5N0huSUl4OHFmajI1S0ZmOFpzWncyVW15N1d0MkJfSTFDNDFCSGRBRHQ5YjVmQTZ2ckpKSFBlbm90c253NUtrV1J5ejgtUE9YSHpCVGxBNW80ZEFROFFvVllsSWF0WTl0Ny1NS3R3TDRPbzBGZTVxUVdvOU1PUTFVdDF5bjk0R2ptTGNOa2dFUUJQOA?oc=5",
+   "source": "thecareruk.com",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-16T16:22:16.000Z",
+   "description": "",
+   "image": "https://thecareruk.com/wp-content/uploads/2026/07/July-16-Anisa-Byrne-Headshot-002.jpg"
+  },
+  {
+   "id": "a47",
+   "title": "GE HealthCare lands $500M deal to overhaul Long Island system’s imaging tech",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjhMVjJ6eFhmTWVfWVpaUWRCYWpYdXVqQVE3VzFvOEFXNUNlR3pwSDROUTh4X3RMNTN3N3JIaXh4U2FnbU85bEtjZ1ZMT3QxZzUweGVySmQxbHFRMnR6QnZ4Qk9STGVhR1JyeGRmbFkwcUdpUHJIMDU3N1UzNnBqcjg1S1RKeVhqY1dWb1FZRzZUdDQ?oc=5",
+   "source": "Crain's New York Business",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T15:52:00.000Z",
+   "description": "",
+   "image": "https://www.crainsnewyork.com/resizer/v2/VB56T74F25GHBGWRZUKNYRLN3Q.jpg?auth=777ff933442d709b586b0339ac25fe40e01329093f714030151795239b50d7f2&amp;width=1200#.jpg"
+  },
+  {
+   "id": "a48",
+   "title": "Bringing AI-Powered Voice Technology to NHS Frontline Care",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZHA1ZnZMbXkzWjZGZUlmYkR6OHhQSmc2TXljNzlLYS1RTlRUNEVsdDRraHRyaUV4bFVlR213RE13REhQb1FpczJSRUptS0F1OWJPc1Uxa3pGMEdmLW9hbzhUSkdiYkQ2cWlnTTR4M2RlOVRROU9mWkZlTDNJS1VSUFpwWC04aVplRGtzaURFNA?oc=5",
+   "source": "Healthcare Digital",
+   "category": "world",
+   "region": "global",
+   "date": "2026-07-16T15:50:23.000Z",
+   "description": "",
+   "image": "https://assets.bizclikmedia.net/1200/e93ed1b5118da341100c54e54ed59b94:5b0f13a7931907001c8e96aa6afbeaa3/nhs-tech-and-ai.webp.jpg"
+  },
+  {
+   "id": "a49",
+   "title": "NHS AI use cases spotlighted by the WEF for work with FLock.io",
+   "link": "https://www.digitalhealth.net/2026/07/nhs-ai-use-cases-spotlighted-by-the-wef-for-work-with-flock-io/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-16T15:01:36.000Z",
+   "description": "FLock.io has been spotlighted by the World Economic Forum (WEF)’s MINDS programme for two NHS trusts using its privacy-preserving AI to tackle major diseases. Both trusts use its federated learning platform to train clinical models while...",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Flock-IO.jpg"
+  },
+  {
+   "id": "a50",
+   "title": "Large funding rounds help boost digital health investment in H1",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUUtWNFU4R0c3b19sTFlDUjdmTXlUcUtsc0tsSEJBTHpXQ0ZZazA0Zm84REhEWDlXRWU3azhSeFlMazRtU2JQdXRtRXByeDdrSkJtRTY1dkFnSHJWNUM5ellEOUhvSFNhbzlGemFsSHpyR3dJa1V1TV9KWnZHQXU4ckNTNVNrVUhmWDFmRUprZ1E5UW50LV9HbC13?oc=5",
+   "source": "Healthcare Dive",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-07-16T14:55:55.000Z",
+   "description": "",
+   "image": "https://imgproxy.divecdn.com/nlDyee9KzK2yLyDlBzCYcjhw3cPubCGcepSH2vc_5uk/g:nowe:0:0/c:5760:3254/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMDYwMjU3ODQ0LmpwZw==.webp"
+  },
+  {
+   "id": "a51",
+   "title": "LGA warns councils 'sidelined' by social care Fair Pay Agreement",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWVV0TEFYRDZUUEhmNHREWm5WWXNOWmZzVWZnb2h5N3pVLXdnVl81S0xHRTJhbVU1Ym4yZ2s4LXk0ajZ3TDlaak9PSjBJVzdJRkFSdzR2N1VJamlELURvS3hORDkya18yZk9SZ3BESEJRVmlCcHRGQmFJV19rY2QwQXNNbzY2NnM1UFQtMG9ZQkZoamsyTk4xOUJuaw?oc=5",
+   "source": "localgov.co.uk",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-16T11:37:40.000Z",
+   "description": "",
+   "image": "https://www.localgov.co.uk/images/teaser/shutterstock_274767922111.jpg"
+  },
+  {
+   "id": "a52",
+   "title": "Digital Health Coffee Time Briefing ☕",
+   "link": "https://www.digitalhealth.net/2026/07/digital-health-coffee-time-briefing-%e2%98%95-184/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-16T10:30:23.000Z",
+   "description": "Today's briefing features a partnership between Medneo and Ramsay Health Care and an AI-powered platform for neurodivergent adults.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2024/07/Coffee-Time-Briefing.png"
+  },
+  {
+   "id": "a53",
+   "title": "How University Hospitals of Derby and Burton accelerated its digital maturity with T-Pro",
+   "link": "https://htn.co.uk/2026/07/16/how-university-hospitals-of-derby-and-burton-accelerated-its-digital-maturity-with-t-pro/",
    "source": "HTN",
    "category": "nhs-digital-health",
    "region": "uk",
-   "date": "2026-07-03T11:33:29.000Z",
-   "description": "NHS England has launched a national review, seeking views from suppliers and users of health tech to help improve DCB0129 and DBC0160 standards. A review is required due to tech advancements and the acceleration of digital transformation...",
+   "date": "2026-07-16T09:29:35.000Z",
+   "description": "By T-Pro Driving Clinical Transformation: How University Hospitals of Derby and Burton NHS Foundation Trust accelerated its digital maturity by consolidating 3 systems, streamlining 10 sites, and empowering thousands through T-Pro. In ju...",
+   "image": "https://i0.wp.com/blog.tpro.io/hs-fs/hubfs/UHDB%20Stats.png?resize=810%2C456&#038;ssl=1"
+  },
+  {
+   "id": "a54",
+   "title": "Wembley care home receives 50 roses from pop star Harry Styles",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1LRUU3M25sZkUyYS1ka3BBeUpISHdDbktrNFZFNm5xNzcxeEt4S2V6Q1V3QXEzN05zbGxWYjV6ZjlRdWdxa3BqZXNYNm5pNS1qNjRmaGt4aTFjdFBWSk5CSXZEWW42Z1FEZGxxbDhYbDl3UXlu?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-16T09:23:49.000Z",
+   "description": "",
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/16/Harry_Styles_Together_Together_Amsterdam-1024x683.jpg"
+  },
+  {
+   "id": "a55",
+   "title": "Mid and South Essex ICB highlights shared care record, unified EPR, digital for integrated neighbourhood teams",
+   "link": "https://htn.co.uk/2026/07/16/mid-and-south-essex-icb-highlights-shared-care-record-unified-epr-digital-for-integrated-neighbourhood-teams/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-16T06:49:34.000Z",
+   "description": "Mid and South Essex (MSE) ICB’s annual report has highlighted uses of digital across the system, including the expansion of the shared care record, progress on the unified EPR programme, and the use of digital tools to support integrated...",
    "image": null
   },
   {
-   "id": "a44",
+   "id": "a56",
+   "title": "Accelerator programme to help innovators enter NHS primary care",
+   "link": "https://www.digitalhealth.net/2026/07/accelerator-programme-to-help-innovators-enter-nhs-primary-care/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-16T06:30:43.000Z",
+   "description": "Digital health innovators are being offered a specialist accelerator programme designed to help them engage with NHS primary care.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-7.jpg"
+  },
+  {
+   "id": "a57",
+   "title": "Leeds to test digital tools for young diabetes patients",
+   "link": "https://www.digitalhealth.net/2026/07/leeds-to-test-digital-tools-for-young-diabetes-patients/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T12:30:39.000Z",
+   "description": "Leeds has been selected as the UK site for a European research pilot to improve diabetes treatment in young people using digital tools.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/New-Project-6.jpg"
+  },
+  {
+   "id": "a58",
+   "title": "NHS Midlands completes at-scale procurement of ambient voice tech for 1,239 GP practices and 15 trusts",
+   "link": "https://htn.co.uk/2026/07/15/nhs-midlands-completes-at-scale-procurement-of-ambient-voice-tech-for-1239-gp-practices-and-15-trusts/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T11:48:56.000Z",
+   "description": "NHS Midlands has completed an at-scale procurement of Heidi’s ambient voice technology (AVT) solution to cover all 1,239 GP practices and 15 acute and community trusts in the region. The region-wide procurement, led by The Dudley Group a...",
+   "image": null
+  },
+  {
+   "id": "a59",
+   "title": "NHSE quality strategy signals “making quality the organising principle for all NHS activity”",
+   "link": "https://htn.co.uk/2026/07/15/nhse-quality-strategy-signals-making-quality-the-organising-principle-for-all-nhs-activity-in-england/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T11:12:25.000Z",
+   "description": "NHS England has published a quality strategy to outline a structured approach to “making quality the organising principle for all NHS activity in England over the next decade”, including the use of data to measure and manage quality, the...",
+   "image": null
+  },
+  {
+   "id": "a60",
+   "title": "Digital roadmap for sepsis sets out recommendations and timelines for digital infrastructure",
+   "link": "https://htn.co.uk/2026/07/15/digital-roadmap-for-sepsis-sets-out-recommendations-and-timelines-for-digital-infrastructure/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T10:49:15.000Z",
+   "description": "NHS England has published its sepsis modern service framework, putting forward a digital roadmap with recommendations and timelines for digital infrastructure including the single patient record, the Federated Data Platform, EPRs, machin...",
+   "image": null
+  },
+  {
+   "id": "a61",
+   "title": "How an AI app is improving NHS wait times in the West Midlands",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBON1RFQmdqREI0bFR0NnFBVldXdDZPWTc5VVc4Zi1lTjVLazJaWWdINVpSMTdnVmhkSThfYTZnZGg1S2xFdDhkTGhpM1lFX2hpemZmY1RJWHoxQQ?oc=5",
+   "source": "BBC",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T09:57:43.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/d398/live/cf4a88f0-8030-11f1-a2a1-e90920ef9667.jpg"
+  },
+  {
+   "id": "a62",
+   "title": "Aaniie Care: The Only AI-Enabled Home Care Platform that Truly Does it All — From Personal Care to Skilled Nursing",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSUJnVW9md3V5emtBSHg0bzdxODhxMWFjNG9kTTFFTC1QSUEwTWVOQklWV0FhdXEzd2pWWm1lYXU1YUVGWE5HeUZrV2pBOUl3bGtoX05EWDR1UlhDa0JscTNGTlVlVEFiTlV6NFRpRDlTUFdoNHlROGpXMWdWWnlINjNQcTBSUjlaVTNTbzlqMkRyRnIzOEQtMnd3YnlwdzAxREp3eE5XcWtvY1lPeHd5WFpOMWdPRUh0?oc=5",
+   "source": "The National Law Review",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-15T09:16:25.000Z",
+   "description": "",
+   "image": null
+  },
+  {
+   "id": "a63",
+   "title": "Daniel Ek’s Neko Health raises US$700m for preventative health tech",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOemY3dGJHc25CTlVxRkthMTc5WWlaM25hcFNySFpwWGdxcXQ5VENWMEJla1I2T0pDQ0RySFNrNS1VOFdicWRocmN6RzcyLU1xLTFfSXhoaFpzbGV4X1dRQWpRUzhXS2xRYlZtMEZadGVJYk1ZamRvb2VfZEgxcFJOVUM3ZVJMcU5PS2VkUUpMS3U0cm1LaE1INVJmVmtFbWdkZGppcHg5amg0VXpPRXJsWDlB?oc=5",
+   "source": "Health Tech World",
+   "category": "startups-funding",
+   "region": "uk",
+   "date": "2026-07-15T08:12:22.000Z",
+   "description": "",
+   "image": null
+  },
+  {
+   "id": "a64",
+   "title": "Mark Zuckerberg backs Daniel Ek's health tech startup in $700M funding round ahead of US launch",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPR3JCLTh1NVhfYVd0Ni1hc3A1TVFjUlg0UXluMUwzX3JmOEpPaWJPd2F2Y2R5bnJ6U01raGtqZmVJa1podEM0bVRVaEZPN1R6c2h1S0htUDdZVjVnUV8tWldpeXZuZ0ZNYWhLeVNyMFlkUXpMNGlTNnZfQ2hhS1g3VQ?oc=5",
+   "source": "Tech Funding News",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-07-15T08:10:53.000Z",
+   "description": "",
+   "image": "https://techfundingnews.com/wp-content/uploads/2025/01/Neko-Health.jpg"
+  },
+  {
+   "id": "a65",
+   "title": "Fierce Healthcare Fundraising Tracker '26: Neko Health banks $700M; Rime secures $24M for voice AI platform",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
+   "source": "Fierce Healthcare",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-07-15T07:00:00.000Z",
+   "description": "",
+   "image": "https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-2239247472.jpg?VersionId=O2vt5_MjQs.ngtgPypG.cvaAVhhqV9O2"
+  },
+  {
+   "id": "a66",
+   "title": "Northamptonshire links digital care plans to NHS Record Locator",
+   "link": "https://www.digitalhealth.net/2026/07/northamptonshire-links-digital-care-plans-to-nhs-record-locator/",
+   "source": "Digital Health",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-15T06:30:26.000Z",
+   "description": "Digital care plans for patients in Northamptonshire have been linked to the NHS National Record Locator for faster treatment recommendations.",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/07/Matthew-Hutton-Integrated-Care-Northamptonshire.png"
+  },
+  {
+   "id": "a67",
+   "title": "Consumers happy to use AI for simple care home enquiries, survey finds",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CMG5MdWR4UTVEdmVSZ2NzcWZNSTR3SjUtRUg1MndnRWVZZ0ZJWjVOY2RNUG1RZ1IzRjFTbE9pbVdxZ1dRTmYxbGJBdnZNLVJrRnFDNnV6Ym1wQWJJbl9OLUs1SlRQWUpTTnlfOUZ2dlUwUFcyN1E?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-14T08:29:08.000Z",
+   "description": "",
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/14/shutterstock_2656070457.jpg"
+  },
+  {
+   "id": "a68",
+   "title": "Government of Alberta uses Claude AI to locate and fix cyber security vulnerabilities",
+   "link": "https://htn.co.uk/2026/07/14/government-of-alberta-uses-claude-ai-to-locate-and-fix-cyber-security-vulnerabilities/",
+   "source": "HTN",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-14T08:27:16.000Z",
+   "description": "The government of Alberta has employed Claude AI to locate and fix cyber security vulnerabilities across government systems, said to assess 466 million lines of code, implement fixes, and run continuous security review. Claude Code’s Opu...",
+   "image": null
+  },
+  {
+   "id": "a69",
+   "title": "Global blood glucose monitoring market to nearl...",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWmJlVWJQajVVTlRpeTNseWswOU9Va3oybXZVWDBJb3k0VzJPVFlCRzNYR0hDNzBDWjByclA4NXAyNUdYZDM3OUhGbGNZODdCSEZKV29QQzdZN1VaLTZOTlp1c0NpOXMzNUoyM1c1bk1RQnZvbkloVjhJNXVjaTJ3bjVKY0FuRHhmVXhsNTV1UTNCR1JGeTN0dnN2WQ?oc=5",
+   "source": "Pluang",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-14T05:04:43.000Z",
+   "description": "",
+   "image": "https://image-cdn.pluang.com/web/compressed/market_news.webp"
+  },
+  {
+   "id": "a70",
+   "title": "NHS Accelerates Artificial Intelligence Rollout to Cut Waiting Times and Improve Care for Millions",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2F1VkNON3ZFeUpCQ21jNTRGaW1xeTlQX1RMOVRmM1lwWnVuZGVXeEhJY2puM3lKY2NCaU1GcDJHRzZyTVpsQWRUT3oycFZxc1NRb0c5Y2dQdVd3cnMtY2R3bWtNTkhaWjRuYVo3R0ZQWFMzVS1kd3pVVUE5TmxOUUpmMmVUa1pnbmJ1SkwyZmYzdjNtSXRnWVN0M29PdDFhQ1dEVjB1M0VoWC1iM2I1QnkwQUpVdFJ2Ti1oYnd0Zw?oc=5",
+   "source": "thecareruk.com",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-13T09:53:03.000Z",
+   "description": "",
+   "image": "https://thecareruk.com/wp-content/uploads/2025/05/nurse-holding-ipad.jpg"
+  },
+  {
+   "id": "a71",
+   "title": "MHRA adds economic growth to its drug and device regulation remit",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZVd3YXpGM2l4SmxqNkJ4U0xSeHlFektuZVlBS2Rub293UFFNZWdscFRTQzhoOXdHd294RkpkQjRGQzlvcEJicjJUUUxUdnlaZnh0aExkWm9VdnFUQUdDUzE3cG9LN05hQ1ZyV1J5LXY2dGlLTERUWUlBVFZWRmR0YnFsY2hPcEh5bmVPb0lNSTVadlNPUFBzRU5xNHVCNUZ1ZEwzcHBoUXdKZw?oc=5",
+   "source": "BioWorld News",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-07-10T16:00:00.000Z",
+   "description": "",
+   "image": "https://www.bioworld.com/ext/resources/Stock-images/Money/Economic-growth-concept.jpg?height=635&amp;t=1783708489&amp;width=1200"
+  },
+  {
+   "id": "a72",
+   "title": "Kidderminster care home to host free digital skills workshop",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRlR2djk3TEl0N0xzYXZNRkl0TmFYTVNZYnJCVi02dzFLZzBqQ1FzbFdCazFFb0VVWWxacXd1YzhabGg0cEhrMDNtVjM5TnFRcnc3ckx4emtYSFg4VVlFd1c5VGVzd0dUWGh3WUpkOU9SYWZSUWNpX3l6a2lUZ1gwRkZzRlhWLWdzQW93NjdOcXBRSWRvV0tBU1RoSkQwRXRxMGpaS3p4SkY?oc=5",
+   "source": "Kidderminster Shuttle",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-10T15:00:00.000Z",
+   "description": "",
+   "image": "https://www.kidderminstershuttle.co.uk/resources/images/21148970.jpg?type=og-image"
+  },
+  {
+   "id": "a73",
+   "title": "Opinion | \"A once-in-a-generation opportunity\": Care leader shares thoughts on National Care Service",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IR05LV2tWbGdZX2oybVNPOXg1SUtVa2p6VUFPYXdyRzUtV0M3dnh5OXBDMXMwZ2tIcGJEbHI0SnNxYk55MV9aWGV4dWRzVmtSaFFiaTJkc0k4TWxNZVFXVE9rcnVBeGdRSm9aM1k3MTNqWE5UOFE?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-10T08:51:42.000Z",
+   "description": "",
+   "image": "https://www.carehomeprofessional.com/cloud/2026/05/13/Jayne-Connery_10-1-1-1024x682.jpg"
+  },
+  {
+   "id": "a74",
+   "title": "NHS to roll out “AI triage” under £10bn digital investment",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRLWt5TkdrVGgtQ0ZGTHJzTHhyVlNLTjY3T2tQV0VhTWViaDMtSWdPVWhVdGZtdkwzSXlOdk1kazNnVnp3dGZwZWZ2YU1peWhReG5oR3JmbzRYdW9lM0NHZGExbmJ4bHJiZVZPMldfR055aGxsOURmYUk3ZFBWQQ?oc=5",
+   "source": "Building Better Healthcare",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-09T16:22:47.000Z",
+   "description": "",
+   "image": "https://buildingbetterhealthcare.com/article-image-alias/nhs-to-roll-out-ai-triage-2.jpg"
+  },
+  {
+   "id": "a75",
+   "title": "Former care home manager abused position to steal thousands off resident",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1NYmgzaFpXdVZoQ1NLZmt1M0NTa3JmYlpmX080ZjJYMGtvdnBpWDc3dF9wZTduSEZMaGFHWjVwWkprYkE5WDJHbXJ2NWtxOVBldmNncS1fZXdBWjM1bHlVOU5JQTZBN01tOVdsdEM0WQ?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-09T16:20:26.000Z",
+   "description": "",
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/09/pexels-cottonbro-4542839.jpg"
+  },
+  {
+   "id": "a76",
+   "title": "NHS AI blood test could reduce invasive womb cancer checks",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMmNYb0VrSzExOGZ2Y2FmZkxBYnlpc3d6MkdrUFpxVWY2NzBBS1d1QUZuMm5EX0VWWXZ3eE8yR2xuYlViTXVXeWpYOU5laTZLdXBRRThRSS1rZENNRXdQRzA0OEtwcUdKSDdXd2RLV0Nka0pqdzJHX0w2MkU1bTlXMVVfV2F1b25ySXp1UXltcw?oc=5",
+   "source": "AI News",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-09T10:04:39.000Z",
+   "description": "",
+   "image": "https://www.artificialintelligence-news.com/wp-content/uploads/2026/07/NHS-AI-blood-test-could-reduce-invasive-womb-cancer-checks-scaled-e1783560044317.jpg"
+  },
+  {
+   "id": "a77",
+   "title": "Racial inequalities between social care staff: what the data says",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUVLMWthNGZaS1J1dlE0enE4SnVfVHNsU2xXeW9ReFVncDJQeFB1bkNiNnk5dXRQTVJiT1E4RGtqWHh4b2lNQlcwTnlJdXN5ckk4Y0h0czh2VENmUDEwLXlrTVVuVms0YkxWb25LQTU3MWxUU3haQWJEcFdOMUhldXh6LWVkS2VpVktKYXRDb2UxNWNwWkJKcmJSaDYtdkZzTGpkWDhxclRmN25pWXc?oc=5",
+   "source": "communitycare.co.uk",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-08T19:31:14.000Z",
+   "description": "",
+   "image": "https://www.communitycare.co.uk/media/fcppckoe/the-word-inequality-spelt-out-across-a-black-and-white-backgroundprostock-studio-adobe-stock-249522651.jpg?width=1002&amp;height=564&amp;v=1dd07b34eff2f70"
+  },
+  {
+   "id": "a78",
+   "title": "CSP responds to roll out of new NHS artificial intelligence (AI) triage tool",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTV9pTVVQZFU5MkttUk1oX1FXWV9Xbm5rQmsycU1YTGNLOFM5UkozVlZ3amRyVWpSU0d5bVh5Qkk2aFRoaUhYazVveWRlVUI2RUdvakFHaFFGWGJDTGxaQk0tMGxOZFFKNGZmb1hVOW5xRGtwMEZNdXRWUVlvQVR5VWxzMGxydDBpV1hMQnNvalhBVzNmTTdWUGxjZDJwN2VfaTFvR3dBUTZnTHM?oc=5",
+   "source": "The Chartered Society of Physiotherapy",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-08T10:42:00.000Z",
+   "description": "",
+   "image": "https://www.csp.org.uk/sites/default/files/media-image/2020-05/artificial-intelligence-3382507_1280.jpg"
+  },
+  {
+   "id": "a79",
+   "title": "NHS to use AI symptom checker to direct patients to the right care",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdG85NWtDTENxTTNueE9GQ2J6ck5sV0lxZ1RIVllMT3RxNDhPQzdHY3E2NVg0UXFqTjQ1dkdFTDBOMTBPT0NyVmxsRGRMZVBscWJvLWVwS0tkc3JYQXlQbWkzRTNaU2ptR1J6YUstLTBqSTlXdS05a2hha1Q3MFcxaGxOZlJnT1hoWlJGVF9Zbm1LdTU2Q2F0Tk1RYjN1TlN3WVE?oc=5",
+   "source": "Female First",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-07T10:00:20.000Z",
+   "description": "",
+   "image": "https://www.femalefirst.co.uk/image-library/partners/bang/land/500/t/the-nhs-has-launched-a-national-drive-urging-millions-with-a.jpg"
+  },
+  {
+   "id": "a80",
+   "title": "Avid Health at Home Completes 8th Acquisition, Featured as Leading Technology-Enabled Home Care Services Platform",
+   "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWHVHQmtLejNsbVo5ZXlyaUhqdHdhcmRLVlQwSDQxZG5kcTNWZFRTV2pMUlZtd0szSTR3Y0xSQUliLVVCakNFcXB1MXFkN0hPX2pyMWZYVGZVX2NZMUpsSlpWbGZYQjgxTlNoaXZPLWRDcHFmekpYSTVCYUUzQzVnNlQ3a29xbmpYc0xHbEZFT3lEb2RPRC1lT3BZV1BSMUo0WU9OUGpYLWxmQktKSzJMVHZsSVJHY0hrMU1hNmpLMnZfRWh6dVR4bDV3VjlGTFkzdEpxSmtySkxGTkRkanJsMzZkTUtyMUVBTHZoVHBQcC1kdzEzbXlVbjV4NVo?oc=5",
+   "source": "PR Newswire",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-07T07:00:00.000Z",
+   "description": "",
+   "image": "https://mma.prnewswire.com/media/1558487/Havencrest_Capital_Management_Logo.jpg?p=facebook"
+  },
+  {
+   "id": "a81",
+   "title": "CQC says surgery at QEH in King's Lynn requires improvement",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sLUphdXR0TTZfZ2xVLVVzQl9WSW52RG44UkU2VzFuSXc2Y3NDTThMYlpLU0NkS2huNEJ1TmlWMGZ2dEM5YWJxZ0VEeXNLbnUzdFo2WmZmVlQ1QQ?oc=5",
+   "source": "BBC",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-07-07T07:00:00.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/a2cb/live/1b65dfa0-79ec-11f1-af3a-6f11866b2c27.jpg"
+  },
+  {
+   "id": "a82",
+   "title": "New CQC assessments risk ‘overwhelming’ GP practices, RCGP warns",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNVU5WXF3aXpoSkZ4WU1MYUR4VmxRTWxzaTd6QUJJc0ZnLUlnVnIxRWlYUEZESE1fcWVhbThDVHVSRjZxcWdZQ3VQTzlTU1dibW5tTmJ2TmE4VnRNRkVjbGx3RkR4WUh3VjVzNWhySkUwZzR6Tk1OellIM1VIZ1NpaFExcWJLUDl0SEljX096Q2xIRnVOZGNuNW1INUV3Ujh4ZmcxTWd2ZUdlMm8?oc=5",
+   "source": "Pulse Today",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-07-06T14:50:40.000Z",
+   "description": "",
+   "image": null
+  },
+  {
+   "id": "a83",
+   "title": "The NHS 10 Year Plan demands AI readiness. Is your workforce prepared?",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMTR1ZHNGczFjNGF3eWVqSmIyQVhRa0tpcmlRU05UWmZzNjh1eEctNGxpQ0lxY2ItRlJrUVpIZEllZFIxZ2JYRXlkLWZFZ2pjZG9FYUlNR2Vod21UdnBDcnpsNzVqcW9pWFFqMDE5N0hpUGFxYk1fMnE4RThwVXd1YkhWdnh1OUFTTkQ1R2xsLXYxYlRLdGplajByR2NnUGtESTBYa3VaazlYVVVwMl9R?oc=5",
+   "source": "National Health Executive",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-06T10:17:55.000Z",
+   "description": "",
+   "image": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-07/AI%20Guide%20on%20Motif%201.png.jpg?itok=5mog9Wrk"
+  },
+  {
+   "id": "a84",
+   "title": "NHS accelerates £10bn AI rollout to modernise care",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVmk5VHBHM19LamtlY3dtQzBCLWY1RjNkNE1VZG02Q2FJekFiTVVlcGNjWWpSa0ZzRnRUZEdzOGh1TkFhbGFhcnJFYnVNMWNnTlNKVEdsSzh1OVg3TWNHWVJkWjE5MXpnN3dpOEpIZWhFR0dESkk5d1FxZzdoUWtRb3NpcHZ1TVBtUHl0YWZPVU5sSlBwdW9DU3lFdFVFZw?oc=5",
+   "source": "National Health Executive",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-07-06T10:00:02.000Z",
+   "description": "",
+   "image": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-07/Health%20AI.jpg?itok=sQRYtAlc"
+  },
+  {
+   "id": "a85",
+   "title": "Thousands benefitting from new technology to 'improve social care services'",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRWVGSk5MRU9JZnZHZlhrVWhtQU0tbV9xZ2dBYWxjcUt0Y0dRVG53bkhFejA2ZTBHTXhwaTd4R2hpY0w2UWlteWdxNnhReG9GQnpaSEctb0RfT09wVUdYWGMtNjFfaXhjWkFTN0RTbGE2aU1SRGg3QmhzNHBSOUx3MDdtWDQzTkNROWh0Q19wTUR4Z0FjYzMtSHNvblphb3JXNmpPdjBlWGRRQzRwVi13VlA4eUlFTkNqOTFGTjBB?oc=5",
+   "source": "Glasgow Times",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-06T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.glasgowtimes.co.uk/resources/images/21147971.jpg?type=og-image"
+  },
+  {
+   "id": "a86",
    "title": "Leaders in Care Awards 2026 – NOMINATE NOW",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON2UzR2kxRFJHaVBIdW1ONEw2TTRnV2xsc05lc01OMFJ6UU45Nks2bFFkYWFCemJNZzM3d0g3Sl85b3RDZVRCME0yQzNwcnkxc2t6NWliZTJFcXN6WFJUY0lrNTYtNnlfbDZpUkVYZUR2dDJXNDh1dlhaeUpDRWdScw?oc=5",
    "source": "Care Home Professional",
@@ -494,76 +956,21 @@
    "region": "uk",
    "date": "2026-07-03T11:30:47.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/03/75z6Ghzx-DSC06257-1-2-1-1536x1024-1.jpg"
   },
   {
-   "id": "a45",
-   "title": "Will AI Replace Healthcare Jobs? Not How You May Think",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYWpqUDUzZHFtUGp2Q3pHb1JDYktPb0RGdFpxTTk5ZGhNUnZROVFjZ1Yza0g5QUVVUGtXUVVibW52T0ZNbXBaQWI0UEtSTVU5dUFPOFUyejhvMFFSdGtpbnZ6NjV1OGcxX2Z2blNNVFB2NWNkY1hYOElzZTMzb28wLTU5MEtLcGs?oc=5",
-   "source": "Forbes",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-03T11:15:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a46",
-   "title": "Data Security and Protection Toolkit compliance reaches new high",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUHBQcHlocV9OT0ptNnV5X1RvODE3YUozRGhYQW1INUdhY0oySTlRUVNTYmo2OUttTEh2VTJXa0Q2STQ5MDFSMFh0WWRWbU9YZVNFbFgtanJ2ZXBiS0tUQjdnTGt2b0Frdl9qenI4eDlGa1JMQ0RlYWJwS0xnWTBHTkZVTDNlbngyNjNHUVRZeXlBWDVyejIw?oc=5",
-   "source": "Caring Times",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-07-03T10:42:12.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a47",
+   "id": "a87",
    "title": "MedPal AI raises £5 million to expand care-home platform and support oral Wegovy launch (MPAL)",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT1ZuWDg5VkdyanJ0eVF2TXl0UzBpVS1YRkEzaTZ5S2F2LUdEREJsOHlTNzFIcFVBQW1oZTdRWG81YkZoRzNBckZuVlBRQTZXWFhlWTNCMWlUeWdmaTBhaGZ3NWV3aGJ3Y1Nad0pvb2dKYlZkckV6WnZaeGtfcU40UA?oc=5",
    "source": "Yahoo Finance UK",
    "category": "social-care-tech",
    "region": "uk",
-   "date": "2026-07-03T07:29:19.000Z",
+   "date": "2026-07-03T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://s.yimg.com/lo/mysterio/api/281D0F10E37435AC51C8689E4FF470F5BA9177EF979D2888277206E7F2D6CA0F/subgraphmysterio/resizefill_w1200_h659;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fadvfn_uk_848%2Fa3fb91e6dcd500464beb3509a84d8aa4"
   },
   {
-   "id": "a48",
-   "title": "Telehealth, IVF services tracked visitors online without consent",
-   "link": "https://www.healthcareitnews.com/news/anz/telehealth-ivf-services-tracked-visitors-online-without-consent",
-   "source": "Healthcare IT News",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-03T06:52:03.000Z",
-   "description": "The Australian Privacy Commissioner has found telehealth provider Medmate Australia and fertility services provider Monash IVF breached individuals' privacy by collecting sensitive information through third-party tracking pixels on their...",
-   "image": null
-  },
-  {
-   "id": "a49",
-   "title": "Te Whatu Ora plans robotic surgery adoption and more briefs",
-   "link": "https://www.healthcareitnews.com/news/anz/te-whatu-ora-plans-robotic-surgery-adoption-and-more-briefs",
-   "source": "Healthcare IT News",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-03T03:47:05.000Z",
-   "description": "Te Whatu Ora seeks robotic surgery suppliers Te Whatu Ora Health New Zealand has completed an early process to procure Soft Tissue Robot-Assisted Surgery Systems. The planned procurement also covers associated accessories, consumables an...",
-   "image": null
-  },
-  {
-   "id": "a50",
-   "title": "Pfizer Stock And 2 AI Healthcare Picks Investors May Want To Watch",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdkxUWXQ4cC1ueF9LY3RIQjdkcUR4VWlwY2R4Tk1JeTctZDhkS0ZLeDMzSjlKWEpObW1zN2d1XzJvLTZRcHlKaTZhaVJ2bGt0aUdIU3lEbFBra2owNnBJMFdDd1JoZjBfdWs5NjZxcWx3bnNOVWJhaXhPQUEwS0tXeTVkcFZIU3czbDlPUzNVZVZyckg2X1JTa0ZCZS1FSlZCNVBFeDlxYUxfRk1DSlNyM1dLU1ItMXhLUnJuekp5SWRueUg4ajJiQ2xCQnNjdy1RZ0HSAdcBQVVfeXFMUHJmUG9BRmw5c3dZeFNWakZaLTZrVWNvRkRHZ2x4M3JrNGpXZUFGVkJmX2cydlVocnhYRUVNVGU5cXVQMW5xcG03d2pWVHBXZjN2UF9Ra0FENl9VcWF2cUFpaGpoYkpNV21BWnJhckFGVjd6SVBRSC1NZjBnXy1sOFhHSjRXNlRwNkpzRF9NMWpzZnJSRHhkc1dIc201OWJWZ0RqbFI2ZVFaeDBaUGtjeXBZRVJRTTFrN1MxNE9oVFFkbkdCdTU3U0FZbmg2cGxfYzMzR2dyRVk?oc=5",
-   "source": "simplywall.st",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-02T22:00:52.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a51",
+   "id": "a88",
    "title": "Care Home Professional - July 2026",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPR2tVbDZ3TUZCakVUVXh2bkxCY0ZFN1FWeTNyWWhJajdzVlo3Q1h1ajdFU3J3UWhkZGsza2NzaHZSdTBfWjBGdmpzMzZSLVA1NGlwTDIzTWpabUE4Z0w1X094SFR1UXFFTjNKMk1yT2RwVFFCUnFIUmRsaV9OQ0I4eWVWOUt2dXhnTkE?oc=5",
    "source": "Care Home Professional",
@@ -571,21 +978,10 @@
    "region": "uk",
    "date": "2026-07-02T17:05:39.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.carehomeprofessional.com/cloud/2026/07/02/CHP-July-2026-768x1024.jpg"
   },
   {
-   "id": "a52",
-   "title": "Transparency data: NHS injury costs recovery scheme: April 2026 to March 2027",
-   "link": "https://www.gov.uk/government/publications/nhs-injury-costs-recovery-scheme-april-2026-to-march-2027",
-   "source": "GOV.UK DHSC",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-07-02T16:01:03.000Z",
-   "description": "Data on the funds collected by the Compensation Recovery Unit and funds paid to the NHS.",
-   "image": null
-  },
-  {
-   "id": "a53",
+   "id": "a89",
    "title": "Scotland has already made the case for proactive care technology. One category is missing from it.",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVzR1NmJWTndBQzhncUs4RzQwc3NIX2ZkX1pHdE1jNlNuWVFHRXNtX01rTjI4b2l0eGJYYWJSVGV4TnIwU3FiZVZJV0N2UElPc3pfeU1fcnJoVEp6a3AwQjhIVXJXOTlDVFo4MUw4a2NWOWE4UnFYbHd4SGktdHZONGo1VnoxLW5oOUNoaFJOcW9QamttbUFLenkzOVBsdUZtNUx2SlZfX0c3T1BpQV9sV0ZVaG45S3RQTTRZUNIBwgFBVV95cUxPa2o0QnJGcVdwdHlzNUxSczg0QVBFMWpBelg4R2NSZF9ULXBtWUZBbzEtQ2ZiM1licnFpXzR0bzM3dVpreE5XSUtYelVLcE10dXMySVhGc3ZxcHFYM2VfTV90aFBSQ0hZcnJ1MWNKU3RUTU9Xd3VYamVKWmFDWUg5N05RU0Iyb3pJa2xPUjhKTmR4YVZTZ1MzLVJqS2N5dF85UFZXU3VwVDFSaHhCdzQ2c0k2ZUt3RkUxMlVZeERvVU9udw?oc=5",
    "source": "FutureScot",
@@ -593,197 +989,10 @@
    "region": "uk",
    "date": "2026-07-02T15:02:59.000Z",
    "description": "",
-   "image": null
+   "image": "https://futurescot.com/wp-content/uploads/2025/12/Abilia-image-Dec-25.png"
   },
   {
-   "id": "a54",
-   "title": "All of Us of Research Program hits major milestone for precision medicine",
-   "link": "https://www.healthcareitnews.com/news/all-us-research-program-hits-major-milestone-precision-medicine",
-   "source": "Healthcare IT News",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-02T14:33:10.000Z",
-   "description": "The National Institutes of Health this week announced another landmark in the years-long All of Us Research Program: the most expansive data release in the project's history. WHY IT MATTERS Data from more than 747,000 participants is now...",
-   "image": null
-  },
-  {
-   "id": "a55",
-   "title": "Why enterprise architecture has never mattered more for integrated health systems",
-   "link": "https://www.healthcareitnews.com/blog/why-enterprise-architecture-has-never-mattered-more-integrated-health-systems",
-   "source": "Healthcare IT News",
-   "category": "world",
-   "region": "global",
-   "date": "2026-07-02T14:32:52.000Z",
-   "description": "There is a scenario playing out, quietly and expensively, inside large integrated health systems across the country right now. Let's say a clinical department champions a new AI-powered diagnostic tool and modernization of clinical workf...",
-   "image": null
-  },
-  {
-   "id": "a56",
-   "title": "Complaints soar at leading NHS hospital with patients turning to AI",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa3NVZFJtS0tzTDhSeHU3S2dKSDIwelpadThNS01YS09mVGZ2akVQWW9hRE5ieGpncE8yNzFBTkZ5WFRUaVczeS1PRG9EY2xLWElFSUVYbkktOUJqc1l3Zkw1QXdRcU94M09udFdnc3Y5dHFBOXlGbVlROHZvdk9JQkNvaFl3MF9QQl9qZ0NZZjJhLVl1aTVOS0lTTWVVZFozaXZXU2ZoOS1hS3ZwUFE?oc=5",
-   "source": "Border Counties Advertizer Oswestry",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T11:52:05.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a57",
-   "title": "Digital Health Coffee Time Briefing ☕",
-   "link": "https://www.digitalhealth.net/2026/07/digital-health-coffee-time-briefing-%e2%98%95-180/",
-   "source": "Digital Health",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T10:30:56.000Z",
-   "description": "Today's briefing includes medical cannabis accreditation and a system to improve musculoskeletal performance or rehabilitation.",
-   "image": null
-  },
-  {
-   "id": "a58",
-   "title": "De-skilling, mis-skilling, never-skilling: an AI-ready workforce needs a skill-decay strategy",
-   "link": "https://www.digitalhealth.net/2026/07/de-skilling-mis-skilling-never-skilling-an-ai-ready-workforce-needs-a-skill-decay-strategy/",
-   "source": "Digital Health",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T10:00:56.000Z",
-   "description": "Everyone is asking whether the NHS workforce is ready for AI, but we should also be asking whether it's ready to work safely without it, writes Yvette Khosam.",
-   "image": null
-  },
-  {
-   "id": "a59",
-   "title": "Technology helping residents stay independent and connected",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX2gzaDAxSzh4em42RU1naFlyRWtzVG9UM0ZBVVhOelBvamVKbXFkbk10NTVwRV9GS2RSYnlYSXI3LXhuaGFRYkpuaHJvN09RV1hndWZIRU5URWtLODJ5OEllOGZ5TnMzWlVxR2JoaG5QbkxvSVNHMnNkRGdvX25lMW42am9Bbm5BNGdTczl2dFcybWNyVGptLXI2WW1ucFFMSjlfTzFEWW1PWmtxN3pIWk0xMGJNUQ?oc=5",
-   "source": "South Lanarkshire View",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-07-02T09:56:15.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a60",
-   "title": "Official Statistics: Adult social care client level data, England: quarterly update to March 2026",
-   "link": "https://www.gov.uk/government/statistics/adult-social-care-client-level-data-england-quarterly-update-to-march-2026",
-   "source": "GOV.UK DHSC",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-07-02T09:11:07.000Z",
-   "description": "Official statistics in development on insights from client level data from local authorities, including information on assessments and long-term support.",
-   "image": null
-  },
-  {
-   "id": "a61",
-   "title": "Guidance: Safeguarding UK human genomic data",
-   "link": "https://www.gov.uk/government/publications/safeguarding-uk-human-genomic-data",
-   "source": "GOV.UK DHSC",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-07-02T08:44:54.000Z",
-   "description": "Guidance setting clear expectations for how human genomic data is made available to approved users.",
-   "image": null
-  },
-  {
-   "id": "a62",
-   "title": "Tech in social care: getting the basics right in an AI and cyber risk world",
-   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVS0wenBvV2p5WmdIczJIaFNNNkhHczlxeGswOHFPd1JyMFVINjN1ZlpzSm9oREtnbWZjbXhuVXdEVzd3bl9sWHRnSE16c0FyRUlWeHhxV3ZWWDBZZnFZOWJpVnpxSGIxcDlRcHk2VldKZ0V2Q0UzWkhLbGtRcm9IdWZjRElZaElKVDVLMEMyR19scVJGd3Z4UUVlSXl1NWk4cU5YQXJCRV8yalFOWTVOMy1sR25YRXlubTgtLW1B?oc=5",
-   "source": "DAC Beachcroft",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-07-02T08:33:12.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a63",
-   "title": "DHSC opens engagement for GPs and practice managers on how patient data is used across the NHS",
-   "link": "https://htn.co.uk/2026/07/02/dhsc-opens-engagement-for-gps-and-practice-managers-on-how-patient-data-is-used-across-the-nhs/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T08:21:10.000Z",
-   "description": "The Department of Health and Social Care has commissioned a national programme of engagement for GPs and practice managers, to “genuinely influence” national policy with their views on how patient data is used across the NHS. The NHS Tra...",
-   "image": null
-  },
-  {
-   "id": "a64",
-   "title": "Sheffield City Council awards £8.9 million contract for tech-enabled care",
-   "link": "https://htn.co.uk/2026/07/02/sheffield-city-council-awards-contract-worth-8-9-million-for-tech-enabled-care/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T07:22:46.000Z",
-   "description": "Sheffield City Council is awarding a contract [standstill period] with a value of £8.9 million to Devon-based Taking Care Personal Alarms Limited as a strategic delivery partner to support its tech-enabled care service. The delivery part...",
-   "image": null
-  },
-  {
-   "id": "a65",
-   "title": "Immersive, simulation and related technologies purchasing framework extended by two years",
-   "link": "https://htn.co.uk/2026/07/02/immersive-simulation-and-related-technologies-purchasing-framework-extended-by-two-years/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T06:51:43.000Z",
-   "description": "The NHS England endorsed immersive, simulation and related technologies dynamic purchasing system, offering a procurement route for health organisations, has been extended for a further two years. The purchasing system is designed to hel...",
-   "image": null
-  },
-  {
-   "id": "a66",
-   "title": "HTN ICB Region Series: North East and Yorkshire",
-   "link": "https://htn.co.uk/2026/07/02/htn-icb-region-series-north-east-and-yorkshire/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-02T06:27:19.000Z",
-   "description": "ICB Region Series: North East and Yorkshire For this edition of our ICB region series for 2026, we take a deep dive into what’s happening with digital and data across the North East and Yorkshire region. We’ll explore pilots and innovati...",
-   "image": "https://i0.wp.com/htn.co.uk/wp-content/uploads/2026/07/ICS-Index-Web-Advert3-copy.png?fit=800%2C600&amp;ssl=1"
-  },
-  {
-   "id": "a67",
-   "title": "Health care stocks and AI | Health care sector | Fidelity",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0ZjaDV6UHlmZjc3dlQ4b2p5Y0M4bFBhblBVTlZRRjc2dGt4MHN0bk81dUhEWVM3bk9OdnhwSU9UUGVlWnVzbndGaDlNaFhtd1ladmxyQ0YxdTlTQmJ4RXdRdEphSE5fTDh3WmJSYjN2UndwV2hENjdOaVBhU2MwRjFIZw?oc=5",
-   "source": "Fidelity",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-07-01T18:53:11.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a68",
-   "title": "NHS Greater Glasgow and Clyde rolls out digital triage system",
-   "link": "https://www.digitalhealth.net/2026/07/nhs-greater-glasgow-and-clyde-rolls-out-digital-triage-system/",
-   "source": "Digital Health",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-01T12:30:57.000Z",
-   "description": "NHS Greater Glasgow and Clyde (NHSGGC) has begun rolling out a digital triage system across its emergency departments.",
-   "image": null
-  },
-  {
-   "id": "a69",
-   "title": "Freed: ‘We throw away money on digital bets’",
-   "link": "https://www.digitalhealth.net/2026/07/freed-we-throw-away-money-on-digital-bets/",
-   "source": "Digital Health",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-01T12:00:26.000Z",
-   "description": "Benefits from digital are there for the taking, suggests James Freed, deputy director of the NHS Digital Academy.",
-   "image": null
-  },
-  {
-   "id": "a70",
-   "title": "Birmingham Community shares transformation plan aiming for productivity improvement of two percent per annum",
-   "link": "https://htn.co.uk/2026/07/01/birmingham-community-shares-transformation-plan-aiming-for-productivity-improvement-of-two-percent-per-annum/",
-   "source": "HTN",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-07-01T10:22:17.000Z",
-   "description": "Birmingham Community Healthcare NHS Foundation Trust has shared details of its digital transformation journey to date and future plans for digital and information delivery to 2029 in its latest board meeting. Progress has continued towar...",
-   "image": null
-  },
-  {
-   "id": "a71",
+   "id": "a90",
    "title": "Accelerating digital innovation in social care",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObnM1V0dVZzRsU3RfUTBwV18waEZSdXR2THdVaFQyQmtBb3ZhZXFaMVh6SFhJa3pUTThnYzZrRVlBVjlTUzBDN09KVmxEcUo1ZURDaGF1YmJmZzdlR25kYm1ESjQ0R25od19QcFg2cE5CVHBsaTN5OF83VE5xRGhkRjdGMnBDaDUxR2hNTFB6aktoRFhrNEN0ai1Icw?oc=5",
    "source": "HealthandCare.scot",
@@ -791,10 +1000,21 @@
    "region": "uk",
    "date": "2026-07-01T08:46:35.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.healthandcare.scot/news_thumbnails/004451.jpg"
   },
   {
-   "id": "a72",
+   "id": "a91",
+   "title": "Health care stocks and AI | Health care sector | Fidelity",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0ZjaDV6UHlmZjc3dlQ4b2p5Y0M4bFBhblBVTlZRRjc2dGt4MHN0bk81dUhEWVM3bk9OdnhwSU9UUGVlWnVzbndGaDlNaFhtd1ladmxyQ0YxdTlTQmJ4RXdRdEphSE5fTDh3WmJSYjN2UndwV2hENjdOaVBhU2MwRjFIZw?oc=5",
+   "source": "Fidelity",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-07-01T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.fidelity.com/bin-public/600_Fidelity_Com_English/images/learning-center/twitter/health-care-sector-deep-dive-1126641994-twitter.png"
+  },
+  {
+   "id": "a92",
    "title": "Arlo to Deploy New Aloe Care AI-Powered Wellness Service with Home Helpers® Home Care",
    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeEpyTVNfUlFScjZfbXBHdHVMOGUzczU0Sy0zTl9jZXBhSzRoQW1kZ3NucllTdWR3d3ZjZ0tpMDVyWkwtNDNRcjVCVDhBaEZqY1BaZlhFbGxiT1RjeE1tb1liRkdtTjVwZkVIcm9QQzlBSl9DdlQzdHRqTDRNZG5MTGpXZHFFWkk1LXhDOTFaNzVPeFlrYVlHSWhIVEN5ZzJ0TkNLT2JnTjJ1bWZQLTV6dEJrbTZ2YWJRMkpsS2hpRjJOVmVGOVNLNXM1Vjk5QVNZMnFvTE81cw?oc=5",
    "source": "PR Newswire",
@@ -802,87 +1022,98 @@
    "region": "uk",
    "date": "2026-06-30T12:05:00.000Z",
    "description": "",
+   "image": "https://mmx.prnewswire.com/media/MS492927/Arlo-Logo.jpg?id=OA2744667&p=facebook"
+  },
+  {
+   "id": "a93",
+   "title": "Adult social care in Suffolk is 'good', says CQC",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5mMlJXbkY0Z3VrTTlMWko4V2hoQVZGejAyYmVtS3BGT1lBUy1oYVpRMHBWMFJyeXZ2bTI3bEk0MWtGcnNscWRoT3czUEhicWJYWHh5S19KVHRlUQ?oc=5",
+   "source": "BBC",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-30T07:00:00.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/33ff/live/44b554b0-3ca9-11f1-8e26-931170ebc0de.jpg"
+  },
+  {
+   "id": "a94",
+   "title": "Arlo and Home Helpers add AI wellness calls for aging-in-place care",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNk5WWmM0a0FsRXVEQk9BWjhnSjlzaXhRX2pWaXFSTWM4Y2IzSVlsbmJ0ZFNBZlhQOFJ0bTBlcXZ3bUZrRlctYmxQaHBFZHN5ankxZTRaSUJrY2hJSTNnM2J3eE5SNDVLZHZoQ2lEV3NoczY0b3ZPN1JLRWdoUGV1SDN2MkRoVi1ZRGZTVEZLa2xZN2hrSFBfUk4xUjhGWWNHRVhIWW5welk1TDhNWWhtVEdTSEhhWEZPZ0xveUVn?oc=5",
+   "source": "Stock Titan",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-30T07:00:00.000Z",
+   "description": "",
    "image": null
   },
   {
-   "id": "a73",
+   "id": "a95",
    "title": "Arizona’s Partnership for Economic Innovation Funds Six Healthtech Projects Including Perimenopause Startup Prickly Pear Health",
    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWUxWVTY5N3drVXdmdUhOV0czX0M3MkVpZmlCNmFHaXhkVE9qWVQ4QXAwS3QzZEtweW5wZ3VoOFlQTGhMVEo3YTBPVU11X1NDOElieFJOU1ltbVczRHN4OWtQU25iTVdmVlY3MWs5Z0hTX1RJR1cwampvaGJiQks4TDlRMEdCZl90aXhsekV1SEhwc2NFZm1vVWRpeHNPT1BSYl9PaVA4SjA5YnBFODhNVmlXNEtyQUl0WGJGcGQ5UXFuTVVuZm5oWUx0dWRTRGpDNTEzZTBEVHgyeGJ5LWtYY3NMR0hGSURZVEE?oc=5",
    "source": "Femtech Insider",
    "category": "startups-funding",
    "region": "global",
-   "date": "2026-06-30T06:53:40.000Z",
+   "date": "2026-06-30T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://femtechinsider.com/wp-content/uploads/2025/02/imen-maaroufi-clark.jpg"
   },
   {
-   "id": "a74",
+   "id": "a96",
    "title": "Exclusive: Regulators poised to strip back AI rules",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN0Npd0dNMldva2hMSE9TbUxvQUJyUDlMUGlLQ3J6dzdSUmhYa21BbTZnZW9RWC14Vm1mQjRmMkg5elpjaFZCOVhHSW1FclhZbk83YXhMeWdDQ25NdmJ6X1RiMnpWMzNta0dNNl9GUTI2bkE0Q09oajdWRExIejJlTFZoR3dFMTRGYV9hZjV4R0lYS3M2N0J5WTNYU2VYY2hfY1dERDZuU1dXVktUSjRuYzNJdnY?oc=5",
    "source": "HSJ | Health Service Journal",
    "category": "policy-regulation",
    "region": "uk",
-   "date": "2026-06-30T03:39:21.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a75",
-   "title": "Fierce Healthcare Fundraising Tracker '26: Trase secures $107M to scale AI agents; xCures lands $46M",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaFJTdWtYZzBuMHVULWhJWFV3dVB3d0NfeEE1V0RMcV82Z2VFZ2ZtV2x2ZDBYTG1ZUnQ1RGFsZ0pFWmNFZW1rczNCOFRDUjFCTlFvUEplLVFuZmpHRVpfS2pZX3M1ZjZDaFUzZVV3QURjclpScmZlVndpaWlaN3hBNU11dWRpMkxmamp5ZXhR?oc=5",
-   "source": "Fierce Healthcare",
-   "category": "startups-funding",
-   "region": "global",
    "date": "2026-06-29T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://d3e6tmgg461bic.cloudfront.net/Pictures/1024x536/7/1/9/4035719_istock2155793304_660349_crop.jpg"
   },
   {
-   "id": "a76",
+   "id": "a97",
    "title": "Investment in Israeli health tech startups plunged 40% in 2025 – report",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmRHR1dUT2daaVFlUndwaVAxVTNndi1hVWtJM3RubmVVNURaTHFlQTh1Z3hmNlVpZUdjVjd1YTlaMFFuczdjblp4aDVFekp3eC1vNnZXcjlKSEtZNmVWMWozMXBRVlNtVmwxeUltbWpBU011ZGdwam9qVmx0TWFVbHhnZzZ1T2lfTEJLR2g2X1Y5Sk50NGZnMG13NnXSAaIBQVVfeXFMTUt5VEVBV1ZEZnhucTgtYmEzMXlYS1o3eTdxQTlrSVN0b3pibWtDVmI0LUlqekczZ0o2RjFVbzBCcERQQy1sOGstUnJZVnJ6cVYweEVJdDdnVXFsX01KVUFmN0xuRGlaQWFLZ2hEcmFYd0doblBpRTlzbWxlX0xfRW42X0pkcm9kQk1TXzdzNG5RbVZoQUh4RHRRMzRqOGZVVXBB?oc=5",
    "source": "The Times of Israel",
    "category": "startups-funding",
    "region": "global",
-   "date": "2026-06-28T16:13:00.000Z",
+   "date": "2026-06-28T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://static-cdn.toi-media.com/www/uploads/2018/03/digital-health-1.jpg"
   },
   {
-   "id": "a77",
-   "title": "Week 26’s Biggest Startup Funding Rounds in Latin America Led by Telepatia",
-   "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZmI3WG13VGJ5VEZ5QUhIeUFxcFhNQ25FOTEyZTJ5bDlYVTgyN0N0WGFtUTdZc1pZUUdvY1lTbnJkd3Ezd044Vld6ZW1SWnU3Ykk1Z3diMHAwdEhmMjBncms2Z1BuSXVNclJaRnhUV3cyZFV5NEFyX2w3MmNhSzBhanRNMjFPYllFZ21DcU1HT0FuVUhrbTBvNmNyeGR0QmtnUWl3T2ZEMVgtc3V4NW9fcmg1ZTR2UldqVXhaa2NBNVBfN0VZTk9KVzVra08xX215TzIwMXJxTFdORWJp?oc=5",
-   "source": "Techloy",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-06-26T19:20:09.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a78",
-   "title": "What will Burnham as PM mean for NHS IT?",
-   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNnkxMTRNTThhbGo5OTdLRm1uWWFNSkxGSmlucHdoTFdDT0VDRHlYVUhzTjloVnJCUVJhd3NTNnRPdW9MaXY3MmFESzkzdllnS2hURTN6QjRjbndRVWJoZHJoQUh1TU5sS2ItOVdYQTZWYzhzRUROOXRMUUZzU2RBMHo4ZEI?oc=5",
-   "source": "Home | Digital Health",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-25T10:04:35.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a79",
+   "id": "a98",
    "title": "Adult Social Care Digital Transformation Must Be Central to NHS Reform, Says techUK",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQWVLUkh1OEJHMEowa3FXdXhYSlM0T0psbVhWbS11bm0zbzZpd1RhU1F2bnR2NTJScXZpVUZ3Z3NocDB4OE1wX21YcDE2a3BLdm5jeHdNY0I2ZjRVVjVuWVJTYjhQNWVTeWtHaTJnN05kdXdCUXNvbDVnc3pwMWd2TmU3YjBNVU50MmdudFdlQmxvZVNkZDU1aUhQVkowUC02b0x0QmU2a056UQ?oc=5",
    "source": "thecareruk.com",
    "category": "social-care-tech",
    "region": "uk",
-   "date": "2026-06-25T09:45:18.000Z",
+   "date": "2026-06-25T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://thecareruk.com/wp-content/uploads/2025/04/DementiaTechnology3.jpg"
   },
   {
-   "id": "a80",
+   "id": "a99",
+   "title": "‘Adult social care is vital to NHS reform – and we have tech to deliver it’",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR25XcnhWZWFHdXpXRFFSczNkUFcwTlhieXlUT1JlLWtQai1Sc0ZVZkZHeTFHeDNnM01KX2J6c094MU11TXJlamFqbm91YUVDdHo3TVRUdHRyb3hHbUgzX0Y1aTRaNWJMX3RPTE9MQ1VtWk4zYm5SbUU4MU9kMXlreTJlSUJRQVBHckVNT2dvd0xySzBpaXduWUhlX1czc2NJenhMM0JWTDE?oc=5",
+   "source": "businesscloud.co.uk",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-25T07:00:00.000Z",
+   "description": "",
+   "image": "https://businesscloud.co.uk/wp-content/uploads/2026/06/Elderly-person-with-nurse-credit-Age-Cymru-on-Unsplash.jpg"
+  },
+  {
+   "id": "a100",
+   "title": "Eight ways AI is transforming the delivery of in-home care",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOODNHMWR3NTBkNDBHYjdnTnpydGtQSlJDbnF6Y3ludm5UQlJNWl9tOWYwaDVidVRZajRTbVNfUWFKQUFvajdTbTJFbjZLWE9ya0xmQlNOOXM0cktsVzZxdzB5cTlERE1pYlNPYmhrbWl0MF9hcG96a2ZXQUpscFlnYlE3aFU4MGdCTE5GZDZUblFOR0NjaGZBblRfN3N5VUE?oc=5",
+   "source": "McKnights Home Care",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-25T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.mcknightshomecare.com/wp-content/uploads/sites/10/2026/02/Selection_Computer_Hiring_GettyImages-1408596915_1440X810.jpg"
+  },
+  {
+   "id": "a101",
    "title": "Connecticut home healthcare agencies adopt AI to support patients and caregivers",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2JMdzB0bmZoUkdxaDVrN0VhYi15bGlsbE9KSWVGYS1oMXZnVnoyamFpb0dBdjd3Ty1ERGR6aWpaSUVrRUVDNXkwa2h6MV81N2I0cFJhRkhnb1JvM1U2RXJCVF9WNnNWWlBqY3Q2b04yd0hlRnpfbDRjbkg2NnhTc1BjSXlXWHl1V1FTeHk5dVBZV28?oc=5",
    "source": "CT Insider",
@@ -890,21 +1121,21 @@
    "region": "uk",
    "date": "2026-06-25T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://s.hdnux.com/photos/01/66/47/00/31092745/6/rawImage.jpg"
   },
   {
-   "id": "a81",
-   "title": "‘Adult social care is vital to NHS reform – and we have tech to deliver it’",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR25XcnhWZWFHdXpXRFFSczNkUFcwTlhieXlUT1JlLWtQai1Sc0ZVZkZHeTFHeDNnM01KX2J6c094MU11TXJlamFqbm91YUVDdHo3TVRUdHRyb3hHbUgzX0Y1aTRaNWJMX3RPTE9MQ1VtWk4zYm5SbUU4MU9kMXlreTJlSUJRQVBHckVNT2dvd0xySzBpaXduWUhlX1czc2NJenhMM0JWTDE?oc=5",
-   "source": "businesscloud.co.uk",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-24T23:54:20.000Z",
+   "id": "a102",
+   "title": "Health unicorn Alan raises €480m Series G round led by Prosus",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQME4xQkhhWlB1LXR1YVVGaVdlX2lONmtqWEJ3T1FsbVNJcmZvNTJadFZ3VnBIT3lHeXFSakJYU2J5WC1MaHVhYnNkY2dzNkNOUEZCZmV5dzA3OEMzZVNLWVlocjcySjFBeE1KQndiNjF3R3R6aG9WYXdlOElxVU9sRw?oc=5",
+   "source": "Sifted",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-06-25T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://images.sifted.eu/wp-content/uploads/2026/06/25110857/prosus-leads-euros-480-million-funding-round-in-alan-img-01.jpg?w=1500&amp;h=1000&amp;q=75&amp;fit=crop&amp;auto=compress,format"
   },
   {
-   "id": "a82",
+   "id": "a103",
    "title": "Prosus leads €480mn investment in French health tech start-up Alan",
    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZXBUdWh0dlEyLTRqLWdPUkJtcnIyOWhxXzZaQzRURl80RGZSUGE5NkhpQjk5eXZVOWVQbmJpX05xWnRyemprcmJMX05HQzFVUFc1ZkhBWnNoMWcxd3Ewc3U3aEw3M0pCZFU1ODNCdmphb3R2RzNVLU9Rb0IwZDNjbFVITVg?oc=5",
    "source": "Financial Times",
@@ -915,29 +1146,73 @@
    "image": null
   },
   {
-   "id": "a83",
-   "title": "Manchester Met wins funding to boost AI health innovation",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY1J0ejd3OW5JampOUlY2amhZekpSWW9rZkJ3cGd4S1pKWFFIUjFfR0g1Y1Jqd0JMMklMT2RBSS14SzFuOGl2RWlvMWtaMFN1UnNZTUswblBhMnctS1BRLWhfa2o2enBWbm5ZVkJWYmlvUVJ2S3N0eUd0UWpaUUNtbkVtV1RFM0J6ZjFLcnYxWDJRRXhqRDZHblBmZV8?oc=5",
-   "source": "Home | Digital Health",
-   "category": "research-innovation",
+   "id": "a104",
+   "title": "Assort Health scores $120M series C to scale voice AI agent platform for healthcare",
+   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOREx2eWZCQkFpNzl2WnBsMUh3clllRFpVdkhhZ2l4Qzg1WXM4Y2tZaGhET2hNd3VQRDNIX1RHb01VbHlzX1BRV1JaMkpPMkhOdjUwb0FZa0RSS3hleGkwcndBWXZRSlI4Ul9uMm10YVQxQzFqZFFwbklkSmxtZ1IyMUhQSDJrSU05M2tvSmNlT25YeGFCUmFYWkZtRDdiRVJHZ3NjQkRzbF9IZWVobGRYVkVUeEVvQ0RGWVBMTGhSTVF4dDBLZ2hDcTdXTHA?oc=5",
+   "source": "Fierce Healthcare",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-06-24T07:00:00.000Z",
+   "description": "",
+   "image": "https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-2207160096%20%281%29.jpg?VersionId=ClXjsEgney3C9tyHyHG6uzOXqr_Ae3g0"
+  },
+  {
+   "id": "a105",
+   "title": "Capital raising in healthtech: Laverock Therapeutics, University of Liverpool, Cardiovolt.ai",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeUVVdW1YaVlXUnBwd1BsMlN6S2k2NUx6U01IRHpxUU9FYS1NNXNpd3lXdVFPTFJWSGNWQXk1OGR0bkx6eTA5bWk2U2tWcWw5WDJjU2JqVlFycXo2RGZjMGhGU3pyeW40SjRXNklVbF9hU0FNWml4alU4b0tEakYtSi1uNmhuck1iSkFMMmlvVDRrcFZZVDhrbnZCQlVQajlQaTMxa3prNUhjVVdfSFhualZsX1pWbjhQY2ZHOHFPQ1hqekE?oc=5",
+   "source": "Healthcare Today",
+   "category": "startups-funding",
    "region": "uk",
-   "date": "2026-06-23T12:34:22.000Z",
+   "date": "2026-06-24T07:00:00.000Z",
    "description": "",
    "image": null
   },
   {
-   "id": "a84",
+   "id": "a106",
+   "title": "MHRA launches London AI health sandbox to accelerate NHS adoption of medical technologies",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYVp4TVlYNFVSc3RlZmNjU1JRQ1ZnM1JtVnBVVTVES21HeXhnZ3pFWWJmQVJlelA4ZF9NcmZ2NElMMndWTUhJS3Y5SDNRdnZySVozakNhTEQ2M1hHMHN0dk53dzhyekRndVJCTVpsVUVBcllWaUJKM3ZoY3duSVFxUEtmQTFUVGxNUEhhdG9rdHFfdWNUdmdnTENBZVZrWHppYzlPMXVYZUkxZmtBVUVBMGNMcmwtS3NHR1VGYmxhRk5icU9SNHlHcnRkTkxpT001MDRUNVJON1pLaUE?oc=5",
+   "source": "THINK Digital Partners",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-23T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.thinkdigitalpartners.com/wp-content/uploads/2020/11/health-care-tech.jpg"
+  },
+  {
+   "id": "a107",
    "title": "MHRA reports find broad support for AI in healthcare",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMmJtZlc4ZUF0UF9nTjNlOWg3OXNaSFFmMWpqdGp2eXE3RW9MSWl6RDFPTjFtZk5yZ1laVlI2N0RzeGMyMGlBNFZ1ZXlCTjhiSjVJR2lrSGhYQkpLUFNvX21ibFB3VlpnQ1luVE5hMDRYRTdralBPdjJxNUxwZDdsQ1BvUmstVDJoOUJCWENlLVFJOXM?oc=5",
    "source": "UKAuthority",
    "category": "policy-regulation",
    "region": "uk",
-   "date": "2026-06-23T05:03:54.000Z",
+   "date": "2026-06-23T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.ukauthority.com/media/izmdy5w5/istock-panya-mingthaisong-2199586292.jpg"
+  },
+  {
+   "id": "a108",
+   "title": "UK backs new AI labs to make technology cheaper, more reliable and easier to use",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTE9BaF9JeGVLTzJjQ0VvbEs2SXM0NHNyaHA0WkxBWGloWEd5VTFsVFQ1VUxVa2tZUnlSNXM3cmJvWEV1ZkhjZy04bXBVcWg1aTI0eFJTZWFoRGZ6bHJ3eTZVVVhJREhESF81Yll0MVN4NE5IdTJyaE8waklCdXc1bXRTSmxVMWt1UVFaWXBpUkZ1WWJ5bl9JZ1hoM3FyNWZPbkc0OVhiSlZaMGZReXFQb3g3eE0?oc=5",
+   "source": "GOV.UK",
+   "category": "research-innovation",
+   "region": "uk",
+   "date": "2026-06-23T07:00:00.000Z",
    "description": "",
    "image": null
   },
   {
-   "id": "a85",
+   "id": "a109",
+   "title": "Manchester Met wins funding to boost AI health innovation",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY1J0ejd3OW5JampOUlY2amhZekpSWW9rZkJ3cGd4S1pKWFFIUjFfR0g1Y1Jqd0JMMklMT2RBSS14SzFuOGl2RWlvMWtaMFN1UnNZTUswblBhMnctS1BRLWhfa2o2enBWbm5ZVkJWYmlvUVJ2S3N0eUd0UWpaUUNtbkVtV1RFM0J6ZjFLcnYxWDJRRXhqRDZHblBmZV8?oc=5",
+   "source": "Home | Digital Health",
+   "category": "research-innovation",
+   "region": "uk",
+   "date": "2026-06-23T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2026/06/New-Project-4.jpg"
+  },
+  {
+   "id": "a110",
    "title": "techUK's response to the National Commission’s Findings on AI Regulation in Health",
    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObVpYTm9IWk91UHRvX1FYWFliQUk2SXFlcWI5NTBHTVg0bWFjME56MEpoVmF2a1R0aElKV1NRb2NTeWdwMVl3aGE0SXV3TEdraUt1Vi00T25SZGVVeTVhUU1QX1kxV0dubFQtZ1J2ZGlSbzFPZmRra25uTXdacGdfcy03ZzNmWG4xWGpkOTNpUjR2Um1lVjc5SzBna3AtcGhXdHUzT1FpTzdvNWcwcHR5TXJRTTd4RUllNlNuZ3ZEU0x5SHVyQUpIMHhfX1EtbkhJSnhCNktFU09zdw?oc=5",
    "source": "Wired-Gov",
@@ -945,32 +1220,32 @@
    "region": "uk",
    "date": "2026-06-22T15:06:20.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.wired-gov.net/wg/news.nsf/channel-social/DNWA-9U5EA2/$file/TUK_social.gif"
   },
   {
-   "id": "a86",
+   "id": "a111",
    "title": "What might an Andy Burnham premiership mean for health, social care and MedTech policy?",
    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYlNRdXZYMFFZcFd0cGpuNGtmRVdVc1pDNTU1SnYzRk42OWVnazdyeFNoVUkxZnRhWS1rdXBGTUh5alI5VGEzRDA0TTc5czQ4ZVNxMUpvNkNCdjFlWExUeVFjNlhyc21fa0tUQl9hUXlvWlhCdnQwZVdaZFNfT1VqUjh5RDFhRk02MGNSODU5MlVqaUN0WVJuY3RUcGh6azNTSndLQU9PdkctV3MzaVlMdGFDZmIzRkgzTWVXMGJwMFF1eWhf?oc=5",
    "source": "Med-Tech Insights",
    "category": "social-care-tech",
    "region": "uk",
-   "date": "2026-06-22T09:30:52.000Z",
+   "date": "2026-06-22T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://med-techinsights.com/wp-content/uploads/2026/06/shutterstock_2054393915-1024x683.jpg"
   },
   {
-   "id": "a87",
+   "id": "a112",
    "title": "Sir Keir Starmer resigns – what will it mean for social care?",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ETEJraFViNENlN2lTN3A2dE1xQ1NFV0RRNEV4aFVCUWhiUER6QXJyd05La0M2dEp2UnZwQVNzaTRrTm52MDRuUVRMamtIRGV1Z1B3eXZlUjZUVTdITkxRNWdQaEttV3RoTWJwaFo0RFRuaUM2dTdNRWpLUVBEV1U?oc=5",
    "source": "Care Home Professional",
    "category": "social-care-tech",
    "region": "uk",
-   "date": "2026-06-22T08:58:03.000Z",
+   "date": "2026-06-22T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.carehomeprofessional.com/cloud/2026/06/22/Prime_Minister_Keir_Starmer_Portrait_cropped-1-1024x683.jpg"
   },
   {
-   "id": "a88",
+   "id": "a113",
    "title": "AI startup Midjourney enters health tech space",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaEtWZEViZ2Q3aUJmTUlzc0ZiRGZNUUxnUFNWZDFZQWZwQTRTenhJU2pNbEZYRG9BR2k0UHBmOHNRejZrZEtLR2w5UVRobVE4bndzSjV3TzlobWVkMmFyS2pDOVVSQVk0MWJCajNGdFZobEZvV3ZMbG9ObThVS3VRZ0xIUDRnUlc0NzkxM1VQMGJNcGtSbVQ0bm13eUl6RXBm?oc=5",
    "source": "Health Tech World",
@@ -981,7 +1256,7 @@
    "image": null
   },
   {
-   "id": "a89",
+   "id": "a114",
    "title": "Start up Everlab raises $65m to find diseases doctors miss",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPcHFxcU9naWlvYll6OGZscUIwZEtTRXNEYnh3S2w0U0VFMWJFTEtibF9PNERzdmZmWEljN0VBRWxZTHRDZ3RydGJsRng3a3hZWldCU1RjVzRpMDJtejNGM2d6U0gzZ0dudkpHSWxoZjBOcTNoZ3MyaXVKQjF6UzV2YlpZQ3hMOHNTTXdLWEFzTkcxM21ScEhIYVJDMlVNYXV1ZVVQNHF0aUJ6NnVyaklaT2VVZ05sa0VINDZoRmwwNmJDWERDVno0Qklhcml4MWk1cFVWYXMtdUdBdkk3dHZZQmVhMzhCb2RWNWszOWxFbmhQZ9IB9wFBVV95cUxOazRjQ1RHU1JjTkNVTGxydTh2a25zOFJzanZxNm5MVFkzM0ZVOE1JbUpFV29NUmVtY0pGVzlWbTdTdlZFVHBFNUJDTWhpVTBLNmdHdzYzQkxZb1pYRnRqS0IxMm8wd3VIUUczTTJXXzBOZllUZGNjUFJnU3hfUVFUd3VwZGgwRFhLb3VwTlBxaHU1ZGRWSVEyMU5QTGVBcUp3SldETk1LOXNiNlQxT2dQd3RfQk92U2ZVR3FZZDFISXp4bDJiTWZlalNlQ2NHdzdsUmZYblZQb01MQ0hQang3ZDhWMTNrYmdHOUhDQVpMenFKdUdXM05Z?oc=5",
    "source": "The Australian",
@@ -989,10 +1264,10 @@
    "region": "uk",
    "date": "2026-06-22T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.theaustralian.com.au/wp-content/themes/newscorpau-news-dna/dist/images/fallback/fallback-theaustralian-169.svg"
   },
   {
-   "id": "a90",
+   "id": "a115",
    "title": "In the NHS of the future, you may never need a doctor or nurse",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSFh6Vms4bWRhbi05OTdVVDBGZzdKVkR4X2VGTWFRYnpibFlKN0xhajF5ZGtiYnhxcDNQWS1lTWFvQUl6N1dkWVpvbEY2R0NhNFZKVWpuYjh2YjdCbVA1RDUxMXRDbnItd3NiWS1fbXhMY2NDZ2Qxd3dHSFBCU2F6RTgyOW5VVjcyOHprQXlJV2NzRnUt?oc=5",
    "source": "The Times",
@@ -1003,40 +1278,40 @@
    "image": null
   },
   {
-   "id": "a91",
+   "id": "a116",
+   "title": "Between June 15 and June 20, 2026, as many as 19 Indian startups from diverse sectors raised over $469 million in funding from investors. These sectors include AI, Deeptech, Foodtech, Cleantech, Insurtech, FMCG, Wealthtech, Healthtech, B2B, Creatortech,",
+   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyUjlaSlMxZkFCTFJ1TDZJVDJ0WWc4Mnh3UWlvdGF2UXpNT3pleC1vYjFlV2RZT2k0bG1YYlpCQXNXdVd0SVI4SjM2TUVTUEQzM2c?oc=5",
+   "source": "instagram.com",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-06-20T07:00:00.000Z",
+   "description": "",
+   "image": "https://scontent.cdninstagram.com/v/t39.30808-6/727268380_1641534277606131_2324512865415608429_n.jpg?stp=c216.0.648.648a_dst-jpg_e35_s640x640_tt6&amp;_nc_cat=105&amp;ccb=7-5&amp;_nc_sid=18de74&amp;efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&amp;_nc_ohc=qLgB3TMIlHoQ7kNvwG4wBuH&amp;_nc_oc=AdqsZ_69PJM3nMlZEMeuw8nR_HESAGwrgbxMl0q5WMQq78VF_INPfiS8KYobVi_1ldmypUAbzldlFNfq2GF-MPkR&amp;_nc_zt=23&amp;_nc_ht=scontent.cdninstagram.com&amp;_nc_gid=QcyflrkR5gM7XUGyJ8eBFQ&amp;_nc_ss=70689&amp;oh=00_AQABfnC5o-7krNsBW2ueVGAlOaPQf3Ui6PPfvxVXevqicw&amp;oe=6A5FF74E"
+  },
+  {
+   "id": "a117",
+   "title": "What future UK regulation of AI in healthcare looks like now",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZVhMdHIyMGphUGliblhTN0pyNVZ4WjJVVUFVWlUtQ0FUS29LYWRVQ0Juc2V6bXFwYl81VHpCdFk1cmk4RFA2UnhVS2RUZE1zMld2STR5WGt3UndhZjc1VDN6dkNWQThaODA3cTdBeU1jdjBDSVdLVkFHc1JKMzNnN0tEbGUzOGdRNF9GZTNzbG5PTk9ZN3VRV2R0cDJWamsxdVJoRGI0Nk1keHhW?oc=5",
+   "source": "Burges Salmon",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-19T07:00:00.000Z",
+   "description": "",
+   "image": "https://images.passle.net/fit-in/860x860/filters:crop(595,0,1990,1120)/Passle/5d9604688cb6230bac62c2d0/SearchServiceImages/2026-06-19-08-45-48-657-6a3501bc7f1457707e1db6e4.jpg"
+  },
+  {
+   "id": "a118",
    "title": "AI health tech from ex-Palantir lead raises £12m",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYlF3eGJIQThpWE96MC1EUnE1UFphMktwS2F1LVotWEpxd3AzaTVVU1ozajdGMXBNNjg0cXVHZHhRbmdIT3ZwYjdsNWZEYVlTeTlKZmhHZjhzOXFZeVFFbFYzRlRZT2dPUFdhMllDak9vd3FfMlZKRHlTbUJBTElPRjNudnNGRlVTaGpEaFlsamgwUQ?oc=5",
    "source": "UKTN",
    "category": "startups-funding",
    "region": "uk",
-   "date": "2026-06-19T08:59:49.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a92",
-   "title": "What future UK regulation of AI in healthcare looks like now",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa01DNmRqOVc4aXhJa2M4NFdsN01zaUh1cFZYYnUxNnRTUTlSYndDMTJ3M0xkaDBENWw2QVN1ZGo4aGh3UjRtOFlWeGFnMW1pY3FyRjJKNHFsMjVpWW5qMTExNFQtS1cteUVEdW4wdzJVYi1ldUdvMWVfcG9MN3Z3UWdwNDhfSUYtcnJrTDN4R3h5NVY1dVRBSXpuVUlJcDNaemczOUVXX1pCRVU?oc=5",
-   "source": "Burges Salmon",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-06-19T08:46:12.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a93",
-   "title": "Three Aussie startups that raised $72.4 million this week",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc3JvVFJrNEs1bTE2TXczUWp1TkQtUmw2WDhyVGg2ZWg5NXpHa1lFQWVaZkszZldhM2xlQnd0NlBoTUM1R2NFa1BPakdTRU41ZG5tV0ZTWlE2SThVZWJ3VFNPdmd0V1BnQ0tMY2NnNmVZU3cwYXVERjJ4R2NVemNNaUt5ZTBMeTdpcHZTMFFfaTNXVjZENGRTZVQ2YWNlYi1fbjN3?oc=5",
-   "source": "SmartCompany",
-   "category": "startups-funding",
-   "region": "global",
    "date": "2026-06-19T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.uktech.news/wp-content/uploads/2026/06/Frontier-Health-Team-Photo-1.webp"
   },
   {
-   "id": "a94",
+   "id": "a119",
    "title": "Ex-Palantir leader’s AI start-up raises £10m for NHS software",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSVJKclFoT3AtcWswWnJZMTVTMThsc0d0TEg1V2VLWEE2MVltR1RvcUh2S1YwTE1WQVhwYlJLQ1FPaGFrUTRoQlVIS0F1a29zZmhBdVA3cnpjU3VHZlIzNW1IMDR2S2dvYXhCNm1TM2tEemlHcnFsVkEtM1RaX21lZHB5WUtkSWtuR0dYLXVKdTlLUGhSRWV3X1Zn?oc=5",
    "source": "The Times",
@@ -1047,18 +1322,18 @@
    "image": null
   },
   {
-   "id": "a95",
+   "id": "a120",
    "title": "Vali Health Raises $6M to Build Responsible AI Infrastructure for Home Care Agencies",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdWpTeUNLLW9sdGF0UnZpd01tYzJqMjhobDdGcDJ5aS1qWTFEY3Blal9OOFhKMl9IVVNfQTBYdFBoaUZfZG44Y2RpeEZZdzYxbzljUXpISWtMQVJQS3B2OXBKbFdLbDFwdmNRcU5QUDJzX0tVTXpWZGVHaE11cE5GMkdzQWU1bWRTaDBJYTdDMFA1SU85bTBqMkhCcmZTQThtSkgtbjlmS0dHQ3RoaFR0cWNRdG5QZzQ?oc=5",
-   "source": "CXO Digitalpulse",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85TERJVjItdE9JTHA2amxBV1pScHY2TVFQU1dtQmRVM0NHQmNINElMZW55UFdaMzlsUVJPeVVaTDNYX1ptbzNON04zZ0p3X1QxMF9mWXFMT3hWOWJxZ2lNcg?oc=5",
+   "source": "WebWire",
    "category": "social-care-tech",
    "region": "uk",
-   "date": "2026-06-18T07:00:00.000Z",
+   "date": "2026-06-17T07:00:00.000Z",
    "description": "",
    "image": null
   },
   {
-   "id": "a96",
+   "id": "a121",
    "title": "Vali Health Emerges from Stealth with $6M to Scale Responsible AI Across Home Care EHRs",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWc5NlVlX1VXZzBxMnJfc1MyWWZ1eHpDWDFXc2NfWlpFUXJmeVNQb2RTNzlPajdhVEtoSHl0SkNoTlFfakFySDh4SmxyRTV2WGxnWnU1R0lyNGhaczBUTWQ1dEd3RHJJZi1hakZybGVyTW9WbnB1dWdscW5PZ1RwSnYwaDhSQQ?oc=5",
    "source": "HIT Consultant",
@@ -1066,10 +1341,10 @@
    "region": "uk",
    "date": "2026-06-17T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://hitconsultant.net/wp-content/uploads/2026/06/image-6.png"
   },
   {
-   "id": "a97",
+   "id": "a122",
    "title": "Exclusive: Vali Health raises $6M for home care AI agents",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbmlKZDVOem8yM3BMdTFzUERqelQ0eTNjNk1oX2ZWaDdGT2ZsMW00UEo3b29hTHVuWTdQOVRncmdyc0ZPSkhXUldNY2JMZU5DeW9MYWY1N0ZaZXBxOGE1WDR1RTF4UXVET2xabmdfM25kX0VlcEVrU25fRGthajVEeFNrM3Jna3hKWTc0ZTZRbmlFVGM?oc=5",
    "source": "Axios",
@@ -1077,10 +1352,43 @@
    "region": "uk",
    "date": "2026-06-17T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://images.axios.com/DmTGCdtNyzC_0e4qFsMZbz9Mfts=/1366x768/smart/2025/05/21/175928-1747850368874.jpg"
   },
   {
-   "id": "a98",
+   "id": "a123",
+   "title": "When care needs change: The conversation care homes need to have earlier",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5sX2NKRGY1VG1FNlRyQzFxSmtkbFRvR3pYbzYzYmhTQnhKNE9zOGFTTXNEQ051eGFELWZiUWVIQUtOdFE4YzVZdDZaZ084WHVILWI5c21CbFhJNS1pNVNwWkJxN0g3bndIdC0yMTZNbXpfdEFGbHhaTA?oc=5",
+   "source": "Care Home Professional",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-17T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.carehomeprofessional.com/cloud/2026/05/12/Jayne-Connery_1-1-1024x683.jpg"
+  },
+  {
+   "id": "a124",
+   "title": "'Outstanding' CQC rating for Age UK Doncaster home care service",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUT3hlVFhJazZqRDg4LVN4RmtXcGR0dnlSekw4Q0NZdnNzMGRsZ3dBd3plVjhkdUpFS3ZsbWhqXy1lcGY2bFBWVk9XWVdJOThEa0JIWkhyMERlUQ?oc=5",
+   "source": "BBC",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-17T07:00:00.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/4bf8/live/88d30be0-6a4b-11f1-9742-4f68b41a569d.png"
+  },
+  {
+   "id": "a125",
+   "title": "BCP Council's adult social care 'requires improvement', says CQC",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIYnN6ZFhsQklIWUZ0bmhBbXJNQlpvVEw2aUg3T2NQQmt1dGlBWlB5U0lUdWRwZ3JPM01VVG5mMVpISG9lSjlUTnBCbTBUVG5JaUtkeGpTb3dpUQ?oc=5",
+   "source": "BBC",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-17T07:00:00.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/7c95/live/ea77da10-9490-11f0-84c8-99de564f0440.png"
+  },
+  {
+   "id": "a126",
    "title": "Syrian healthtech Moadna raises $50,000 in early-stage funding",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZXFWQlNIZFlvS2R0eWNKY1Vxd2IxQS1UVVFSNldxblBfcWNfb3dVdFdJNXpwZFVqVVRZOUFhU001YVJ4SEg1elE4NXVtb3JfclZkeURMUFp2SmRSd0FqWkNfZFlDWkxGQ1Nrc2tYTkhMQ0pIQm9MRnVYUXMtM2lhWkc1OW5xMWhNY1A4WTJwbjI?oc=5",
    "source": "Wamda",
@@ -1088,10 +1396,21 @@
    "region": "global",
    "date": "2026-06-17T07:00:00.000Z",
    "description": "",
+   "image": "https://cdn.wamda.com/feature-images/c69fd0bd1e8b939.jpg"
+  },
+  {
+   "id": "a127",
+   "title": "Louisiana opens $20M rural healthtech fund for startups tackling care access gaps",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Qemw4REFablpKaEpMN3VYV0p6cFFMRF9OTl81bzVtYTBNcy01ZWt5d1dURS1OdEs5bDNaRXlTSVJLeDZweFBWazRDMHYyN3M5VVctR1E2ZUUzcWtIS2psQUNfa1hmaXhtNTNERQ?oc=5",
+   "source": "Technical.ly",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-06-17T07:00:00.000Z",
+   "description": "",
    "image": null
   },
   {
-   "id": "a99",
+   "id": "a128",
    "title": "NHS investment in AI gains momentum after Health Secretary visit",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYTR3UktPSzlyc05QcmdWYVJRYUZUX2dDbjZ4OEsxV2hwckEtdnBVRGlhd3Y5UWJONGI5UGlHNG5VSk1uMWswODBwRkY4Qm1aX2tvdVNDbndfbGVWZlJ6WUlraXg1NTBVMEtTanhxcWg0LXdwdHkzSXphalI1MmNyQWc5VXV6YXR6REV4VVpUMWlMSVpIZnlTWldzNVJHSEYzdUI0X0pzWUJQOE5zMWh3?oc=5",
    "source": "National Health Executive",
@@ -1099,10 +1418,10 @@
    "region": "uk",
    "date": "2026-06-16T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-06/Nurse%20using%20a%20computer.jpg?itok=czEA5I05"
   },
   {
-   "id": "a100",
+   "id": "a129",
    "title": "New Research Outlines the Promises and Risks of AI Use in Home Care",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3BMRDV0VjBaX29PQld2WVJIMzNlRVJrN2xjTGExcEpKMHpEajdUek4weDN3MlB2Q3hNMFZLTXlCem43T2pKZzZ3amk1VGVDY1pLdDNOT3dINFBfTlhSRVRxeVJGZ2luMGJLaFJrbi1tNEUtbVc0V0k1bnRfdkl0MWEwMk5lbFd3dGcxOEMtR2VfMG9qQ1puZy1KY3hBdGdSazhVMjVDZ0NvMW5yNENCTzZDLXRac0MtRjhHNmJHbFY?oc=5",
    "source": "PR Newswire",
@@ -1110,10 +1429,10 @@
    "region": "uk",
    "date": "2026-06-16T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://mmx.prnewswire.com/media/MS523781/NCOA_Logo.jpg?id=OA2720674&p=facebook"
   },
   {
-   "id": "a101",
+   "id": "a130",
    "title": "MHRA launches AI sandbox to improve medicines safety",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNVBJNWthWUgxRlJiY0cwLWREekEwSjBHZHNJaGpLV2x4RDFmWWE1NU5RWUNFbWJrcHpleHV0ZzF6LUJDWnJtZVNzSWVJZTRMV0xrdTZ3QXlLSEs0X0wtdmtEZXd0STltWmJhOUZUT1c1eUJMamhMal9VR1JncHRZNDZkVGRRbXk1b0k5N3lIa0dVRUdLcWc?oc=5",
    "source": "Home | Digital Health",
@@ -1121,13 +1440,13 @@
    "region": "uk",
    "date": "2026-06-16T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.digitalhealth.net/wp-content/uploads/2025/08/Lawrence-Tallon-1.png"
   },
   {
-   "id": "a102",
+   "id": "a131",
    "title": "FDA and MHRA forge new regulatory collaboration initiative",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTVRURmRGWXluUExUdDNEakFtd1pTMEhSMjlfa1A4MUVFRU9MYnlWVjhSUEtZakszU3VfWnZORi1OSlVpNUJtbGtKM0NPUkE2QVM5NGJ4N010UXJGS1BhZE14Rmt4c0VnVS1LbmN0OVAzVVY5Ykc0a015ajExZ2x3X19ja3B4RGdvbXVSLV9qRjg2S3V5ZjFoSldBbUpCd2JiampaVg?oc=5",
-   "source": "Medical Device Network",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNVNXaU1Qclg4TjdyLUJLTzg4V2M1T1R3UUZrdWN3ci1jUXFJenRPRXdGS3czZDRpYUljTG5WZVZUNUpZUmlQU0VmTUxLMTJBSXN3d0Q5YXV5RV9sVTI5UnFaX2F3S0pyRTVkZVI4QmpzWGQ5ZFRMRTBvTy1uNklqdl9BZWFJb3hqZ2gyUjFDZVl3LW9abjkyWHJqd2hMT3laSDY4SDFMRVh3QQ?oc=5",
+   "source": "Pharmaceutical Technology",
    "category": "policy-regulation",
    "region": "uk",
    "date": "2026-06-16T07:00:00.000Z",
@@ -1135,7 +1454,7 @@
    "image": null
   },
   {
-   "id": "a103",
+   "id": "a132",
    "title": "AI may unlock early disease clues hidden in routine eye exams",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUnAxeEVocWRfOFRBVlNENEJNeFNtVi1HbnRhVXJLMWtUV2NPMlFJOThqSUhGUEk1UzJNSGtVZVdqNks2OElzZjRnb3N6MkFwN0FQQ2NkRl9rN2gwa196Um9heVltS2xGdVptRW1YLVVadDYzLWhNZ0ZpUEJnRHF6eFJnN3gySmhVOERXdXVfRWl6c1BwOEpmcXhQMDctLTlZemFLTA?oc=5",
    "source": "The University of Manchester",
@@ -1143,10 +1462,10 @@
    "region": "uk",
    "date": "2026-06-16T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://content.presspage.com/uploads/1369/f7635136-63aa-4886-b7bd-f5bdd634f4f2/1920_topcon_fundus_photo_julian.jpg?10000"
   },
   {
-   "id": "a104",
+   "id": "a133",
    "title": "Patient tells Health Secretary: “Rapid X-ray analysis backed by artificial intelligence gave me my life back”",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOejNHSDhRMGEyYk1vYjZHR0FuMTIwZmNyUkdtLW9nV2lfcFp6S0tUZXpGQXFnWDZ0eVFpZTI0cndOSGlBR2o5RDZHMnk1WXBDc0RONFJTZ29DeUFhbEp1QW40Y1NIendGYm1kazBKQWx6VUJCeG93QjZJbi1oQ0t0ZGp5WUNfRE5ZTmJoa2E3bkpsTm1wcHM0enZ6UE92OGpaTDEzV0FVVjExU1dMNlROMFFNcXdmcTRmNnlSLUpZU0xSQkM4alREeWZNTnBjaTgycDFJ?oc=5",
    "source": "Manchester University NHS Foundation Trust",
@@ -1154,21 +1473,10 @@
    "region": "uk",
    "date": "2026-06-15T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://mft.nhs.uk/app/uploads/2026/06/2606113016-scaled.jpg"
   },
   {
-   "id": "a105",
-   "title": "NHS reform, technology and the future of health and social care",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdktKRHo3WElLZmVSd1RCY3JMX3pTNW96dzBLUUZFWm10Q1dKUWFTWXVZTWhUazF3TGhCeWZzWTNHZzRhUmNqRFV6LU5qWl95Q1lIRllZQjlSdFlFX3pSVEZrTkNuSTRJcW02RFJWYU9OTlhlQy0wZ0s0dG91WHNtNzFuYnpzRFAzY3lEcHM0Rld4OVM5b0lCMnJraGlveU9YcWxfUVdNMXJKRGNCMmk2YXNZMVRkbUNQellZbVBCUVhEY3U0NmxIbQ?oc=5",
-   "source": "Wired-Gov",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-15T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a106",
+   "id": "a134",
    "title": "Social work leaders hailed in King's Birthday Honours",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHM1Qm9wQTN4MU03c3lCMm5KREFQRWZPT3RuMEVzN3c1c296QmprMExBSkIwWVBSTXcwOEJzSEtYendCaW9QN3RKVVVuYU9FeUltU0l2eWpPWDVUOXQtV2IwRUMyZ0Q4TmtwMWlENjN0cllHVXk2dVd5OE5IbnN3LWdVZU14LXJpUFRERkJxRzBTd1U1TTlwOTVVSFFfVVJEcXU4?oc=5",
    "source": "communitycare.co.uk",
@@ -1176,10 +1484,10 @@
    "region": "uk",
    "date": "2026-06-15T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.communitycare.co.uk/media/o0nhhc2q/julia-ross-and-tricia-pereira.jpg?width=1002&amp;height=564&amp;v=1dcfcb55fa262b0"
   },
   {
-   "id": "a107",
+   "id": "a135",
    "title": "Royal Borough of Greenwich celebrates two major wins at LGC Awards 2026",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbXU5ajhhVXIzbHlNS25XMUNxUHRqMUdfUVpsM3lqYWg5RUx4dEc0Z1RfeWxmX0NSc0VvTHBHaFM5dzRBaWpyOW15dWdGLUJ2ZUREVWlaeFhjLWJmRTRWajI0a1I5V1kxQVFManA1WWpNd0xncXV5eTJSTVFaSUpMd2lEMEtVNFVmUUc4bGFNbTdUTmJCY1BySTJfWEtSbTJYUTdMNkJGRnpPRzBTNmc?oc=5",
    "source": "Royal Borough of Greenwich",
@@ -1190,7 +1498,18 @@
    "image": null
   },
   {
-   "id": "a108",
+   "id": "a136",
+   "title": "Unique liaison programme set to reinforce close collaboration between MHRA and FDA",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUmxyUVZyNU45a083RWlsaFZMck04Mmx3bEk4RTJldnpNbzBxM2JUa1loaWp4ZzAxS1VzejEzME1CMjdWMkJVX1RyQXEyNmNRbzdKNF9MVEpIRGxfOVNLeHUxTmZseGtiWXI3dWxIakhvTEYzaThOVEtuMGhxWHNLenRSaEZXZTRNemhYbm02dTBheFl4bnZfYXlmM19ReVVhc2VJN0lUM1F2NkxNc2hYMzRRc2l4andy?oc=5",
+   "source": "GOV.UK",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-15T07:00:00.000Z",
+   "description": "",
+   "image": null
+  },
+  {
+   "id": "a137",
    "title": "Use of AI ‘does not predict specific rating’ during inspections, says CQC",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTUFOZkpvZ3A4Y05BZnhTcWJrZ3JnZTB1c0dlRC1ONHMxREVnU250VE4zcTN1MkxibHVSSW5wbTVkMk92bWZ1b0tRWWp0SWdvSHpSNmZkMmQxaW5nQ3EwV3BSYU5zem5FbUhsM05ZTmVJZXNtZ1Zxd0JoaWJ0ZExFa2F6bFlUcU1aOXRYYl9yQ21fZ0swZGRXaG9kYkhVYTlTTEl1WEFaM0x5MWpqWUoybXQ0VXFBeWc?oc=5",
    "source": "Pulse Today",
@@ -1201,7 +1520,7 @@
    "image": null
   },
   {
-   "id": "a109",
+   "id": "a138",
    "title": "Responsible AI in the NHS: ethics lead the way",
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBubDRGQks1bExuSmZVUzlfVTFwNnJYdk01SGJMNWRfRmNhWmE1dHZESE9KRGlUU3QyeXdEa0RlRjBjY240aGpEZnYxMTJMbHl1WmF2MktfS21kMHh5UklzODg3SURWLTYteTN2bDRRTFExOERFbmVFbG80bV8?oc=5",
    "source": "NHS Employers",
@@ -1209,21 +1528,21 @@
    "region": "uk",
    "date": "2026-06-12T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.nhsemployers.org/sites/default/files/styles/og_image/public/2026-03/Dean-Royles-landscape.jpg?itok=h23IS3cR"
   },
   {
-   "id": "a110",
-   "title": "MHRA expands its AI sandbox model across medicines and medical devices",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUnEyVThmczNSNnZuU0NfNXFBQURFVmh3SkFyM3FSd1NhQ21JdmpxRnduTjFrYllsQUVGQVg4cWY1UUs2S3JWbUVteHVFbkR5b2ZiR0hCUHZQcFZMS0JScHZEV0UzOU9RWTdkYjgySXhzWjFUaU5QSGhZMnc5cFJ4TkhtOTFkYVZ1bkJSTGtMT0E0LTRPS2ZQclJRLUx3NEJEaVR6QXBpb1R3ejBNVFQ0?oc=5",
-   "source": "fieldfisher.com",
-   "category": "policy-regulation",
+   "id": "a139",
+   "title": "Halton social workers trialling the use of artificial intelligence",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVndZcHFsTHpwQjc1VnJuNE1pSm1RVjdzNmVNWmN5S1pCQlMyTHoyWTJieUNwWTNjLWN6aVlHWmc2b09LQ05QczVhX2lvSG03QmUyOEhoaWlrdzBvQ3o3UGttYmU3TEJxTGhwM2xZSkRyVHh2N2RJZkRxM0hydDIwaUtHa3VNcXJwVXZ3QkRLVm9yS0VwZTFWdjBvbWJpbUdaVHE2MHNKSElLMlE?oc=5",
+   "source": "Runcorn and Widnes World",
+   "category": "social-care-tech",
    "region": "uk",
    "date": "2026-06-12T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.runcornandwidnesworld.co.uk/resources/images/21039103.jpg?type=og-image"
   },
   {
-   "id": "a111",
+   "id": "a140",
    "title": "UK sovereign AI lab to be hosted at the University of Cambridge",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaW9hTUFld1REWC1ZT1pDVjZhZmRPQkdUTVNTM1I4SF9BZUN4dXJRcnBFU2luY2dQY05yZXE3TFJaUXlrWVNtU19NYnFyU1ZCNVdJTFBoS2RQTVIwVFBhemJHRkZOZHN2UHRWM0FRZ1NLaDA4SWN1UGlidFdGUzlJekRTQVROSFlpRC03cDJObw?oc=5",
    "source": "Engineering and Technology Magazine",
@@ -1234,40 +1553,7 @@
    "image": null
   },
   {
-   "id": "a112",
-   "title": "Week 24’s Biggest Startup Funding Rounds in Latin America, Led by Banco Plata and Inspira",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcDVKX3pWeEJCS2E5TGl2d1FObHVucWpjeVRneXkxZndRTnlNUkFZcEpPU2ZVUnlmVFlPaDdqQWdTRi1rLVhnV1BpdVNncDZ0ck9fbWFwR0p1YXd5TllrVnBIQUYtbFRvaE5hQ0NtTjM5LTZIRWxkMkFnbVZwb1VZVUhPRTY4UjhjaGJBQjNrNnppbmhGRy1lWFpwdHZVU0NQRzNTX0lpXzIxUWJWWDQ1dFJn?oc=5",
-   "source": "Techloy",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-06-12T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a113",
-   "title": "MHRA targets medicine safety with new AI sandbox",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVhJNHR2WVZSVkVjenIwTHpNcnA3a2M2YmJUTVAtbkFtdnZaNzdMZDFQQ2tNUV8zSmhkcFAxRWxvVjZkc3dpcVF3aGtfa1NqZTFqX1NOSmlxLWdDVVN0SjNCa3dYZkoybHliZ3VrUEduUnBpTVV4V3Z2Q0tqSTA4YVpXN2J6aEFGXzY3TFZHOVRCWDhLeGNrdlA4dzl0Mkx5NEMtdHV0bU83Ulo5M0E?oc=5",
-   "source": "European Pharmaceutical Review",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-06-11T14:03:54.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a114",
-   "title": "AI to speed up cancer diagnosis for millions of NHS patients",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSXVSdVJMYlZHaWZZUWRzOFJ4RmZESU9jTWZGUy1QQXV0NFpuaDZ2eGFGYzhOZkhmQ1ZzWEhDZmE0SXJVQjRBSGV2UHg3TGtFTTdEb1JnU08xcllEWnJSOExLeUVTNHVxNDFvMDVaODlocGM5dzRneFZUckNLdjlzUUMyRExEWGp5bFNrd0ZyNFRVWVB1aU1vQUlEV3N1dw?oc=5",
-   "source": "systemtek.co.uk",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-06-11T11:10:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a115",
+   "id": "a141",
    "title": "New AI in Surrey 'filling in gaps' in lung cancer diagnoses",
    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3aGVTWnEyYmprYllYd1NrdVdLLUhtUWZkVWYyaE5tQ0hSYXVkdGpuVDdjZEl5dmZWaXlPSHJGaHVYNkxXNXg3MmRhUFpoNkVVeE9xLVFuQUlfdw?oc=5",
    "source": "BBC",
@@ -1275,10 +1561,10 @@
    "region": "uk",
    "date": "2026-06-11T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1ccf/live/fd30e140-6589-11f1-be7e-9d9e15bac6ec.jpg"
   },
   {
-   "id": "a116",
+   "id": "a142",
    "title": "AI could transform how millions of NHS patients are diagnosed",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb0pRbXJXOGhDTFp3MFdYYS1fWTdqekhmVXZWYUhmNFpYQXB2aGhicE9EbkE3eDZZSURoUHlpWUY5b3B3RnR4elM1ZWY2NHVlcWtqejRDM05CbDVRNHNCRWtQVGE5MDhsSTRxaktzVDhGSzFRM0lZQXVyOGFORkJhUHBkYVE4T1VtcUwzT193dkRXSGV2?oc=5",
    "source": "The Independent",
@@ -1286,13 +1572,13 @@
    "region": "uk",
    "date": "2026-06-11T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://static.independent.co.uk/2026/04/16/01/01KP8KRTWEXWQ46VT43SSHRCG4.jpg?width=1200&height=800&crop=1200:800"
   },
   {
-   "id": "a117",
-   "title": "Sensi.AI Launches Unified Agentic Operating System Fueled by Care Intelligence to Help Home Care Thrive",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOUpkWTFzbDJLRE5ZNFozcURDNW9HeTdRX3p6aC1QWjJjV3ZLQXh5VWhpVzBsdXVEcENGVlBZT3lOQUJCcUt2MFNiMTM2VDZsTXplZ1hMN3ZfNmwwSjFsMlRZM3QtUkpkMS1YYng1TW9FaUNGcFl6cWN4SU9mcENza1JCNFlXdjlPRWptM1R2VldMNDVhMWp6X2NuZHQyR2dYTzlVWFZqZmpGWkh2d2h3cFE4NE05YVFMT2lfZFM0WVEwREFGM3JGRC05cGtrNkM0UnM2ME9rVk45RERBMzJxQlBJUm1PWkF5ZXRkN1hoZw?oc=5",
-   "source": "PR Newswire",
+   "id": "a143",
+   "title": "NHS reform, technology and the future of health and social care",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOejgtSkl4WEF3bWNabGxER3dIT1hvSzVEeGFOd1BnNjRFYVN5UlMyZUhUaGRHRklKY05pOVBqbl9iaG1VLU9JN1IwUHdxLUw5OFdSZVpTb2hxVFpuSm1SN2Vad1h1YndvT0F4SHVCenhXWWVMWlA0b1NzOFZoYUQ4RFN6X3Eyb0VWa2hDS1pZY090a3NSeWh6WGFmTHJleVQzYzA0?oc=5",
+   "source": "GOV.UK",
    "category": "social-care-tech",
    "region": "uk",
    "date": "2026-06-11T07:00:00.000Z",
@@ -1300,7 +1586,18 @@
    "image": null
   },
   {
-   "id": "a118",
+   "id": "a144",
+   "title": "Sensi.AI Launches Unified Agentic Operating System Fueled by Care Intelligence to Help Home Care Thrive",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOUpkWTFzbDJLRE5ZNFozcURDNW9HeTdRX3p6aC1QWjJjV3ZLQXh5VWhpVzBsdXVEcENGVlBZT3lOQUJCcUt2MFNiMTM2VDZsTXplZ1hMN3ZfNmwwSjFsMlRZM3QtUkpkMS1YYng1TW9FaUNGcFl6cWN4SU9mcENza1JCNFlXdjlPRWptM1R2VldMNDVhMWp6X2NuZHQyR2dYTzlVWFZqZmpGWkh2d2h3cFE4NE05YVFMT2lfZFM0WVEwREFGM3JGRC05cGtrNkM0UnM2ME9rVk45RERBMzJxQlBJUm1PWkF5ZXRkN1hoZw?oc=5",
+   "source": "PR Newswire",
+   "category": "social-care-tech",
+   "region": "uk",
+   "date": "2026-06-11T07:00:00.000Z",
+   "description": "",
+   "image": "https://mmx.prnewswire.com/media/MS1861804/Sensi-AI_Romi-Gubes.jpg?id=OA2697120&p=facebook"
+  },
+  {
+   "id": "a145",
    "title": "MHRA landmark report reveals public views on AI in healthcare",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLWhKQl9BclBULW10TVByOWlrcm81Rzh6Y2x0RmRxLURTR1A3N3ZnWWExWXJQcjRCbWtIYWxHdllOVGxPYTh1WGE4U0FNWFFQX3NZUG1PV18xcFQwT21wcW90d1JmYTU0NkxGMk9lcTZWNFpDYXZZTjljZmd2aV9YNTlCU0VwSnBXV3AxTWk1WENjNUdsbUxrcExBLVk?oc=5",
    "source": "GOV.UK",
@@ -1311,7 +1608,7 @@
    "image": null
   },
   {
-   "id": "a119",
+   "id": "a146",
    "title": "Industry calls for substantial reform to UK’s AI regulation in healthcare",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN280cnFPcklRSGRTdlluSjAzZGg4TmVJakZYclg4TWI0a19Yd29qX3FXQ1NKY2pIM2FHYW85UFM3YThFZEltVTVUTVotTmNxeXBSTVJDY0dYV2JVTmx1N2RNVzlNbHBPSHJlaDRUSjNVRnJmTk9zVl9teGRYcVV6c1pGUmw1WXJJZmlDd2FlUzBwNUtqemtrVzdXSVB0Wm42V0x4aVpPWTY0eG9lLXp3VWFtLWY3QQ?oc=5",
    "source": "Medical Device Network",
@@ -1322,7 +1619,18 @@
    "image": null
   },
   {
-   "id": "a120",
+   "id": "a147",
+   "title": "MHRA targets medicine safety with new AI sandbox",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUVhJNHR2WVZSVkVjenIwTHpNcnA3a2M2YmJUTVAtbkFtdnZaNzdMZDFQQ2tNUV8zSmhkcFAxRWxvVjZkc3dpcVF3aGtfa1NqZTFqX1NOSmlxLWdDVVN0SjNCa3dYZkoybHliZ3VrUEduUnBpTVV4V3Z2Q0tqSTA4YVpXN2J6aEFGXzY3TFZHOVRCWDhLeGNrdlA4dzl0Mkx5NEMtdHV0bU83Ulo5M0E?oc=5",
+   "source": "European Pharmaceutical Review",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-11T07:00:00.000Z",
+   "description": "",
+   "image": "https://d3t5t78xsxj5vn.cloudfront.net/Pictures/1024x536/3/2/3/21323_shutterstock_27896091151_790526.jpg"
+  },
+  {
+   "id": "a148",
    "title": "Euro Roundup: EMA researchers share regulatory research priorities for AI across the lifecycle",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOY0o2V1ZYWWdCXzBYNDZCRW8zSFpMRUtwMUR5X0tISE5ZajU5Q2VHQldaTFZhaHBtTmdSVHhOZUd1S3JMRzViWFlmQVZqcVRpTldSeVdGOXpVX3ItM2kzZjA5dzFYQmh5dkE2bXhfcmg4NW1vU0dudnRVdmluclA5OXZmVnJ3UkVZNmtiWEZxUnJac2pCa29WcE9pcnFYM2pleU9YRnM5NkxNMURZcGpnWHUtcDAzelYxa3BZbnA2ZHdza29GQTZv?oc=5",
    "source": "RAPS",
@@ -1330,10 +1638,21 @@
    "region": "uk",
    "date": "2026-06-11T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.raps.org/static/7caaaf4a-914a-4d34-be74a7b97b6d23ff/1e6c05ee-e1bd-43b0-8e1b8a67d9a9488a/opengraphimage_a162f340e24dc4d08dd7995529c01e82_4a7c7e45a350/euro-roundup-300x250-2022.jpg"
   },
   {
-   "id": "a121",
+   "id": "a149",
+   "title": "'Inadequate' care home put in special measures",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HZkpzbS1OVEttc01wSTZPZ3I3V1A0ZDdxeHhEejBLMjdsWldfMDljanVNTkJmdjlqUFZSZmJrazdCaVpSOWJZT0p6ejFqVmhJSjFfcE02T2JSZw?oc=5",
+   "source": "BBC",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-11T07:00:00.000Z",
+   "description": "",
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3953/live/7b0ceff0-e646-11f0-8786-db2fc8f3a075.jpg"
+  },
+  {
+   "id": "a150",
    "title": "New report calls for workforce-centred AI adoption",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMUFocDJGRG1rYzkyOU1YRnlBVzIzN2V3OUJJbElZZEswRFM4YVlUZGNFRGN6VDVtRjB6U3F5ZjZ6LWVNTEs3OEhKSklqaEV3OHRHRGNuLUJmcEFXak5RYnVKa0lidnBPQV92dkRSN2VIRGxGOTZlZjZieHRxM1RQVWwxaFUxQQ?oc=5",
    "source": "Healthcare Management Magazine",
@@ -1341,21 +1660,10 @@
    "region": "uk",
    "date": "2026-06-10T08:32:12.000Z",
    "description": "",
-   "image": null
+   "image": "https://image.chitra.live/api/v1/wps/8e8f2df/365d113f-1db7-4644-93ed-3cb11865752e/1/UCL-600x315.jpg"
   },
   {
-   "id": "a122",
-   "title": "AI and adult social care: A revolution that must keep humanity at its heart",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9jVEN1YWJRZUZCUHJaV2FXYUR4eXEzWFZ0U0pVa1JULU5FTUxzVFpTS1MwcjFPN0dadHZtVkZxNE9nYU9QZXFwSmRBOWlrclR2MDY5M2x2MXpLZENkRThzX0VrUEtTemVXM2EzeFZEMA?oc=5",
-   "source": "Care Home Professional",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-10T08:31:27.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a123",
+   "id": "a151",
    "title": "UK launches world first AI medicines safety ‘sandbox’ to cut drug risks and speed innovation",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbVlwU0hXOXVMa2czX2xZMmpLQkh4dTlBZ2JFbWVkb2JHZkpoM0hjemo2NmtJWThSMUw0UnlZanZJQlpkaVBTdXJlUklRbUQ0Tm9IWWx1UUw3dzNCQnJVdzBMMzMzaUh5bHdmR1NyY1dmcTFTQ2tudWVNYzNNMlhGNmpHSUlyOXI4dFZnRjAtOVNrZTNuSkJlVWFiM3V2NGFzNkpGZ3FRbWRzVl9KQkxYRktlLXM0NlZKX2ZuQkRnN3pFNG1CRmhYVGlRaV81bXlSalE?oc=5",
    "source": "National Health Executive",
@@ -1363,21 +1671,10 @@
    "region": "uk",
    "date": "2026-06-10T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.nationalhealthexecutive.com/sites/nhe/files/styles/banner_medium/public/2026-06/Healthcare%20AI.jpg?itok=OLL_kKYt"
   },
   {
-   "id": "a124",
-   "title": "NEWS | 500,000 NHS staff to get new artificial intelligence tools to help free up more time for patients",
-   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMXg1VlZiZnNLaWdibURfb3hjNy1tWlVDMEpXMWdMS3lBTmd1WkpHcnhvT3BVbVktemVGX3UtN0ZrU1c5aGhMVmtLWnhpRTVNeEdiQkMyNk9pMG9QcXkxdlhaTXlzdGRzYUxHeE81c29fb2NJU1J0MHlpQmhYbHN6a3hmYXNTZUI0MllfanNBdzFuNWpXcmNWMWlWa0JEdzlwT3BaZHhxbXE1X3VtRWRmMlVlU21vZ2VqZzR6RWo0YkRMQnJjMzVuR051TzhIZGJWYnMzQ3hrVXNCdTA?oc=5",
-   "source": "Your Herefordshire",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-06-10T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a125",
+   "id": "a152",
    "title": "AI rollout in NHS to increase in bid to speed up cancer diagnosis and clear backlogs",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtOFo2aXVWdE5FNmdsY3RiVTVfMWZvY29xeDQ0WGNlZFczUEY4bmFvNlExZmQ5bl9XaFJ4Q0lUMjV5TEVnUFlYaU1nTW9GYTRxbWVjTkZWQ3VlUGtvNnRzRmpGY2U4ZUdWN21PTGMzZmVOdw?oc=5",
    "source": "lbc.co.uk",
@@ -1385,10 +1682,10 @@
    "region": "uk",
    "date": "2026-06-10T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://images.globalplayer.com/images/820007?crop=16_9&width=1200&signature=1n4wF5vFuIeplYHrpcUubFdWtKU="
   },
   {
-   "id": "a126",
+   "id": "a153",
    "title": "£20m AI tech ‘will speed up cancer diagnosis for millions’ of UK patients",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOXpKZTFTT190NFpvSjluM2pjOE1vckFCYmZfcUtjODlmTnA2OHktTjZkMmwwcjZjVjdqZHk0Y0Ria0pzSUp3ZGU0bTVQeWRSLTM4Z3hnM2F0bmQwZDh6ZGxGYm45RjJBemJGTXI1NkpEb09ZcnF1ODI0NHd3aVdHQk5VV2FKeXBCLWd2Zk1kRlhqREhoZ05rc3BRMjBudUo0Z01FNWVLVFZlQQ?oc=5",
    "source": "The Independent",
@@ -1396,21 +1693,21 @@
    "region": "uk",
    "date": "2026-06-10T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://static.independent.co.uk/2026/06/02/17/8fadbb6e39d1443f49801652a61c689cY29udGVudHNlYXJjaGFwaSwxNzgwNTAyNjM1-2.84761195.jpg?width=1200&height=800&crop=1200:800"
   },
   {
-   "id": "a127",
-   "title": "Lookout launches AI agents",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMk5aQnNYbElES29qeWg1ZUlHYzVBZzlQa1VRSVVOM3ZlUjJ4czV5dXZQeHZoRWQzRGhVdTRiVVBtMnJiSG9yeVZpRXpwY3FqV1B6U01JYk8wQm01M3R4bXd4Q1RTZzhuZlFQY1dYYmRxS1BvRm4xNWJaamltRUNRY1Q4c3FMYUU?oc=5",
-   "source": "Australian Ageing Agenda",
+   "id": "a154",
+   "title": "Social Work England shouldn’t use AI to review CPD, say social workers",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVml2TGduZER2dXZBSHVtV1RlZXBqSHYtWHZKS190NUZaVzFvcTk5ZjhaRVhUUEVVa3dfaG02UDUyaEduQTJqZVhCWVRkNlVzVi1LVFBUS3lZUDBwdEF1QlpXSGprellwUnRzempZOW9PYm1fenB5d2pPMXRVRFlid1k5eFRDNE9PQkc3emJ5M0VLbnhnd05kbjhnWGtWeHAtN1dlT3Z6eTlXeHZFX3g3a2dIUi1ZQVlPV3c?oc=5",
+   "source": "communitycare.co.uk",
    "category": "social-care-tech",
    "region": "uk",
    "date": "2026-06-10T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.communitycare.co.uk/media/eubh41od/readers-take.jpg?width=1002&amp;height=564&amp;v=1dcf281176e2670"
   },
   {
-   "id": "a128",
+   "id": "a155",
    "title": "Pioneering AI health innovations regulatory sandbox launched",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNExWYWxxM2FnRWkxeTcxdVJNSjZQUlNkNWtiMUlJeklqM0dSRmJRN2xsZ1ZNQ2hIWC1aZlhxMGpzc0tPYVBGMk16UzBCSlFNdFo3MEVocGV6OUtRV1NmVDVVbnZoQ2w5NnAzLUtqQ01uYUx4Z0ZwTU9SQ3k0VnJ5QUFzaFJ3d0VxZ05GenJPRXNsdi1lNWphX2V5Yw?oc=5",
    "source": "GOV.UK",
@@ -1421,7 +1718,18 @@
    "image": null
   },
   {
-   "id": "a129",
+   "id": "a156",
+   "title": "UK Gov Launches AI Sandbox For Medicine Innovation",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5HRHlBb3p5WXpEX0VGUVBVUDFSQmRaU0M0Vko4TlpjMDJuRldCSm1oZW0xUlRiRG80MVZNUEY5MVlXd05zNkNFLU9ISnQzd201WnRfY1BteXhkcnJFVGhTeHhOVWQwX0Ria3dpcTZ2aktrdURZSkZfSzREZHA5Zw?oc=5",
+   "source": "digit.fyi",
+   "category": "policy-regulation",
+   "region": "uk",
+   "date": "2026-06-10T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.digit.fyi/wp-content/uploads/2026/06/Untitled-design-2026-06-10T161026.731.jpg"
+  },
+  {
+   "id": "a157",
    "title": "DSIT Minister attends launch of Cambridge Zenith AI Supercomputer",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaDZ5WFlHa3BJV1ZKYWtsUWE1dVB3aDkxdDYxU2ttOG9xMGJLeUJDdWxqZ3lCWFlYdFhIbG5BN0tRTDQ3RkpoVGNuS2FHbjBNOHdGRkxqVGg0anN2Z1djVzFEYmNscEV4eDg2eThxUkVmUnE0MGpUa1pMTkVwb2xjeEJuUzRrNnpjSG9yZGM2Y05Zcm9uTV9Z?oc=5",
    "source": "University of Cambridge",
@@ -1432,7 +1740,18 @@
    "image": null
   },
   {
-   "id": "a130",
+   "id": "a158",
+   "title": "London-based 01Health bags €12.9 million to bring specialist care from Harley Street to the high street",
+   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPR203bkhneHB3UEZOVERjY3BmUXYwUDRldG9WN2dsSDQxX19UUmZ0NmJkMDllcm5FMWZVOG94NjJWQ21hWFVOMG9UMXFueTJDSml0MzRmeTY1dUZuNmFNYThoVTFZZUFBZFVlVzNld3RocGpQMU8yeWZKUjFlVGVHMHVhZS1xMlR3VnRNZmR3R040ZmsteHFxQUR5SjdhU01mWHlfY2RCbWZtd1BRbFpEbkZOZTJDalB4VDVLVG9tbW1QcGlCNWFuRzNCNVNCTEtFSmxzbE96VQ?oc=5",
+   "source": "EU-Startups",
+   "category": "startups-funding",
+   "region": "global",
+   "date": "2026-06-10T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/01-health.png"
+  },
+  {
+   "id": "a159",
    "title": "Doctors and NHS could be sued for mistakes made by AI tools, report warns",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUlhHUnEzaVBKYmI4RWV1UVhwTzNXbkxTT0VxZ3BnTG1laTdTY2IzUFMxQUp1ZUxLNzljYTl5YUJnSTFER1QwOFpNZDhNeGwycUVjYkUzOHhSZm5nSzJSX3V4Wkp2RnJsN2tjSXJjZE53VXJiS2M0MF9JclZia3hwS3RtQkI1dTNNVDduaG9HNWZNekM0MklzOUNRQUVHVkFrNEhFZ3BIdGZEYVF6aHhhRDBNS05mSDRnRTk1MFFhNW5fMzA?oc=5",
    "source": "The Guardian",
@@ -1440,10 +1759,21 @@
    "region": "uk",
    "date": "2026-06-09T07:00:00.000Z",
    "description": "",
+   "image": "https://i.guim.co.uk/img/media/3966d5c4e13ada2a070dfce14f4467899e5794c3/0_0_6630_5304/master/6630.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2718fee8933902d80aab44b97c6035c8"
+  },
+  {
+   "id": "a160",
+   "title": "500,000 NHS staff to get new artificial intelligence tools to help free up more time for patients",
+   "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNX1ZjbVIzLWZsRnlvWnBCa0wtSEdCaXczTnlTTmtKcGVtdzV3MjlJcVZMQzNDVXZXTnZaNUZaaS1HSWZqWnZXYjRab0NrRGJFVlVjOVJEUFAzaXV0MFpGTGg5MzQ3SmVGa1JsMXgtWHc1NWxLYmN0OFNwdWNYY2J5T3gtUUpqdTJIZUtEODdOb0dxS3YzWGRON0VpUjB2MzJQS0ZTSmtmUXNJUzJmbWg5YVlITDhEREE5ZkRFM05EUVNZM2JPSHpfRGl2QjY0T09CTVJpeVlEZHRrc3hTNDVMUDJKV2xMa2RGeWtudTk0dmhiRjBqZGNv?oc=5",
+   "source": "Wired-Gov",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-06-09T07:00:00.000Z",
+   "description": "",
    "image": null
   },
   {
-   "id": "a131",
+   "id": "a161",
    "title": "MHRA launches AI sandbox to accelerate medicines development and improve safety",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeGRaOWNKWjdXMGRVbm9fYmFROHd3ZjRQZWNpcjU4RHREZl9hSWE4Z3hOZGF3ZDdZN0k4NlpxRkEyN1FPdXYtZEkwRm41dlFjUE1nR3ZqUTc4bFBSZVB5b0NLQWRreGwwOHR5S3BSNTVfRGZGRWxnUE9DNVdYUlN5TWJkeVVHR2M1bDI0Q1IyMWtMcGdpalFUSTRIQlFRNW1HRjY4cFZadlVYTFJsUC1iZUZlTF8?oc=5",
    "source": "GOV.UK",
@@ -1454,7 +1784,7 @@
    "image": null
   },
   {
-   "id": "a132",
+   "id": "a162",
    "title": "MHRA launches AI sandbox to support medicines development and drug safety",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOajlpaGpnM1pVWXI0YkJGNloxb0xCR3FHMUtCaVRsaHlnbW9RT0hKaU1GbS1qUmx6LTc0NE9nVDM3cTBYN1pUNkc4MVFyaS1LM3RnQV9ndHh3cXpzRlBaSlIxYllDai13dVRucC1RYmxxNDVuMEcwblE3X2IwUFc0RmIzMlF2aWtsNVllREJ4Vll6RWRIUGFRSEEwMnJSYXQ5aFJUYjJaRXVYb0FhbmFfbV9HOTR2TG5l?oc=5",
    "source": "The Pharma Letter",
@@ -1465,7 +1795,7 @@
    "image": null
   },
   {
-   "id": "a133",
+   "id": "a163",
    "title": "UK-based Rem3dy Health raises €16 million to support expansion into key markets",
    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZTVGQUpQbHlVZDRIblZqZHIxUmFEaFRNQ3I4SU9JV19HUmRsb3VzbHE4d1UyT0RkUm9wdkdTYUFQU293ZHhUR0tGNzJHam5kQ2ltTk05V1laU1Z0dnhlNlZGejIyaXpsLXZPSE10b2hlMzlJajJlNW9aN0ozNnUwMW5JU203NHczOVVSNlc3OHNMS3ZCd2dWbjZzbnN2U1dqMFJLMUlQczQya0JUZzR5NU9sTjdlZkU?oc=5",
    "source": "EU-Startups",
@@ -1473,21 +1803,10 @@
    "region": "global",
    "date": "2026-06-09T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Rem3dy-Health.png"
   },
   {
-   "id": "a134",
-   "title": "Using Artificial Intelligence to speed up MRI scans in NHS Highland",
-   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORGExR1I2WjhBQU1wa2dsckFlVnI4RXFOYmp5ZUs3RlFKazZnRjA2eE1zemw2VlgtbDhWOG92LVVPdXY2UUtROHVQX0Q3RWJoak1uS2U5VG1oQmFYNlRTMGp1el9kSTlGbFdudGo5NG9sSng0eDFQd3RKUHNjNmlUTFlRMWJSZUdtVGlueFp3TEp4bVpFbGVWOHZsc1hnY0ZwNWNLekFjRmREaW5SX3p2LUFQVE9Xa0t2WjF5SHVsT2xmajRtZ3diWWJNczdvS1dFNWRDYlltSUNOenVJQi1KVWZlRnJKaHpFNjJPWQ?oc=5",
-   "source": "NHS Highland",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-06-08T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a135",
+   "id": "a164",
    "title": "The NHS will begin providing AI Assistant to more than 500,000 staff",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS3QyRzNNN3R5QnQ5eE1jczAxeXJZd2VtWUs0dXViMHB1MkR5Y2lLR0ZYZzVzeTZrVTJndU9FOHE2LTlwU044ck5GcUMtUGpjSElTb3RFNzRVVUNIR3B5dDh5RnV0U0lBdlcyZU5jUHNlQmFSZUYtRldCZ1BnMUVnQUNUSVliRzk3bzFubTRlNnMzd3NPaTJyM0NrYzJRZnNkQlZEU1I0MlZkY3NoRy1USnF3?oc=5",
    "source": "Open Access Government",
@@ -1495,10 +1814,21 @@
    "region": "uk",
    "date": "2026-06-08T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.openaccessgovernment.org/wp-content/uploads/2026/06/iStock-2162213762-scaled.jpg"
   },
   {
-   "id": "a136",
+   "id": "a165",
+   "title": "Using Artificial Intelligence to speed up MRI scans in NHS Highland",
+   "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxORGExR1I2WjhBQU1wa2dsckFlVnI4RXFOYmp5ZUs3RlFKazZnRjA2eE1zemw2VlgtbDhWOG92LVVPdXY2UUtROHVQX0Q3RWJoak1uS2U5VG1oQmFYNlRTMGp1el9kSTlGbFdudGo5NG9sSng0eDFQd3RKUHNjNmlUTFlRMWJSZUdtVGlueFp3TEp4bVpFbGVWOHZsc1hnY0ZwNWNLekFjRmREaW5SX3p2LUFQVE9Xa0t2WjF5SHVsT2xmajRtZ3diWWJNczdvS1dFNWRDYlltSUNOenVJQi1KVWZlRnJKaHpFNjJPWQ?oc=5",
+   "source": "NHS Highland",
+   "category": "nhs-digital-health",
+   "region": "uk",
+   "date": "2026-06-08T07:00:00.000Z",
+   "description": "",
+   "image": "https://www.nhshighland.scot.nhs.uk/media/aichfqs0/defaultlogo.svg?rmode=pad&amp;v=1dd07ba31a632f0"
+  },
+  {
+   "id": "a166",
    "title": "AI gives us unique chance to rethink how healthcare is delivered",
    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRUpJMkg4MEJEeS1HTHAyWk81ZzczSFFwa1BpcmhON09PV2VpcEFmM1Z4NzRiUXpEMDBDU1JRbDdoT0Q1NFVnTzJCc3JFWngwRHV3NVU5UXR4NWV4ajhCZ2lCUVQzcW1iYnRGcjZnVjlxemU3ZkE3TXNmSVZLOUJtVnVsYkJMaUZHVkFWRHpHUVlCa0NOZ29XeENGQjR1MjhRcGUtcnctTzdOVEdmckgyQTE2UjFCVW50VkF3bG1GR3p1Zw?oc=5",
    "source": "The Times",
@@ -1509,18 +1839,7 @@
    "image": null
   },
   {
-   "id": "a137",
-   "title": "National roll out of Microsoft Copilot announced for 500,000 NHS staff",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdGVKeGZvRHFkdWF5ZHM1ZnZPZ1dJZnZWN1NNMDJUNkw1bGl0LWw5S3oxUkdVV0tjaHhBbEFjcFZBUGtMemFOWXlzRl9lNnZjMnZrTlF1YlVuLWlHYVhWNURkc2E3ZmdMYXN2X3MzQ0J5UkRSTW12SWQ1VmRHRkZuNW9vOW1LbHNwczNYVzl5QXdRLTl0SnlNNVA2SEhuZWJM?oc=5",
-   "source": "HTN Health Tech News",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-06-08T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a138",
+   "id": "a167",
    "title": "More leading researchers brought to the UK, while Horizon Europe performance strengthens in 2024",
    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNalZNTnpKdFFsREs4YUVFdVpZcnFEaHhsN1FWRGJyS0JJaG1qYXhIVkpicEpKLVZZaGtFZExja2dfV284cWQ0ZGNHTFFqX2E3ZWxiWXU0eTkxdEJoM1RjTE5GOEFOc2E4aEhtWDFmNFdEcVdIZ3l0X0FYWWd6TTBBQng5Q3FFMzBjM3V3VVBzR0ZybHNOYTY5TWhIdmZxTzRUbXFrNk51R01Pb3NneGJpQ1I5ZmdPSFpuaHkzbDBUUlR3aGVMS1pfQmF3?oc=5",
    "source": "GOV.UK",
@@ -1531,18 +1850,7 @@
    "image": null
   },
   {
-   "id": "a139",
-   "title": "'World-first' vaccine designed by artificial intelligence",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12UmdObXF4dldNelJBaWFsenpDSTFQTENQOXdYeF96THpOLTg0MjlVeElTTFBVNVVxWFZoeTZkX05JbkdTaGJubkFtTlkwbE9td1phRkd0SWV6Nld4?oc=5",
-   "source": "BBC",
-   "category": "research-innovation",
-   "region": "uk",
-   "date": "2026-06-05T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a140",
+   "id": "a168",
    "title": "New ‘universal vaccine’ technology could protect us from future virus outbreaks",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUNTSEpJX0k2LVc5cGlEN2psbFFKMUZIRkNtYzVfNjJERDVkRE1PbzRTOVJlSHJYdm4tWjRRaTNsSVp5QmpoS3RKOWdxd1NHbGU3dDljb1VITkRNaWR0WUFocTQ0Wjl1Rlo5U1VMcXVpbUNRT29NbHMtR0QwUjA3ckl5aFpsNXJ6dHgyVnlrUWxoRmZldHFrSzRDVm9jSVlwVHhIa2xzWXRoU2RKRjZyRFRhVQ?oc=5",
    "source": "University of Cambridge",
@@ -1553,7 +1861,7 @@
    "image": null
   },
   {
-   "id": "a141",
+   "id": "a169",
    "title": "Founded after personal loss, Joyvié Health raises €897k to rethink continence underwear",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa1JiY0FubnA0Vkt2VlpxUGtMV3RyVVRFMHBTN3VYNkUwNUEwOG9LYWVfMXRwZ3kyUmRtYktGR0dLOW15LVFHbUx6ekFLNTh2UENkRDg4RUNDUzdEdDdidU13eVhBcnhPWVNhbVZvWlVLLW96aHdkc05aeldxVjM2RHVSTGF0RUR0eGlUR2JvbF8wbVNWMmdEQVdmUURvRU5zamF1Z2dmZG9oRnlicmR2M2JZQzlVUmpLYVctbXlzYjg?oc=5",
    "source": "EU-Startups",
@@ -1561,271 +1869,18 @@
    "region": "uk",
    "date": "2026-06-05T07:00:00.000Z",
    "description": "",
-   "image": null
+   "image": "https://www.eu-startups.com/wp-content/uploads/2026/06/Joyvie-Health.png"
   },
   {
-   "id": "a142",
-   "title": "Summit Care Group announces acquisition of Herncliffe Nursing Home",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5rdERkUV80T21TX3V1TmtHdWhTMW1BMkVYTFVkSTZwc2Zub0FKV1Fod013Y1JQZ1paUGswN3FnWFUzNE05aThOeFdzQm5hY3ZKUllaWTVvVmZYNmZGUDU3aTVzUmloQTdUU0Y2aEpCWGRzV3VF?oc=5",
-   "source": "Care Home Professional",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-03T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a143",
-   "title": "Flok Health raises $12.5M Series A to scale AI healthcare",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdV9ZeEtWTnZTbHlrNDJrVS0wczdZeEZ4RjB0SHpEVFBVWmxGcnpNVTF3ck1fdWlqTkFtTkRfZW5RdWZ4YWk1R1FaMXJvNzFzRkZYRXktUzRfanpmR0lSbEJ6M2NqSHFNd1BsTTJKNGNGby1BZGpJMTItbWN6MDZSMllQdlFiUFBfVi00dDV4bFNFTzVr?oc=5",
-   "source": "Cambridge Network",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-06-03T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a144",
-   "title": "Wynwood Personal Care Home celebrates 25 years with new AI tech in resident rooms",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2d1bjdzZG8tdFpWamMyUmtBNDNhWm5FdktKU3YwNDNfQUVHY0ZBUjdDdjRmS0NvWkZxLTBYTXBDQVMwV0ppMVZta1lhVEJ0WnhMenlLeTlhaEYwUTk2WG1WMzZBaDRZeVE3X3pRc2tGaGJFbmh4Vkp6ZThXZ3c5c3RsTXJKdVR3cjVuc3V2VXhSbUh0WkptdXJFRS1SVEdmcmJLSTk5TWtaZ1JFazB0Xw?oc=5",
-   "source": "WJAC",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-02T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a145",
-   "title": "CQC progresses regulatory model and assessment frameworks for AI",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkZncnZHV2MweEMwSnE5UmU4Mjl5RnJpNW4yQldNeUZMWWlNbjZKN1lpeTAyVGVyYmFZUEx2QXc1b0R4amtkUVFJS3Nxdkl0X1owU0ctcHQzWEpDSDN1b0JDdl91VmUwRHpTa3Z6Mk1CbkNOakw1ZjNWOU1wcHBDUndsM1V3UjZVR19jdGVzc1RTWldoOW9HZUtR?oc=5",
-   "source": "HTN Health Tech News",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-06-02T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a146",
-   "title": "Personal cancer vaccines using AI gets research funding in Oxford",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE95RHdjLTFKNDhUZHZjT19mVk1CTE03WUlzeUpHUWlkX0tVa2JnWnB4c2N4b3Jtam1JV0ZBSjYxYUxsSndSRmh0N25GQlBnQnJRYWNwMG1oN21Pdw?oc=5",
+   "id": "a170",
+   "title": "'World-first' vaccine designed by artificial intelligence",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Ic1pqaHNzUkFQcDFQT00zc2dNdl9zcmt5bFl3X204VHJlMDVfdS1hVDRwdV9PQW9WaWpxdDdnVkhTa0l3bTloRjlGdTBSRU1jNENxOVd5VXp2QQ?oc=5",
    "source": "BBC",
    "category": "research-innovation",
    "region": "uk",
-   "date": "2026-06-02T07:00:00.000Z",
+   "date": "2026-06-04T07:00:00.000Z",
    "description": "",
-   "image": null
-  },
-  {
-   "id": "a147",
-   "title": "Bristol NHS Group and Highland bring health tech innovation directly to health and social care staff across Bristol, North Somerset and South Gloucestershire",
-   "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQaEIxTlJEaFFBMHc0TVc0Rzd5ck5ERk1fVXZ3QUU2VVBLRmJyTlZrN0lrWEM2dklhZWFNMmdNeFlOd0ZiY0oxbUt5ZlZUSTVaYlN0LVRWeWFIdW8wOTRzZTU2NzB6ZzkyWHdkSmlhU3lCU2h0aENPbldKRlVaTUM3VnJ2Y0tJVVY2SG83M191RjR0d0QxQXNiSUdxQmFXcVdlUTd4aExSejJ4ZDJmTEZrV01TSDhOWXN6Uk5hR0NVTGVpM21BMmx3dUJpa0JmZlgzNlhmRkxNM290TS01VFZjRjVfc1BZODhLVko1OWFwSDZ4VlNUaENsMW54UWVicDYyVnpNR1FkRTRsSEtIUGFFM18yLTJkbXRwQm9yYWgyQXVfM1k?oc=5",
-   "source": "Med-Tech Insights",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-01T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a148",
-   "title": "Lookout launches AI-powered platform overhaul aimed at transforming home care delivery",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM25DUnhZTm9fYi1Zc1dzVzFWQVhyWjJzejZOUFlrY0RlbkNPYXh3d1UzdXpFWV9QRXdoc2wyYTNIZjk3amJjS01ScmN3QlB2bUtrZkh3ZDJsYTFDVWVoZHI3Smp2Tk1wNEJkd2hmdDAtTmQ4allLWXFJRlFud1k3QV92eEJabzdiYmNVZ2wxdGpKZE01TTd5eWpmOHhidk9rTVpfRHozVnNOUnFfRS1DWl8tNnJJdw?oc=5",
-   "source": "Inside Ageing",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-06-01T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a149",
-   "title": "Health-tech startup Aurae eyes pre-Series A funding round",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTDNKX09IT1lDdFBSZTM4REF3OGhXTG5QNlZLZUlBMm5WZzNZSlFfeDd6ZWRXVGsya080WlMzUUtqYnZvUDFaRUF4NzlRWTJxTktlX0NLdld4b0hwWng2T2xXUVhBcE9DNkJGMlF1Vk9fYUhEYVR0TEsxS21QUG5LOWdnRXktRlVn?oc=5",
-   "source": "VCCircle",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-06-01T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a150",
-   "title": "Jayne Connery, director of Care Campaign for the Vulnerable, will speak at the Leaders in Care Conference",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBmRFNZLWh6dENMT3l3QVBCSmhBLXdWNUNYQThsZTQxeWkwVWNYd3NaZWo3WjhlR1ZPaGxCYVllQ2tzQTQ2VGVVd2Z6ZWxNT2xFRkc0bEJrWnZlUVpOWXNJRVFQcjZ4anR0UTc3bDBXMlBZd0RxT0gtc3Z3?oc=5",
-   "source": "Care Home Professional",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-05-29T08:34:18.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a151",
-   "title": "UK and France launch biomedical and AI health alliance to accelerate research into major diseases",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOblVqazFJV1VRenJyaTViZUhIQXVaR0hxTkhScl9UVVF3ZHpEYndqWGREd3U2cERJQ1lkMFlXNTRaR0ExSHZITHNxRG5uUk9xN19ZeDNSWFZrU2hlZ0dlbmVBekF6ZnRETDBKR1Z2M2hSeW93Q1NCb0RKWFpFVXlCSzNoVllBNTh4ZXgtSjk1U09MMkFJejhpckVIck5md0Z5ZmxrM05GVF84MDZ2VTZFaGpPYkp1U2RjQUhqTjQwaWtpZjFYakpxOEdFV3FGX1E?oc=5",
-   "source": "Lightsources.org",
-   "category": "research-innovation",
-   "region": "uk",
-   "date": "2026-05-29T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a152",
-   "title": "UK and France launch landmark biomedical and AI health alliance to accelerate research into major diseases",
-   "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOT2FibE1fbjFCalJZdGJzd3FmU0hZV0hLalh5U0ZkOG1kNnA4aHBRa0d4ME1zUUFtUzViNm5KaVpWcktxdkNiYWxScjVGbnZXbWRmaVpGcTRZR0lDd3otNDFVMFg4VDZVczlnMHZyQ3Z0elhxU0x2dzJzcnp6OF9BWXFqQWNmTGg5UEdqNERvTFJrMElqOWpFc181VEE2bzdVcThvekZ3X2hRU1lyYi1ScV8yX05GVjd1VWJrNDdGSTZtZFFuZ1lBY3Ayb25xSXhHU2hwc1prcTZ6c25IbTdNclA5aWttUQ?oc=5",
-   "source": "Institut Pasteur",
-   "category": "research-innovation",
-   "region": "uk",
-   "date": "2026-05-29T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a153",
-   "title": "Nigeria added 65 healthtech startups after COVID-19, says report",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRGxzV1hjbUpsWk82aVU3NzZXc0p5SGx5STlXTzBIUTRiUE9jX0Nncmk3dWhkLWdrZUV1ejlrOW9UYXNhemRsTmhWLTBlTU1rd0ljWUp3RnVsbjRRckVsa1FJX3B0azBRTFlBbGZVcTFWalhEdVh1YW1EbW9MbFFOQTRONUlCckZRVDNLSXhwQVJscm5SLVNvejFMZm5zQQ?oc=5",
-   "source": "TechCabal",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-05-29T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a154",
-   "title": "'The worrying lack of legal literacy when using AI in social care'",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDk3a1RJVVdFR0o4YkNSbU1QdElsZXNDY0E3SGZ6SjNnZEtNY0JRNnRIQ1k5ZEhpTGFOakRqVF9kWGVmWmlNMnhPaERfUXBBVTR6cXRXcGFhX2t2c2dMSU9oX1EzMEdjS1lLeEhmUG1fVF9RSXF4VnVQeUl5ak1fcUxPVWQxNi1NSUVSYkswbHJfZ3ZPbTZuVXBGT1plQTVFNnV1REM4Sm54SXktY1E?oc=5",
-   "source": "communitycare.co.uk",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-05-28T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a155",
-   "title": "Signos grows foothold in weight loss wave fueled by GLP-1s with its AI health data tracking",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1POFZIQi1jZjBCLXNXRUxZeVJyajgzSlNtR0M2Z1NTR1ZaQVRQT3hLZHkzQ1lwaGhUdTBGQnBJbEZKSURaZzNJdmxPUFI0bjIyQVNwRzFhVk44b2hEYVBhZUlwaEVvZ2VIbEVaSDZ4RDc1M1XSAXhBVV95cUxPZENZUURmaTdqbTM3Um9NRDZjZWFpQm45V1dZcVdWYTl4RGJ6T2w5TGNSUTFOVGpiZzYycFdka3ptLTlKUVh5Vl9HbW5nck5KeWhLbUhieTZ4QXNtSnFqcnhVNUlCdVFxUGFNbnRYQTFreWNHRDV0bWQ?oc=5",
-   "source": "CNBC",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-05-27T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a156",
-   "title": "Africa Health-Tech Accelerator Opens Applications for Early-Stage Startups Building AI and Digital Health Solutions",
-   "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd240aVMxczEtZlBqdzN0dGJGVy1VQVZzT3NHNmR3eFVULW04dC1XbEVRVDdxd0pseVVrWjBpbUlacUw0cFBoOEl2LU00MTc5Q0p0b2FNUms3VUZ6ZDBRem1pajhudGFHWGNtUWtTUng5VDBscUtCU1dnWlN1R1ZzTmlLbzhuUUpBUmUxWmVNVXYtc1ZjUS1GMG9QeUJiT2R6QkhYanRuNFUxZEp2NlpKQk9HUENRNWFQVzZsakhoTExHMWdtRXFYOWhkQ2d5Z3o1QXc?oc=5",
-   "source": "iAfrica.com",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-05-27T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a157",
-   "title": "Oppose the new Health Plan: NHS Staff, not AI",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IeGprTXJDc1J3dmRWMmRtam5vWmFqLUNwamNkaGtsZ3pCcVhqZDg1ODdkaUZMYmtCSk1OWWZUYWxkRmhxT05MWlFzcVVkUTRPVkl3Yi10dmpQbnJyb0ROZkhnSWdLbEtsZ2pnQk51Rk55emJLQ2dlbFotU0pNQQ?oc=5",
-   "source": "Keep Our NHS Public",
-   "category": "nhs-digital-health",
-   "region": "uk",
-   "date": "2026-05-26T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a158",
-   "title": "Health Minister welcomes additional £100m Transformation and National Lottery funding | Department of Health",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM0JNOXNXMU5GX0dNSkhENlNzQUNwV0o1WE54YTN1ZlJlNWV5U19FYzFXOU1DcHg3WWY3cFgxYk9GWVVSeWhUUng4eTVLVzRJUzFDOW9fTVZGX3ZQbHg0UFhGQ0VhUlBWUllDT3AxMFh1dDUwSEN6aDkxbThRVU5FQkVTR1cwZkZtdFhyYlRfMjZwZ3NOeW9rRGJ3NjZ3b3FTOEhQU3E0bWRXVzlBWWY0QUhpb1UxY0lxLUszaQ?oc=5",
-   "source": "health-ni.gov.uk",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-05-26T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a159",
-   "title": "Heatwave threat: Care homes urgently need AC, campaigners warn",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rd0tlbXFYbzlENDdyUkJXTV9FeGJaM3d6a0tTU3E0WHEySzFjdDZJTE5mQW54Z3JpeEliLU1rVFBXb29EaHEyM24tSDdYQ1ZNWnlibUc1c1BTSkV2eVZ4Rnc3ZzFWUm1ZbTBXNQ?oc=5",
-   "source": "Care Home Professional",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-05-26T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a160",
-   "title": "In 2026, Regulation Can Turbocharge AI Healthcare Companies",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UY3pKanJwQ2k4YXFlMWdzSVRsdTJNeHJIWW1xSThTc193OExIM3ljdTVLYzk4dlNvaTluVGQ0NGJXZndjdkVjTkhaSEVLS3MwVUE0ZXprcFdHWTkzUFFBLVBMWG1RdFVBSVgxLVFfdkc?oc=5",
-   "source": "politicsuk.com",
-   "category": "policy-regulation",
-   "region": "uk",
-   "date": "2026-05-26T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a161",
-   "title": "Lessons to ensure successful AI integration in home care settings",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQVdXUkZaNmY5a3BSNTRaLS1jYWxoSlZ2X1VSUmNPRHhjZnFfU19QeUUweTM0c0lZMnlXaGpKWDdFQXRKUTc5NFctNXBLUDk5OFVXdDFGUHEzSXE5ODJTVEtBSHR4Y1V5TUhaUFBLdXluZXhrZXhOdVg2UnJGcTlWNXVneTVRN3pkOHBpa0F5aWVOXzV0RUJXeE5ZNTY2SkJLeGNnZ1pRZ3Q?oc=5",
-   "source": "McKnights Home Care",
-   "category": "social-care-tech",
-   "region": "uk",
-   "date": "2026-05-26T04:10:34.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a162",
-   "title": "Irish AI Healthtech Firm Launches Funding Drive",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQam13LW40eEJnNVROTWxVSFBITVpTTWUwUXdScGY4VlNfeGFTWk9vbUhzTEVZY0pyMFdzeWJtakF1a0YyX2p3VVJoNGduY01FZENhcU5ZSWlfclQzZDFpUGd3czdHeEdPVC16enNGdFJOa0Z5TWk3N0dXSEo0SFF2V1hGOFVGSERMOGZOVm1PTU9XUGk5?oc=5",
-   "source": "Business Eye",
-   "category": "startups-funding",
-   "region": "uk",
-   "date": "2026-05-25T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a163",
-   "title": "Irish AI health-tech xWave to create 30 jobs amid €3m funding drive",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTXlmZGtpNzNMNC1NZEZVSm13dFdtRmlkQkFBZE82SVY2ZG40TWlZdEZmUGh4QkZMM2FRd0RUOHZSU0J4cTQwSVJjNmgzVk9zVVlmZXpIZ3FqbFBDemZvUEJvVmNVdVd5WWFZQUpSMUtXSGpZYUdtN3NseGdmVUFHTWFNVzFaMEx6Z2VldWVFRlF6WkVBZFFfNkpkbGx0S1A1UkJwZUVVUDhBT19EcEE?oc=5",
-   "source": "Silicon Republic",
-   "category": "startups-funding",
-   "region": "uk",
-   "date": "2026-05-25T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a164",
-   "title": "Irish AI Healthtech company wins contracts with NHS, along with €3 million funding drive",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSk5TTGRNTmF3NmFyTDNFeHFCQm53RUpjSVF1eHRURXVsYlRSWTdjb09TZDk2eDFNVk40cEdkMzJVSXhKVm9sbjZjVzhPbDJpTzVPVFF5bkxjaDZPQkw5d2IyTFJOeXFxOEh5R1EtRDI1U2Z1M19VZlh1WEJrdnFqY216RWxsaVRwN3VzcmpkbDJoS1VuSGdVYmFmVTlra0NjUENvd3duUENZbnNVMWItT00yTFl1NmtKVlNHMXdDd3ZpUFl0ZHBTN01na3F2TkFQYi1v?oc=5",
-   "source": "BreakingNews.ie",
-   "category": "startups-funding",
-   "region": "uk",
-   "date": "2026-05-25T07:00:00.000Z",
-   "description": "",
-   "image": null
-  },
-  {
-   "id": "a165",
-   "title": "Call For Applications: Africa HealthTech ExCon Accelerator 2026 for Health Innovation Startups",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMkxINlJ3eDR0RjIxaUhPcG5KVnBicVMtUHFVTVp4NUpTNWUxLUZfZGMtajNkcERJQm9lcWdpTlpVRXk4TmM0ZENkemV4aGUwTVhVdDZHNlB2R1pVSHZRZEtTZGNsdUxmYnk0eDBNWU0waVMzMFdTNktOekNyZlBlUG9IWWp1VFNoMThaNEhTdk5xNjdvR2dJM0laODQ3cE1NWWttNzRGbDhDTkhJUzBSLWJTNmZRdkR0dmYxN0lyVDk?oc=5",
-   "source": "MSME Africa",
-   "category": "startups-funding",
-   "region": "global",
-   "date": "2026-05-23T07:00:00.000Z",
-   "description": "",
-   "image": null
+   "image": "https://ichef.bbci.co.uk/news/1024/branded_news/5399/live/5dceca40-6066-11f1-89f7-47e36b8faab0.jpg"
   }
  ]
 }

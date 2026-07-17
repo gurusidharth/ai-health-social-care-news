@@ -4,6 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CATEGORIES } from "@/lib/news";
 import RegionToggle from "./RegionToggle";
+import SearchToggle from "./SearchToggle";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   const pathname = usePathname();
@@ -30,7 +32,9 @@ export default function Header() {
           <span className="hidden lg:block text-muted text-xs border-l border-line pl-3 leading-tight">
             AI in Health &amp; Social Care
           </span>
-          <div className="ml-auto">
+          <div className="ml-auto flex items-center gap-2">
+            <SearchToggle />
+            <ThemeToggle />
             <RegionToggle />
           </div>
         </div>

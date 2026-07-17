@@ -1,4 +1,5 @@
 import Parser from "rss-parser";
+import { chromium } from "playwright";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -164,16 +165,24 @@ const OG_IMAGE_RE_REV =
 const TWITTER_IMAGE_RE =
   /<meta[^>]+(?:property|name)=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["']/i;
 
-/**
- * Fetch a real article page and read its og:image/twitter:image meta tag.
- * Only used for direct publisher feeds — Google News redirect links serve a
- * generic identical badge image, not a real per-article photo (verified).
- */
+// A bare user-agent trips basic bot-detection on some publisher sites — these
+// extra headers mimic what a real browser navigation actually sends.
+const BROWSER_LIKE_HEADERS = {
+  "user-agent": BROWSER_UA,
+  accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.9",
+  "sec-fetch-mode": "navigate",
+  "sec-fetch-dest": "document",
+  "sec-fetch-site": "none",
+  "upgrade-insecure-requests": "1",
+};
+
+/** Fetch a real article page and read its og:image/twitter:image meta tag. */
 async function fetchOgImage(url) {
   try {
     const res = await fetch(url, {
       redirect: "follow",
-      headers: { "user-agent": BROWSER_UA },
+      headers: BROWSER_LIKE_HEADERS,
       signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return null;
@@ -184,6 +193,123 @@ async function fetchOgImage(url) {
   } catch {
     return null;
   }
+}
+
+/**
+ * Last-resort fallback: render the page in a real (headless) browser and
+ * read og:image from the rendered HTML. Only reached when the plain fetch()
+ * above fails — some sites 403 anything that isn't a real browser. Slower and
+ * heavier than fetchOgImage, so callers should try that first.
+ */
+async function fetchOgImageViaBrowser(browser, url) {
+  let page;
+  try {
+    page = await browser.newPage({ userAgent: BROWSER_UA });
+    const res = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 15000 });
+    if (!res || !res.ok()) return null;
+    const html = await page.content();
+    const match = html.match(OG_IMAGE_RE) || html.match(OG_IMAGE_RE_REV) || html.match(TWITTER_IMAGE_RE);
+    if (!match) return null;
+    return new URL(match[1], page.url()).href;
+  } catch {
+    return null;
+  } finally {
+    if (page) await page.close().catch(() => {});
+  }
+}
+
+const GNEWS_ARTICLE_RE = /news\.google\.com\/rss\/articles\/([^?]+)/;
+
+/**
+ * Google News RSS article links are a JS-rendered redirect page, not the
+ * publisher URL — plain fetch() can't follow them, so og:image scraping on
+ * the raw link just reads Google's own page. This decodes the real publisher
+ * URL via Google News' internal batchexecute endpoint (undocumented but
+ * widely relied upon by open-source Google News decoders) so we can scrape
+ * the actual article's og:image instead.
+ */
+async function decodeGoogleNewsUrl(articleUrl) {
+  const m = articleUrl.match(GNEWS_ARTICLE_RE);
+  if (!m) return null;
+  const articleId = m[1];
+
+  try {
+    const res = await fetch(articleUrl, {
+      headers: { "user-agent": BROWSER_UA },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const dataP = html.match(/data-p="([^"]+)"/);
+    if (!dataP) return null;
+    const decoded = dataP[1].replace(/&quot;/g, '"');
+    const tail = decoded.match(/,(\d{9,}),"([^"]+)"\]$/);
+    if (!tail) return null;
+    const [, timestamp, signature] = tail;
+
+    // Google validates the locale in this payload against the session that
+    // issued the signature — reuse whatever locale/country Google actually
+    // embedded in the page rather than a hardcoded one.
+    const localeMatch = decoded.match(/^%\.@\.\[\["([^"]+)","([^"]+)"/);
+    const [lang, country] = localeMatch ? [localeMatch[1], localeMatch[2]] : ["en-US", "US"];
+
+    const innerPayload = JSON.stringify([
+      "garturlreq",
+      [
+        [lang, country, ["FINANCE_TOP_INDICES", "GENESIS_PUBLISHER_SECTION", "WEB_TEST_1_0_0"], null, null, 1, 1, `${country}:en`],
+        lang,
+        country,
+        1,
+        [3, 5, 9, 19],
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        0,
+      ],
+      articleId,
+      timestamp,
+      signature,
+    ]);
+    const body = new URLSearchParams();
+    body.set("f.req", JSON.stringify([[["Fbv4je", innerPayload, null, "generic"]]]));
+
+    const decodeRes = await fetch("https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je", {
+      method: "POST",
+      headers: {
+        "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "user-agent": BROWSER_UA,
+      },
+      body: body.toString(),
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!decodeRes.ok) return null;
+    const text = await decodeRes.text();
+    // The URL is JSON-encoded inside a JSON string, so its quotes are escaped
+    // (\"garturlres\",\"https://...\") in the raw response body.
+    const urlMatch = text.match(/"garturlres\\",\\"(https?:\/\/[^\\"]+)\\"/);
+    return urlMatch ? urlMatch[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Resolve the best available image for one article: decode Google News links
+ * to the real publisher URL first, try a plain fetch, and only reach for the
+ * (much slower) headless browser if that fetch didn't turn up an image.
+ */
+async function resolveImageForArticle(a, browser) {
+  let target = a.link;
+  if (GNEWS_ARTICLE_RE.test(a.link)) {
+    target = await decodeGoogleNewsUrl(a.link);
+    if (!target) return null;
+  }
+  const viaFetch = await fetchOgImage(target);
+  if (viaFetch) return viaFetch;
+  return fetchOgImageViaBrowser(browser, target);
 }
 
 async function resolveImages(candidates) {
@@ -204,15 +330,23 @@ async function resolveImages(candidates) {
     return Date.now() - cached.failedAt > RETRY_FAILURE_AFTER_MS; // known-bad, retry after cooldown
   });
 
-  const CONCURRENCY = 6;
-  for (let i = 0; i < toFetch.length; i += CONCURRENCY) {
-    const batch = toFetch.slice(i, i + CONCURRENCY);
-    await Promise.allSettled(
-      batch.map(async (a) => {
-        const url = await fetchOgImage(a.link);
-        cache[a.link] = url ? { url } : { failedAt: Date.now() };
-      })
-    );
+  const browser = toFetch.length > 0 ? await chromium.launch() : null;
+  try {
+    // Headless pages are far heavier than plain fetches (real browser process
+    // per page), so keep concurrency low even though most candidates never
+    // reach the browser fallback.
+    const CONCURRENCY = 3;
+    for (let i = 0; i < toFetch.length; i += CONCURRENCY) {
+      const batch = toFetch.slice(i, i + CONCURRENCY);
+      await Promise.allSettled(
+        batch.map(async (a) => {
+          const url = await resolveImageForArticle(a, browser);
+          cache[a.link] = url ? { url } : { failedAt: Date.now() };
+        })
+      );
+    }
+  } finally {
+    if (browser) await browser.close();
   }
 
   for (const a of candidates) {
@@ -288,9 +422,10 @@ async function main() {
     throw new Error("All feeds failed and no existing news.json to fall back to");
   }
 
-  // Real og:image scraping only for direct publisher feeds lacking an RSS-native
-  // image — Google News redirect links serve a generic badge image, not a real one.
-  const imageCandidates = capped.filter((a) => a.isDirect && !a.image);
+  // og:image scraping for every article still missing an image — direct feeds
+  // scrape their own link, Google News links get decoded to the real publisher
+  // URL first (see resolveImageForArticle).
+  const imageCandidates = capped.filter((a) => !a.image);
   await resolveImages(imageCandidates);
 
   // Some sites (e.g. GOV.UK) return the same site-wide og:image on every page —

@@ -47,6 +47,12 @@ export function filterByRegion(articles: Article[], region: RegionFilter): Artic
   return region === "all" ? articles : articles.filter((a) => a.region === region);
 }
 
+export function filterBySearch(articles: Article[], query: string): Article[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return articles;
+  return articles.filter((a) => a.title.toLowerCase().includes(q));
+}
+
 /**
  * Top stories: hero prefers a fresh story with an image, then the newest
  * article per category (variety), then the rest capped at 3 per category.
