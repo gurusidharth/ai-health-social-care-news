@@ -21,7 +21,7 @@ export default function CategoryFeed({ category, articles }: { category: Categor
       )}
 
       {cards.length > 0 && (
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2.5">
           {cards.map((a) => (
             <ArticleCard key={a.id} article={a} />
           ))}

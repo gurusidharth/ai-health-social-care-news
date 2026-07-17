@@ -38,11 +38,11 @@ export default function BookmarkButton({ id, className = "" }: { id: string; cla
       onClick={toggle}
       aria-label={saved ? "Remove bookmark" : "Add to your bookmarks"}
       aria-pressed={saved}
-      className={`inline-flex items-center justify-center w-8 h-8 rounded-full bg-card/90 backdrop-blur border border-line text-muted hover:text-accent hover:border-accent/40 transition-colors ${className}`}
+      className={`inline-flex items-center justify-center w-7 h-7 rounded-full bg-card/90 backdrop-blur border border-line text-muted hover:text-accent hover:border-accent/40 transition-colors ${className}`}
     >
       <svg
-        width="15"
-        height="15"
+        width="13"
+        height="13"
         viewBox="0 0 24 24"
         fill={saved ? "currentColor" : "none"}
         stroke="currentColor"
