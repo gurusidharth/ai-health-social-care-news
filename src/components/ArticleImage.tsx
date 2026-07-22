@@ -10,11 +10,23 @@ type Props = {
   source?: string;
   className?: string;
   showLabel?: boolean;
+  onFail?: () => void;
 };
 
-/** Article image with a category-coloured gradient fallback when missing, broken, or a degenerate 1x1 tracking-pixel URL. */
-export default function ArticleImage({ src, alt, gradient, label, source, className = "", showLabel = true }: Props) {
+// Real editorial photos are almost always well over this on at least one
+// dimension; small square site logos/favicons used as a fallback og:image
+// aren't, so treat anything under this as "no real image" rather than
+// stretching a tiny logo across a large card.
+const MIN_REAL_IMAGE_DIMENSION = 300;
+
+/** Article image with a category-coloured gradient fallback when missing, broken, a degenerate 1x1 tracking-pixel URL, or too small to be a real photo (e.g. a site logo). */
+export default function ArticleImage({ src, alt, gradient, label, source, className = "", showLabel = true, onFail }: Props) {
   const [failed, setFailed] = useState(false);
+
+  function fail() {
+    setFailed(true);
+    onFail?.();
+  }
 
   if (!src || failed) {
     return (
@@ -61,10 +73,10 @@ export default function ArticleImage({ src, alt, gradient, label, source, classN
       src={src}
       alt={alt}
       loading="lazy"
-      onError={() => setFailed(true)}
+      onError={fail}
       onLoad={(e) => {
         const img = e.currentTarget;
-        if (img.naturalWidth <= 4 || img.naturalHeight <= 4) setFailed(true);
+        if (img.naturalWidth < MIN_REAL_IMAGE_DIMENSION && img.naturalHeight < MIN_REAL_IMAGE_DIMENSION) fail();
       }}
       className={`object-cover ${className}`}
     />

@@ -36,7 +36,7 @@ export function getCategory(slug: string): Category | undefined {
 }
 
 export function getAllArticles(): Article[] {
-  return newsData.articles as Article[];
+  return (newsData.articles as Article[]).filter((a) => a.image);
 }
 
 export function getArticlesByCategory(slug: string): Article[] {

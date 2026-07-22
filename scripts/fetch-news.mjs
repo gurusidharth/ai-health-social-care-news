@@ -57,6 +57,8 @@ const FEEDS = [
 
   // Research and Innovation
   { url: gnewsUK("AI medical research UK university OR NIHR"), category: "research-innovation", region: "uk" },
+  { url: gnewsUK('AI OR "artificial intelligence" health OR medical research OR breakthrough OR study OR trial'), category: "research-innovation", region: "uk" },
+  { url: gnewsUK('AI healthcare research OR innovation OR breakthrough OR discovery'), category: "research-innovation", region: "global" },
   {
     url: "https://www.technologyreview.com/feed/",
     category: "research-innovation",
@@ -226,14 +228,32 @@ function extractOgImage(html, baseUrl) {
 }
 
 /** Parse full article body text out of a page's HTML via Readability. */
-function extractReadableContent(html, url) {
+/**
+ * Parse both the article body text and (as a fallback for pages with no
+ * og:image/twitter:image meta tag) the first real image inside Readability's
+ * cleaned article body — much more reliable than scanning the raw page HTML,
+ * since Readability has already stripped nav/ad/sidebar images for us.
+ */
+function parseArticle(html, url) {
   try {
     const dom = new JSDOM(html, { url });
     const parsed = new Readability(dom.window.document).parse();
     const text = parsed?.textContent?.replace(/\n{3,}/g, "\n\n").trim();
-    return text && text.length > 200 ? text.slice(0, MAX_CONTENT_LEN) : null;
+    const content = text && text.length > 200 ? text.slice(0, MAX_CONTENT_LEN) : null;
+
+    let image = null;
+    const imgMatch = parsed?.content?.match(/<img[^>]+src=["']([^"']+)["']/i);
+    if (imgMatch && !/doubleclick|pixel|emoji|gravatar|avatar/i.test(imgMatch[1])) {
+      try {
+        image = new URL(imgMatch[1], url).href;
+      } catch {
+        image = null;
+      }
+    }
+
+    return { content, image };
   } catch {
-    return null;
+    return { content: null, image: null };
   }
 }
 
@@ -340,10 +360,14 @@ async function decodeGoogleNewsUrl(articleUrl) {
     });
     if (!decodeRes.ok) return null;
     const text = await decodeRes.text();
-    // The URL is JSON-encoded inside a JSON string, so its quotes are escaped
-    // (\"garturlres\",\"https://...\") in the raw response body.
-    const urlMatch = text.match(/"garturlres\\",\\"(https?:\/\/[^\\"]+)\\"/);
-    return urlMatch ? urlMatch[1] : null;
+    // The body is XSSI-protected (")]}'" prefix) JSON; the real URL is nested
+    // two levels of JSON-encoding deep, so it must be parsed rather than
+    // regex-matched — a regex on the raw escaped text breaks whenever the URL
+    // itself contains an escaped character (e.g. = for "=" in a query string).
+    const outer = JSON.parse(text.replace(/^\)\]\}'/, ""));
+    const inner = JSON.parse(outer[0][2]);
+    const url = inner[1];
+    return typeof url === "string" && /^https?:\/\//.test(url) ? url : null;
   } catch {
     return null;
   }
@@ -368,8 +392,10 @@ async function resolveExtrasForArticle(a, browser) {
   if (!page) page = await fetchPageViaBrowser(browser, target);
   if (!page) return { image: null, content: feedContent };
 
-  const image = extractOgImage(page.html, page.finalUrl);
-  const content = feedContent || extractReadableContent(page.html, page.finalUrl);
+  const ogImage = extractOgImage(page.html, page.finalUrl);
+  const parsed = ogImage && feedContent ? null : parseArticle(page.html, page.finalUrl);
+  const image = ogImage || parsed?.image || null;
+  const content = feedContent || parsed?.content || null;
   return { image, content };
 }
 
