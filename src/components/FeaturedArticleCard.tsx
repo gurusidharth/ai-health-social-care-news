@@ -1,6 +1,10 @@
+"use client";
+
+import { useState } from "react";
 import type { Article } from "@/lib/news";
 import { getCategory } from "@/lib/news";
 import ArticleImage from "./ArticleImage";
+import ArticleModal from "./ArticleModal";
 import BookmarkButton from "./BookmarkButton";
 import SourceBadge from "./SourceBadge";
 import TimeAgo from "./TimeAgo";
@@ -8,12 +12,17 @@ import TimeAgo from "./TimeAgo";
 /** Wide featured card: image on the left, text on the right — used to break up dense card grids. */
 export default function FeaturedArticleCard({ article }: { article: Article }) {
   const cat = getCategory(article.category);
+  const [open, setOpen] = useState(false);
   return (
-    <a
-      href={article.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="group flex rounded-xl overflow-hidden bg-card border border-line hover:border-accent/40 shadow-sm hover:shadow-md transition-all min-h-[150px] md:min-h-[170px]"
+    <>
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={() => setOpen(true)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") setOpen(true);
+      }}
+      className="group flex rounded-xl overflow-hidden bg-card border border-line hover:border-accent/40 shadow-sm hover:shadow-md transition-all min-h-[150px] md:min-h-[170px] cursor-pointer"
     >
       <div className="relative w-2/5 shrink-0">
         <div className="absolute inset-0 overflow-hidden">
@@ -45,6 +54,8 @@ export default function FeaturedArticleCard({ article }: { article: Article }) {
           <BookmarkButton articleId={article.id} />
         </div>
       </div>
-    </a>
+    </div>
+    {open && <ArticleModal article={article} onClose={() => setOpen(false)} />}
+    </>
   );
 }

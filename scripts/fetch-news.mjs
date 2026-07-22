@@ -1,20 +1,22 @@
 import Parser from "rss-parser";
 import { chromium } from "playwright";
+import { Readability } from "@mozilla/readability";
+import { JSDOM } from "jsdom";
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT_FILE = join(ROOT, "data", "news.json");
-const IMAGE_CACHE_FILE = join(ROOT, "data", "image-cache.json");
+// Named for history — now caches the full article-page resolution (image + body text).
+const EXTRAS_CACHE_FILE = join(ROOT, "data", "image-cache.json");
+const MAX_CONTENT_LEN = 20000;
 
 const BROWSER_UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
 const gnewsUK = (q) =>
   `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-GB&gl=GB&ceid=GB:en`;
-const gnewsUS = (q) =>
-  `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`;
 
 // Only keep items that are actually about AI/tech — the site's core focus.
 // Applied to publisher feeds (broad general feeds) and any Google News feed
@@ -24,28 +26,16 @@ const TOPIC_RE =
 
 // UK-first sources, plus global coverage. Every feed is tagged with the
 // region its content actually belongs to, independent of its category —
-// e.g. Research & Innovation mixes a UK query with a global (US) publication.
+// e.g. Research and Innovation mixes a UK query with a global (US) publication.
+//
+// Client-specified categories: Policy and Regulation, Funding and Research,
+// Research and Innovation, Practical Opportunities - Our blogs, Assistive Technology.
+// NHS & Digital Health content now folds into Policy and Regulation (NHS
+// digital rollout is fundamentally a policy story); Social Care Tech folds
+// into Assistive Technology (telecare, care robotics, mobility aids overlap
+// heavily); the old generic "World" bucket has no equivalent and is dropped.
 const FEEDS = [
-  // NHS & Digital Health
-  { url: "https://www.digitalhealth.net/feed/", category: "nhs-digital-health", source: "Digital Health", region: "uk" },
-  { url: "https://htn.co.uk/feed/", category: "nhs-digital-health", source: "HTN", region: "uk" },
-  { url: gnewsUK('NHS "artificial intelligence"'), category: "nhs-digital-health", region: "uk" },
-
-  // Social Care Tech (direct publisher feeds 403-block bots, so route via Google News)
-  { url: gnewsUK('"social care" AI OR digital OR technology OR robotics'), category: "social-care-tech", region: "uk" },
-  { url: gnewsUK('"care home" OR "home care" OR "care sector" technology OR AI'), category: "social-care-tech", region: "uk" },
-  { url: gnewsUK("site:carehomeprofessional.com OR site:homecareinsight.co.uk"), category: "social-care-tech", region: "uk" },
-  {
-    // Skills for Care (workforce development body) — query is broad, so
-    // require an explicit AI/digital/tech mention to cut generic workforce noise
-    url: gnewsUK('"Skills for Care" AI OR digital OR technology OR workforce'),
-    category: "social-care-tech",
-    region: "uk",
-    mustMatch: TOPIC_RE,
-    matchOn: "title",
-  },
-
-  // Policy & Regulation — DHSC, CQC (regulator) and MHRA
+  // Policy and Regulation — DHSC, CQC (regulator), MHRA, plus NHS digital rollout/policy
   { url: gnewsUK("AI health regulation CQC OR DHSC OR MHRA"), category: "policy-regulation", region: "uk" },
   { url: gnewsUK('CQC "artificial intelligence" OR AI OR "digital technology"'), category: "policy-regulation", region: "uk" },
   {
@@ -57,8 +47,15 @@ const FEEDS = [
     mustMatch: /\b(AI|artificial intelligence|digital|technology|tech|robot|innovation|data)\b/i,
     matchOn: "title",
   },
+  { url: "https://www.digitalhealth.net/feed/", category: "policy-regulation", source: "Digital Health", region: "uk" },
+  { url: "https://htn.co.uk/feed/", category: "policy-regulation", source: "HTN", region: "uk" },
+  { url: gnewsUK('NHS "artificial intelligence"'), category: "policy-regulation", region: "uk" },
 
-  // Research & Innovation
+  // Funding and Research (was Startups & Funding)
+  { url: gnewsUK('healthtech OR "digital health" OR "health tech" startup funding'), category: "funding-research", region: "global" },
+  { url: gnewsUK('"health tech" OR healthtech OR "care tech" UK raises OR funding OR investment OR startup'), category: "funding-research", region: "uk" },
+
+  // Research and Innovation
   { url: gnewsUK("AI medical research UK university OR NIHR"), category: "research-innovation", region: "uk" },
   {
     url: "https://www.technologyreview.com/feed/",
@@ -69,13 +66,28 @@ const FEEDS = [
     mustMatch: /\b(health|medic|drug|cancer|clinical|patient|hospital|biotech|disease|vaccine|surg|NHS|care)\b/i,
   },
 
-  // Startups & Funding
-  { url: gnewsUK('healthtech OR "digital health" OR "health tech" startup funding'), category: "startups-funding", region: "global" },
-  { url: gnewsUK('"health tech" OR healthtech OR "care tech" UK raises OR funding OR investment OR startup'), category: "startups-funding", region: "uk" },
+  // Practical Opportunities - Our blogs — hands-on adoption stories: case
+  // studies, guidance, training and toolkits for AI/digital in health and social care
+  { url: gnewsUK('AI OR digital "case study" OR "best practice" OR toolkit health OR "social care"'), category: "practical-opportunities", region: "uk" },
+  { url: gnewsUK('"how to" OR guidance OR training OR "digital skills" AI adoption NHS OR "social care"'), category: "practical-opportunities", region: "uk" },
+  { url: gnewsUK('NHS OR "social care" staff AI training OR upskilling OR workforce'), category: "practical-opportunities", region: "uk" },
 
-  // World
-  { url: gnewsUS("AI healthcare"), category: "world", region: "global" },
-  { url: "https://www.healthcareitnews.com/home/feed", category: "world", source: "Healthcare IT News", region: "global" },
+  // Assistive Technology (was Social Care Tech, direct publisher feeds
+  // 403-block bots so route via Google News, plus dedicated assistive-tech queries)
+  { url: gnewsUK('"assistive technology" OR "assistive tech" disability OR care OR mobility'), category: "assistive-technology", region: "uk" },
+  { url: gnewsUK('telecare OR "fall detection" OR "assisted living" OR "care robot" technology'), category: "assistive-technology", region: "uk" },
+  { url: gnewsUK('"social care" AI OR digital OR technology OR robotics'), category: "assistive-technology", region: "uk" },
+  { url: gnewsUK('"care home" OR "home care" OR "care sector" technology OR AI'), category: "assistive-technology", region: "uk" },
+  { url: gnewsUK("site:carehomeprofessional.com OR site:homecareinsight.co.uk"), category: "assistive-technology", region: "uk" },
+  {
+    // Skills for Care (workforce development body) — query is broad, so
+    // require an explicit AI/digital/tech mention to cut generic workforce noise
+    url: gnewsUK('"Skills for Care" AI OR digital OR technology OR workforce'),
+    category: "assistive-technology",
+    region: "uk",
+    mustMatch: TOPIC_RE,
+    matchOn: "title",
+  },
 ];
 
 const parser = new Parser({
@@ -91,17 +103,33 @@ const parser = new Parser({
   },
 });
 
-const stripHtml = (html = "") =>
-  html
-    .replace(/<[^>]+>/g, " ")
+const decodeEntities = (s = "") =>
+  s
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&quot;/g, '"')
     .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
+    .replace(/&gt;/g, ">");
+
+const stripHtml = (html = "") =>
+  decodeEntities(html.replace(/<[^>]+>/g, " "))
     .replace(/\s+/g, " ")
     .trim();
+
+/** Like stripHtml, but keeps paragraph/line breaks — for full article body text. */
+function htmlToParagraphText(html = "") {
+  const withBreaks = html
+    .replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/gi, " ")
+    .replace(/<\/(p|div|h[1-6]|li|blockquote)>/gi, "\n\n")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<[^>]+>/g, "");
+  return decodeEntities(withBreaks)
+    .replace(/[ \t]+/g, " ")
+    .replace(/ *\n */g, "\n")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
 
 function extractImage(item) {
   const media = item.mediaContent?.find((m) => m?.$?.url);
@@ -152,10 +180,20 @@ function normalizeItem(item, feed) {
     region: feed.region || "uk",
     date,
     description,
+    content: null,
     image: extractImage(item),
-    // transient — used to decide og:image scraping, stripped before writing news.json
+    // transient — stripped before writing news.json
     isDirect: !isGoogleNews,
+    rawContentHtml: item.contentEncoded || item.content || null,
   };
+}
+
+/** Full body text already present in the RSS item itself (common on direct WordPress/Atom feeds). */
+function contentFromFeed(article) {
+  const html = article.rawContentHtml;
+  if (!html) return null;
+  const text = htmlToParagraphText(html);
+  return text.length > 600 ? text.slice(0, MAX_CONTENT_LEN) : null;
 }
 
 const OG_IMAGE_RE =
@@ -177,8 +215,30 @@ const BROWSER_LIKE_HEADERS = {
   "upgrade-insecure-requests": "1",
 };
 
-/** Fetch a real article page and read its og:image/twitter:image meta tag. */
-async function fetchOgImage(url) {
+function extractOgImage(html, baseUrl) {
+  const match = html.match(OG_IMAGE_RE) || html.match(OG_IMAGE_RE_REV) || html.match(TWITTER_IMAGE_RE);
+  if (!match) return null;
+  try {
+    return new URL(match[1], baseUrl).href;
+  } catch {
+    return null;
+  }
+}
+
+/** Parse full article body text out of a page's HTML via Readability. */
+function extractReadableContent(html, url) {
+  try {
+    const dom = new JSDOM(html, { url });
+    const parsed = new Readability(dom.window.document).parse();
+    const text = parsed?.textContent?.replace(/\n{3,}/g, "\n\n").trim();
+    return text && text.length > 200 ? text.slice(0, MAX_CONTENT_LEN) : null;
+  } catch {
+    return null;
+  }
+}
+
+/** Fetch a real article page's HTML. */
+async function fetchPage(url) {
   try {
     const res = await fetch(url, {
       redirect: "follow",
@@ -186,31 +246,24 @@ async function fetchOgImage(url) {
       signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return null;
-    const html = await res.text();
-    const match = html.match(OG_IMAGE_RE) || html.match(OG_IMAGE_RE_REV) || html.match(TWITTER_IMAGE_RE);
-    if (!match) return null;
-    return new URL(match[1], res.url).href;
+    return { html: await res.text(), finalUrl: res.url };
   } catch {
     return null;
   }
 }
 
 /**
- * Last-resort fallback: render the page in a real (headless) browser and
- * read og:image from the rendered HTML. Only reached when the plain fetch()
- * above fails — some sites 403 anything that isn't a real browser. Slower and
- * heavier than fetchOgImage, so callers should try that first.
+ * Last-resort fallback: render the page in a real (headless) browser. Only
+ * reached when the plain fetch() above fails — some sites 403 anything that
+ * isn't a real browser. Slower and heavier, so callers should try that first.
  */
-async function fetchOgImageViaBrowser(browser, url) {
+async function fetchPageViaBrowser(browser, url) {
   let page;
   try {
     page = await browser.newPage({ userAgent: BROWSER_UA });
     const res = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 15000 });
     if (!res || !res.ok()) return null;
-    const html = await page.content();
-    const match = html.match(OG_IMAGE_RE) || html.match(OG_IMAGE_RE_REV) || html.match(TWITTER_IMAGE_RE);
-    if (!match) return null;
-    return new URL(match[1], page.url()).href;
+    return { html: await page.content(), finalUrl: page.url() };
   } catch {
     return null;
   } finally {
@@ -297,26 +350,34 @@ async function decodeGoogleNewsUrl(articleUrl) {
 }
 
 /**
- * Resolve the best available image for one article: decode Google News links
- * to the real publisher URL first, try a plain fetch, and only reach for the
- * (much slower) headless browser if that fetch didn't turn up an image.
+ * Resolve the best available image + full body text for one article: decode
+ * Google News links to the real publisher URL first, fetch that page once
+ * (plain fetch, falling back to a headless browser for bot-gated sites), then
+ * pull both the og:image and the Readability-parsed article text out of it.
  */
-async function resolveImageForArticle(a, browser) {
+async function resolveExtrasForArticle(a, browser) {
+  const feedContent = contentFromFeed(a);
+
   let target = a.link;
   if (GNEWS_ARTICLE_RE.test(a.link)) {
     target = await decodeGoogleNewsUrl(a.link);
-    if (!target) return null;
   }
-  const viaFetch = await fetchOgImage(target);
-  if (viaFetch) return viaFetch;
-  return fetchOgImageViaBrowser(browser, target);
+  if (!target) return { image: null, content: feedContent };
+
+  let page = await fetchPage(target);
+  if (!page) page = await fetchPageViaBrowser(browser, target);
+  if (!page) return { image: null, content: feedContent };
+
+  const image = extractOgImage(page.html, page.finalUrl);
+  const content = feedContent || extractReadableContent(page.html, page.finalUrl);
+  return { image, content };
 }
 
-async function resolveImages(candidates) {
+async function resolveExtras(candidates) {
   let cache = {};
-  if (existsSync(IMAGE_CACHE_FILE)) {
+  if (existsSync(EXTRAS_CACHE_FILE)) {
     try {
-      cache = JSON.parse(readFileSync(IMAGE_CACHE_FILE, "utf8"));
+      cache = JSON.parse(readFileSync(EXTRAS_CACHE_FILE, "utf8"));
     } catch {
       cache = {};
     }
@@ -326,8 +387,9 @@ async function resolveImages(candidates) {
   const toFetch = candidates.filter((a) => {
     const cached = cache[a.link];
     if (!cached) return true;
-    if (cached.url) return false; // known-good, skip
-    return Date.now() - cached.failedAt > RETRY_FAILURE_AFTER_MS; // known-bad, retry after cooldown
+    if (cached.failedAt) return Date.now() - cached.failedAt > RETRY_FAILURE_AFTER_MS; // known-bad, retry after cooldown
+    if (!("content" in cached)) return true; // pre-existing image-only cache entry — needs content resolved
+    return false; // already resolved (even a null content/image is a final result)
   });
 
   const browser = toFetch.length > 0 ? await chromium.launch() : null;
@@ -340,8 +402,8 @@ async function resolveImages(candidates) {
       const batch = toFetch.slice(i, i + CONCURRENCY);
       await Promise.allSettled(
         batch.map(async (a) => {
-          const url = await resolveImageForArticle(a, browser);
-          cache[a.link] = url ? { url } : { failedAt: Date.now() };
+          const { image, content } = await resolveExtrasForArticle(a, browser);
+          cache[a.link] = image || content ? { image, content } : { failedAt: Date.now() };
         })
       );
     }
@@ -351,7 +413,9 @@ async function resolveImages(candidates) {
 
   for (const a of candidates) {
     const cached = cache[a.link];
-    if (cached?.url) a.image = cached.url;
+    if (!cached) continue;
+    if (!a.image && cached.image) a.image = cached.image;
+    a.content = cached.content || null;
   }
 
   // prune cache entries for articles no longer in the current set
@@ -360,9 +424,10 @@ async function resolveImages(candidates) {
     if (!liveLinks.has(link)) delete cache[link];
   }
 
-  mkdirSync(dirname(IMAGE_CACHE_FILE), { recursive: true });
-  writeFileSync(IMAGE_CACHE_FILE, JSON.stringify(cache, null, 1));
-  console.log(`Resolved images: ${toFetch.length} fetched (${toFetch.filter((a) => cache[a.link]?.url).length} succeeded), ${candidates.length - toFetch.length} cached`);
+  mkdirSync(dirname(EXTRAS_CACHE_FILE), { recursive: true });
+  writeFileSync(EXTRAS_CACHE_FILE, JSON.stringify(cache, null, 1));
+  const withContent = candidates.filter((a) => a.content).length;
+  console.log(`Resolved article extras: ${toFetch.length} fetched, ${withContent}/${candidates.length} have content`);
 }
 
 async function fetchFeed(feed) {
@@ -422,11 +487,10 @@ async function main() {
     throw new Error("All feeds failed and no existing news.json to fall back to");
   }
 
-  // og:image scraping for every article still missing an image — direct feeds
-  // scrape their own link, Google News links get decoded to the real publisher
-  // URL first (see resolveImageForArticle).
-  const imageCandidates = capped.filter((a) => !a.image);
-  await resolveImages(imageCandidates);
+  // Every article needs its full body text resolved (and, for the ones
+  // missing one, an image) — direct feeds scrape their own link, Google News
+  // links get decoded to the real publisher URL first (see resolveExtrasForArticle).
+  await resolveExtras(capped);
 
   // Some sites (e.g. GOV.UK) return the same site-wide og:image on every page —
   // not a real per-article photo. Drop any image reused across multiple articles.
@@ -434,7 +498,7 @@ async function main() {
   for (const a of capped) if (a.image) imageCounts[a.image] = (imageCounts[a.image] || 0) + 1;
   for (const a of capped) if (a.image && imageCounts[a.image] > 1) a.image = null;
 
-  const output = capped.map(({ isDirect, ...rest }) => rest);
+  const output = capped.map(({ isDirect, rawContentHtml, ...rest }) => rest);
 
   mkdirSync(dirname(OUT_FILE), { recursive: true });
   writeFileSync(OUT_FILE, JSON.stringify({ updatedAt: new Date().toISOString(), articles: output }, null, 1));

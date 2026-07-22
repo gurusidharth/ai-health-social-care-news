@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { CATEGORIES } from "@/lib/news";
+import { NAV_ITEMS } from "@/lib/nav";
 import RegionToggle from "./RegionToggle";
 import SearchToggle from "./SearchToggle";
 import ThemeToggle from "./ThemeToggle";
@@ -10,10 +10,7 @@ import ThemeToggle from "./ThemeToggle";
 export default function Header() {
   const pathname = usePathname();
 
-  const tabs = [
-    { slug: "", label: "Home", href: "/" },
-    ...CATEGORIES.map((c) => ({ slug: c.slug, label: c.label, href: `/category/${c.slug}/` })),
-  ];
+  const tabs = [{ label: "Home", href: "/" }, ...NAV_ITEMS];
 
   return (
     <header className="sticky top-0 z-50 bg-bg/95 backdrop-blur border-b border-line">
@@ -41,8 +38,7 @@ export default function Header() {
 
         <nav className="flex gap-1 overflow-x-auto no-scrollbar -mx-4 px-4">
           {tabs.map((tab) => {
-            const active =
-              tab.href === "/" ? pathname === "/" : pathname.startsWith(`/category/${tab.slug}`);
+            const active = tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href);
             return (
               <Link
                 key={tab.href}

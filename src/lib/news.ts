@@ -12,6 +12,7 @@ export type Article = {
   region: Region;
   date: string;
   description: string;
+  content: string | null;
   image: string | null;
 };
 
@@ -23,12 +24,11 @@ export type Category = {
 };
 
 export const CATEGORIES: Category[] = [
-  { slug: "nhs-digital-health", label: "NHS & Digital Health", short: "NHS", gradient: "from-sky-800 to-slate-900" },
-  { slug: "social-care-tech", label: "Social Care Tech", short: "Social Care", gradient: "from-emerald-800 to-slate-900" },
-  { slug: "policy-regulation", label: "Policy & Regulation", short: "Policy", gradient: "from-indigo-800 to-slate-900" },
-  { slug: "research-innovation", label: "Research & Innovation", short: "Research", gradient: "from-purple-800 to-slate-900" },
-  { slug: "startups-funding", label: "Startups & Funding", short: "Startups", gradient: "from-amber-800 to-slate-900" },
-  { slug: "world", label: "World", short: "World", gradient: "from-rose-800 to-slate-900" },
+  { slug: "policy-regulation", label: "Policy and Regulation", short: "Policy", gradient: "from-indigo-800 to-slate-900" },
+  { slug: "funding-research", label: "Funding and Research", short: "Funding", gradient: "from-amber-800 to-slate-900" },
+  { slug: "research-innovation", label: "Research and Innovation", short: "Research", gradient: "from-purple-800 to-slate-900" },
+  { slug: "practical-opportunities", label: "Practical Opportunities - Our blogs", short: "Practical Opportunities", gradient: "from-rose-800 to-slate-900" },
+  { slug: "assistive-technology", label: "Assistive Technology", short: "Assistive Tech", gradient: "from-emerald-800 to-slate-900" },
 ];
 
 export function getCategory(slug: string): Category | undefined {
@@ -58,8 +58,7 @@ export function filterBySearch(articles: Article[], query: string): Article[] {
  * article per category (variety), then the rest capped at 3 per category.
  */
 export function getTopStories(all: Article[], limit: number): Article[] {
-  const hero =
-    all.find((a) => a.category !== "world" && a.image) ?? all.find((a) => a.image) ?? all[0];
+  const hero = all.find((a) => a.image) ?? all[0];
   if (!hero) return [];
 
   const picked = new Set([hero.id]);

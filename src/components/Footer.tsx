@@ -1,13 +1,11 @@
 import Link from "next/link";
-import { CATEGORIES, getUpdatedAt } from "@/lib/news";
+import { getUpdatedAt } from "@/lib/news";
+import { NAV_ITEMS } from "@/lib/nav";
 import SubscribeForm from "./SubscribeForm";
 
 const SOCIALS = ["X", "Facebook", "LinkedIn", "Instagram"];
 
-const QUICK_LINKS = [
-  { label: "Home", href: "/" },
-  ...CATEGORIES.map((c) => ({ label: c.label, href: `/category/${c.slug}/` })),
-];
+const QUICK_LINKS = [{ label: "Home", href: "/" }, ...NAV_ITEMS];
 
 const LINK_GROUPS: { title: string; links: { label: string; href: string }[] }[][] = [
   [
