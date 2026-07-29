@@ -11,21 +11,21 @@ export default function ArticleCardRows({ articles }: { articles: Article[] }) {
   return (
     <div className="space-y-4">
       {row1.length > 0 && (
-        <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-5">
           {row1.map((a) => (
             <ArticleCard key={a.id} article={a} />
           ))}
         </div>
       )}
       {row2.length > 0 && (
-        <div className="grid sm:grid-cols-2 gap-4">
+        <div className="grid sm:grid-cols-2 gap-5">
           {row2.map((a) => (
             <FeaturedArticleCard key={a.id} article={a} />
           ))}
         </div>
       )}
       {row3.length > 0 && (
-        <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-5">
           {row3.map((a) => (
             <ArticleCard key={a.id} article={a} />
           ))}

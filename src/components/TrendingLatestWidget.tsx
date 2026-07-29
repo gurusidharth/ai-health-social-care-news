@@ -58,7 +58,7 @@ export default function TrendingLatestWidget({
         ))}
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-5">
         {articles.map((a) => (
           <ArticleCard key={a.id} article={a} />
         ))}

@@ -102,7 +102,7 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
             {filtered.length} {filtered.length === 1 ? "story" : "stories"} matching &ldquo;{query.trim()}&rdquo;
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-5">
           {filtered.map((a) => (
             <ArticleCard key={a.id} article={a} />
           ))}
@@ -138,7 +138,7 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
             }}
           />
           {cards.length > 0 && (
-            <div className="grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 xl:grid-cols-4 gap-5 mt-4">
               {cards.map((a) => (
                 <ArticleCard key={a.id} article={a} />
               ))}

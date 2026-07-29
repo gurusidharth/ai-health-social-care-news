@@ -1,28 +1,27 @@
 "use client";
 
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-// import { usePathname } from "next/navigation";
-// import { NAV_ITEMS } from "@/lib/nav";
+import { usePathname } from "next/navigation";
+import { NAV_ITEMS } from "@/lib/nav";
 import RegionToggle from "./RegionToggle";
 import SearchToggle from "./SearchToggle";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
-  // const pathname = usePathname();
-  // const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // const tabs = [{ label: "Home", href: "/" }, ...NAV_ITEMS];
+  const tabs = [{ label: "Home", href: "/" }, ...NAV_ITEMS];
 
-  // useEffect(() => {
-  //   setMenuOpen(false);
-  // }, [pathname]);
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-50 bg-bg/95 backdrop-blur border-b border-line">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center gap-5 h-16">
-          {/*
           <button
             type="button"
             onClick={() => setMenuOpen((v) => !v)}
@@ -34,7 +33,6 @@ export default function Header() {
               {menuOpen ? <path d="M18 6 6 18M6 6l12 12" /> : <path d="M4 6h16M4 12h16M4 18h16" />}
             </svg>
           </button>
-          */}
 
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-accent">
@@ -47,7 +45,6 @@ export default function Header() {
             </span>
           </Link>
 
-          {/*
           <nav className="hidden md:flex items-center gap-5 overflow-x-auto no-scrollbar min-w-0">
             {tabs.map((tab) => {
               const active = tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href);
@@ -64,7 +61,6 @@ export default function Header() {
               );
             })}
           </nav>
-          */}
 
           <div className="ml-auto flex items-center gap-2 shrink-0">
             <SearchToggle />
@@ -74,7 +70,6 @@ export default function Header() {
         </div>
       </div>
 
-      {/*
       {menuOpen && (
         <nav className="md:hidden border-t border-line bg-bg">
           <div className="max-w-6xl mx-auto px-4 py-2 flex flex-col">
@@ -95,7 +90,6 @@ export default function Header() {
           </div>
         </nav>
       )}
-      */}
     </header>
   );
 }
