@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import type { Article } from "@/lib/news";
 import { getCategory } from "@/lib/news";
 import ArticleImage from "./ArticleImage";
+import ReactionButton from "./ReactionButton";
 import SourceBadge from "./SourceBadge";
 import TimeAgo from "./TimeAgo";
 
@@ -67,12 +68,15 @@ export default function ArticleModal({
           </div>
 
           <div className="p-5">
-            <div className="flex items-center gap-2 mb-3 text-xs font-bold uppercase tracking-wider">
-              <SourceBadge source={article.source} size={24} />
-              <span className="text-ink/80">{article.source}</span>
-              <span className="text-muted normal-case font-medium">
-                · <TimeAgo date={article.date} />
-              </span>
+            <div className="flex items-center justify-between gap-2 mb-3">
+              <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider min-w-0">
+                <SourceBadge source={article.source} size={24} />
+                <span className="text-ink/80 truncate">{article.source}</span>
+                <span className="text-muted normal-case font-medium shrink-0">
+                  · <TimeAgo date={article.date} />
+                </span>
+              </div>
+              <ReactionButton link={article.link} />
             </div>
 
             <h1 className="text-xl md:text-2xl font-extrabold leading-tight">{article.title}</h1>

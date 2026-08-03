@@ -6,6 +6,7 @@
     "dev": "next dev",
     "fetch-news": "node scripts/fetch-news.mjs",
     "notify-digest": "node scripts/notify-digest.mjs",
+    "notify-push": "node scripts/notify-push.mjs",
     "prebuild": "node scripts/fetch-news.mjs",
     "build": "next build",
     "start": "next start"

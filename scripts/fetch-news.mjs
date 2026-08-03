@@ -90,6 +90,55 @@ const FEEDS = [
     mustMatch: TOPIC_RE,
     matchOn: "title",
   },
+
+  // Additional regional coverage — WHO/NHS England/CQC (UK policy angle) and
+  // US health-tech trade press (global region, same taxonomy as the existing
+  // US-flavoured funding-research query above; no dedicated "us" region).
+  {
+    // WHO's own feed is almost entirely non-tech health news, so route
+    // through a site-restricted Google News query rather than a raw feed —
+    // same pattern already used for carehomeprofessional.com/homecareinsight.co.uk.
+    url: gnewsUK('site:who.int AI OR "artificial intelligence" OR "digital health"'),
+    category: "research-innovation",
+    region: "global",
+  },
+  {
+    url: "https://www.england.nhs.uk/feed/",
+    category: "policy-regulation",
+    source: "NHS England",
+    region: "uk",
+    // General NHS policy blog — keep only clearly tech/AI items (by title)
+    mustMatch: /\b(AI|artificial intelligence|digital|technology|tech|robot|innovation|data)\b/i,
+    matchOn: "title",
+  },
+  {
+    // More targeted than the existing generic CQC queries above.
+    url: gnewsUK('site:cqc.org.uk AI OR "artificial intelligence" OR digital'),
+    category: "policy-regulation",
+    region: "uk",
+  },
+  {
+    url: "https://www.statnews.com/feed/",
+    category: "research-innovation",
+    source: "STAT News",
+    region: "global",
+    // General health-news feed — keep only clearly tech/AI items
+    mustMatch: TOPIC_RE,
+  },
+  {
+    // Direct feed (https://www.healthcareitnews.com/rss.xml) 403-blocks bots
+    // — route via Google News like the other bot-gated publishers above.
+    url: gnewsUK("site:healthcareitnews.com"),
+    category: "policy-regulation",
+    region: "global",
+  },
+  {
+    // Direct feed's <title> markup (nested <a> tags) breaks rss-parser's
+    // plain-string title extraction — route via Google News instead.
+    url: gnewsUK('site:fiercehealthcare.com AI OR digital OR technology'),
+    category: "funding-research",
+    region: "global",
+  },
 ];
 
 const parser = new Parser({

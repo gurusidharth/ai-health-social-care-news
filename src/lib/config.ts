@@ -13,3 +13,8 @@ export const SUPABASE_ANON_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ||
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ||
   "";
+
+// Public VAPID key for Web Push subscriptions — safe to expose (it's the
+// public half of the keypair; only the private half, held server-side by
+// the notify-push Edge Function, can actually sign pushes).
+export const VAPID_PUBLIC_KEY = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY || "";

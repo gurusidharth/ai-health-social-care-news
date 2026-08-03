@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_ITEMS } from "@/lib/nav";
+import NotificationToggle from "./NotificationToggle";
 import RegionToggle from "./RegionToggle";
 import SearchToggle from "./SearchToggle";
 import ThemeToggle from "./ThemeToggle";
@@ -75,6 +76,7 @@ export default function Header() {
                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
               </svg>
             </Link>
+            <NotificationToggle />
             <ThemeToggle />
             <RegionToggle />
           </div>

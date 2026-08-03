@@ -4,6 +4,8 @@ name: Email news digest to subscribers
 # hours, guaranteed — new stories if any came in since the last run,
 # otherwise the latest available stories again. Independent of the site
 # deploy so email keeps working regardless of where the site is hosted.
+# Also pushes a Web Push notification for the cycle's single hero story
+# (deduped server-side, so a persisting hero across cycles is a no-op).
 on:
   schedule:
     - cron: "0 */6 * * *" # every 6 hours
@@ -36,6 +38,12 @@ jobs:
 
       - name: Email digest to subscribers
         run: node scripts/notify-digest.mjs
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL || 'https://fyghjspzdfoddahxuugj.supabase.co' }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+
+      - name: Push notification for the hero story
+        run: node scripts/notify-push.mjs
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL || 'https://fyghjspzdfoddahxuugj.supabase.co' }}
           NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
