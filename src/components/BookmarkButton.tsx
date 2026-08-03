@@ -1,37 +1,21 @@
 "use client";
 
 import { useEffect, useState } from "react";
-
-const STORAGE_KEY = "oneaicare:bookmarks";
-
-function readBookmarks(): Set<string> {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    return new Set(raw ? JSON.parse(raw) : []);
-  } catch {
-    return new Set();
-  }
-}
+import { onBookmarksChange, readBookmarks, toggleBookmark } from "@/lib/bookmarks";
 
 export default function BookmarkButton({ articleId }: { articleId: string }) {
   const [saved, setSaved] = useState(false);
 
   useEffect(() => {
-    setSaved(readBookmarks().has(articleId));
+    const sync = () => setSaved(readBookmarks().has(articleId));
+    sync();
+    return onBookmarksChange(sync);
   }, [articleId]);
 
   function toggle(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
-    const bookmarks = readBookmarks();
-    const next = !bookmarks.has(articleId);
-    if (next) {
-      bookmarks.add(articleId);
-    } else {
-      bookmarks.delete(articleId);
-    }
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(bookmarks)));
-    setSaved(next);
+    setSaved(toggleBookmark(articleId));
   }
 
   return (

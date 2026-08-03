@@ -5,6 +5,7 @@ import type { Article } from "@/lib/news";
 import ArticleImage from "./ArticleImage";
 import ArticleModal from "./ArticleModal";
 import BookmarkButton from "./BookmarkButton";
+import NewBadge from "./NewBadge";
 import SourceBadge from "./SourceBadge";
 import TimeAgo from "./TimeAgo";
 import { getCategory } from "@/lib/news";
@@ -31,6 +32,7 @@ export default function HeroCard({
           className="group flex flex-col md:flex-row flex-1 min-w-0 cursor-pointer"
         >
           <div className="relative md:w-3/5 shrink-0 min-h-[220px] md:min-h-[360px] overflow-hidden">
+            <NewBadge date={article.date} />
             <ArticleImage
               src={article.image}
               alt={article.title}
@@ -50,7 +52,7 @@ export default function HeroCard({
               <p className="mt-3 text-sm text-muted leading-relaxed line-clamp-4">{article.description}</p>
             )}
             <div className="flex items-center gap-2 mt-4 text-xs font-semibold pr-8">
-              <SourceBadge category={article.category} size={20} />
+              <SourceBadge source={article.source} size={20} />
               <span className="text-ink/80">{article.source}</span>
               <span className="text-muted font-medium">
                 · <TimeAgo date={article.date} />

@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ArticleCard from "@/components/ArticleCard";
+import FollowButton from "@/components/FollowButton";
 import HeroCard from "@/components/HeroCard";
 import TrendingLatestWidget from "@/components/TrendingLatestWidget";
+import { onFollowsChange, readFollows } from "@/lib/follows";
 import { useRegion } from "@/lib/region-context";
 import { useSearch } from "@/lib/search-context";
 import {
@@ -33,10 +35,11 @@ function CategorySection({ category, articles }: { category: Category; articles:
 
   return (
     <section>
-      <div className="mb-4">
+      <div className="mb-4 flex items-center justify-between gap-3">
         <Link href={`/category/${category.slug}/`} className="text-xl font-extrabold hover:text-accent transition-colors">
           {category.label}
         </Link>
+        <FollowButton slug={category.slug} />
       </div>
 
       <HeroCard
@@ -88,6 +91,13 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
   const { query } = useSearch();
   const filtered = filterBySearch(filterByRegion(articles, region), query);
   const [heroIndex, setHeroIndex] = useState(0);
+  const [followed, setFollowed] = useState<Set<string>>(new Set());
+
+  useEffect(() => {
+    const sync = () => setFollowed(readFollows());
+    sync();
+    return onFollowsChange(sync);
+  }, []);
 
   if (filtered.length === 0) {
     return <p className="text-muted">No stories match this filter right now.</p>;
@@ -147,9 +157,11 @@ export default function HomeFeed({ articles }: { articles: Article[] }) {
         </div>
       )}
 
-      {CATEGORIES.map((cat) => (
-        <CategorySection key={cat.slug} category={cat} articles={filtered.filter((a) => a.category === cat.slug)} />
-      ))}
+      {[...CATEGORIES]
+        .sort((a, b) => Number(followed.has(b.slug)) - Number(followed.has(a.slug)))
+        .map((cat) => (
+          <CategorySection key={cat.slug} category={cat} articles={filtered.filter((a) => a.category === cat.slug)} />
+        ))}
 
       <TrendingLatestWidget trending={trending} latest={latest} />
     </div>

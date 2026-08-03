@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import CategoryFeed from "@/components/CategoryFeed";
+import FollowButton from "@/components/FollowButton";
 import { CATEGORIES, getArticlesByCategory, getCategory } from "@/lib/news";
 
 export function generateStaticParams() {
@@ -21,7 +22,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
 
   return (
     <div className="space-y-6">
-      <h1 className="font-extrabold text-2xl">{cat.label}</h1>
+      <div className="flex items-center justify-between gap-3">
+        <h1 className="font-extrabold text-2xl">{cat.label}</h1>
+        <FollowButton slug={cat.slug} />
+      </div>
       <CategoryFeed category={cat} articles={articles} />
     </div>
   );

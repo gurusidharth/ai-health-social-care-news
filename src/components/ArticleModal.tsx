@@ -68,7 +68,7 @@ export default function ArticleModal({
 
           <div className="p-5">
             <div className="flex items-center gap-2 mb-3 text-xs font-bold uppercase tracking-wider">
-              <SourceBadge category={article.category} size={24} />
+              <SourceBadge source={article.source} size={24} />
               <span className="text-ink/80">{article.source}</span>
               <span className="text-muted normal-case font-medium">
                 · <TimeAgo date={article.date} />

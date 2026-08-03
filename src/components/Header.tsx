@@ -64,6 +64,17 @@ export default function Header() {
 
           <div className="ml-auto flex items-center gap-2 shrink-0">
             <SearchToggle />
+            <Link
+              href="/saved"
+              aria-label="Saved articles"
+              className={`flex items-center justify-center w-8 h-8 rounded-full border border-line transition-colors shrink-0 ${
+                pathname === "/saved" ? "text-accent border-accent/40" : "text-muted hover:text-ink hover:border-accent/40"
+              }`}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+              </svg>
+            </Link>
             <ThemeToggle />
             <RegionToggle />
           </div>

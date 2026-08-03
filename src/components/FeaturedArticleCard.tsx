@@ -6,6 +6,7 @@ import { getCategory } from "@/lib/news";
 import ArticleImage from "./ArticleImage";
 import ArticleModal from "./ArticleModal";
 import BookmarkButton from "./BookmarkButton";
+import NewBadge from "./NewBadge";
 import SourceBadge from "./SourceBadge";
 import TimeAgo from "./TimeAgo";
 
@@ -26,6 +27,7 @@ export default function FeaturedArticleCard({ article }: { article: Article }) {
           className="group flex flex-1 min-w-0 cursor-pointer"
         >
           <div className="relative w-2/5 shrink-0 overflow-hidden">
+            <NewBadge date={article.date} />
             <ArticleImage
               src={article.image}
               alt={article.title}
@@ -45,7 +47,7 @@ export default function FeaturedArticleCard({ article }: { article: Article }) {
             )}
             <div className="flex items-center justify-between gap-2 mt-3">
               <div className="flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider min-w-0">
-                <SourceBadge category={article.category} size={16} />
+                <SourceBadge source={article.source} size={16} />
                 <span className="text-ink/70 normal-case truncate">{article.source}</span>
                 <span className="text-muted normal-case font-medium shrink-0">
                   · <TimeAgo date={article.date} />
