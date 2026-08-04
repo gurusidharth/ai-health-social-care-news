@@ -8,12 +8,18 @@ import { getCurrentSubscription, isPushSupported, subscribeToPush, unsubscribeFr
 import ArticleImage from "./ArticleImage";
 import TimeAgo from "./TimeAgo";
 
-// The same "hero" pick used everywhere else (src/lib/news.ts's
-// getTopStories) — the freshest article with an image, since
-// getAllArticles() is already sorted newest-first. This is also exactly the
-// article a real push notification would fire for.
-function getHeroArticle(): Article | null {
-  return getAllArticles()[0] ?? null;
+// Mirrors the email digest exactly: scripts/notify-digest.mjs sends every
+// article from the last 24h (LOOKBACK_MS), and supabase/functions/notify
+// caps a single digest at MAX_ARTICLES_PER_DIGEST (30). Same window, same
+// cap, so this shows the same set of stories the last email actually did.
+const LOOKBACK_MS = 24 * 3600 * 1000;
+const MAX_ARTICLES = 30;
+
+function getDigestArticles(): Article[] {
+  const cutoff = Date.now() - LOOKBACK_MS;
+  return getAllArticles()
+    .filter((a) => Date.parse(a.date) >= cutoff)
+    .slice(0, MAX_ARTICLES);
 }
 
 export default function NotificationToggle() {
@@ -70,8 +76,7 @@ export default function NotificationToggle() {
 
   if (!supported) return null;
 
-  const hero = showLatest ? getHeroArticle() : null;
-  const cat = hero ? getCategory(hero.category) : undefined;
+  const articles = showLatest ? getDigestArticles() : [];
 
   return (
     <div className="relative shrink-0" ref={containerRef}>
@@ -79,7 +84,7 @@ export default function NotificationToggle() {
         type="button"
         onClick={handleClick}
         disabled={busy}
-        aria-label={subscribed ? "Show latest breaking news" : "Turn on breaking news notifications"}
+        aria-label={subscribed ? "Show breaking news" : "Turn on breaking news notifications"}
         aria-pressed={subscribed}
         className={`flex items-center justify-center w-8 h-8 rounded-full border transition-colors shrink-0 disabled:opacity-60 ${
           subscribed ? "text-accent border-accent/40" : "border-line text-muted hover:text-ink hover:border-accent/40"
@@ -101,9 +106,11 @@ export default function NotificationToggle() {
       </button>
 
       {showLatest && (
-        <div className="absolute right-0 top-full mt-2 w-72 max-w-[85vw] rounded-xl bg-card border border-line shadow-xl p-3 z-50">
-          <div className="flex items-center justify-between mb-2">
-            <p className="text-xs font-bold uppercase tracking-wider text-accent">Latest breaking news</p>
+        <div className="absolute right-0 top-full mt-2 w-80 sm:w-96 max-w-[90vw] rounded-xl bg-card border border-line shadow-xl z-50 flex flex-col">
+          <div className="flex items-center justify-between px-3 py-2.5 border-b border-line shrink-0">
+            <p className="text-xs font-bold uppercase tracking-wider text-accent">
+              Breaking news <span className="text-muted normal-case font-medium">· last 24h</span>
+            </p>
             {subscribed && (
               <button type="button" onClick={handleUnsubscribe} className="text-xs font-medium text-muted hover:text-ink">
                 Turn off
@@ -111,35 +118,43 @@ export default function NotificationToggle() {
             )}
           </div>
 
-          {hero ? (
-            <button
-              type="button"
-              onClick={() => {
-                setShowLatest(false);
-                router.push(`/category/${hero.category}/`);
-              }}
-              className="flex items-center gap-3 rounded-xl bg-bg border border-line p-2 w-full text-left"
-            >
-              <div className="relative w-14 h-14 shrink-0 rounded-lg overflow-hidden">
-                <ArticleImage
-                  src={hero.image}
-                  alt={hero.title}
-                  gradient={cat?.gradient ?? "from-slate-700 to-slate-900"}
-                  label={cat?.short ?? "News"}
-                  source={hero.source}
-                  showLabel={false}
-                  className="absolute inset-0 w-full h-full"
-                />
-              </div>
-              <div className="flex-1 min-w-0">
-                <p className="text-sm font-bold leading-snug line-clamp-2">{hero.title}</p>
-                <p className="text-xs text-muted mt-0.5">
-                  {hero.source} · <TimeAgo date={hero.date} />
-                </p>
-              </div>
-            </button>
+          {articles.length > 0 ? (
+            <div className="max-h-[70vh] overflow-y-auto p-2 flex flex-col gap-1">
+              {articles.map((article) => {
+                const cat = getCategory(article.category);
+                return (
+                  <button
+                    key={article.id}
+                    type="button"
+                    onClick={() => {
+                      setShowLatest(false);
+                      router.push(`/category/${article.category}/`);
+                    }}
+                    className="flex items-center gap-3 rounded-xl bg-bg border border-line p-2 w-full text-left shrink-0"
+                  >
+                    <div className="relative w-12 h-12 shrink-0 rounded-lg overflow-hidden">
+                      <ArticleImage
+                        src={article.image}
+                        alt={article.title}
+                        gradient={cat?.gradient ?? "from-slate-700 to-slate-900"}
+                        label={cat?.short ?? "News"}
+                        source={article.source}
+                        showLabel={false}
+                        className="absolute inset-0 w-full h-full"
+                      />
+                    </div>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-sm font-bold leading-snug line-clamp-2">{article.title}</p>
+                      <p className="text-xs text-muted mt-0.5">
+                        {article.source} · <TimeAgo date={article.date} />
+                      </p>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
           ) : (
-            <p className="text-xs text-muted">No breaking news right now.</p>
+            <p className="text-xs text-muted p-3">No breaking news in the last 24 hours.</p>
           )}
         </div>
       )}
